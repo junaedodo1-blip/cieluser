@@ -119,7 +119,10 @@ export function buildNanoBananaSlidePrompt(params: {
     prompt += `Bottom Swipe Prompt: "${slide.swipePrompt}"\n`;
   }
 
-  prompt += `\nOutput format: 4:5 vertical portrait for Instagram Carousel. Razor-sharp typography, ultra-high resolution, zero blur, no typos.`;
+  // BANANA PRO DIRECTOR 3.0 CINEMA STACK & ANTI-AI PHYSICS DIRECTIVES
+  prompt += `\n=== BANANA PRO DIRECTOR 3.0 CINEMA STACK ===\n`;
+  prompt += `Visual Rendering Doctrine: Photographed not generated, captured on a real cinema camera by a real cinematographer on a real set. Real human skin & physical textures with refined pore detail, real peach fuzz catching light along the contours, and subsurface scattering reading as semi-translucent biology—never opaque plastic, never porcelain, never waxy AI render, never dewy wet finish or highlighter bloom. Hair rendered strand by strand with natural flyaways. Fabric with authentic weave texture and gravitational drape. Captured on a 50mm prime with natural round bokeh and broad dynamic range. Gentle highlight roll-off into a filmic curve that never blows out or clips to pure white. Lifted open shadows holding deep detail. True multi-plane atmospheric perspective. Fine theatrical 35mm motion-picture film grain across the frame. No HDR overprocessing, no digital oversharpening, no plastic sheen.\n`;
+  prompt += `Output format: 4:5 vertical portrait (1080x1350) for Instagram Carousel. Razor-sharp graphic typography, ultra-high resolution, zero blur, no typos.`;
 
   return {
     slideIndex: slide.slideIndex,
@@ -165,3 +168,11 @@ export function buildCarouselGenerationBatch(params: {
     });
   });
 }
+
+/**
+ * Free tier rate limit helper: pauses between requests to guarantee 15 RPM compliance.
+ */
+export async function freeTierPacingDelay(ms = 3000): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+

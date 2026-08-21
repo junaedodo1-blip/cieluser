@@ -7,6 +7,9 @@ out/
 .next/
 .next-*/
 .tmp/
+.env
+.env.*
+.env.local
 .DS_Store
 *.log
 /OpenDesign.exe
