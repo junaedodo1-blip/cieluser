@@ -98,6 +98,13 @@ export function buildNanoBananaSlidePrompt(params: {
   }
 
   prompt += `=== SLIDE ${slide.slideIndex} (${slide.slideType.toUpperCase()}) CONTENT ===\n`;
+  if (slide.slideIndex === 1) {
+    prompt += `🌟 [OPENING SLIDE: SCROLL-STOPPING AUTEUR HERO ART PIECE — AGENCY CREATIVITY SHOWCASE] 🌟\n`;
+    prompt += `Visual Directing Directive: This opening cover slide MUST be a breathtaking, high-aesthetic auteur visual masterpiece designed to stop the Instagram scroll instantly!\n`;
+    prompt += `• Hero Visual Centerpiece: Feature a monolithic, gallery-grade physical luxury hero object (e.g. sculpted fluted perfume glass bottle, floating titanium hardware, surreal liquid viscosity suspension, or scale-disrupted architecture) with raking cinematic key light and ray-traced prism caustics.\n`;
+    prompt += `• Aesthetic Prestige: Showcase project\\ciel's elite visual directing craft and Cannes-grade creative worldbuilding.\n`;
+    prompt += `• Composition: Extreme visual gravity, perfect balance between the stunning central artwork and the high-contrast typography.\n\n`;
+  }
   if (slide.swissHudMetadata) {
     prompt += `Top Metadata / Header: "${slide.swissHudMetadata}"\n`;
   }

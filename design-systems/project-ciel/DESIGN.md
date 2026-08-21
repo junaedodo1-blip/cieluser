@@ -105,3 +105,16 @@ Every visual plate and carousel card incorporates micro-metadata in `Archivo 300
 - Keep testing the 7 diverse angles in round-robin rotation.
 - When an angle generates high engagement or comment velocity, increment its selection weighting to produce subsequent iterations and sequels on the winning format.
 
+---
+
+## 8. Opening Slide (Slide 1) Hero Render Doctrine
+
+> **The Scroll-Stopping Agency Showcase**: Slide 1 is the most critical asset in the entire carousel. It must never look like an ordinary text slide. It must be rendered as a breathtaking, gallery-grade auteur visual art piece using `banana-pro-director-30` photorealistic cinema physics to stop the Instagram scroll in the first 0.5 seconds and showcase `project\ciel`'s elite creative authority and visual direction skill.
+
+### Visual Directing Requirements for Slide 1
+- **Hero Centerpiece**: Monolithic luxury physical object (sculpted fluted glass, floating titanium hardware, suspended micro-viscosity fluids, or surreal Jacquemus-scale disruption).
+- **Raking Light & Prisms**: Extreme cinematic lighting with soft filmic highlight roll-off and ray-traced caustics.
+- **Typographic Gravity**: Editorial serif / bold display headline layered with Swiss HUD metadata stamps.
+- **Anti-AI Texture**: Real subsurface scattering, 35mm film grain, and multi-plane depth.
+
+
