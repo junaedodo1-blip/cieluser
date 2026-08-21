@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "vox-director": {
+      "source": "Alisa0808/vox-director",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "3f2ffe6c70eca16f5aeceae0065f58466f1469ac57810aef1969ac711800560b"
+    }
+  }
+}

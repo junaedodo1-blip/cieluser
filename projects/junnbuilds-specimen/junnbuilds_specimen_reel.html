@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Annotated Specimen · @junnbuilds · Uncapped AI</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@700;800;900&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    background: #06070a;
+    font-family: 'Outfit', sans-serif;
+    color: #a0aec0;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* 9:16 Portrait Canvas */
+  .canvas-container {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    height: 90vh;
+    max-height: 740px;
+    aspect-ratio: 9 / 16;
+    background: #08090d;
+    border-radius: 36px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7), 0 0 50px rgba(0, 242, 254, 0.08);
+    border: 8px solid #10121a;
+    overflow: hidden;
+  }
+
+  @media (max-aspect-ratio: 1/1) {
+    .canvas-container {
+      height: 100vh;
+      max-height: none;
+      max-width: none;
+      border-radius: 0;
+      border: none;
+    }
+  }
+
+  /* Tech Grid Overlay */
+  .tech-grid {
+    position: absolute;
+    inset: 0;
+    opacity: 0.04;
+    background-image: 
+      linear-gradient(#00f2fe 1px, transparent 1px),
+      linear-gradient(90deg, #00f2fe 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  .glow-radial {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    filter: blur(100px);
+    pointer-events: none;
+    opacity: 0.15;
+    z-index: 1;
+    transition: background 1s ease-in-out;
+  }
+
+  /* Blueprint Margins & Ruler ticks */
+  .blueprint-border {
+    position: absolute;
+    inset: 12px;
+    border: 1px solid rgba(0, 242, 254, 0.12);
+    pointer-events: none;
+    z-index: 30;
+  }
+
+  .ruler-tick-h {
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    right: 40px;
+    height: 6px;
+    border-bottom: 1px solid rgba(0, 242, 254, 0.15);
+    background-image: repeating-linear-gradient(90deg, rgba(0, 242, 254, 0.2), rgba(0, 242, 254, 0.2) 1px, transparent 1px, transparent 10px);
+    z-index: 30;
+  }
+
+  .ruler-tick-v {
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    right: 12px;
+    width: 6px;
+    border-left: 1px solid rgba(0, 242, 254, 0.15);
+    background-image: repeating-linear-gradient(180deg, rgba(0, 242, 254, 0.2), rgba(0, 242, 254, 0.2) 1px, transparent 1px, transparent 10px);
+    z-index: 30;
+  }
+
+  .monotext {
+    font-family: 'Space Mono', monospace;
+  }
+
+  /* Slide transition classes */
+  .frame {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 36px 28px;
+    opacity: 0;
+    transform: scale(0.97) translateY(5px);
+    transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1), transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+    z-index: 10;
+  }
+  
+  .frame.active {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    pointer-events: auto;
+  }
+
+  h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    color: #fff;
+  }
+
+  /* Vector Callout Drawing Lines */
+  .vector-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 15;
+  }
+
+  .callout-line {
+    stroke: rgba(0, 242, 254, 0.4);
+    stroke-width: 1.5;
+    stroke-dasharray: 4, 4;
+    animation: dash 30s linear infinite;
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: -1000;
+    }
+  }
+
+  .callout-dot {
+    fill: #00f2fe;
+    r: 3;
+    filter: drop-shadow(0 0 4px #00f2fe);
+  }
+
+  /* Animated scanline effect */
+  .scanline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 242, 254, 0.1);
+    animation: scan 8s linear infinite;
+    z-index: 40;
+    pointer-events: none;
+  }
+
+  @keyframes scan {
+    0% { top: 0%; }
+    100% { top: 100%; }
+  }
+
+  /* Target box pulsing */
+  .target-box {
+    border: 1px dashed rgba(0, 242, 254, 0.4);
+    position: relative;
+    background: rgba(0, 242, 254, 0.02);
+  }
+
+  .target-box::before, .target-box::after, .target-box span::before, .target-box span::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: 1.5px solid #00f2fe;
+  }
+  /* Top-left corner */
+  .target-box::before { top: -2px; left: -2px; border-right: none; border-bottom: none; }
+  /* Top-right corner */
+  .target-box::after { top: -2px; right: -2px; border-left: none; border-bottom: none; }
+  /* Bottom-left corner */
+  .target-box span::before { bottom: -2px; left: -2px; border-right: none; border-top: none; }
+  /* Bottom-right corner */
+  .target-box span::after { bottom: -2px; right: -2px; border-left: none; border-top: none; }
+
+  /* HUD Spec Sidebar */
+  .spec-sheet {
+    border: 1px solid rgba(0, 242, 254, 0.15);
+    background: rgba(16, 20, 30, 0.6);
+    backdrop-filter: blur(4px);
+    font-size: 8px;
+    letter-spacing: 0.05em;
+  }
+
+  /* Running terminal log */
+  .terminal-box {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(8, 10, 15, 0.85);
+    font-size: 9px;
+    line-height: 1.4;
+  }
+
+  /* Option boxes */
+  .option-card {
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .option-card.active-opt {
+    border-color: #00f2fe;
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.15);
+    background: rgba(0, 242, 254, 0.04);
+  }
+</style>
+</head>
+<body>
+
+<div class="canvas-container">
+  <div class="tech-grid"></div>
+  <div class="scanline"></div>
+  <div class="blueprint-border"></div>
+  <div class="ruler-tick-h"></div>
+  <div class="ruler-tick-v"></div>
+
+  <!-- Radial Glow Layer -->
+  <div class="glow-radial" id="bg-glow" style="background: #00f2fe; top: 15%; left: 50%; transform: translateX(-50%);"></div>
+
+  <!-- Top bar metadata -->
+  <div class="absolute top-6 left-7 right-7 flex justify-between monotext text-[7px] text-cyan-400/60 z-30">
+    <span>SYSTEM: CLAUDE_CODE_0.5.21</span>
+    <span>HASH: 5A18B87D</span>
+  </div>
+
+  <!-- Right sidebar technical spec card -->
+  <div class="absolute top-16 right-7 w-[100px] spec-sheet rounded p-2 z-30 monotext">
+    <div class="text-[7px] text-cyan-400 border-b border-cyan-400/20 pb-1 mb-1 font-bold">SPECIMEN METRICS</div>
+    <div class="flex flex-col gap-0.5 text-gray-400">
+      <div>ID: CL-CD-3.5</div>
+      <div>VAL: SONNET_V2</div>
+      <div id="metric-limit">CAP: 200_SP</div>
+      <div id="metric-alert" class="text-emerald-400">ALERT: MONITOR</div>
+    </div>
+  </div>
+
+  <!-- Watermark -->
+  <div class="absolute bottom-40 left-7 monotext text-[8px] text-cyan-400/40 z-30">
+    @junnbuilds // INSTAGRAM_RELEASE
+  </div>
+
+  <!-- SVG Drawing Vector Lines -->
+  <svg class="vector-svg" id="callouts-svg">
+    <!-- Callout Line 1 (Hook Title to Spec Sheet) -->
+    <path id="path1" class="callout-line" d="M 120 180 L 220 180 L 270 120" />
+    <circle id="dot1" class="callout-dot" cx="120" cy="180" />
+    
+    <!-- Callout Line 2 (Cap Metric to 200) -->
+    <path id="path2" class="callout-line" d="M 180 320 L 270 320 L 290 150" />
+    <circle id="dot2" class="callout-dot" cx="180" cy="320" />
+  </svg>
+
+  <!-- FRAME 01: Hook (0s - 18.5s) -->
+  <section class="frame active justify-center" id="frame-0">
+    <div class="monotext text-[9px] text-cyan-400 tracking-[0.25em] mb-4">SPECIMEN_01 // THE ANNOUNCEMENT</div>
+    <h1 class="text-5xl leading-none font-black tracking-tighter mb-4">UNCAPPED.</h1>
+    <p class="text-xs text-gray-400 leading-relaxed max-w-[22ch]">
+      Anthropic just quietly removed the safety cap that protected developer wallets overnight.
+    </p>
+  </section>
+
+  <!-- FRAME 02: Context (18.5s - 33.5s) -->
+  <section class="frame justify-center" id="frame-1">
+    <div class="monotext text-[9px] text-cyan-400 tracking-[0.25em] mb-4">SPECIMEN_02 // CONTEXT</div>
+    
+    <div class="target-box rounded-xl p-6 self-start mb-6">
+      <span></span>
+      <div class="monotext text-[8px] text-red-400 mb-1">PREVIOUS_LIMIT // JULY_17</div>
+      <div class="text-7xl font-black text-white leading-none tracking-tighter monotext">200</div>
+      <div class="monotext text-[7px] text-gray-500 mt-2">MAXIMUM_SUBAGENT_SPAWNS_PER_SESSION</div>
+    </div>
+
+    <p class="text-xs text-gray-400 leading-relaxed max-w-[23ch]">
+      Introduced to prevent runaway agent loops from draining thousands of dollars in APIs.
+    </p>
+  </section>
+
+  <!-- FRAME 03: The Change (33.5s - 48.5s) -->
+  <section class="frame justify-center" id="frame-2">
+    <div class="monotext text-[9px] text-red-400 tracking-[0.25em] mb-4">SPECIMEN_03 // DETECTED_CHANGE</div>
+    
+    <div class="flex flex-col gap-2 mb-6">
+      <div class="flex items-center gap-4">
+        <span class="text-3xl font-bold text-gray-600 line-through decoration-red-500 decoration-[3px] monotext">200</span>
+        <span class="text-cyan-400 text-xl">→</span>
+        <span class="text-6xl font-black text-cyan-400 tracking-tighter select-none leading-none">∞</span>
+      </div>
+      <div class="monotext text-[7px] text-cyan-400/80 tracking-widest">GUARDRAIL_STATUS: REMOVED</div>
+    </div>
+
+    <p class="text-xs text-gray-400 leading-relaxed max-w-[24ch]">
+      The cap is officially gone. A single line in the release notes with no alerts or warnings.
+    </p>
+  </section>
+
+  <!-- FRAME 04: Debate / CTA (48.5s - 61.8s) -->
+  <section class="frame justify-center" id="frame-3">
+    <div class="monotext text-[9px] text-yellow-400 tracking-[0.25em] mb-4">SPECIMEN_04 // DEBATE</div>
+    
+    <h1 class="text-xl font-bold tracking-tight text-white mb-6 leading-snug max-w-[15ch]">
+      A necessary safeguard, or annoying babysitting?
+    </h1>
+    
+    <div class="flex flex-col gap-2.5 w-full max-w-[220px] mb-6">
+      <div class="option-card border border-emerald-500/30 bg-emerald-500/5 rounded-xl p-3 flex items-center justify-between">
+        <span class="monotext text-[10px] font-bold text-emerald-400">1 // GUARDRAIL</span>
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+      </div>
+      <div class="option-card border border-amber-500/30 bg-amber-500/5 rounded-xl p-3 flex items-center justify-between">
+        <span class="monotext text-[10px] font-bold text-amber-400">2 // BABYSITTING</span>
+        <span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+      </div>
+    </div>
+    
+    <p class="text-[9px] text-gray-500 flex items-center gap-1.5">
+      👉 Comment your vote below.
+    </p>
+  </section>
+
+  <!-- Real-time HUD Logs Console (Lower Third) -->
+  <div class="absolute bottom-6 left-7 right-7 h-[115px] terminal-box rounded-lg p-2.5 z-30 monotext overflow-hidden">
+    <div class="flex justify-between items-center text-[7px] text-gray-500 border-b border-white/5 pb-1 mb-1.5">
+      <span>LOGS_HUD // ACTIVE_STREAMS</span>
+      <span class="text-cyan-400/80 animate-pulse">● RUNNING</span>
+    </div>
+    <div id="log-output" class="text-cyan-400/90 text-[7px] flex flex-col gap-0.5 leading-snug">
+      <!-- Logs printed dynamically by timeline script -->
+    </div>
+  </div>
+</div>
+
+<script>
+// Audio elements
+const audio = new Audio("audio.mp3");
+
+// Timestamps for each slide transitions (61.87 seconds total)
+const slides = [
+  { id: 0, start: 0, end: 18.5, color: "#00f2fe", limit: "CAP: 200_SP", alert: "ALERT: MONITOR", alertColor: "text-emerald-400", path: "M 120 180 L 220 180 L 270 120", cx: 120, cy: 180 },
+  { id: 1, start: 18.5, end: 33.5, color: "#a855f7", limit: "CAP: 200_SP", alert: "WARNING: ACTIVE", alertColor: "text-amber-400", path: "M 180 320 L 270 320 L 290 150", cx: 180, cy: 320 },
+  { id: 2, start: 33.5, end: 48.5, color: "#ef4444", limit: "CAP: UNLIMITED", alert: "WARNING: NONE", alertColor: "text-red-400", path: "M 180 280 L 220 280 L 280 160", cx: 180, cy: 280 },
+  { id: 3, start: 48.5, end: 62.0, color: "#eab308", limit: "CAP: UNLIMITED", alert: "VOTING: OPEN", alertColor: "text-yellow-400", path: "M 200 350 L 260 300 L 270 180", cx: 200, cy: 350 }
+];
+
+// Log frames sequences mapped by timestamps
+const logsData = [
+  { time: 1.0, msg: "⚡ INIT SPECIMEN_01 // CLAUDE_CODE" },
+  { time: 3.5, msg: "⚡ CONNECTED TO API HOST // COMPRESSION: 78%" },
+  { time: 6.5, msg: "💸 SUBAGENT #12 SPAWNING..." },
+  { time: 9.0, msg: "💸 SESSION TOKENS USED: 1.45M" },
+  { time: 12.0, msg: "💸 RUNNING BILLING VALUE: $14.50" },
+  { time: 15.5, msg: "💸 RUNNING BILLING VALUE: $42.80" },
+  
+  { time: 19.0, msg: "⚠️ LIMIT HIT WARNING // SPAWN_LIMIT: 200" },
+  { time: 22.0, msg: "🛑 SESSION AUTO-PAUSED BY SECURITY SYSTEM" },
+  { time: 26.0, msg: "🔒 PREVENTING RUNAWAY SPEND LOOPS" },
+  { time: 30.5, msg: "💸 HARD BILL CAP SECURED: $42.80 MAX" },
+  
+  { time: 34.0, msg: "🚨 RUNTIME_UPDATE: REMOVING GUARDRAIL..." },
+  { time: 37.0, msg: "🚨 WARNING: UNLIMITED SUBAGENTS ALLOWED" },
+  { time: 40.0, msg: "💸 SESSION BILLING SHOT UP: $120.40" },
+  { time: 43.5, msg: "💸 SESSION BILLING SHOT UP: $1,420.50" },
+  { time: 46.0, msg: "🚨 BILLING LIMIT EXCEEDED // NO CAP INTERFERENCE" },
+  
+  { time: 49.0, msg: "🗣️ DEBATE TRIGGERED: GUARDRAIL VS BABYSITTING" },
+  { time: 52.0, msg: "📥 AWAITING COMMUNITY VOTE..." },
+  { time: 55.0, msg: "📥 COMMENT VOTE TO SYSTEM FEED" },
+  { time: 58.0, msg: "🔒 STANDBY // JUNNBUILDS PIPELINE OUT" }
+];
+
+const frames = document.querySelectorAll('.frame');
+const bgGlow = document.getElementById('bg-glow');
+const logOutput = document.getElementById('log-output');
+const metricLimit = document.getElementById('metric-limit');
+const metricAlert = document.getElementById('metric-alert');
+const calloutPath = document.getElementById('path1');
+const calloutDot = document.getElementById('dot1');
+
+let lastFrameId = -1;
+
+function updateTimeline() {
+  const t = audio.currentTime;
+
+  // Find active slide
+  const activeSlide = slides.find(s => t >= s.start && t < s.end) || slides[slides.length - 1];
+  
+  if (activeSlide && activeSlide.id !== lastFrameId) {
+    lastFrameId = activeSlide.id;
+    
+    // Switch frames
+    frames.forEach((f, idx) => {
+      f.classList.toggle('active', idx === activeSlide.id);
+    });
+
+    // Update glow color & properties
+    bgGlow.style.background = activeSlide.color;
+    
+    // Update spec sheet card metrics
+    metricLimit.textContent = activeSlide.limit;
+    metricAlert.textContent = activeSlide.alert;
+    metricAlert.className = activeSlide.alertColor;
+
+    // Redraw SVG Callout line coordinates
+    calloutPath.setAttribute('d', activeSlide.path);
+    calloutDot.setAttribute('cx', activeSlide.cx);
+    calloutDot.setAttribute('cy', activeSlide.cy);
+    calloutPath.style.stroke = activeSlide.color + "70";
+    calloutDot.style.fill = activeSlide.color;
+  }
+
+  // Render simulated logs based on time
+  const activeLogs = logsData.filter(l => t >= l.time);
+  // Show last 5 logs inside console
+  const displayedLogs = activeLogs.slice(-5);
+  logOutput.innerHTML = displayedLogs.map(l => `<div>[${formatTime(l.time)}] ${l.msg}</div>`).join('');
+}
+
+function formatTime(s) {
+  const m = Math.floor(s / 60);
+  const sec = Math.floor(s % 60);
+  const ms = Math.floor((s % 1) * 100);
+  return `${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')}:${String(ms).padStart(2, '0')}`;
+}
+
+// Auto play configuration
+audio.addEventListener('timeupdate', updateTimeline);
+audio.loop = true;
+
+// Click to play/pause interaction
+document.body.addEventListener('click', () => {
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+});
+
+// Listen to message events from Remotion driver
+window.addEventListener('message', (e) => {
+  if (e.data && e.data.type === 'SEEK') {
+    const targetTime = e.data.time;
+    audio.currentTime = targetTime;
+    updateTimeline();
+  }
+});
+</script>
+</body>
+</html>

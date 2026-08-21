@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HyperFrames · @junnbuilds · Uncapped AI</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Plus+Jakarta+Sans:wght@700;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    background: #090a0f;
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Smartphone Frame Container (9:16 Aspect Ratio) */
+  .player-container {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    height: 90vh;
+    max-height: 740px;
+    aspect-ratio: 9 / 16;
+    background: #000;
+    border-radius: 36px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 40px rgba(245, 166, 35, 0.15);
+    border: 8px solid #1a1c26;
+    overflow: hidden;
+  }
+
+  @media (max-aspect-ratio: 1/1) {
+    /* Optimize for actual mobile viewports */
+    .player-container {
+      height: 100vh;
+      max-height: none;
+      max-width: none;
+      border-radius: 0;
+      border: none;
+    }
+  }
+
+  .frame {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 32px;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.5s ease-in-out, transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    pointer-events: none;
+    z-index: 10;
+  }
+  
+  .frame.active {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+
+  .glow {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    filter: blur(80px);
+    pointer-events: none;
+    opacity: 0.25;
+    z-index: 1;
+  }
+
+  .grid-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.05;
+    background-image: 
+      linear-gradient(#fff 1px, transparent 1px),
+      linear-gradient(90deg, #fff 1px, transparent 1px);
+    background-size: 32px 32px;
+    z-index: 2;
+  }
+
+  .monotext {
+    font-family: 'Space Mono', monospace;
+  }
+
+  h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    text-align: center;
+    z-index: 10;
+  }
+
+  .em {
+    color: #f5a623;
+  }
+
+  .watermark {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    opacity: 0.6;
+    z-index: 20;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 6px 16px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .progress-container {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 2px;
+    z-index: 30;
+    overflow: hidden;
+  }
+
+  .progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #f5a623, #ff6b6b);
+    width: 0%;
+    transition: width 0.1s linear;
+  }
+
+  .controls {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    font-size: 11px;
+    z-index: 35;
+    opacity: 0.4;
+    transition: opacity 0.3s;
+  }
+
+  .player-container:hover .controls {
+    opacity: 0.9;
+  }
+
+  .controls button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 4px;
+    transition: opacity 0.2s;
+  }
+
+  .controls button:hover {
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+
+<div class="player-container">
+  <!-- Top Progress Bar -->
+  <div class="progress-container">
+    <div class="progress-bar" id="progress"></div>
+  </div>
+
+  <!-- Watermark overlay -->
+  <div class="watermark">@junnbuilds</div>
+
+  <!-- FRAME 01: Hook -->
+  <section class="frame active hook" data-duration="4000">
+    <div class="glow" style="background:#ff6b6b; top:-100px; left:50%; transform:translateX(-50%)"></div>
+    <div class="monotext text-[11px] tracking-[0.2em] uppercase text-red-400 mb-8 z-10">01 / 04 · UPDATE</div>
+    <h1 class="text-4xl sm:text-5xl mb-6">UNCAPPED.</h1>
+    <p class="text-center text-sm sm:text-base text-gray-300 max-w-[20ch] leading-relaxed z-10">
+      Anthropic just removed the limit that stopped agents burning your money overnight.
+    </p>
+  </section>
+  <!-- frame:1 duration:4000 transition:fade -->
+
+  <!-- FRAME 02: Context -->
+  <section class="frame" data-duration="4000">
+    <div class="glow" style="background:#4a90e2; bottom:-100px; right:-100px"></div>
+    <div class="monotext text-[11px] tracking-[0.2em] uppercase text-blue-400 mb-8 z-10">02 / 04 · CONTEXT</div>
+    <div class="monotext text-xs text-gray-400 tracking-wider mb-2 z-10">JULY 17</div>
+    <h1 class="text-7xl sm:text-8xl mb-4 font-black tracking-tighter text-gray-200">200</h1>
+    <p class="text-center text-sm sm:text-base text-gray-400 tracking-wide uppercase z-10">
+      subagent spawns<br/>per session
+    </p>
+  </section>
+  <!-- frame:2 duration:4000 transition:fade -->
+
+  <!-- FRAME 03: The Change -->
+  <section class="frame grid-bg" data-duration="5000">
+    <div class="glow" style="background:#f5a623; top:50%; left:50%; transform:translate(-50%,-50%); opacity:0.15"></div>
+    <div class="monotext text-[11px] tracking-[0.2em] uppercase text-yellow-400 mb-8 z-10">03 / 04 · THE CHANGE</div>
+    
+    <div class="flex flex-col items-center justify-center z-10">
+      <div class="relative">
+        <span class="text-6xl font-black text-gray-600 line-through decoration-red-500 decoration-4">200</span>
+      </div>
+      <div class="text-yellow-500 my-2 text-xl font-bold">↓</div>
+      <div class="text-xs text-yellow-500 tracking-widest uppercase mb-1">TODAY</div>
+      <div class="text-7xl font-bold text-yellow-500 mb-4 select-none">∞</div>
+    </div>
+    
+    <p class="text-center text-base sm:text-lg font-bold text-white tracking-wide z-10">
+      No limit. No warning.
+    </p>
+  </section>
+  <!-- frame:3 duration:5000 transition:fade -->
+
+  <!-- FRAME 04: CTA -->
+  <section class="frame" data-duration="6000">
+    <div class="glow" style="background:#ff6b6b; bottom:-100px; left:-100px"></div>
+    <div class="monotext text-[11px] tracking-[0.2em] uppercase text-red-400 mb-8 z-10">04 / 04 · DEBATE</div>
+    
+    <h1 class="text-2xl sm:text-3xl mb-8 max-w-[12ch]">Necessary guardrail, or babysitting?</h1>
+    
+    <div class="flex flex-col gap-3 w-full max-w-[200px] mb-8 z-10">
+      <div class="w-full text-center py-3 border-2 border-yellow-500 text-yellow-500 font-bold rounded-xl text-sm tracking-wider bg-yellow-500/5">
+        GUARDRAIL
+      </div>
+      <div class="w-full text-center py-3 border border-gray-700 text-gray-400 font-bold rounded-xl text-sm tracking-wider bg-white/5">
+        BABYSITTING
+      </div>
+    </div>
+    
+    <p class="text-center text-xs text-gray-500 z-10 flex items-center gap-1">
+      👉 comment one word below
+    </p>
+  </section>
+  <!-- frame:4 duration:6000 transition:fade -->
+
+  <!-- Playback controls overlay -->
+  <div class="controls">
+    <button id="prev" title="Previous Slide">‹</button>
+    <button id="play" title="Play / Pause">⏸</button>
+    <button id="next" title="Next Slide">›</button>
+    <span id="counter" class="monotext" class="opacity:0.6">01 / 04</span>
+  </div>
+</div>
+
+<!-- HYPERFRAMES_META: {
+  "frames": [
+    {"i": 1, "duration": 4000, "transition": "fade", "scene": "Hook: Uncapped limit on subagents"},
+    {"i": 2, "duration": 4000, "transition": "fade", "scene": "Context: Previous cap of 200"},
+    {"i": 3, "duration": 5000, "transition": "fade", "scene": "Change: Cap removed completely today"},
+    {"i": 4, "duration": 6000, "scene": "CTA: Question on guardrails vs babysitting"}
+  ]
+} -->
+
+<script>
+const frames = Array.from(document.querySelectorAll('.frame'));
+const total = frames.length;
+const counter = document.getElementById('counter');
+const playBtn = document.getElementById('play');
+const progress = document.getElementById('progress');
+let i = 0;
+let playing = true;
+let frameStart = Date.now();
+let timer;
+
+function show(n) {
+  i = (n + total) % total;
+  frames.forEach((f, k) => f.classList.toggle('active', k === i));
+  counter.textContent = String(i + 1).padStart(2, '0') + ' / ' + String(total).padStart(2, '0');
+  frameStart = Date.now();
+  if (playing) schedule();
+}
+
+function schedule() {
+  clearTimeout(timer);
+  const d = Number(frames[i].dataset.duration) || 4000;
+  timer = setTimeout(() => show(i + 1), d);
+}
+
+function tick() {
+  if (playing) {
+    const d = Number(frames[i].dataset.duration) || 4000;
+    const pct = Math.min(1, (Date.now() - frameStart) / d) * 100;
+    progress.style.width = pct + '%';
+  }
+  requestAnimationFrame(tick);
+}
+
+document.getElementById('prev').onclick = () => show(i - 1);
+document.getElementById('next').onclick = () => show(i + 1);
+
+playBtn.onclick = () => {
+  playing = !playing;
+  playBtn.textContent = playing ? '⏸' : '▶';
+  if (playing) {
+    schedule();
+    frameStart = Date.now() - (parseFloat(progress.style.width) / 100 * (Number(frames[i].dataset.duration) || 4000));
+  } else {
+    clearTimeout(timer);
+  }
+};
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight') show(i + 1);
+  else if (e.key === 'ArrowLeft') show(i - 1);
+  else if (e.key === ' ') {
+    e.preventDefault();
+    playBtn.click();
+  }
+});
+
+show(0);
+tick();
+</script>
+</body>
+</html>

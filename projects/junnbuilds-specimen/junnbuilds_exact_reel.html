@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Uncapped · @junnbuilds · alex.snippet Style</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800;900&family=Outfit:wght@400;500;600;700;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #050505;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  /* Hard 1080x1920 canvas viewport scaled dynamically via JS to fit browser */
+  .canvas-viewport {
+    position: relative;
+    width: 1080px;
+    height: 1920px;
+    background: linear-gradient(135deg, #d3f9f4 0%, #ffffff 60%, #e8fbf8 100%);
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+  }
+
+  /* Thin Teal/Cyan Grid pattern overlay matching alex.snippet */
+  .grid-overlay {
+    position: absolute;
+    inset: 0;
+    background-image: 
+      linear-gradient(rgba(0, 188, 212, 0.07) 1.5px, transparent 1.5px),
+      linear-gradient(90deg, rgba(0, 188, 212, 0.07) 1.5px, transparent 1.5px);
+    background-size: 54px 54px;
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  .frame {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    opacity: 0;
+    transform: scale(0.97);
+    transition: opacity 0.35s ease-in-out, transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    pointer-events: none;
+    z-index: 10;
+  }
+  
+  .frame.active {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+
+  .monotext {
+    font-family: 'Space Mono', monospace;
+  }
+
+  h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 900;
+  }
+
+  /* Floating dollar bills */
+  .floating-bill {
+    position: absolute;
+    opacity: 0.09;
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.15));
+    pointer-events: none;
+    z-index: 3;
+    transform-origin: center;
+  }
+
+  /* Dark UI Card Mockup matching alex.snippet */
+  .dark-card-mockup {
+    background: #11141a;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 30px 60px -15px rgba(17, 20, 26, 0.45);
+    border-radius: 28px;
+    width: 880px;
+    padding: 36px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 15;
+  }
+
+  /* Starburst Spoke settings */
+  .starburst-spoke {
+    transform-origin: 50px 50px;
+  }
+
+  /* Watermark tag */
+  .watermark {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    z-index: 20;
+    color: #1e293b;
+    background: rgba(0, 188, 212, 0.06);
+    padding: 12px 36px;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 188, 212, 0.12);
+  }
+
+  /* Top progress bar */
+  .progress-container {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    height: 8px;
+    background: rgba(0, 188, 212, 0.1);
+    border-radius: 4px;
+    z-index: 30;
+    overflow: hidden;
+  }
+
+  .progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #ff6f61, #f5a623);
+    width: 0%;
+  }
+
+  /* Red strike-through line on Slide 3 */
+  .strike-line {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    right: -20px;
+    height: 16px;
+    background: #ef4444;
+    transform: rotate(-10deg);
+    transform-origin: center;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(239, 68, 68, 0.3);
+  }
+</style>
+</head>
+<body>
+
+<div class="canvas-viewport" id="canvas-viewport">
+  <div class="grid-overlay"></div>
+
+  <!-- Top Progress Bar -->
+  <div class="progress-container">
+    <div class="progress-bar" id="progress"></div>
+  </div>
+
+  <!-- Watermark overlay -->
+  <div class="watermark">@junnbuilds</div>
+
+  <!-- Floating dollar bill illustrations behind content -->
+  <!-- Bill 1 -->
+  <svg class="floating-bill w-56 h-32" style="top: 15%; left: 8%; transform: rotate(-25deg);" viewBox="0 0 100 50">
+    <rect width="100" height="50" rx="3" fill="#2e7d32" stroke="#1b5e20" stroke-width="1.5" />
+    <circle cx="50" cy="25" r="12" fill="none" stroke="#1b5e20" stroke-width="1" />
+    <text x="50" y="30" font-family="Space Mono" font-size="12" fill="#1b5e20" text-anchor="middle" font-weight="bold">$100</text>
+  </svg>
+  <!-- Bill 2 -->
+  <svg class="floating-bill w-64 h-36" style="bottom: 20%; right: 5%; transform: rotate(15deg);" viewBox="0 0 100 50">
+    <rect width="100" height="50" rx="3" fill="#2e7d32" stroke="#1b5e20" stroke-width="1.5" />
+    <circle cx="50" cy="25" r="12" fill="none" stroke="#1b5e20" stroke-width="1" />
+    <text x="50" y="30" font-family="Space Mono" font-size="12" fill="#1b5e20" text-anchor="middle" font-weight="bold">$100</text>
+  </svg>
+
+  <!-- SLIDE 1: Hook (0s - 6s) -->
+  <section class="frame active" id="frame-0">
+    <!-- Starburst SVG Icon - 12 spokes styled 3D with drop shadow -->
+    <svg class="w-48 h-48 mb-16 text-[#ff6f61]" style="filter: drop-shadow(0 20px 30px rgba(255, 111, 97, 0.4));" viewBox="0 0 100 100" fill="currentColor">
+      <g>
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" />
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" transform="rotate(30 50 50)" />
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" transform="rotate(60 50 50)" />
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" transform="rotate(90 50 50)" />
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" transform="rotate(120 50 50)" />
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" transform="rotate(150 50 50)" />
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" transform="rotate(180 50 50)" />
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" transform="rotate(210 50 50)" />
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" transform="rotate(240 50 50)" />
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" transform="rotate(270 50 50)" />
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" transform="rotate(300 50 50)" />
+        <line x1="50" y1="20" x2="50" y2="4" stroke="#ff6f61" stroke-width="7" stroke-linecap="round" class="starburst-spoke" transform="rotate(330 50 50)" />
+        <circle cx="50" cy="50" r="14" fill="#ff6f61" />
+      </g>
+    </svg>
+    <h1 class="text-[100px] text-[#ff6f61] font-black tracking-tight mb-8">UNCAPPED.</h1>
+    <p class="text-center text-4xl text-[#1e293b] font-semibold max-w-[18ch] leading-relaxed">
+      Anthropic just removed the limit that stopped agents burning your money overnight.
+    </p>
+  </section>
+
+  <!-- SLIDE 2: Context (6s - 8s) -->
+  <section class="frame" id="frame-1">
+    <!-- Dark Card Mockup -->
+    <div class="dark-card-mockup">
+      <!-- Mockup header navigation bar -->
+      <div class="w-full flex justify-between items-center border-b border-white/5 pb-6 mb-10 text-xs text-gray-500 font-bold tracking-wider">
+        <div class="flex gap-6">
+          <span>Why</span>
+          <span>Compare</span>
+          <span>Docs</span>
+        </div>
+        <div class="flex gap-4 items-center">
+          <span class="flex items-center gap-1">🌐 EN</span>
+          <span class="px-4 py-1.5 bg-[#ff6f61] text-white rounded-full text-[10px]">Start Free</span>
+        </div>
+      </div>
+      
+      <!-- Content inside card -->
+      <div class="monotext text-2xl font-bold text-gray-500 mb-2 tracking-[0.2em]">JULY 17</div>
+      <h1 class="text-[250px] font-black text-gray-200 leading-none tracking-tighter mb-4 select-none">200</h1>
+      <p class="text-center text-2xl text-gray-500 tracking-wider uppercase font-bold">
+        subagent spawns per session
+      </p>
+    </div>
+  </section>
+
+  <!-- SLIDE 3: The Change (8s - 20s) -->
+  <section class="frame" id="frame-2">
+    <!-- Dark Card Mockup with strike line -->
+    <div class="dark-card-mockup mb-8">
+      <!-- Header -->
+      <div class="w-full flex justify-between items-center border-b border-white/5 pb-6 mb-8 text-xs text-gray-500 font-bold tracking-wider">
+        <div class="flex gap-6">
+          <span>Why</span>
+          <span>Compare</span>
+          <span>Docs</span>
+        </div>
+        <div class="flex gap-4 items-center">
+          <span class="flex items-center gap-1">🌐 EN</span>
+          <span class="px-4 py-1.5 bg-[#ff6f61] text-white rounded-full text-[10px]">Start Free</span>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center justify-center">
+        <div class="relative inline-block mb-2">
+          <span class="text-[170px] font-black text-gray-500 tracking-tighter select-none leading-none">200</span>
+          <div class="strike-line"></div>
+        </div>
+        <div class="text-gray-500 my-2 text-3xl font-black select-none">↓</div>
+        <div class="text-xl text-[#ff6f61] tracking-[0.2em] uppercase font-black mb-2">TODAY</div>
+        <div class="text-[200px] font-black text-[#ff6f61] leading-none select-none tracking-tighter">∞</div>
+      </div>
+    </div>
+    
+    <p class="text-center text-4xl font-black text-[#1e293b] tracking-wide">
+      No limit. No warning.
+    </p>
+  </section>
+
+  <!-- SLIDE 4: Call-to-Action (20s - 28.3s) -->
+  <section class="frame" id="frame-3">
+    <h1 class="text-[54px] text-center mb-16 max-w-[18ch] leading-snug text-[#1e293b] font-black">
+      Necessary guardrail, or babysitting?
+    </h1>
+    
+    <!-- Side-by-Side Horizontal Buttons layout -->
+    <div class="flex flex-row gap-6 w-full max-w-[700px] justify-center mb-16">
+      <div class="px-14 py-6 border-[4px] border-[#ff6f61] text-[#ff6f61] font-black rounded-[24px] text-2xl tracking-wider bg-transparent shadow-[0_15px_30px_rgba(255,111,97,0.1)]">
+        GUARDRAIL
+      </div>
+      <div class="px-14 py-6 border-[4px] border-gray-400 text-gray-500 font-black rounded-[24px] text-2xl tracking-wider bg-transparent">
+        BABYSITTING
+      </div>
+    </div>
+    
+    <p class="text-center text-2xl text-gray-400 font-bold flex items-center gap-2">
+      👉 comment one word
+    </p>
+  </section>
+</div>
+
+<script>
+// Scaler logic to fit viewport perfectly
+function resize() {
+  const vw = 1080;
+  const vh = 1920;
+  const scale = Math.min(window.innerWidth / vw, window.innerHeight / vh);
+  const container = document.getElementById('canvas-viewport');
+  container.style.transform = `scale(${scale})`;
+}
+window.addEventListener('resize', resize);
+window.addEventListener('load', resize);
+resize();
+
+// Audio player setup
+const audio = new Audio("audio.mp3");
+
+// Timestamps for each slide transitions (28.33 seconds total)
+const slides = [
+  { id: 0, start: 0, end: 6.0 },
+  { id: 1, start: 6.0, end: 8.0 },
+  { id: 2, start: 8.0, end: 20.0 },
+  { id: 3, start: 20.0, end: 28.5 }
+];
+
+const frames = document.querySelectorAll('.frame');
+const progress = document.getElementById('progress');
+
+let lastFrameId = -1;
+
+function updateTimeline() {
+  const t = audio.currentTime;
+  const duration = audio.duration || 28.33;
+
+  // Update progress bar
+  const pct = (t / duration) * 100;
+  progress.style.width = pct + '%';
+
+  // Find active slide
+  const activeSlide = slides.find(s => t >= s.start && t < s.end) || slides[slides.length - 1];
+  
+  if (activeSlide && activeSlide.id !== lastFrameId) {
+    lastFrameId = activeSlide.id;
+    
+    // Switch active slide frames
+    frames.forEach((f, idx) => {
+      f.classList.toggle('active', idx === activeSlide.id);
+    });
+  }
+}
+
+// Auto play configurations
+audio.addEventListener('timeupdate', updateTimeline);
+audio.loop = true;
+
+// Click to play/pause interaction
+document.body.addEventListener('click', () => {
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+});
+
+// Listen to seek commands from Remotion
+window.addEventListener('message', (e) => {
+  if (e.data && e.data.type === 'SEEK') {
+    const targetTime = e.data.time;
+    audio.currentTime = targetTime;
+    updateTimeline();
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "currentCycle": 1,
+  "usedStyles": [
+    "ciel_master_style"
+  ],
+  "lastUsedStyle": "ciel_master_style",
+  "lastRunAt": "2026-08-21T14:47:37.574Z",
+  "history": [
+    {
+      "timestamp": "2026-08-21T13:54:06.197Z",
+      "style": "ciel_master_style",
+      "slideCount": 8
+    },
+    {
+      "timestamp": "2026-08-21T14:18:06.632Z",
+      "style": "ciel_master_style",
+      "slideCount": 8
+    },
+    {
+      "timestamp": "2026-08-21T14:18:16.961Z",
+      "style": "ciel_master_style",
+      "slideCount": 8
+    },
+    {
+      "timestamp": "2026-08-21T14:18:49.289Z",
+      "style": "ciel_master_style",
+      "slideCount": 8
+    },
+    {
+      "timestamp": "2026-08-21T14:36:26.565Z",
+      "style": "ciel_master_style",
+      "slideCount": 8
+    },
+    {
+      "timestamp": "2026-08-21T14:37:44.733Z",
+      "style": "ciel_master_style",
+      "slideCount": 8
+    },
+    {
+      "timestamp": "2026-08-21T14:43:45.795Z",
+      "style": "ciel_master_style",
+      "slideCount": 8
+    },
+    {
+      "timestamp": "2026-08-21T14:47:37.574Z",
+      "style": "ciel_master_style",
+      "slideCount": 8
+    }
+  ]
+}

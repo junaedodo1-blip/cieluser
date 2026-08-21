@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Character Coding Animation - Pure HTML/CSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;700&family=Syne:wght@800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #0B0E14;
+      color: #E2E8F0;
+      font-family: 'Fira Code', monospace;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Ambient Background Light Mesh */
+    .bg-mesh {
+      position: absolute;
+      inset: 0;
+      background: 
+        radial-gradient(circle at 20% 30%, rgba(0, 240, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(255, 46, 147, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.1) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    /* Grid Overlay */
+    .bg-grid {
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+    }
+
+    /* Main Poster Workspace Container */
+    .stage {
+      position: relative;
+      width: 900px;
+      height: 600px;
+      background: rgba(18, 22, 33, 0.85);
+      border: 2px solid rgba(0, 240, 255, 0.3);
+      border-radius: 24px;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 240, 255, 0.15);
+      backdrop-filter: blur(20px);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      z-index: 10;
+    }
+
+    /* Window Header Chrome */
+    .window-header {
+      height: 44px;
+      background: rgba(255, 255, 255, 0.04);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      gap: 10px;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+    .dot-red { background-color: #EF4444; }
+    .dot-yellow { background-color: #F59E0B; }
+    .dot-green { background-color: #10B981; }
+
+    .title-text {
+      margin-left: auto;
+      font-size: 13px;
+      color: #00F0FF;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    /* Workspace Layout (Left Monitor / Right Character Studio) */
+    .workspace {
+      flex: 1;
+      display: flex;
+      position: relative;
+      padding: 30px;
+      gap: 30px;
+    }
+
+    /* IDE Code Screen (Left Side) */
+    .code-terminal {
+      flex: 1;
+      background: #090B10;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 24px;
+      font-size: 15px;
+      line-height: 1.6;
+      box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .code-line {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 8px;
+      opacity: 0;
+      transform: translateY(6px);
+      animation: codeFadeIn 0.4s forwards;
+    }
+
+    .line-num {
+      color: #475569;
+      user-select: none;
+      width: 24px;
+      text-align: right;
+    }
+
+    .code-content { color: #F8FAFC; }
+    .keyword { color: #FF2E93; font-weight: bold; }
+    .function { color: #00F0FF; }
+    .string { color: #FFE600; }
+    .comment { color: #64748B; font-style: italic; }
+
+    /* Typing Cursor Animation */
+    .cursor {
+      display: inline-block;
+      width: 9px;
+      height: 18px;
+      background-color: #00F0FF;
+      margin-left: 4px;
+      vertical-align: middle;
+      animation: blink 0.8s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    @keyframes codeFadeIn {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .code-line:nth-child(1) { animation-delay: 0.2s; }
+    .code-line:nth-child(2) { animation-delay: 0.7s; }
+    .code-line:nth-child(3) { animation-delay: 1.2s; }
+    .code-line:nth-child(4) { animation-delay: 1.7s; }
+    .code-line:nth-child(5) { animation-delay: 2.2s; }
+    .code-line:nth-child(6) { animation-delay: 2.7s; }
+
+    /* Character Desk Setup (Right Side) */
+    .desk-setup {
+      width: 360px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    /* Desk Surface */
+    .desk-surface {
+      width: 100%;
+      height: 18px;
+      background: linear-gradient(90deg, #1E293B, #334155, #1E293B);
+      border-radius: 8px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+      position: relative;
+      z-index: 5;
+    }
+
+    /* Laptop Glow & Body */
+    .laptop {
+      position: absolute;
+      bottom: 18px;
+      left: 30px;
+      width: 130px;
+      height: 85px;
+      background: #0F172A;
+      border: 2px solid #00F0FF;
+      border-radius: 8px 8px 0 0;
+      box-shadow: 0 0 30px rgba(0, 240, 255, 0.4);
+      z-index: 6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .laptop-screen-content {
+      width: 90%;
+      height: 80%;
+      background: #05060A;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      padding: 6px;
+    }
+
+    .code-bar {
+      height: 4px;
+      border-radius: 2px;
+      animation: codeBarPulse 1.2s infinite alternate;
+    }
+    .cb-1 { width: 60%; background: #FF2E93; }
+    .cb-2 { width: 85%; background: #00F0FF; animation-delay: 0.2s; }
+    .cb-3 { width: 40%; background: #FFE600; animation-delay: 0.4s; }
+    .cb-4 { width: 75%; background: #10B981; animation-delay: 0.6s; }
+
+    @keyframes codeBarPulse {
+      0% { opacity: 0.4; }
+      100% { opacity: 1; }
+    }
+
+    .laptop-keyboard-base {
+      position: absolute;
+      bottom: 12px;
+      left: 20px;
+      width: 150px;
+      height: 8px;
+      background: #334155;
+      border-radius: 2px 2px 6px 6px;
+      z-index: 7;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Animated Character Rig */
+    .character-container {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 220px;
+      height: 320px;
+      z-index: 4;
+      animation: characterFloat 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes characterFloat {
+      0% { transform: translateY(0px) rotate(0deg); }
+      100% { transform: translateY(-8px) rotate(1.5deg); }
+    }
+
+    /* Head Bobbing & Tilting */
+    .character-head-wrapper {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      animation: headBob 0.6s ease-in-out infinite alternate;
+    }
+
+    @keyframes headBob {
+      0% { transform: translateY(0) rotate(0deg); }
+      100% { transform: translateY(-4px) rotate(-2deg); }
+    }
+
+    .character-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      image-rendering: pixelated;
+      filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.6));
+    }
+
+    /* Articulated Typing Arms */
+    .arm {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background-color: #00F0FF;
+      border: 2px solid #000000;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      z-index: 10;
+    }
+
+    /* Left Typing Hand Animation */
+    .arm-left {
+      bottom: 75px;
+      left: 45px;
+      animation: typeLeft 0.18s ease-in-out infinite alternate;
+    }
+
+    @keyframes typeLeft {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(12px, -8px) scale(1.15); }
+    }
+
+    /* Right Typing Hand Animation */
+    .arm-right {
+      bottom: 65px;
+      left: 80px;
+      animation: typeRight 0.22s ease-in-out infinite alternate;
+    }
+
+    @keyframes typeRight {
+      0% { transform: translate(0, 0) scale(1.15); }
+      100% { transform: translate(-10px, 6px) scale(0.95); }
+    }
+
+    /* Floating Code Particles / Energy Sparks */
+    .spark {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background-color: #FFE600;
+      box-shadow: 0 0 10px #FFE600;
+      border-radius: 1px;
+      opacity: 0;
+      z-index: 12;
+      animation: sparkFly 1.2s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+    }
+
+    .spark-1 { bottom: 80px; left: 60px; animation-delay: 0.1s; }
+    .spark-2 { bottom: 90px; left: 85px; animation-delay: 0.4s; }
+    .spark-3 { bottom: 75px; left: 110px; animation-delay: 0.7s; }
+
+    @keyframes sparkFly {
+      0% { opacity: 1; transform: translate(0, 0) scale(1); }
+      100% { opacity: 0; transform: translate(-40px, -60px) scale(0.2); }
+    }
+
+    /* Speech Thought Bubble */
+    .speech-bubble {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #FFFFFF;
+      border: 3px solid #00F0FF;
+      border-radius: 20px;
+      padding: 10px 18px;
+      color: #0F172A;
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 14px;
+      box-shadow: 0 10px 25px rgba(0, 240, 255, 0.4);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      z-index: 20;
+      animation: bubbleBounce 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes bubbleBounce {
+      0% { transform: translateY(0) scale(1); }
+      100% { transform: translateY(-6px) scale(1.03); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-mesh"></div>
+  <div class="bg-grid"></div>
+
+  <!-- Stage Container -->
+  <div class="stage">
+    
+    <!-- Window Header -->
+    <div class="window-header">
+      <div class="dot dot-red"></div>
+      <div class="dot dot-yellow"></div>
+      <div class="dot dot-green"></div>
+      <div class="title-text">google_omni_coding_session.sh — 60 FPS</div>
+    </div>
+
+    <!-- Workspace -->
+    <div class="workspace">
+      
+      <!-- Code Terminal (Left) -->
+      <div class="code-terminal">
+        <div class="code-line">
+          <span class="line-num">1</span>
+          <span class="code-content"><span class="comment">// Google Omni AI Motion Generation</span></span>
+        </div>
+        <div class="code-line">
+          <span class="line-num">2</span>
+          <span class="code-content"><span class="keyword">const</span> <span class="function">omniEngine</span> = <span class="keyword">new</span> GoogleOmni({ fps: 60 });</span>
+        </div>
+        <div class="code-line">
+          <span class="line-num">3</span>
+          <span class="code-content"><span class="keyword">await</span> omniEngine.<span class="function">generateAd</span>({</span>
+        </div>
+        <div class="code-line">
+          <span class="line-num">4</span>
+          <span class="code-content">&nbsp;&nbsp;style: <span class="string">"hyper-cuts product explosion"</span>,</span>
+        </div>
+        <div class="code-line">
+          <span class="line-num">5</span>
+          <span class="code-content">&nbsp;&nbsp;budget: <span class="string">"$0"</span>, savedFrom: <span class="string">"$10,000"</span></span>
+        </div>
+        <div class="code-line">
+          <span class="line-num">6</span>
+          <span class="code-content">});<span class="cursor"></span></span>
+        </div>
+      </div>
+
+      <!-- Desk & Character Studio (Right) -->
+      <div class="desk-setup">
+        
+        <!-- Speech Thought Bubble -->
+        <div class="speech-bubble">
+          <span>⚡</span> CODING PROMPT...
+        </div>
+
+        <!-- Laptop setup -->
+        <div class="laptop">
+          <div class="laptop-screen-content">
+            <div class="code-bar cb-1"></div>
+            <div class="code-bar cb-2"></div>
+            <div class="code-bar cb-3"></div>
+            <div class="code-bar cb-4"></div>
+          </div>
+        </div>
+        <div class="laptop-keyboard-base"></div>
+
+        <!-- Desk Surface -->
+        <div class="desk-surface"></div>
+
+        <!-- Animated Character Rig -->
+        <div class="character-container">
+          <div class="character-head-wrapper">
+            <img src="pixel_character.png" alt="Pixel Presenter" class="character-img">
+          </div>
+        </div>
+
+        <!-- Rapid Typing Hands -->
+        <div class="arm arm-left">⚡</div>
+        <div class="arm arm-right">⌨️</div>
+
+        <!-- Floating Code Sparks -->
+        <div class="spark spark-1"></div>
+        <div class="spark spark-2"></div>
+        <div class="spark spark-3"></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
