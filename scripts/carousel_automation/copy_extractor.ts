@@ -204,70 +204,70 @@ export function generateCarouselCopy(params: {
     cardIndexText: '02 // 08',
   });
 
-  // Slide 3: Secret 1 - Sensory Physics (Make them feel it)
+  // Slide 3: Free Nano Banana Poster Prompt Formula (Instant Practical Value)
   slides.push({
     slideIndex: 3,
     slideType: 'sensory_discovery',
-    header: 'Secret 1: Make Them Feel It Through The Screen',
-    subhead: 'You cannot smell or touch a phone screen. So you have to make the visuals super juicy.',
+    header: 'Free Nano Banana Poster Formula 🎨',
+    subhead: 'Copy-paste this exact prompt formula to make luxury product posters for free:',
     bodyBullets: [
-      'Show water splashes and perfume mist in slow motion',
-      'Use beautiful raking light to show real texture and cloth fabric',
-      'When things look real and juicy, people crave them',
+      '📌 STEP 1: Upload your favorite reference photo into Nano Banana',
+      '💬 STEP 2: Paste this: "Use this image as reference. Swap the copy to [My Title]. 50mm clean prime, raking key light, 35mm film grain, 4:5 vertical poster."',
+      '✨ STEP 3: Export in high-res (1080x1350) with zero blur and crisp text.',
     ],
-    keyCallout: 'TIP: If it looks delicious, crisp, and real, people stop scrolling.',
-    swissHudMetadata: '03 // SECRET 01 // SENSORY TEXTURES',
-    swipePrompt: 'SECRET 2 →',
+    keyCallout: '💡 PROMPT CODE: "Use reference style, add 50mm macro lighting & raking shadow, 35mm film grain, razor-sharp typography."',
+    swissHudMetadata: '03 // FREE POSTER PROMPT // NANO BANANA',
+    swipePrompt: 'FREE VIDEO PROMPT NEXT →',
     cardIndexText: '03 // 08',
   });
 
-  // Slide 4: Secret 2 - The Close-Up Details
+  // Slide 4: Free Higgsfield Video Generation Prompt (Instant Video Value)
   slides.push({
     slideIndex: 4,
     slideType: 'exploded_anatomy',
-    header: 'Secret 2: Zoom In On The Tiny Craft Details',
-    subhead: 'Cheap videos stay far away. Great videos show the tiny details up close.',
+    header: 'Free Higgsfield Video Prompt 🎬',
+    subhead: 'Want to turn that still poster into a viral 4K video? Use this exact camera prompt:',
     bodyBullets: [
-      'Show the clean glass cuts and shiny metal reflections',
-      'Show how the heavy cloth folds naturally when it moves',
-      'Tiny details prove to the buyer that your product is high quality',
+      '🎥 Camera Move: "Slow cinematic dolly in on hero object, 50mm FOV, shallow depth of field"',
+      '💧 Physics: "Macro liquid mist diffusion at 1/10,000s shutter, real gravity and bounce"',
+      '🎞️ Finish: "Volumetric light beams, lifted deep shadows, 35mm cinema film grain, no CGI sheen"',
     ],
-    keyCallout: 'TIP: Quality is shown in the micro-details, not in big promises.',
-    swissHudMetadata: '04 // SECRET 02 // CRAFT DETAILS',
-    swipePrompt: 'SECRET 3 →',
+    keyCallout: '🎬 HIGGSFIELD CODE: "MS slow dolly in, 50mm lens, 1/10,000s shutter, liquid viscosity splash, 35mm grain, no CGI."',
+    swissHudMetadata: '04 // FREE VIDEO PROMPT // HIGGSFIELD',
+    swipePrompt: 'STEP-BY-STEP RECIPE →',
     cardIndexText: '04 // 08',
   });
 
-  // Slide 5: Secret 3 - Sell The Feeling, Not The Thing
+  // Slide 5: The 3-Step Poster Creation Recipe
   slides.push({
     slideIndex: 5,
     slideType: 'philosophical_shift',
-    header: 'Secret 3: Sell How It Feels, Not What It Is',
-    subhead: 'Nobody buys a jacket just to stay warm. They buy it to feel cool, confident, and strong.',
+    header: 'How To Make Posters In 3 Minutes ⏱️',
+    subhead: 'You do not need Photoshop or complex 3D software. Follow these 3 simple steps:',
     bodyBullets: [
-      'A luxury perfume is not scented water. It is a memory of a rainy night',
-      'A streetwear hoodie is not just cotton. It is your daily armor',
-      'When you connect the product to an emotion, price does not matter',
+      '1. Pick a reference: Find an aesthetic poster you love on Pinterest or Instagram',
+      '2. Nano Banana Magic: Feed the photo into Nano Banana + our 9-year-old clear copy',
+      '3. Instant Swiss HUD: Add a tiny corner metadata stamp for instant luxury authority',
     ],
-    keyCallout: 'TIP: Sell the feeling of wearing it, not just the fabric.',
-    swissHudMetadata: '05 // SECRET 03 // THE EMOTION',
-    swipePrompt: 'SECRET 4 →',
+    keyCallout: '⭐ RESULT: You get a $5,000-looking agency poster in under 180 seconds.',
+    swissHudMetadata: '05 // 3-STEP WORKFLOW // POSTER CREATION',
+    swipePrompt: 'SAVE THE CHEAT SHEET →',
     cardIndexText: '05 // 08',
   });
 
-  // Slide 6: Secret 4 - Saveable Cheat Sheet (High Save Velocity)
+  // Slide 6: Saveable Prompt & Camera Cheat Sheet (High Save Velocity)
   slides.push({
     slideIndex: 6,
     slideType: 'tactile_proof',
-    header: 'Secret 4: Real Weight and Real Bounce',
-    subhead: 'Fake AI videos glide in straight lines. Real objects fall with gravity and bounce.',
+    header: 'The Copy-Paste Cheat Sheet 📋',
+    subhead: 'Here is your quick-reference pocket guide for all future video & poster prompts:',
     bodyBullets: [
-      'Fast speeds create excitement, slow zero-G floats create wonder',
-      'Deep bass sound effects make every impact feel heavy and solid',
-      'When the video feels physically real, people trust your brand',
+      '🎯 Lighting: "Raking side key light, soft highlight roll-off, lifted open shadows"',
+      '📷 Lens: "50mm prime portrait, wide aperture, creamy round bokeh"',
+      '🧪 Anti-AI Lock: "Real skin pores, peach fuzz, 35mm motion-picture grain, no plastic"',
     ],
-    keyCallout: '💾 SAVE THIS POST: You will need these 4 rules when making your next video!',
-    swissHudMetadata: '06 // SECRET 04 // REAL PHYSICS',
+    keyCallout: '💾 SAVE THIS POST: You will need these copy-paste prompt tags for your next project!',
+    swissHudMetadata: '06 // PROMPT CHEAT SHEET // SAVE FOR LATER',
     swipePrompt: 'THE 3-STEP SYSTEM →',
     cardIndexText: '06 // 08',
   });
@@ -276,16 +276,16 @@ export function generateCarouselCopy(params: {
   slides.push({
     slideIndex: 7,
     slideType: 'product_spec',
-    header: 'The 3-Part Winning System',
-    subhead: 'How to put all 4 secrets together into one simple machine:',
+    header: 'The 3-Part Winning System 🚀',
+    subhead: 'How to combine posters, video, and automated sales into one machine:',
     bodyBullets: [
-      '1. Beautiful Story: A 15-second video that stops the feed',
-      '2. High-Prestige Renders: Crisp 4K lighting and real textures',
-      '3. Automated DM Robot: Sends the private link the second someone comments',
+      '1. Beautiful Nano Banana Poster: Stops the feed in 0.5s',
+      '2. Higgsfield Motion Video: Brings the physical object to life with real physics',
+      '3. Automated DM Robot: Delivers the prompt PDF the second someone comments',
     ],
-    keyCallout: '✈️ SHARE WITH A FRIEND: Help a creator level up their visual quality!',
+    keyCallout: '✈️ SHARE WITH A FRIEND: Help a creator level up their visual quality today!',
     swissHudMetadata: '07 // THE BLUEPRINT // AUTONOMOUS ENGINE',
-    swipePrompt: 'CLAIM THE FREE GUIDE →',
+    swipePrompt: 'CLAIM THE FREE PROMPT PACK →',
     cardIndexText: '07 // 08',
   });
 
@@ -293,15 +293,16 @@ export function generateCarouselCopy(params: {
   slides.push({
     slideIndex: 8,
     slideType: 'ciel_cta',
-    header: 'Want the Full Free Guide & Prompts?',
+    header: 'Want The Full Free PDF & Prompt Pack? 🎁',
     subhead: 'Drop a 1-word comment below and I will send the complete playbook straight to your DMs!',
     bodyBullets: [
       '💬 Comment "CIEL" on this post right now',
-      '📥 Our automated robot will instantly DM you the free interactive guide',
+      '📥 Our automated robot will instantly DM you the free interactive PDF guide',
+      '📦 Includes all Nano Banana prompt files + Higgsfield 4K camera codes',
       '🚀 Follow @junnbuilds / project\\ciel for daily visual directing secrets',
     ],
-    keyCallout: '⚡ Instant free delivery: Click the DM link to download the full cheat sheet.',
-    swissHudMetadata: '08 // FREE PRIZE // DROP "CIEL" BELOW',
+    keyCallout: '⚡ Instant free delivery: Comment "CIEL" below to get the download link in 2 seconds.',
+    swissHudMetadata: '08 // FREE PROMPT PACK // DROP "CIEL" BELOW',
     swipePrompt: 'COMMENT "CIEL" NOW ↓',
     cardIndexText: '08 // 08',
   });
