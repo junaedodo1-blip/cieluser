@@ -255,7 +255,7 @@ export function generateCarouselCopy(params: {
     cardIndexText: '05 // 08',
   });
 
-  // Slide 6: Secret 4 - Real Gravity & Weight
+  // Slide 6: Secret 4 - Saveable Cheat Sheet (High Save Velocity)
   slides.push({
     slideIndex: 6,
     slideType: 'tactile_proof',
@@ -266,13 +266,13 @@ export function generateCarouselCopy(params: {
       'Deep bass sound effects make every impact feel heavy and solid',
       'When the video feels physically real, people trust your brand',
     ],
-    keyCallout: 'TIP: Real physics = instant trust and higher sales.',
+    keyCallout: '💾 SAVE THIS POST: You will need these 4 rules when making your next video!',
     swissHudMetadata: '06 // SECRET 04 // REAL PHYSICS',
-    swipePrompt: 'THE COMPLETE SYSTEM →',
+    swipePrompt: 'THE 3-STEP SYSTEM →',
     cardIndexText: '06 // 08',
   });
 
-  // Slide 7: The Master Blueprint
+  // Slide 7: The Master Blueprint (High Share Velocity)
   slides.push({
     slideIndex: 7,
     slideType: 'product_spec',
@@ -283,13 +283,13 @@ export function generateCarouselCopy(params: {
       '2. High-Prestige Renders: Crisp 4K lighting and real textures',
       '3. Automated DM Robot: Sends the private link the second someone comments',
     ],
-    keyCallout: 'Everything runs on autopilot 24/7.',
+    keyCallout: '✈️ SHARE WITH A FRIEND: Help a creator level up their visual quality!',
     swissHudMetadata: '07 // THE BLUEPRINT // AUTONOMOUS ENGINE',
-    swipePrompt: 'GET THE FREE GUIDE →',
+    swipePrompt: 'CLAIM THE FREE GUIDE →',
     cardIndexText: '07 // 08',
   });
 
-  // Slide 8: The Simple 1-Word CTA
+  // Slide 8: The Instant Free Prize CTA (High Comment Velocity)
   slides.push({
     slideIndex: 8,
     slideType: 'ciel_cta',
@@ -300,13 +300,13 @@ export function generateCarouselCopy(params: {
       '📥 Our automated robot will instantly DM you the free interactive guide',
       '🚀 Follow @junnbuilds / project\\ciel for daily visual directing secrets',
     ],
-    keyCallout: '⚡ Instant delivery to your DMs in 2 seconds flat.',
+    keyCallout: '⚡ Instant free delivery: Click the DM link to download the full cheat sheet.',
     swissHudMetadata: '08 // FREE PRIZE // DROP "CIEL" BELOW',
     swipePrompt: 'COMMENT "CIEL" NOW ↓',
     cardIndexText: '08 // 08',
   });
 
-  const instagramCaption = `${angleDef.hookHeader}\n\n"${angleDef.hookSubhead}"\n\nHere is the simple 8-step visual breakdown:\n\n01 // The Scroll-Stopping Hook\n02 // Why Most Ads Fail\n03 // Secret 1: Make Them Feel It\n04 // Secret 2: The Micro Details\n05 // Secret 3: Sell The Emotion\n06 // Secret 4: Real Weight & Physics\n07 // The 3-Part System\n08 // Get The Free Playbook\n\n---\n👇 Drop "CIEL" in the comments below and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.`;
+  const instagramCaption = `${angleDef.hookHeader}\n\n"${angleDef.hookSubhead}"\n\nHere is the simple 8-step visual breakdown:\n\n01 // The Scroll-Stopping Hook\n02 // Why Most Ads Fail\n03 // Secret 1: Make Them Feel It\n04 // Secret 2: The Micro Details\n05 // Secret 3: Sell The Emotion\n06 // Secret 4: Real Weight & Physics\n07 // The 3-Part System\n08 // Get The Free Playbook\n\n---\n💾 SAVE this post so you have the formulas for your next project.\n✈️ SHARE with a friend or creator who needs this.\n👇 Drop "CIEL" in the comments and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.`;
 
   const hashtags = [
     '#projectciel',

@@ -131,5 +131,24 @@ Every visual plate and carousel card incorporates micro-metadata in `Archivo 300
    - Short, conversational sentences.
    - Clear 1-word comment trigger (*"Comment 'CIEL' for the free guide"*).
 
+---
+
+## 10. The Free-Value & Viral Engine (Save, Share & Comment Triggers)
+
+> **The Ultimate Post Objective**: Every single carousel must provide immense, undeniable free value so viewers are compelled to **SAVE**, **SHARE**, and **COMMENT**. We never post generic fluff.
+
+### The 3 Viral Action Drivers:
+1. 💾 **SAVE TRACE (Swipeable Cheat Sheets & Formulas)**:
+   - Provide concrete, copy-pasteable formulas, prompt structures, and lighting rules on Slides 3–6.
+   - Explicit save prompts (*"💾 SAVE THIS POST for your next video shoot"*).
+2. ✈️ **SHARE TRIGGER ("Aha!" Realizations & Insights)**:
+   - Break down how iconic directors and world-class luxury houses craft desire with simple ideas.
+   - Explicit share prompts (*"✈️ SHARE THIS with a creator who wants to level up"*).
+3. 💬 **COMMENT ACCELERATOR (The Instant Prize Funnel)**:
+   - Offer an irresistible, free, interactive playbook / cheat-sheet PDF.
+   - Low-friction 1-word comment keyword: **`CIEL`**.
+   - Automated OpenReply DM bot delivers the link in 2 seconds.
+
+
 
 
