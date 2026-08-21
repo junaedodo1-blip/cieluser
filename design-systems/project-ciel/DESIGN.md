@@ -149,6 +149,25 @@ Every visual plate and carousel card incorporates micro-metadata in `Archivo 300
    - Low-friction 1-word comment keyword: **`CIEL`**.
    - Automated OpenReply DM bot delivers the link in 2 seconds.
 
+---
+
+## 11. Viral Hook & Storytelling Science (The 3-Layer Method)
+
+> **The Retention Formula**: The first 1.5 to 3 seconds determine 90% of a post's algorithmic reach. Every piece of content integrates the **3-Layer Hook** and gives away **copy-pasteable prompt recipes** to maximize value.
+
+### The 3-Layer Hook:
+1. **Visual Shock**: A striking, high-prestige physical object render that works on mute.
+2. **Spoken / Headline Intrigue**: A bold, counter-intuitive statement leading with the payoff.
+3. **On-Screen Punch**: 3 to 7 high-contrast words.
+
+### Actionable Value Directives:
+- **Slide 3**: Free Nano Banana Image Prompt Formula.
+- **Slide 4**: Free Higgsfield 4K Video Camera & Physics Code.
+- **Slide 5**: 3-Minute Step-by-Step Poster Creation Recipe.
+- **Slide 6**: Copy-Paste Camera & Lighting Cheat Sheet.
+- **Interactive Lead Magnet**: 1-Click copy buttons for all prompts + full storytelling PDF.
+
+
 
 
 

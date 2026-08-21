@@ -5,7 +5,8 @@ export type HookAngleType =
   | 'before_vs_after'
   | 'step_by_step_anatomy'
   | 'curiosity_juxtaposition'
-  | 'commerce_conversion';
+  | 'commerce_conversion'
+  | 'viral_storytelling_secrets';
 
 export interface CarouselSlideCopy {
   slideIndex: number; // 1-indexed (1, 2, 3... 8)
@@ -151,6 +152,20 @@ export const HOOK_ANGLE_BLUEPRINTS: Record<
     ],
     ruleSummary: 'SIMPLE RULE: Ask for a 1-word comment $\\rightarrow$ DM them the prize instantly.',
     badgeText: 'SALES ON AUTOPILOT',
+  },
+  viral_storytelling_secrets: {
+    name: 'Viral Hook & Storytelling Formula',
+    hookHeader: 'The 3-Second Hook Secret That Makes Millions Stop Scrolling.',
+    hookSubhead: 'How top creators write opening lines that hook viewers, hold them for 15 seconds, and go viral.',
+    frictionHeader: 'Why 90% of videos die in the first 2 seconds',
+    frictionSubhead: 'Starting with boring greetings ("Hey guys") or channel logos kills your reach immediately.',
+    frictionBullets: [
+      'Never start with "Hey guys" or boring introductions',
+      'The 3-Layer Hook: Visual shock + Spoken intrigue + 4-word punchy text',
+      'Open a curiosity loop in second 1, resolve the prize in second 15',
+    ],
+    ruleSummary: 'SIMPLE RULE: Lead with the prize $\\rightarrow$ Build tension $\\rightarrow$ Deliver the formula.',
+    badgeText: 'VIRAL HOOK FORMULA',
   },
 };
 

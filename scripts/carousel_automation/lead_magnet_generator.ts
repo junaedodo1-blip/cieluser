@@ -378,6 +378,63 @@ Aesthetics: 50mm clean prime portrait, raking side key light, soft highlight rol
       )
       .join('\n')}
 
+    <!-- SECTION 3: VIRAL HOOK & STORYTELLING MASTERCLASS -->
+    <div class="hud-section-title">03 // VIRAL HOOK & STORYTELLING MASTERCLASS</div>
+
+    <div class="card">
+      <div class="card-meta">THE 3-LAYER HOOK FORMULA // 1-3 SECOND RETENTION</div>
+      <h3>How to Make Every Opening Line Impossible to Skip</h3>
+      <p>The Instagram algorithm decides in 1.5 to 3 seconds whether to push your video to millions. Every viral video has 3 synchronized layers:</p>
+      
+      <div class="checklist">
+        <label class="checklist-item">
+          <input type="checkbox" checked>
+          <span><strong>1. Visual Shock (Works on Mute):</strong> A giant, impossible, or super aesthetic object that makes the thumb freeze before hearing any audio.</span>
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox" checked>
+          <span><strong>2. Spoken Intrigue (Under 2s):</strong> A punchy, counter-intuitive statement leading with the prize, not boring introductions.</span>
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox" checked>
+          <span><strong>3. On-Screen Text (3-7 Words):</strong> Sharp text that punches the message directly into the viewer's eyes.</span>
+        </label>
+      </div>
+
+      <div class="hud-callout">
+        <span>⚡ <strong>ANTI-PATTERN TO AVOID:</strong> Never start with "Hey guys" or logo animations. Start right in the middle of the action!</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">5 COPY-PASTE VIRAL HOOK TEMPLATES</div>
+      <h3>Plug-and-Play Viral Opening Hooks</h3>
+      
+      <div class="prompt-box">
+        <div class="prompt-header">
+          <span>HOOK 01: THE CONTRARIAN TRUTH</span>
+          <button class="copy-btn" onclick="copyText('h1')">📋 COPY HOOK</button>
+        </div>
+        <div class="prompt-code" id="h1">"Anyone can generate pixels in 5 seconds. But 99% get skipped immediately. Here is the 1 rule that makes people stop and watch."</div>
+      </div>
+
+      <div class="prompt-box" style="margin-top: 14px;">
+        <div class="prompt-header">
+          <span>HOOK 02: THE COST CONFESSION</span>
+          <button class="copy-btn" onclick="copyText('h2')">📋 COPY HOOK</button>
+        </div>
+        <div class="prompt-code" id="h2">"I spent $10,000 learning luxury video directing so you can copy the exact 3-step formula for free."</div>
+      </div>
+
+      <div class="prompt-box" style="margin-top: 14px;">
+        <div class="prompt-header">
+          <span>HOOK 03: THE JUXTAPOSITION SECRET</span>
+          <button class="copy-btn" onclick="copyText('h3')">📋 COPY HOOK</button>
+        </div>
+        <div class="prompt-code" id="h3">"Why putting a $5,000 luxury perfume bottle in a gritty concrete street makes everyone stop scrolling."</div>
+      </div>
+    </div>
+
     <div class="cta-container">
       <h3>Ready to Build Auteur Brand Stories?</h3>
       <p>Follow @junnbuilds / project\\ciel on Instagram for daily Cannes-grade visual directing breakdowns.</p>
