@@ -117,4 +117,19 @@ Every visual plate and carousel card incorporates micro-metadata in `Archivo 300
 - **Typographic Gravity**: Editorial serif / bold display headline layered with Swiss HUD metadata stamps.
 - **Anti-AI Texture**: Real subsurface scattering, 35mm film grain, and multi-plane depth.
 
+---
+
+## 9. The 9-Year-Old Clarity & Punchy Hook Testing Doctrine
+
+> **The Rule of Radical Simplicity**: A great post must be understood instantly by a 9-year-old. Zero academic jargon, zero confusing buzzwords. Every hook must be punchy, unignorable, and crystal clear.
+
+### Core Guidelines:
+1. **Unignorable First Hook**: Slide 1 headline must punch through the noise in 3 words or a shocking simple statement (*"Why 99% of AI videos get skipped immediately"*, *"How giant brands get millions of views with crazy simple ideas"*).
+2. **Keep Testing Angles**: Never settle on one hook style. Continuously test Contrarian Truths, Behind-the-Scenes Secrets, Crazy Juxtapositions, Before/Afters, and Simple Step-by-Step guides until an outlier hits, then double down!
+3. **Plain English Explanations**:
+   - Use vivid, simple metaphors (e.g. *"Water splashes so juicy you can almost taste them"*, *"Objects with real weight and bounce instead of robot glides"*).
+   - Short, conversational sentences.
+   - Clear 1-word comment trigger (*"Comment 'CIEL' for the free guide"*).
+
+
 
