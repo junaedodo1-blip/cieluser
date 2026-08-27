@@ -1,149 +1,204 @@
-import { selectNextStyleFolder, commitStyleUsage, getAvailableStyleFolders, getDefaultReferencesDir } from './style_manager.js';
-import { generateCarouselCopy, extractSlidesFromText, type HookAngleType } from './copy_extractor.js';
-import { buildCarouselGenerationBatch } from './nano_banana_generator.js';
-import { generateDigitalLeadMagnet } from './lead_magnet_generator.js';
-import { buildOpenReplyCampaignConfig } from './openreply_integration.js';
-import { buildBufferInstagramCarouselPayload, INSTAGRAM_DEFAULT_CHANNEL_ID } from './buffer_publisher.js';
-import { recordPendingNotification } from './fallback_checker.js';
+import { executeSubagentPipeline, type PipelineExecutionOptions, type PipelineExecutionReport } from './subagent_pipeline_orchestrator.js';
+import { type SingleTopicKey } from './copy_extractor.js';
 
-export interface DailyAutomationOptions {
-  topic?: string;
-  hookAngle?: HookAngleType;
-  triggerWord?: string;
-  forceStrictBrand?: boolean;
-  notificationMode?: boolean;
-  dryRun?: boolean;
-  referencesDir?: string;
+export interface DayScheduleConfig {
+  dayOfWeek: number; // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+  dayName: string;
+  isStorytelling: boolean;
+  topicKey: SingleTopicKey;
+  referenceStyleKey: string;
+  themeDescription: string;
 }
 
-const AUTEUR_TOPIC_POOL = [
-  "Auteur Directing & Remotion Spring Physics for Physical Luxury Brands",
-  "The 3-Act Narrative Architecture in 15-Second Commercials",
-  "Directing AI Video Like Jonathan Glazer: Mythic Weight & Deep Shadows",
-  "Scale Disruption & Surreal Street Art: The Jacquemus Strategy",
-  "Olfactory Visual Cinema: How to Translate Scent Notes into Fluid Viscosity",
-  "Why Traditional Product Ads Die in 3 Seconds (The Level 2 Trap)",
-  "How We Turn Reel Comments into Tracked Shopify Conversions 24/7",
+/**
+ * Master Publishing Schedule:
+ * • 1 Photographic Narrative Post per week (Tuesday) using `ciel_cinematic_storytelling`
+ * • 1 Viral Prompt Breakdown Post per week (Saturday) using `inflatable_foil_balloons` / `y2k_direct_flash_nightlife`
+ * • 5 Diverse High-Converting Design Formats per week from `insta references`
+ */
+export const WEEKLY_SCHEDULE: Record<number, DayScheduleConfig> = {
+  // Monday: 🎨 1. Tactical Strategy / Agency Grid (from 47682beae2eaca13fedf18527dbef244.jpg)
+  1: {
+    dayOfWeek: 1,
+    dayName: 'Monday',
+    isStorytelling: false,
+    topicKey: 'nano_banana_posters',
+    referenceStyleKey: 'community_grid_collage',
+    themeDescription: '🎨 TACTICAL STRATEGY GRID: Community Graph Paper, Pastel Highlighter & Floating 3D Icons (🍒 🪩 ⚡ 💸 🖱️)',
+  },
+  // Tuesday: 📸 2. PHOTOGRAPHIC NARRATIVE POST (Auteur 35mm Cinema Storytelling)
+  2: {
+    dayOfWeek: 2,
+    dayName: 'Tuesday',
+    isStorytelling: true,
+    topicKey: 'brand_transformation_story',
+    referenceStyleKey: 'ciel_cinematic_storytelling',
+    themeDescription: '📸 PHOTOGRAPHIC NARRATIVE: The Brand Transformation Arc (Ultra-Striking 35mm Cinema + Playfair/Lato)',
+  },
+  // Wednesday: 🔬 3. Biotech Luxury & HUD Data Teardown (from 866802259548952733)
+  3: {
+    dayOfWeek: 3,
+    dayName: 'Wednesday',
+    isStorytelling: false,
+    topicKey: 'higgsfield_video_directing',
+    referenceStyleKey: 'biotech_hud_luxury',
+    themeDescription: '🔬 CLINICAL BIOTECH & HUD: Macro Skin Textures, Concentric Circles & 0.5px Data HUD Diagrams',
+  },
+  // Thursday: 🐟 4. Fisheye 0.5x Tech Commercial Drop (from 725501821271696137)
+  4: {
+    dayOfWeek: 4,
+    dayName: 'Thursday',
+    isStorytelling: false,
+    topicKey: 'automated_dm_sales',
+    referenceStyleKey: 'fisheye_tech_commercial',
+    themeDescription: '🐟 0.5x FISHEYE TECH COMMERCIAL: Distorted Gadget Thrust, Pop Colors & Yellow Sale Badges',
+  },
+  // Friday: 📱 5. Raw Urban Street POV & Notes App Hot Take (from 799389002652197521)
+  5: {
+    dayOfWeek: 5,
+    dayName: 'Friday',
+    isStorytelling: false,
+    topicKey: 'ciel_invisible_craft_story',
+    referenceStyleKey: 'urban_pov_notes_censor',
+    themeDescription: '📱 RAW STREET POV & NOTES APP: Pixelated Face Blur + Dark Mode Apple Notes Hard Truths',
+  },
+  // Saturday: 🎈 6. VIRAL AI PROMPT BREAKDOWN POST (from 970525788475403918)
+  6: {
+    dayOfWeek: 6,
+    dayName: 'Saturday',
+    isStorytelling: false,
+    topicKey: 'ciel_uncanny_luxury_story',
+    referenceStyleKey: 'inflatable_foil_balloons',
+    themeDescription: '🎈 VIRAL PROMPT POST: Giant 3D Inflatable Foil Balloons in Elevator + Raw Prompt Breakdown Overlay',
+  },
+  // Sunday: 🍌 7. Streetwear Decal Physical Hero Drop (from 1df4921e54ec27062eea030fd76b32b0.jpg)
+  0: {
+    dayOfWeek: 0,
+    dayName: 'Sunday',
+    isStorytelling: false,
+    topicKey: 'spring_physics_video',
+    referenceStyleKey: 'street_decal_object',
+    themeDescription: '🍌 PHYSICAL HERO DROP: Seamless Studio Hero Object Plastered in Skate & Streetwear Decal Stickers',
+  },
+};
+
+/**
+ * Master 30-Day Rotational Content Calendar integrating all 20 reference styles:
+ */
+export const MASTER_30_DAY_CALENDAR: Array<{
+  dayIndex: number;
+  title: string;
+  topicKey: SingleTopicKey;
+  referenceStyleKey: string;
+  isStorytelling: boolean;
+}> = [
+  { dayIndex: 1, title: 'Tactical Strategy Grid', topicKey: 'nano_banana_posters', referenceStyleKey: 'community_grid_collage', isStorytelling: false },
+  { dayIndex: 2, title: 'Hero Photographic Narrative', topicKey: 'brand_transformation_story', referenceStyleKey: 'ciel_cinematic_storytelling', isStorytelling: true },
+  { dayIndex: 3, title: 'Biotech Luxury & HUD Teardown', topicKey: 'higgsfield_video_directing', referenceStyleKey: 'biotech_hud_luxury', isStorytelling: false },
+  { dayIndex: 4, title: '0.5x Fisheye Tech Drop', topicKey: 'automated_dm_sales', referenceStyleKey: 'fisheye_tech_commercial', isStorytelling: false },
+  { dayIndex: 5, title: 'Raw Street POV & Notes App', topicKey: 'ciel_invisible_craft_story', referenceStyleKey: 'urban_pov_notes_censor', isStorytelling: false },
+  { dayIndex: 6, title: 'Viral AI Foil Prompt Post', topicKey: 'ciel_uncanny_luxury_story', referenceStyleKey: 'inflatable_foil_balloons', isStorytelling: false },
+  { dayIndex: 7, title: 'Physical Streetwear Decal Drop', topicKey: 'spring_physics_video', referenceStyleKey: 'street_decal_object', isStorytelling: false },
+  { dayIndex: 8, title: 'Brand Agency Graph & Target Pins', topicKey: 'automated_dm_sales', referenceStyleKey: 'brand_agency_graph_paper', isStorytelling: false },
+  { dayIndex: 9, title: 'Auteur Conflict & Stakes Story', topicKey: 'founder_origin_reframe', referenceStyleKey: 'ciel_cinematic_storytelling', isStorytelling: true },
+  { dayIndex: 10, title: 'Acid Geometry & Obsidian Void', topicKey: 'nano_banana_posters', referenceStyleKey: 'acid_geometric_branding', isStorytelling: false },
+  { dayIndex: 11, title: 'Gen-Z Pinstripe Conflict Story', topicKey: 'visual_directing_cinema_story', referenceStyleKey: 'genz_editorial_narrative', isStorytelling: false },
+  { dayIndex: 12, title: 'Scaffolding Neon Billboard Banner', topicKey: 'transformation_framework_story', referenceStyleKey: 'scaffolding_neon_billboard', isStorytelling: false },
+  { dayIndex: 13, title: 'Y2K Direct-Flash Nightlife Prompt', topicKey: 'ciel_uncanny_luxury_story', referenceStyleKey: 'y2k_direct_flash_nightlife', isStorytelling: false },
+  { dayIndex: 14, title: 'Blue Basket Graph Notebook Sheet', topicKey: 'auteur_cultural_moat_story', referenceStyleKey: 'blue_basket_notebook_sheet', isStorytelling: false },
+  { dayIndex: 15, title: 'Editorial AI Fashion Commercials', topicKey: 'nano_banana_posters', referenceStyleKey: 'editorial_ai_commercials', isStorytelling: false },
+  { dayIndex: 16, title: 'The Soul of Physical Luxury Objects', topicKey: 'ciel_invisible_craft_story', referenceStyleKey: 'ciel_cinematic_storytelling', isStorytelling: true },
+  { dayIndex: 17, title: 'Monumental Museum Art Installation', topicKey: 'auteur_cultural_moat_story', referenceStyleKey: 'monumental_museum_sculpture', isStorytelling: false },
+  { dayIndex: 18, title: 'Swiss Acid Stepped-Polygon Cutouts', topicKey: 'higgsfield_video_directing', referenceStyleKey: 'stepped_pixel_acid_poster', isStorytelling: false },
+  { dayIndex: 19, title: 'Raw Street POV & Conversion Hot Take', topicKey: 'automated_dm_sales', referenceStyleKey: 'urban_pov_notes_censor', isStorytelling: false },
+  { dayIndex: 20, title: 'Chrome Liquid Fluidity Prompt Drop', topicKey: 'ciel_uncanny_luxury_story', referenceStyleKey: 'inflatable_foil_balloons', isStorytelling: false },
+  { dayIndex: 21, title: 'Green Amoeba Starburst Museum Poster', topicKey: 'transformation_framework_story', referenceStyleKey: 'green_amoeba_museum_poster', isStorytelling: false },
+  { dayIndex: 22, title: 'Glassmorphic Folder Tabs & Motion Blur', topicKey: 'visual_directing_cinema_story', referenceStyleKey: 'glassmorphism_motion_agency', isStorytelling: false },
+  { dayIndex: 23, title: 'The Hero\'s True Dilemma Cinema Story', topicKey: 'brand_transformation_story', referenceStyleKey: 'ciel_cinematic_storytelling', isStorytelling: true },
+  { dayIndex: 24, title: 'Surrealist Doppelgänger & Scribble Meme', topicKey: 'spring_physics_video', referenceStyleKey: 'surreal_doppelganger_scale', isStorytelling: false },
+  { dayIndex: 25, title: 'Cosmic Aura Gradient & Black Slash', topicKey: 'nano_banana_posters', referenceStyleKey: 'cosmic_aura_brushstroke', isStorytelling: false },
+  { dayIndex: 26, title: '0.5x Fisheye Creative Director Toolkit', topicKey: 'automated_dm_sales', referenceStyleKey: 'fisheye_tech_commercial', isStorytelling: false },
+  { dayIndex: 27, title: 'Subway Inflatable Lettering Prompt Drop', topicKey: 'ciel_uncanny_luxury_story', referenceStyleKey: 'inflatable_foil_balloons', isStorytelling: false },
+  { dayIndex: 28, title: 'Hardware Aesthetics & Streetwear Decals', topicKey: 'ciel_invisible_craft_story', referenceStyleKey: 'street_decal_object', isStorytelling: false },
+  { dayIndex: 29, title: 'Tactical Strategy 30-Day Retrospective', topicKey: 'transformation_framework_story', referenceStyleKey: 'community_grid_collage', isStorytelling: false },
+  { dayIndex: 30, title: 'The Defensible Moat Master Storytelling', topicKey: 'auteur_cultural_moat_story', referenceStyleKey: 'ciel_cinematic_storytelling', isStorytelling: true },
 ];
 
-export async function runDailyCarouselAutomation(options: DailyAutomationOptions = {}) {
-  const date = new Date();
-  const dayOfWeek = date.getDay(); // 0 = Sunday
-  const dayName = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][dayOfWeek];
+export function getCalendarEntryForDay(dayNumber: number) {
+  const normalizedIndex = ((dayNumber - 1) % 30) + 1;
+  return MASTER_30_DAY_CALENDAR.find((e) => e.dayIndex === normalizedIndex) || MASTER_30_DAY_CALENDAR[0]!;
+}
 
-  // Weekly rule: Sunday (0) is Strict Brand Day; other 6 days are Reference-Derived Style Days
-  const isStrictBrandDay = options.forceStrictBrand ?? (dayOfWeek === 0);
+export function getScheduleForDate(date: Date = new Date()): DayScheduleConfig {
+  return WEEKLY_SCHEDULE[date.getDay()] || WEEKLY_SCHEDULE[1]!;
+}
 
-  const referencesDir = options.referencesDir || getDefaultReferencesDir();
-  const triggerWord = options.triggerWord || 'CIEL';
+export async function runDailyCarouselAutomation(options: {
+  topicKey?: SingleTopicKey;
+  referenceStyleKey?: string;
+  date?: Date;
+  forceStrictBrand?: boolean;
+  dynamic?: boolean;
+} = {}): Promise<PipelineExecutionReport> {
+  const targetDate = options.date || new Date();
+  const schedule = getScheduleForDate(targetDate);
+  const selectedTopic = options.dynamic ? undefined : (options.topicKey || schedule.topicKey);
+  const selectedStyle = options.dynamic ? undefined : (options.referenceStyleKey || schedule.referenceStyleKey);
 
-  // Select topic
-  const topic = options.topic || AUTEUR_TOPIC_POOL[Math.floor(Math.random() * AUTEUR_TOPIC_POOL.length)];
+  console.log(`\n================================================================`);
+  console.log(`📅 AUTOMATION SCHEDULER: [${schedule.dayName.toUpperCase()}]`);
+  console.log(`🎯 Theme: ${schedule.themeDescription}`);
+  console.log(`📖 Storytelling Slot: ${schedule.isStorytelling ? 'YES (Active Story Arc)' : 'No (Technical Breakdown)'}`);
+  console.log(`🎨 Topic: ${selectedTopic || 'DYNAMIC WEIGHTED SELECTION'}`);
+  console.log(`👑 Style: ${selectedStyle || 'DYNAMIC WEIGHTED SELECTION'}`);
+  console.log(`================================================================\n`);
 
-  console.log('====================================================');
-  console.log('🕒 DAILY CAROUSEL AUTOMATION RUNNER');
-  console.log('====================================================');
-  console.log(`📅 Date: ${date.toISOString().split('T')[0]} (${dayName})`);
-  console.log(`🎨 Mode: ${isStrictBrandDay ? '🌟 STRICT BRAND GUIDELINES DAY (1x/week)' : '🎭 REFERENCE-DERIVED STYLE DAY (6x/week)'}`);
-  console.log(`📌 Topic: "${topic}"`);
-  console.log(`🎯 Trigger Word: "${triggerWord}"`);
-
-  // Step 1: Select Style Folder (Round-Robin)
-  const selectedStyle = selectNextStyleFolder(referencesDir);
-  console.log(`\n📁 Style Pack: "${selectedStyle.styleName}" (${selectedStyle.referenceImages.length} references)`);
-
-  // Step 2: Generate 8-Slide Visual Literature Copy (Testing Multiple Angles)
-  const copyPackage = generateCarouselCopy({ topic, hookAngle: options.hookAngle });
-  console.log(`\n📐 Hook Angle Tested: "${copyPackage.hookAngle}"`);
-  console.log(`📝 Slide 1 Hook: "${copyPackage.slides[0]?.header}"`);
-
-  // Step 3: Build Nano Banana 2 Prompts (Weekly Style Policy Applied)
-  const generationBatch = buildCarouselGenerationBatch({
-    slides: copyPackage.slides,
-    referenceImages: selectedStyle.referenceImages,
-    styleName: selectedStyle.styleName,
-    isStrictBrandDay,
+  return executeSubagentPipeline({
+    topicKey: selectedTopic,
+    referenceStyleKey: selectedStyle,
+    ...(options.forceStrictBrand !== undefined ? { forceStrictBrand: options.forceStrictBrand } : {}),
   });
-
-  console.log(`\n🎨 Prompts built for ${generationBatch.length} slides:`);
-  generationBatch.forEach((job) => {
-    console.log(`   [Slide ${job.slideIndex}] Mode: ${job.isStrictBrandDay ? 'Strict Brand' : 'Reference Colors/Fonts'}`);
-  });
-
-  // Step 4: Generate Lead Magnet
-  const leadMagnet = generateDigitalLeadMagnet({
-    carouselCopy: copyPackage,
-    triggerWord,
-  });
-  console.log(`\n🎁 Digital Product HTML: ${leadMagnet.htmlDocPath}`);
-
-  // Step 5: OpenReply Config
-  const openReplyConfig = buildOpenReplyCampaignConfig({
-    product: leadMagnet,
-    enableFollowGate: true,
-  });
-
-  // Step 6: Buffer Caption with Music Recommendation & CTA
-  const musicRec = isStrictBrandDay
-    ? "Hans Zimmer — 'Time' (Sub-bass Ambient Mix)"
-    : "BICEP — 'Glue' / Fred again.. — 'adore u'";
-
-  const captionWithCta = `${copyPackage.instagramCaption}\n\n🎵 Suggested Audio: ${musicRec}\n\n👇 Drop "${triggerWord}" in the comments and I will DM you the complete actionable playbook & checklist for free! 🚀\n\n${copyPackage.hashtags.join(' ')}`;
-  
-  const bufferPayload = buildBufferInstagramCarouselPayload({
-    caption: captionWithCta,
-    imageUrls: generationBatch.map((j) => `https://open-design.local/assets/generated/${j.outputFileName}`),
-    channelId: INSTAGRAM_DEFAULT_CHANNEL_ID,
-    mode: 'addToQueue',
-    schedulingType: 'notification',
-  });
-
-  // Step 7: Record 2-Hour Fail-Safe Fallback
-  const fallbackDueAt = new Date(Date.now() + 2 * 60 * 60 * 1000).toISOString();
-  recordPendingNotification({
-    postId: 'pending_daily_run',
-    channelId: INSTAGRAM_DEFAULT_CHANNEL_ID,
-    createdAt: date.toISOString(),
-    fallbackDueAt,
-    caption: captionWithCta,
-    imageUrls: generationBatch.map((j) => `https://open-design.local/assets/generated/${j.outputFileName}`),
-    topic,
-  });
-  console.log(`⏱️ 2-Hour Fail-Safe Armed: If not published with music via mobile notification by ${fallbackDueAt}, system will auto-post without music.`);
-
-  // Commit Style Usage
-  commitStyleUsage(selectedStyle.styleName, copyPackage.slides.length);
-
-  console.log('\n====================================================');
-  console.log('✅ DAILY AUTOMATION JOB READY');
-  console.log('====================================================');
-
-  return {
-    date: date.toISOString(),
-    dayName,
-    isStrictBrandDay,
-    selectedStyle,
-    copyPackage,
-    generationBatch,
-    leadMagnet,
-    openReplyConfig,
-    bufferPayload,
-  };
 }
 
 // Auto-run if executed directly
 if (process.argv[1]?.endsWith('daily_runner.ts') || process.argv[1]?.endsWith('daily_runner.js')) {
   const forceStrict = process.argv.includes('--force-strict-brand');
-  const notification = process.argv.includes('--notification');
-  const dryRun = process.argv.includes('--dry-run');
-  const topicArgIdx = process.argv.indexOf('--topic');
-  const topic = topicArgIdx !== -1 ? process.argv[topicArgIdx + 1] : undefined;
-  const angleArgIdx = process.argv.indexOf('--angle');
-  const hookAngle = angleArgIdx !== -1 ? (process.argv[angleArgIdx + 1] as HookAngleType) : undefined;
+  const dynamic = process.argv.includes('--dynamic');
+  const topicArgIdx = process.argv.indexOf('--topic-key');
+  const topicKey = topicArgIdx !== -1 ? (process.argv[topicArgIdx + 1] as SingleTopicKey) : undefined;
+  const dayArgIdx = process.argv.indexOf('--day');
 
-  runDailyCarouselAutomation({ forceStrictBrand: forceStrict, notificationMode: notification, dryRun, topic, hookAngle }).catch((err) => {
-    console.error('Daily Automation Error:', err);
-    process.exit(1);
-  });
+  let targetDate = new Date();
+  if (dayArgIdx !== -1) {
+    const dayName = process.argv[dayArgIdx + 1]?.toLowerCase();
+    const dayMap: Record<string, number> = {
+      sunday: 0,
+      monday: 1,
+      tuesday: 2,
+      wednesday: 3,
+      thursday: 4,
+      friday: 5,
+      saturday: 6,
+    };
+    if (dayName && dayMap[dayName] !== undefined) {
+      const targetDay = dayMap[dayName]!;
+      const diff = targetDay - targetDate.getDay();
+      targetDate.setDate(targetDate.getDate() + diff);
+    }
+  }
+
+  runDailyCarouselAutomation({
+    ...(topicKey ? { topicKey } : {}),
+    date: targetDate,
+    forceStrictBrand: forceStrict,
+    dynamic,
+  })
+    .then((res) => {
+      console.log(`\n🎉 Carousel Automation Complete for ${getScheduleForDate(targetDate).dayName}!`);
+      console.log(`📁 Prompts: ${res.promptsDir}`);
+    })
+    .catch((err) => {
+      console.error('Daily Automation Error:', err);
+      process.exit(1);
+    });
 }
-

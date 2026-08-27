@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.4",
+  "skill_version": "1.0.0",
+  "rubric_version": "v0",
+  "content_form": "opinion-video",
+  "typical_duration_seconds": 240,
+  "target_publish_cadence_days": 1,
+  "rubric_form_mismatch": false,
+  "benchmark_status": "none",
+  "benchmark_name": null,
+  "benchmark_sample_count": 0,
+  "baseline_plays": null,
+  "calibration_samples": 0,
+  "data_collection": "manual",
+  "pool_status": "none",
+  "data_layer": "markdown",
+  "hooks_installed": false,
+  "enabled_trend_sources": [
+    "manual-paste"
+  ],
+  "enabled_perf_adapters": [],
+  "last_bump_at": null,
+  "last_bump_self_audited": false,
+  "last_published_at": "2026-08-27T16:43:37.837Z",
+  "last_published_file": "predictions/2026-08-27_exec_1787849017825_automated_dm_sa.md",
+  "last_retro_at": null,
+  "last_trends_run_at": null,
+  "last_trends_added_count": 0,
+  "last_prediction_self_scored": false,
+  "last_self_scored_at": null,
+  "consecutive_directional_errors": [],
+  "pending_retros": [],
+  "shoots": [
+    {
+      "postId": "exec_1787847733760",
+      "scriptPath": "scripts/2026-08-27_exec_1787847733760_nano_banana_pos.md",
+      "predictionPath": "predictions/2026-08-27_exec_1787847733760_nano_banana_pos.md",
+      "shotAt": "2026-08-27T16:22:13.767Z"
+    },
+    {
+      "postId": "exec_1787849017825",
+      "scriptPath": "scripts/2026-08-27_exec_1787849017825_automated_dm_sa.md",
+      "predictionPath": "predictions/2026-08-27_exec_1787849017825_automated_dm_sa.md",
+      "shotAt": "2026-08-27T16:43:37.837Z"
+    }
+  ],
+  "in_progress_session": null,
+  "initialized_at": "2026-08-27T22:19:59.515693+06:00"
+}

@@ -1,70 +1,1241 @@
 {
-  "currentCycle": 1,
   "usedStyles": [
-    "ciel_master_style"
+    "stepped_pixel_acid_poster",
+    "community_grid_collage",
+    "editorial_photo_storytelling",
+    "ciel_cinematic_storytelling",
+    "street_decal_object",
+    "green_amoeba_museum_poster"
   ],
-  "lastUsedStyle": "ciel_master_style",
-  "lastRunAt": "2026-08-21T15:19:46.278Z",
+  "usedTopics": [],
+  "winningStyles": [
+    "editorial_photo_storytelling",
+    "ciel_cinematic_storytelling"
+  ],
+  "winningTopics": [
+    "nano_banana_posters",
+    "ciel_invisible_craft_story",
+    "viral_hook_secrets",
+    "higgsfield_video_directing",
+    "automated_dm_sales"
+  ],
+  "styleWeights": {
+    "editorial_photo_storytelling": 16,
+    "ciel_cinematic_storytelling": 2.5
+  },
+  "topicWeights": {
+    "nano_banana_posters": 5.5,
+    "ciel_invisible_craft_story": 2.5,
+    "viral_hook_secrets": 2.5,
+    "higgsfield_video_directing": 2.5,
+    "automated_dm_sales": 8.5
+  },
   "history": [
     {
-      "timestamp": "2026-08-21T13:54:06.197Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a8d367ad9bf909e6465c2db",
+      "topicKey": "brand_transformation_story",
+      "topicTitle": "Project Ciel Architecture",
+      "styleKey": "community_grid_collage",
+      "styleName": "Community Grid Collage",
+      "publishedAt": "2026-08-23T10:19:32.051Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 44,
+        "impressions": 73,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
     },
     {
-      "timestamp": "2026-08-21T14:18:06.632Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a8d367ad9bf909e6465c2d3",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-24T04:27:15.399Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 6,
+        "impressions": 30,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
     },
     {
-      "timestamp": "2026-08-21T14:18:16.961Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a8d367ad9bf909e6465c2ce",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-22T19:18:15.084Z",
+      "metrics": {
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "reach": 9,
+        "impressions": 31,
+        "saves": 0
+      },
+      "engagementScore": 1,
+      "isWinner": true
     },
     {
-      "timestamp": "2026-08-21T14:18:49.289Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a8d367ad9bf909e6465c2cc",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-24T08:41:54.761Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 4,
+        "impressions": 17,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
     },
     {
-      "timestamp": "2026-08-21T14:36:26.565Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a8bed4f7b646aa28b07653f",
+      "topicKey": "brand_transformation_story",
+      "topicTitle": "Stop Posting Random Pixels",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-24T07:06:14.806Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 10,
+        "impressions": 13,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
     },
     {
-      "timestamp": "2026-08-21T14:37:44.733Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a8ad820c5db1e9cdcf5369f",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Inflatable Typography Scale",
+      "styleKey": "street_decal_object",
+      "styleName": "Street Decal Object",
+      "publishedAt": "2026-08-23T11:23:37.363Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 20,
+        "impressions": 35,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
     },
     {
-      "timestamp": "2026-08-21T14:43:45.795Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a8ad72bbc455ba248ee104e",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Inflatable Typography Scale",
+      "styleKey": "street_decal_object",
+      "styleName": "Street Decal Object",
+      "publishedAt": "2026-08-23T11:19:30.846Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 0,
+        "impressions": 0,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
     },
     {
-      "timestamp": "2026-08-21T14:47:37.574Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a8acec6deb4b57dfeb4a1fe",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Inflatable Typography Scale",
+      "styleKey": "street_decal_object",
+      "styleName": "Street Decal Object",
+      "publishedAt": "2026-08-23T10:43:41.982Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 0,
+        "impressions": 0,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
     },
     {
-      "timestamp": "2026-08-21T15:06:45.245Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a8acc97031ead5f4d48926e",
+      "topicKey": "ciel_invisible_craft_story",
+      "topicTitle": "Narrative Tension vs Clean",
+      "styleKey": "ciel_cinematic_storytelling",
+      "styleName": "Ciel Cinematic Storytelling",
+      "publishedAt": "2026-08-23T10:34:22.868Z",
+      "metrics": {
+        "likes": 5,
+        "shares": 0,
+        "comments": 0,
+        "reach": 8,
+        "impressions": 15,
+        "saves": 0
+      },
+      "engagementScore": 2.5,
+      "isWinner": true
     },
     {
-      "timestamp": "2026-08-21T15:12:36.839Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a8ac359c5db1e9cdcf3cefd",
+      "topicKey": "founder_origin_reframe",
+      "topicTitle": "Founder Journey Reframe",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-23T09:54:57.252Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 2,
+        "impressions": 16,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
     },
     {
-      "timestamp": "2026-08-21T15:17:15.156Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a89c29a62b911df3f1b5b32",
+      "topicKey": "founder_origin_reframe",
+      "topicTitle": "Founder Journey Reframe",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-22T15:39:29.841Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 7,
+        "impressions": 16,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
     },
     {
-      "timestamp": "2026-08-21T15:19:46.278Z",
-      "style": "ciel_master_style",
-      "slideCount": 8
+      "postId": "6a89c0e0c5db1e9cdce54ac9",
+      "topicKey": "founder_origin_reframe",
+      "topicTitle": "Founder Journey Reframe",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-22T15:32:07.312Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 21,
+        "impressions": 33,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a88ae2ab1e0795f7f62e045",
+      "topicKey": "auteur_cultural_moat_story",
+      "topicTitle": "Cheap Plastic vs Auteur",
+      "styleKey": "ciel_cinematic_storytelling",
+      "styleName": "Ciel Cinematic Storytelling",
+      "publishedAt": "2026-08-21T20:00:03.187Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 3,
+        "impressions": 12,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a88ab553869cf6658960ff9",
+      "topicKey": "ciel_invisible_craft_story",
+      "topicTitle": "Obsession with Micro-Details",
+      "styleKey": "ciel_cinematic_storytelling",
+      "styleName": "Ciel Cinematic Storytelling",
+      "publishedAt": "2026-08-21T19:47:57.963Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 0,
+        "impressions": 0,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a88a37a3869cf665895a62b",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-21T19:14:02.907Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 0,
+        "impressions": 0,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a88a1a924833b288b2313bc",
+      "topicKey": "ciel_invisible_craft_story",
+      "topicTitle": "Obsession with Micro-Details",
+      "styleKey": "ciel_cinematic_storytelling",
+      "styleName": "Ciel Cinematic Storytelling",
+      "publishedAt": "2026-08-21T19:15:49.045Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 55,
+        "impressions": 78,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a88a1983869cf6658958cd0",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-23T00:44:00.799Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 0,
+        "reach": 47,
+        "impressions": 62,
+        "saves": 0
+      },
+      "engagementScore": 0.5,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b01607",
+      "topicKey": "viral_hook_secrets",
+      "topicTitle": "Humanizing AI Copy",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-11T07:30:49.273Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 2,
+        "reach": 19,
+        "impressions": 36,
+        "saves": 0
+      },
+      "engagementScore": 4.5,
+      "isWinner": true
+    },
+    {
+      "postId": "6a886743312f46c285b015f7",
+      "topicKey": "higgsfield_video_directing",
+      "topicTitle": "Paradigm Shift in AI Agents",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-13T09:59:53.802Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 0,
+        "reach": 16,
+        "impressions": 29,
+        "saves": 0
+      },
+      "engagementScore": 0.5,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b015f5",
+      "topicKey": "visual_directing_cinema_story",
+      "topicTitle": "Photoshop is Dead",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-16T15:18:30.177Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 32,
+        "impressions": 45,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b015f2",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-12T15:55:21.465Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 23,
+        "impressions": 37,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b015f0",
+      "topicKey": "higgsfield_video_directing",
+      "topicTitle": "Google Veo Cinematic Directing",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-10T08:19:57.419Z",
+      "metrics": {
+        "likes": 4,
+        "shares": 0,
+        "comments": 2,
+        "reach": 48,
+        "impressions": 135,
+        "saves": 0
+      },
+      "engagementScore": 6,
+      "isWinner": true
+    },
+    {
+      "postId": "6a886743312f46c285b015ee",
+      "topicKey": "viral_hook_secrets",
+      "topicTitle": "Vibe Coding and AI Toolkits",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-07T20:13:11.785Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 0,
+        "reach": 72,
+        "impressions": 136,
+        "saves": 0
+      },
+      "engagementScore": 0.5,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b015ec",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-11T15:02:49.602Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 17,
+        "impressions": 52,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b015ea",
+      "topicKey": "higgsfield_video_directing",
+      "topicTitle": "Google Veo Cinematic Directing",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-10T08:40:03.403Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 22,
+        "impressions": 60,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b015e8",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-15T16:53:09.880Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 9,
+        "impressions": 18,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b015e6",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-07T09:56:51.466Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 7,
+        "impressions": 18,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b015e4",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-09T09:34:03.190Z",
+      "metrics": {
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "reach": 7,
+        "impressions": 25,
+        "saves": 0
+      },
+      "engagementScore": 1,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b015e2",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-13T08:15:49.383Z",
+      "metrics": {
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "reach": 13,
+        "impressions": 26,
+        "saves": 0
+      },
+      "engagementScore": 1,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b015de",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-14T15:46:00.219Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 11,
+        "impressions": 23,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886743312f46c285b015dc",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-13T15:02:33.572Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "reach": 11,
+        "impressions": 26,
+        "saves": 0
+      },
+      "engagementScore": 2,
+      "isWinner": true
+    },
+    {
+      "postId": "6a886743312f46c285b015da",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-10T10:13:18.565Z",
+      "metrics": {
+        "likes": 2,
+        "shares": 0,
+        "comments": 2,
+        "reach": 33,
+        "impressions": 75,
+        "saves": 0
+      },
+      "engagementScore": 5,
+      "isWinner": true
+    },
+    {
+      "postId": "6a886743312f46c285b015d8",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-18T09:27:01.877Z",
+      "metrics": {
+        "likes": 3,
+        "shares": 0,
+        "comments": 2,
+        "reach": 248,
+        "impressions": 326,
+        "saves": 0
+      },
+      "engagementScore": 5.5,
+      "isWinner": true
+    },
+    {
+      "postId": "6a886743312f46c285b015d6",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-14T10:06:31.417Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 18,
+        "impressions": 29,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b015cc",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-07T15:51:09.248Z",
+      "metrics": {
+        "likes": 4,
+        "shares": 0,
+        "comments": 0,
+        "reach": 11,
+        "impressions": 29,
+        "saves": 0
+      },
+      "engagementScore": 2,
+      "isWinner": true
+    },
+    {
+      "postId": "6a886742312f46c285b015c2",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-15T16:46:53.942Z",
+      "metrics": {
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "reach": 3,
+        "impressions": 12,
+        "saves": 0
+      },
+      "engagementScore": 1,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b015be",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-11T09:56:57.924Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 15,
+        "impressions": 35,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b015b9",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-08T09:32:41.969Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 0,
+        "reach": 4,
+        "impressions": 15,
+        "saves": 0
+      },
+      "engagementScore": 0.5,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b015b1",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-05T16:41:15.618Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 164,
+        "impressions": 212,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b015ad",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-11T15:56:09.806Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 24,
+        "impressions": 64,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b015aa",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-08T15:24:37.140Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 0,
+        "reach": 4,
+        "impressions": 14,
+        "saves": 0
+      },
+      "engagementScore": 0.5,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b015a7",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-08T18:03:53.119Z",
+      "metrics": {
+        "likes": 3,
+        "shares": 0,
+        "comments": 2,
+        "reach": 39,
+        "impressions": 58,
+        "saves": 0
+      },
+      "engagementScore": 5.5,
+      "isWinner": true
+    },
+    {
+      "postId": "6a886742312f46c285b015a5",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-09T15:26:06.647Z",
+      "metrics": {
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "reach": 28,
+        "impressions": 71,
+        "saves": 0
+      },
+      "engagementScore": 1,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b015a2",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-09T13:55:38.310Z",
+      "metrics": {
+        "likes": 2,
+        "shares": 0,
+        "comments": 0,
+        "reach": 115,
+        "impressions": 218,
+        "saves": 0
+      },
+      "engagementScore": 1,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b015a0",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-05T11:16:51.652Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 0,
+        "reach": 249,
+        "impressions": 319,
+        "saves": 0
+      },
+      "engagementScore": 0.5,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b0159e",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-11T19:46:24.950Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 0,
+        "reach": 15,
+        "impressions": 45,
+        "saves": 0
+      },
+      "engagementScore": 0.5,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b0159c",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-06T11:16:09.044Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 0,
+        "reach": 148,
+        "impressions": 195,
+        "saves": 0
+      },
+      "engagementScore": 0.5,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b0159a",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-12T22:08:46.969Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 10,
+        "impressions": 25,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01598",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-14T09:55:41.333Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 8,
+        "impressions": 11,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01596",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-10T15:55:42.207Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 2,
+        "reach": 21,
+        "impressions": 55,
+        "saves": 0
+      },
+      "engagementScore": 4,
+      "isWinner": true
+    },
+    {
+      "postId": "6a886742312f46c285b01594",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-17T15:20:28.292Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 6,
+        "impressions": 11,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01592",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-13T15:55:36.103Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 27,
+        "impressions": 46,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01590",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-11T19:41:51.343Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 0,
+        "reach": 15,
+        "impressions": 41,
+        "saves": 0
+      },
+      "engagementScore": 0.5,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b0158e",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-15T09:21:25.629Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 10,
+        "impressions": 15,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b0158c",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-12T09:58:03.007Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 3,
+        "impressions": 13,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b0158a",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-18T15:26:08.434Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 9,
+        "impressions": 35,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01588",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-21T12:30:14.022Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 12,
+        "impressions": 30,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01586",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-16T15:16:18.065Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 10,
+        "impressions": 15,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01584",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-14T20:09:13.339Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 0,
+        "reach": 9,
+        "impressions": 20,
+        "saves": 0
+      },
+      "engagementScore": 0.5,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01582",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-15T15:15:10.683Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 26,
+        "impressions": 37,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01580",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-16T09:22:26.153Z",
+      "metrics": {
+        "likes": 1,
+        "shares": 0,
+        "comments": 0,
+        "reach": 24,
+        "impressions": 35,
+        "saves": 0
+      },
+      "engagementScore": 0.5,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b0157e",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-17T03:42:42.343Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 22,
+        "impressions": 33,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b0157c",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-17T09:35:24.914Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 315,
+        "impressions": 405,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b0157a",
+      "topicKey": "nano_banana_posters",
+      "topicTitle": "Nano Banana Posters",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-20T08:27:48.999Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 3,
+        "impressions": 21,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01578",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-20T09:28:17.538Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 8,
+        "impressions": 30,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01576",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-20T15:28:36.392Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0,
+        "reach": 14,
+        "impressions": 31,
+        "saves": 0
+      },
+      "engagementScore": 0,
+      "isWinner": false
+    },
+    {
+      "postId": "6a886742312f46c285b01574",
+      "topicKey": "automated_dm_sales",
+      "topicTitle": "Autonomous AI Agent Architecture",
+      "styleKey": "editorial_photo_storytelling",
+      "styleName": "Editorial Photo Storytelling",
+      "publishedAt": "2026-08-21T09:31:10.859Z",
+      "metrics": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 1,
+        "reach": 3,
+        "impressions": 18,
+        "saves": 0
+      },
+      "engagementScore": 2,
+      "isWinner": true
     }
   ]
 }

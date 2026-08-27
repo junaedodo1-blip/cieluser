@@ -3,13 +3,13 @@ import path from 'path';
 import fs from 'fs';
 
 const SLIDE_FILES = [
-  'out/carousel_ciel/ciel_slide_01_hook_1787320154825.jpg',
-  'out/carousel_ciel/ciel_slide_02_trap_1787320176582.jpg',
-  'out/carousel_ciel/ciel_slide_03_sensory_1787320199509.jpg',
-  'out/carousel_ciel/ciel_slide_04_remotion_1787320223575.jpg',
-  'out/carousel_ciel/ciel_slide_05_cannes_1787320246459.jpg',
-  'out/carousel_ciel/ciel_slide_06_narrative_spine_1787320269458.jpg',
-  'out/carousel_ciel/ciel_slide_07_architecture_1787320300910.jpg',
+  'carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan (7).jpg',
+  'carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan (6).jpg',
+  'carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan (5).jpg',
+  'carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan (4).jpg',
+  'carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan (2).jpg',
+  'carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan (1).jpg',
+  'carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg',
 ];
 
 async function main() {

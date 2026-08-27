@@ -1,185 +1,200 @@
+import fs from 'node:fs';
 import path from 'node:path';
-import type { CarouselSlideCopy } from './copy_extractor.js';
+import type { CarouselCopyPackage, CarouselSlideCopy } from './copy_extractor.js';
+import {
+  getDeconstructedReference,
+  type DeconstructedReferenceStyle,
+} from './reference_deconstructor.js';
+import { auditBatchFidelity, type BatchFidelityAuditReport } from './fidelity_self_checker.js';
 
-export interface SlideGenerationJob {
+export interface NanoBananaSlidePromptJob {
   slideIndex: number;
   slideType: string;
-  referenceImagePath: string | null;
+  referenceImagePath: string;
   prompt: string;
-  aspectRatio: '4:5' | '1:1';
+  aspectRatio: string;
   outputFileName: string;
-  isStrictBrandDay: boolean;
 }
 
-export interface BrandOutline {
-  brandName?: string;
-  handle?: string;
-  tagline?: string;
-  colors?: {
-    abyssBlack?: string;
-    crispWhite?: string;
-    mutedPlatinum?: string;
-    studioSlate?: string;
-  };
-  typography?: {
-    displaySerif?: string;
-    bodyAndHud?: string;
-  };
-  visualDoctrine?: string;
+export interface NanoBananaBatchResult {
+  batch: NanoBananaSlidePromptJob[];
+  promptsDir: string;
+  summaryPath: string;
+  fidelityReport: BatchFidelityAuditReport;
 }
-
-export const PROJECT_CIEL_BRAND: BrandOutline = {
-  brandName: 'project\\ciel',
-  handle: '@junnbuilds',
-  tagline: 'BEYOND THE FRAME, INTO FEELING',
-  colors: {
-    abyssBlack: '#0A0A0C',
-    crispWhite: '#FFFFFF',
-    mutedPlatinum: '#E2E2E8',
-    studioSlate: '#141418',
-  },
-  typography: {
-    displaySerif: 'Playfair / High-Contrast Editorial Luxury Serif',
-    bodyAndHud: 'Archivo 300 Light / Archivo 900 Bold with Swiss HUD framing',
-  },
-  visualDoctrine:
-    'Deep Abyss Black background (#0A0A0C), subtle tactile stipple dither noise gradient, razor-sharp crisp white typography (#FFFFFF), muted platinum accents (#E2E2E8), 7-block pixel constellation monogram, Swiss HUD metadata tags (e.g. 01 // MANIFESTO, SPEC: 2026.01), high-fashion auteur cinema aesthetic.',
-};
 
 /**
- * Builds the Nano Banana 2 image generation prompt for a given carousel slide.
- * Supports weekly policy:
- * - 1 day a week (Strict Brand Day): Uses strict project\ciel Abyss Black & Playfair luxury system.
- * - 6 days a week (Reference Style Days): Derives text styling, color palette, graphic containers, and visual texture directly from the reference image!
+ * Builds a precise slide variation prompt for Nano Banana 2 based on the deconstructed reference picture.
  */
-export function buildNanoBananaSlidePrompt(params: {
+export function generateSlideVariationPrompt(params: {
   slide: CarouselSlideCopy;
-  referenceImagePath: string | null;
-  styleName: string;
-  isStrictBrandDay?: boolean;
-  brandOutline?: BrandOutline;
-  aspectRatio?: '4:5' | '1:1';
-}): SlideGenerationJob {
-  const {
-    slide,
-    referenceImagePath,
-    styleName,
-    isStrictBrandDay = false,
-    brandOutline = PROJECT_CIEL_BRAND,
-    aspectRatio = '4:5',
-  } = params;
+  referenceStyle: DeconstructedReferenceStyle;
+  outputFileName: string;
+  aspectRatio?: string;
+}): NanoBananaSlidePromptJob {
+  const { slide, referenceStyle, outputFileName, aspectRatio = '4:5' } = params;
 
-  const padNum = slide.slideIndex < 10 ? `0${slide.slideIndex}` : `${slide.slideIndex}`;
-  const outputFileName = `slide_${padNum}.png`;
+  let prompt = `Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel:\n\n`;
 
-  let prompt = `Use this image as reference but add my copy and branding to it.\n\n`;
+  prompt += `=== [PROJECT\\CIEL BRAND CALIBRATION DIRECTIVE] ===\n`;
+  prompt += `• Faithful Scene Replication: Recreate the EXACT core scene concept, camera angle, and layout of the reference image.\n`;
+  prompt += `• Color Architecture: Calibrate all colors to project\\ciel palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and Brushed Titanium / Warm Golden Amber caustics.\n`;
+  prompt += `• Relatable Model & Wardrobe: Natural, authentic, approachable young creative founder / designer with genuine expression, styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants). Grounded, high-taste, and relatable.\n`;
+  prompt += `• Mandatory Branding: Integrate "// project\\ciel · AUTEUR DIRECTING", "[CIEL · 2026]", and adapt featured objects/balloons to spell "CIEL" or "STORY".\n\n`;
 
-  if (referenceImagePath) {
-    prompt += `Reference image style source: ${path.basename(referenceImagePath)}\n\n`;
+  prompt += `=== [REFERENCE STYLE SPECIFICATION] ===\n`;
+  prompt += `• Style Name: ${referenceStyle.referenceName}\n`;
+  prompt += `• Genre: ${referenceStyle.visualGenre}\n`;
+  prompt += `• Background: ${referenceStyle.backgroundDescription}\n`;
+  prompt += `• Header & Navigation: ${referenceStyle.headerNavigationStyle}\n`;
+  prompt += `• Typography Hierarchy: ${referenceStyle.typographySystem}\n`;
+  prompt += `• Color Palette & Containers: ${referenceStyle.colorPalette.background}, text: ${referenceStyle.colorPalette.text}, colors: ${referenceStyle.colorPalette.highlighters.join(', ')}\n`;
+  prompt += `• Stickers & Accents: ${referenceStyle.stickerAndDecalStyle}\n`;
+  prompt += `• Lighting & Finish: ${referenceStyle.cinemaLightingStack}\n\n`;
+
+  if (referenceStyle.id === 'stepped_pixel_acid_poster') {
+    prompt += `=== [SWISS ACID STEPPED-POLYGON DIRECTIVE] ===\n`;
+    prompt += `• Top Island: 1 stepped/pixelated contour polygon cutout with thin 1px black outline filled with Bubblegum Pastel Pink (#FF9EE2). Contains primary headline word in clean geometric sans layered with liquid melted black script.\n`;
+    prompt += `• Bottom Island: 1 stepped/pixelated contour polygon cutout with thin 1px black outline filled with Electric Cobalt Blue (#5C7CFA). Contains secondary words in clean geometric sans & liquid black cursive script.\n`;
+    prompt += `• Peripheral Metadata: Top header timestamp ("05 NOV // SLIDE 0${slide.slideIndex}"), vertical rotated 90-degree margin tags ("PROJECT", "CIEL"), and floating tiny micro-copy paragraphs in negative space.\n\n`;
+  } else if (referenceStyle.id === 'green_amoeba_museum_poster') {
+    prompt += `=== [GREEN AMOEBA BLOB DIRECTIVE] ===\n`;
+    prompt += `• Center: Giant vibrant green 8-point amoeboid starburst blob (#22C55E) dominating the layout.\n`;
+    prompt += `• Typography: Heavy bold condensed black grotesque headline on top-left, and beaded chain-link numbers ("0${slide.slideIndex}") on bottom-left.\n`;
+    prompt += `• Metadata: Tilted oval badge with arrow, BMOP pill, and typewriter definition paragraph with smiley stamp.\n\n`;
+  } else if (referenceStyle.id === 'brand_agency_graph_paper') {
+    prompt += `=== [BRAND AGENCY GRAPH PAPER DIRECTIVE] ===\n`;
+    prompt += `• Background: Light fine graph paper with soft neon lime-green ambient glow in corners.\n`;
+    prompt += `• Badges: Tilted neon lime pill stickers with drop shadows, green target bullseye icons 🎯, and triangle crop marks on highlighted text.\n\n`;
+  } else if (referenceStyle.id === 'blue_basket_notebook_sheet') {
+    prompt += `=== [BLUE BASKET FLATLAY DIRECTIVE] ===\n`;
+    prompt += `• Composition: Top-down photographic perspective looking into a vibrant cobalt-blue plastic grid basket with white 3-hole punched graph paper resting inside.\n`;
+    prompt += `• Badges: Tilted orange/purple speech bubble sticker and handwritten blue ink script at bottom.\n\n`;
+  } else if (referenceStyle.id === 'scaffolding_neon_billboard') {
+    prompt += `=== [SCAFFOLDING BILLBOARD DIRECTIVE] ===\n`;
+    prompt += `• Scene: Giant vertical neon lime-green billboard banner mounted on industrial metal construction scaffolding in front of classical stone building.\n`;
+    prompt += `• Typography: Massive hand-drawn brutalist condensed black display typography filling the banner.\n\n`;
+  } else if (referenceStyle.id === 'editorial_photo_storytelling') {
+    prompt += `=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n`;
+    prompt += `• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n`;
+    prompt += `• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n`;
+    prompt += `• Composition: Clean negative space placement, zero artificial stickers, zero clip art, high-status auteur editorial magazine art direction.\n\n`;
+  } else if (referenceStyle.id === 'ciel_cinematic_storytelling') {
+    prompt += `=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===\n`;
+    prompt += `• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, reused fur/cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.\n`;
+    prompt += `• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).\n\n`;
+
+    if (slide.slideIndex === 1) {
+      prompt += `• Slide 1 (The High-Status Editorial Hook): Visually arresting haute-couture campaign shoot. An avant-garde figure in an oversized structured Abyss Black cocoon coat and sculptural sunglasses standing on a cantilevered brutalist travertine ledge over a misty sunrise fjord, or a monolithic chrome mirror monolith rising from a dramatic pink Mediterranean salt flat with low golden sun flare. Extreme low-angle worm's-eye view with Dutch tilt.\n`;
+      prompt += `• Slide 1 Typography: High-contrast mixed typography with varied weights, italics, and discrete architectural annotations: top-left small discrete caption '// 01 · CIEL NARRATIVE CORE', main headline in heavy bold serif 'Your brand' paired with delicate elegant italic serif 'needs to tell' and massive bold punch 'a STORY.', bottom-right small metadata '[DISCOVERY · 2026]'. Pure crisp white (#FFFFFF) text floating over negative space. Zero boxes, zero badges, zero stickers.\n\n`;
+    } else if (slide.slideIndex === 2) {
+      prompt += `• Slide 2 (The Anti-Pattern & High-Fashion Contrast): Auteur surrealist high-fashion campaign (Jacquemus / Balenciaga aesthetic): An elegant model in a razor-sharp tailored charcoal coat sitting inside a minimalist brutalist glass pavilion or vintage retro chrome diner with a sculptural chrome art piece beside them. Asymmetrical dynamic typography: top-left small label '[THE COMMON MISTAKE]' with bold sans and delicate italic subheaders, bottom-right offset bold punchline.\n\n`;
+    } else if (slide.slideIndex === 3) {
+      prompt += `• Slide 3 (The Parable & Intellectual Luxury): Prada-level intellectual luxury portrait: A stylish model in tailored monochrome outerwear draped across a sculpted stainless steel chaise lounge inside a modernist gallery, or reading a vintage financial newspaper on a sun-drenched architectural limestone terrace in Southern France. Clean, left-aligned white typography with natural editorial rhythm.\n\n`;
+    } else if (slide.slideIndex === 4) {
+      prompt += `• Slide 4 (Tactile Physical Luxury Macro): Extreme macro photograph of authentic luxury physical craftsmanship (Prada / Cartier campaign standard): Molten sculpted fluted crystal glass with brushed titanium hardware catching sharp morning caustics, or fingers feeling the fine weave of raw cashmere against a polished black obsidian block, or a knurled titanium dial reflecting golden amber caustics. Rich physical resistance, micro-texture, authentic 35mm film grain.\n\n`;
+    } else if (slide.slideIndex === 5) {
+      prompt += `• Slide 5 (Creative Tension & Auteur Minimalism): A high-fashion tension shoot: A lone creative director standing in a vast empty concrete hangar with dramatic cinematic spotlight cutting through atmospheric haze, or an avant-garde figure adjusting a giant architectural prototype scale model in a midnight glass studio with city lights below. High-contrast typography: clean body copy resolving into a massive Playfair Display serif punchline.\n\n`;
+    } else if (slide.slideIndex === 6) {
+      prompt += `• Slide 6 (The Climax / Sculptural Authority): Monumental architectural material texture or high-fashion sculptural landscape: Rich polished black Portoro marble with golden veins catching raking side-light, or a monolithic sculpted brushed aluminum surface with micro-reflections. Massive stacked Playfair Display serif headline in pure crisp white (#FFFFFF) with tight leading centered directly over the high-status texture.\n\n`;
+    } else {
+      prompt += `• Slide ${slide.slideIndex} (The Organic CTA & High-Status Runway): High-fashion campaign conclusion: Creative directors in sharp minimalist tailoring on an architectural rooftop pavilion overlooking a misty metropolitan skyline at dusk, with warm golden rim light and atmospheric wind movement. Minimalist 2-line white call-to-action placed cleanly at the bottom-left over negative space.\n\n`;
+    }
   }
 
-  if (isStrictBrandDay) {
-    // 1x/week: Strict Brand Guidelines Day
-    prompt += `=== [STRICT BRAND DAY: project\\ciel MASTER DOCTRINE] ===\n`;
-    prompt += `Brand Mark: "project\\ciel" (@junnbuilds)\n`;
-    prompt += `Tagline: "BEYOND THE FRAME, INTO FEELING"\n`;
-    prompt += `Color Architecture: Strict Abyss Black (#0A0A0C) background, Studio Slate (#141418) cards, Crisp White (#FFFFFF) primary text, Muted Platinum (#E2E2E8) secondary accents.\n`;
-    prompt += `Typography: High-contrast Editorial Serif (Playfair style) for titles; Swiss Archivo (300/900) for body and technical stamps.\n`;
-    prompt += `Aesthetics: Tactile stipple dither gradient over deep obsidian, Swiss HUD metadata, 7-block pixel constellation monogram, 8K auteur commercial cinema look.\n\n`;
-  } else {
-    // 6x/week: Reference-Derived Style Days (Adopting colors, typography, stickers, textures, and asset styling from reference image)
-    prompt += `=== [REFERENCE-DERIVED STYLE: STYLE, TYPOGRAPHY & ASSET DIRECTION] ===\n`;
-    prompt += `Directive: ADOPT VISUAL STYLE, TYPOGRAPHY, AND ASSET CREATION DIRECTION DIRECTLY FROM THE REFERENCE IMAGE!\n`;
-    prompt += `• Visual Style Direction: Match the lighting, background texture (e.g. grid paper, brutalist concrete, obsidian dither, seamless gradient), depth of field, and color palette from the reference image.\n`;
-    prompt += `• Typography Direction: Replicate the exact typography hierarchy, font styles (bold brutalist sans, luxury editorial serif, distressed typewriter, or handwritten accent notes), uppercase/lowercase styling, and letter-spacing from the reference image.\n`;
-    prompt += `• Asset Creation Direction: Replicate the graphic container geometry (stepped pixel borders, speech bubble pills, highlight tape strips, street sticker stamps, Swiss HUD metadata boxes, and physical object staging) from the reference image.\n`;
-    prompt += `• Content Insertion: Cleanly render our slide copy into this exact aesthetic layout with crisp, high-resolution graphic design.\n`;
-    prompt += `• Brand Signature: Include a subtle "@junnbuilds" or "project\\ciel" micro-label in the typography style of the reference image.\n\n`;
-  }
-
-  prompt += `=== SLIDE ${slide.slideIndex} (${slide.slideType.toUpperCase()}) CONTENT ===\n`;
-  if (slide.slideIndex === 1) {
-    prompt += `🌟 [OPENING SLIDE: SCROLL-STOPPING AUTEUR HERO ART PIECE — AGENCY CREATIVITY SHOWCASE] 🌟\n`;
-    prompt += `Visual Directing Directive: This opening cover slide MUST be a breathtaking, high-aesthetic auteur visual masterpiece designed to stop the Instagram scroll instantly!\n`;
-    prompt += `• Hero Visual Centerpiece: Feature a monolithic, gallery-grade physical luxury hero object (e.g. sculpted fluted perfume glass bottle, floating titanium hardware, surreal liquid viscosity suspension, or scale-disrupted architecture) with raking cinematic key light and ray-traced prism caustics.\n`;
-    prompt += `• Aesthetic Prestige: Showcase project\\ciel's elite visual directing craft and Cannes-grade creative worldbuilding.\n`;
-    prompt += `• Composition: Extreme visual gravity, perfect balance between the stunning central artwork and the high-contrast typography.\n\n`;
-  }
-  if (slide.swissHudMetadata) {
-    prompt += `Top Metadata / Header: "${slide.swissHudMetadata}"\n`;
-  }
+  prompt += `=== [SLIDE ${slide.slideIndex} VARIATION CONTENT] ===\n`;
+  prompt += `Slide Purpose: Slide ${slide.slideIndex} of 8 (${slide.slideType.toUpperCase()})\n`;
+  prompt += `Card Counter Tag: "${slide.cardIndexText}"\n`;
   if (slide.badgeText) {
-    prompt += `Top Tag / Badge: "${slide.badgeText}"\n`;
+    prompt += `Top Pill Badge: "${slide.badgeText}"\n`;
   }
-  prompt += `Card Index: "${slide.cardIndexText}"\n`;
   prompt += `Main Headline: "${slide.header}"\n`;
+  if (slide.highlightWords && slide.highlightWords.length > 0) {
+    prompt += `Highlight Focus: Emphasize keywords "${slide.highlightWords.join(', ')}" in the reference style container\n`;
+  }
   if (slide.subhead) {
-    prompt += `Subtitle: "${slide.subhead}"\n`;
+    prompt += `Subtitle / Description: "${slide.subhead}"\n`;
   }
   if (slide.bodyBullets && slide.bodyBullets.length > 0) {
-    prompt += `Body Points:\n${slide.bodyBullets.map((b) => `• ${b}`).join('\n')}\n`;
+    prompt += `Body Points:\n`;
+    slide.bodyBullets.forEach((bullet, idx) => {
+      prompt += `  ${idx + 1}. "${bullet}"\n`;
+    });
   }
   if (slide.keyCallout) {
-    prompt += `Key Takeaway Callout Box: "${slide.keyCallout}"\n`;
+    prompt += `Callout Box: "${slide.keyCallout}"\n`;
   }
   if (slide.swipePrompt) {
-    prompt += `Bottom Swipe Prompt: "${slide.swipePrompt}"\n`;
+    prompt += `Bottom Prompt: "${slide.swipePrompt}"\n`;
   }
 
-  // BANANA PRO DIRECTOR 3.0 CINEMA STACK & ANTI-AI PHYSICS DIRECTIVES
-  prompt += `\n=== BANANA PRO DIRECTOR 3.0 CINEMA STACK ===\n`;
-  prompt += `Visual Rendering Doctrine: Photographed not generated, captured on a real cinema camera by a real cinematographer on a real set. Real human skin & physical textures with refined pore detail, real peach fuzz catching light along the contours, and subsurface scattering reading as semi-translucent biology—never opaque plastic, never porcelain, never waxy AI render, never dewy wet finish or highlighter bloom. Hair rendered strand by strand with natural flyaways. Fabric with authentic weave texture and gravitational drape. Captured on a 50mm prime with natural round bokeh and broad dynamic range. Gentle highlight roll-off into a filmic curve that never blows out or clips to pure white. Lifted open shadows holding deep detail. True multi-plane atmospheric perspective. Fine theatrical 35mm motion-picture film grain across the frame. No HDR overprocessing, no digital oversharpening, no plastic sheen.\n`;
-  prompt += `Output format: 4:5 vertical portrait (1080x1350) for Instagram Carousel. Razor-sharp graphic typography, ultra-high resolution, zero blur, no typos.`;
+  prompt += `\n=== [OUTPUT SPECIFICATIONS] ===\n`;
+  prompt += `Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\n`;
+  prompt += `Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.`;
 
   return {
     slideIndex: slide.slideIndex,
     slideType: slide.slideType,
-    referenceImagePath,
+    referenceImagePath: referenceStyle.referencePath,
     prompt,
     aspectRatio,
     outputFileName,
-    isStrictBrandDay,
   };
 }
 
-export function buildCarouselGenerationBatch(params: {
-  slides: CarouselSlideCopy[];
-  referenceImages: string[];
-  styleName: string;
-  isStrictBrandDay?: boolean;
-  brandOutline?: BrandOutline;
-  aspectRatio?: '4:5' | '1:1';
-}): SlideGenerationJob[] {
-  const {
-    slides,
-    referenceImages,
-    styleName,
-    isStrictBrandDay = false,
-    brandOutline = PROJECT_CIEL_BRAND,
-    aspectRatio = '4:5',
-  } = params;
+/**
+ * Builds the complete 8-slide Nano Banana 2 prompt batch, runs the Visual Fidelity Self-Checker,
+ * and saves the verified output to out/nano_banana_prompts/.
+ */
+export function buildNanoBananaVariationBatch(params: {
+  copyPackage: CarouselCopyPackage;
+  referenceStyleKey?: string;
+  outputDir?: string;
+}): NanoBananaBatchResult {
+  const { copyPackage, referenceStyleKey = 'stepped_pixel_acid_poster', outputDir } = params;
+  const referenceStyle = getDeconstructedReference(referenceStyleKey);
 
-  return slides.map((slide, idx) => {
-    const refImage =
-      referenceImages.length > 0
-        ? referenceImages[idx % referenceImages.length]
-        : null;
+  const resolvedOutputDir = outputDir
+    ? path.resolve(process.cwd(), outputDir)
+    : path.resolve(process.cwd(), 'out/nano_banana_prompts', copyPackage.topicKey);
 
-    return buildNanoBananaSlidePrompt({
+  if (!fs.existsSync(resolvedOutputDir)) {
+    fs.mkdirSync(resolvedOutputDir, { recursive: true });
+  }
+
+  // 1. Initial Prompt Generation
+  const initialBatch: NanoBananaSlidePromptJob[] = copyPackage.slides.map((slide) => {
+    const fileName = `slide_0${slide.slideIndex}.png`;
+    return generateSlideVariationPrompt({
       slide,
-      referenceImagePath: refImage,
-      styleName,
-      isStrictBrandDay,
-      brandOutline,
-      aspectRatio,
+      referenceStyle,
+      outputFileName: fileName,
+      aspectRatio: '4:5',
     });
   });
+
+  // 2. Visual Fidelity Self-Checker Pass (Audit & Auto-Repair)
+  const { verifiedBatch, auditReport } = auditBatchFidelity({
+    batch: initialBatch,
+    referenceStyle,
+  });
+
+  // 3. Write verified slide prompt files to disk
+  verifiedBatch.forEach((job) => {
+    const promptPath = path.join(resolvedOutputDir, `prompt_slide_0${job.slideIndex}.txt`);
+    fs.writeFileSync(promptPath, job.prompt, 'utf8');
+  });
+
+  // 4. Write master batch JSON
+  const summaryPath = path.join(resolvedOutputDir, 'prompts_batch.json');
+  fs.writeFileSync(summaryPath, JSON.stringify(verifiedBatch, null, 2), 'utf8');
+
+  return {
+    batch: verifiedBatch,
+    promptsDir: resolvedOutputDir,
+    summaryPath,
+    fidelityReport: auditReport,
+  };
 }
 
-/**
- * Free tier rate limit helper: pauses between requests to guarantee 15 RPM compliance.
- */
-export async function freeTierPacingDelay(ms = 3000): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
+export const buildCarouselGenerationBatch = buildNanoBananaVariationBatch;

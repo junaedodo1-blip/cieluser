@@ -2,13 +2,13 @@ import fs from 'fs';
 import path from 'path';
 
 const SLIDE_FILES = [
-  'out/carousel_ciel/ciel_slide_01_hook_1787320154825.jpg',
-  'out/carousel_ciel/ciel_slide_02_trap_1787320176582.jpg',
-  'out/carousel_ciel/ciel_slide_03_sensory_1787320199509.jpg',
-  'out/carousel_ciel/ciel_slide_04_remotion_1787320223575.jpg',
-  'out/carousel_ciel/ciel_slide_05_cannes_1787320246459.jpg',
-  'out/carousel_ciel/ciel_slide_06_narrative_spine_1787320269458.jpg',
-  'out/carousel_ciel/ciel_slide_07_architecture_1787320300910.jpg',
+  'C:/Users/High Tech/.gemini/antigravity/brain/deaf1aed-fb85-4db8-b42f-601db774fa44/ciel_striking_slide_01_v2_1787413507472.jpg',
+  'C:/Users/High Tech/.gemini/antigravity/brain/deaf1aed-fb85-4db8-b42f-601db774fa44/ciel_striking_slide_02_v2_1787413540654.jpg',
+  'C:/Users/High Tech/.gemini/antigravity/brain/deaf1aed-fb85-4db8-b42f-601db774fa44/ciel_story_slide_03_anecdote_1787412966593.jpg',
+  'C:/Users/High Tech/.gemini/antigravity/brain/deaf1aed-fb85-4db8-b42f-601db774fa44/ciel_story_slide_04_macro_1787412991028.jpg',
+  'C:/Users/High Tech/.gemini/antigravity/brain/deaf1aed-fb85-4db8-b42f-601db774fa44/ciel_story_slide_05_tension_1787413015865.jpg',
+  'C:/Users/High Tech/.gemini/antigravity/brain/deaf1aed-fb85-4db8-b42f-601db774fa44/ciel_story_slide_06_climax_1787413033580.jpg',
+  'C:/Users/High Tech/.gemini/antigravity/brain/deaf1aed-fb85-4db8-b42f-601db774fa44/ciel_story_slide_07_cta_1787413054986.jpg',
 ];
 
 async function uploadToUguu(filePath: string): Promise<string> {

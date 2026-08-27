@@ -138,7 +138,7 @@ export function selectNextStyleFolder(
     unusedStyles = [...availableStyles];
   }
 
-  const selectedStyle = unusedStyles[0];
+  const selectedStyle = unusedStyles[0] || '.';
   const folderPath = selectedStyle === '.' ? targetDir : path.resolve(targetDir, selectedStyle);
   const referenceImages = getReferenceImagesInFolder(folderPath);
 
@@ -147,7 +147,7 @@ export function selectNextStyleFolder(
     folderPath,
     referenceImages,
     cycle: currentCycle,
-    remainingInCycle: unusedStyles.length - 1,
+    remainingInCycle: Math.max(0, unusedStyles.length - 1),
   };
 }
 
@@ -170,7 +170,7 @@ export function commitStyleUsage(
     timestamp: state.lastRunAt,
     style: styleName,
     slideCount,
-    bufferPostId,
+    ...(bufferPostId ? { bufferPostId } : {}),
   });
 
   saveState(state, stateFilePath);

@@ -118,3 +118,11 @@ deploy/agent-bins/
 # Python bytecode from workflow helper self-checks / local compile.
 __pycache__/
 *.py[cod]
+
+# cheat-on-content
+.auth/
+.auth-xhs/
+.auth-linkedin/
+.auth-wechat-channels/
+.cheat-secrets.json
+.cheat-cache/
