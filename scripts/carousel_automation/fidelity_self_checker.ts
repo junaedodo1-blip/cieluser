@@ -41,7 +41,7 @@ export function validateAndRepairSlidePrompt(params: {
   const promptLower = job.prompt.toLowerCase();
 
   // 1. Check Required Signature Keywords
-  for (const req of referenceStyle.requiredKeywords) {
+  for (const req of referenceStyle.requiredKeywords || []) {
     if (!promptLower.includes(req.toLowerCase())) {
       issues.push({
         type: 'missing_required_keyword',
@@ -53,7 +53,7 @@ export function validateAndRepairSlidePrompt(params: {
   }
 
   // 2. Check Forbidden / Hallucinated Elements
-  for (const forb of referenceStyle.forbiddenKeywords) {
+  for (const forb of referenceStyle.forbiddenKeywords || []) {
     if (promptLower.includes(forb.toLowerCase())) {
       issues.push({
         type: 'contains_forbidden_element',
@@ -69,6 +69,15 @@ export function validateAndRepairSlidePrompt(params: {
     issues.push({
       type: 'missing_aspect_ratio',
       description: 'Missing explicit 4:5 vertical portrait (1080x1350) aspect ratio instruction',
+      severity: 'medium',
+    });
+  }
+
+  // 4. Check Bottom 20% Safety Overlay Zone Check
+  if (!promptLower.includes('bottom 20%') && !promptLower.includes('safety frame') && !promptLower.includes('safety rule')) {
+    issues.push({
+      type: 'style_mismatch',
+      description: 'Missing layout safety instruction for the bottom 20% overlay zone (TikTok/Instagram control collision zone)',
       severity: 'medium',
     });
   }
@@ -115,6 +124,11 @@ export function validateAndRepairSlidePrompt(params: {
   // Ensure aspect ratio is present
   if (!repairedPrompt.includes('4:5 vertical portrait (1080x1350)')) {
     repairedPrompt += `\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.`;
+  }
+
+  // Ensure bottom 20% safety rules are present
+  if (!repairedPrompt.toLowerCase().includes('bottom 20%') && !repairedPrompt.toLowerCase().includes('safety frame')) {
+    repairedPrompt += `\n• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays.`;
   }
 
   const repairedJob: NanoBananaSlidePromptJob = {

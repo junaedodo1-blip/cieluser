@@ -61,6 +61,26 @@ async function main() {
   const linkedinText = fs.readFileSync(linkedinPostPath, 'utf8').trim();
   const twitterRaw = fs.readFileSync(twitterThreadPath, 'utf8').trim();
 
+  // 1.5 Parse and resolve LinkedIn hook options
+  let finalLinkedInText = linkedinText;
+  if (linkedinText.includes('[A/B HOOK OPTIONS]')) {
+    const endOptionsIdx = linkedinText.indexOf('[END HOOK OPTIONS]');
+    const postBody = linkedinText.slice(endOptionsIdx + '[END HOOK OPTIONS]'.length).trim();
+    
+    // Extract Option 2 (Bold Claim) hook
+    const opt2Match = linkedinText.match(/\* Option 2 \(Bold Claim - RECOMMENDED\):\s*(.*)/i);
+    const boldClaimHook = opt2Match ? opt2Match[1]!.trim() : null;
+    
+    if (boldClaimHook) {
+      // The default first paragraph is the hookStory. We replace it.
+      const paragraphs = postBody.split('\n\n');
+      paragraphs[0] = boldClaimHook;
+      finalLinkedInText = paragraphs.join('\n\n');
+    } else {
+      finalLinkedInText = postBody;
+    }
+  }
+
   // 2. Parse Twitter thread
   const sections = twitterRaw.split(/\n---\n|\r\n---\r\n/);
   const tweets: string[] = [];
@@ -92,7 +112,7 @@ async function main() {
     const res = await makeGraphQLRequest(CREATE_POST_MUTATION, {
       input: {
         channelId: LINKEDIN_CHANNEL_ID,
-        text: linkedinText,
+        text: finalLinkedInText,
         mode: 'addToQueue',
         schedulingType: 'automatic',
       }

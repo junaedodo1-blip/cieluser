@@ -34,23 +34,37 @@ export function generateSlideVariationPrompt(params: {
 }): NanoBananaSlidePromptJob {
   const { slide, referenceStyle, outputFileName, aspectRatio = '4:5' } = params;
 
-  let prompt = `Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel:\n\n`;
+  let prompt = `Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel.
 
-  prompt += `=== [PROJECT\\CIEL BRAND CALIBRATION DIRECTIVE] ===\n`;
-  prompt += `• Faithful Scene Replication: Recreate the EXACT core scene concept, camera angle, and layout of the reference image.\n`;
-  prompt += `• Color Architecture: Calibrate all colors to project\\ciel palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and Brushed Titanium / Warm Golden Amber caustics.\n`;
-  prompt += `• Relatable Model & Wardrobe: Natural, authentic, approachable young creative founder / designer with genuine expression, styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants). Grounded, high-taste, and relatable.\n`;
-  prompt += `• Mandatory Branding: Integrate "// project\\ciel · AUTEUR DIRECTING", "[CIEL · 2026]", and adapt featured objects/balloons to spell "CIEL" or "STORY".\n\n`;
+=== [5-LAYER STRUCTURAL PROMPT SPECIFICATION] ===
 
-  prompt += `=== [REFERENCE STYLE SPECIFICATION] ===\n`;
-  prompt += `• Style Name: ${referenceStyle.referenceName}\n`;
-  prompt += `• Genre: ${referenceStyle.visualGenre}\n`;
-  prompt += `• Background: ${referenceStyle.backgroundDescription}\n`;
-  prompt += `• Header & Navigation: ${referenceStyle.headerNavigationStyle}\n`;
-  prompt += `• Typography Hierarchy: ${referenceStyle.typographySystem}\n`;
-  prompt += `• Color Palette & Containers: ${referenceStyle.colorPalette.background}, text: ${referenceStyle.colorPalette.text}, colors: ${referenceStyle.colorPalette.highlighters.join(', ')}\n`;
-  prompt += `• Stickers & Accents: ${referenceStyle.stickerAndDecalStyle}\n`;
-  prompt += `• Lighting & Finish: ${referenceStyle.cinemaLightingStack}\n\n`;
+1. SUBJECT LAYER
+• Primary Subject: Natural, authentic, approachable young creative founder / designer / model with genuine expression.
+• Pose & Attire: Grounded, high-taste. Styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants).
+• Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell "CIEL" or "STORY".
+
+2. ENVIRONMENT LAYER
+• Location Type: ${referenceStyle.visualGenre}
+• Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.
+• Background Details: ${referenceStyle.backgroundDescription}
+
+3. LIGHTING LAYER
+• Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.
+• Light Quality & Direction: ${referenceStyle.cinemaLightingStack}
+• Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.
+
+4. TECHNICAL / CAMERA LAYER
+• Camera Perspective: Recreate the exact camera angle, framing, and lens perspective of the reference image.
+• Format: 1080 x 1350 vertical aspect ratio (4:5 safety frame), high-status editorial layout.
+• Technical Spec: Razor-sharp focus, professional lens render, flat 2D graphic layout alignment.
+
+5. STYLE / AESTHETIC LAYER
+• Genre: Swiss Brutalist & Haute-Couture Campaign art direction.
+• Typography System: ${referenceStyle.typographySystem}
+• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: ${referenceStyle.colorPalette.highlighters.join(', ')}
+• Stickers & Decals: ${referenceStyle.stickerAndDecalStyle}
+• Metadata & Framing: Integrate "// project\\ciel · AUTEUR DIRECTING", "[CIEL · 2026]", and header/nav style: ${referenceStyle.headerNavigationStyle}
+\n`;
 
   if (referenceStyle.id === 'stepped_pixel_acid_poster') {
     prompt += `=== [SWISS ACID STEPPED-POLYGON DIRECTIVE] ===\n`;

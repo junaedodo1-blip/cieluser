@@ -97,7 +97,17 @@ export function generateLinkedInPostText(params: {
   const bgDesc = referenceStyle?.backgroundDescription || 'Neutral light warm-grey canvas (#E3E3E3)';
   const typography = referenceStyle?.typographySystem || 'Geometric Sans layered with Liquid Melting Script';
 
-  return `Most AI visuals look like cheap plastic toys.
+  const hookCuriosity = `There is a hidden shift in how top teams approach ${copyPackage.topicTitle.toLowerCase()} that nobody talks about.`;
+  const hookBoldClaim = `Most developers are building ${copyPackage.topicTitle.toLowerCase()} completely wrong.`;
+  const hookStory = `Most AI visuals look like cheap plastic toys.`;
+
+  return `[A/B HOOK OPTIONS]
+* Option 1 (Curiosity Gap): ${hookCuriosity}
+* Option 2 (Bold Claim - RECOMMENDED): ${hookBoldClaim}
+* Option 3 (Specific Story - Default): ${hookStory}
+[END HOOK OPTIONS]
+
+${hookStory}
 
 Here is the brutal truth why:
 People open Nano Banana, type 50 random buzzwords, and wonder why the layout is cluttered.

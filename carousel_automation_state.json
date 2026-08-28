@@ -1,7 +1,10 @@
 {
-  "usedStyles": [],
+  "usedStyles": [
+    "editorial_photo_storytelling"
+  ],
   "usedTopics": [
-    "automated_dm_sales"
+    "automated_dm_sales",
+    "nano_banana_posters"
   ],
   "winningStyles": [
     "editorial_photo_storytelling",
