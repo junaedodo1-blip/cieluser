@@ -1,13 +1,8 @@
 {
-  "usedStyles": [
-    "stepped_pixel_acid_poster",
-    "community_grid_collage",
-    "editorial_photo_storytelling",
-    "ciel_cinematic_storytelling",
-    "street_decal_object",
-    "green_amoeba_museum_poster"
+  "usedStyles": [],
+  "usedTopics": [
+    "automated_dm_sales"
   ],
-  "usedTopics": [],
   "winningStyles": [
     "editorial_photo_storytelling",
     "ciel_cinematic_storytelling"

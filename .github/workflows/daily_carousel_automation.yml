@@ -69,6 +69,12 @@ jobs:
           BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
+      - name: 🚀 Publish & Schedule to Buffer
+        run: |
+          node --import tsx/esm scripts/carousel_automation/publish_buffer.ts
+        env:
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+
       - name: 💾 Commit & Push Automation State
         run: |
           git config --global user.name "github-actions[bot]"
