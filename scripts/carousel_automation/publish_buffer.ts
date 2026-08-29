@@ -23,7 +23,7 @@ async function makeGraphQLRequest(query: string, variables: any) {
 
 function getLatestFile(dir: string, pattern: string): string {
   const files = fs.readdirSync(dir)
-    .filter(f => f.includes(pattern))
+    .filter(f => f.includes(pattern) && f.endsWith('.md'))
     .map(f => ({ name: f, time: fs.statSync(path.join(dir, f)).mtime.getTime() }))
     .sort((a, b) => b.time - a.time);
   if (files.length === 0) throw new Error(`No files matching "${pattern}" in ${dir}`);
