@@ -1,0 +1,226 @@
+{
+  "executionTimestamp": "2026-08-29T14:45:24.995Z",
+  "referenceStyleId": "street_decal_object",
+  "referenceStyleName": "Streetwear Decal Banana Object",
+  "overallStatus": "auto_repaired",
+  "averageFidelityScore": 100,
+  "slides": [
+    {
+      "slideIndex": 1,
+      "originalScore": 40,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white background\"",
+          "keyword": "white background",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"skate stickers\"",
+          "keyword": "skate stickers",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"grotesque typography\"",
+          "keyword": "grotesque typography",
+          "severity": "high"
+        }
+      ],
+      "repairedPrompt": "Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel.\n\n=== [5-LAYER STRUCTURAL PROMPT SPECIFICATION] ===\n\n1. SUBJECT LAYER\n• Primary Subject: Natural, authentic, approachable young creative founder / designer / model with genuine expression.\n• Pose & Attire: Grounded, high-taste. Styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants).\n• Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell \"CIEL\" or \"STORY\".\n\n2. ENVIRONMENT LAYER\n• Location Type: Streetwear Product Concept / Physical Hero Object\n• Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.\n• Background Details: Pure solid white studio backdrop with zero background clutter.\n\n3. LIGHTING LAYER\n• Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.\n• Light Quality & Direction: Studio macro photography lighting, soft natural contact shadow, authentic physical skin texture, razor-sharp 50mm clean prime.\n• Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.\n\n4. TECHNICAL / CAMERA LAYER\n• Camera Perspective: Recreate the exact camera angle, framing, and lens perspective of the reference image.\n• Format: 1080 x 1350 vertical aspect ratio (4:5 safety frame), high-status editorial layout.\n• Technical Spec: Razor-sharp focus, professional lens render, flat 2D graphic layout alignment.\n\n5. STYLE / AESTHETIC LAYER\n• Genre: Swiss Brutalist & Haute-Couture Campaign art direction.\n• Typography System: Heavy condensed grotesque sans-serif in solid black, layered behind and in front of the central physical object.\n• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #A3E635 neon lime recycling badge, #C084FC purple monster decal\n• Stickers & Decals: Central physical hero object completely covered in graphic streetwear decals, circular brand stamps, purple monster cartoon sticker, and green recycling icon.\n• Metadata & Framing: Integrate \"// project\\ciel · AUTEUR DIRECTING\", \"[CIEL · 2026]\", and header/nav style: Stacked bold grotesque headline in background (\"Hungry(O'Clock) Packaging Concept\") with fine copyright stamps (\"©2025 Blender (mdr)\").\n\n=== [SLIDE 1 VARIATION CONTENT] ===\nSlide Purpose: Slide 1 of 8 (HOOK)\nCard Counter Tag: \"01 // 08\"\nTop Pill Badge: \"HIGGSFIELD CINEMA SPEC\"\nMain Headline: \"how to direct 4k product videos with real fluid physics.\"\nHighlight Focus: Emphasize keywords \"4k product videos, fluid physics\" in the reference style container\nSubtitle / Description: \"Stop making stiff robot AI videos. Here is how to add weight, bounce, and cinematic motion.\"\nBottom Prompt: \"SWIPE FOR CAMERA MOVES →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: white background, skate stickers, grotesque typography.\nDo not deviate from the reference image's visual composition and materials."
+    },
+    {
+      "slideIndex": 2,
+      "originalScore": 40,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white background\"",
+          "keyword": "white background",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"skate stickers\"",
+          "keyword": "skate stickers",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"grotesque typography\"",
+          "keyword": "grotesque typography",
+          "severity": "high"
+        }
+      ],
+      "repairedPrompt": "Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel.\n\n=== [5-LAYER STRUCTURAL PROMPT SPECIFICATION] ===\n\n1. SUBJECT LAYER\n• Primary Subject: Natural, authentic, approachable young creative founder / designer / model with genuine expression.\n• Pose & Attire: Grounded, high-taste. Styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants).\n• Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell \"CIEL\" or \"STORY\".\n\n2. ENVIRONMENT LAYER\n• Location Type: Streetwear Product Concept / Physical Hero Object\n• Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.\n• Background Details: Pure solid white studio backdrop with zero background clutter.\n\n3. LIGHTING LAYER\n• Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.\n• Light Quality & Direction: Studio macro photography lighting, soft natural contact shadow, authentic physical skin texture, razor-sharp 50mm clean prime.\n• Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.\n\n4. TECHNICAL / CAMERA LAYER\n• Camera Perspective: Recreate the exact camera angle, framing, and lens perspective of the reference image.\n• Format: 1080 x 1350 vertical aspect ratio (4:5 safety frame), high-status editorial layout.\n• Technical Spec: Razor-sharp focus, professional lens render, flat 2D graphic layout alignment.\n\n5. STYLE / AESTHETIC LAYER\n• Genre: Swiss Brutalist & Haute-Couture Campaign art direction.\n• Typography System: Heavy condensed grotesque sans-serif in solid black, layered behind and in front of the central physical object.\n• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #A3E635 neon lime recycling badge, #C084FC purple monster decal\n• Stickers & Decals: Central physical hero object completely covered in graphic streetwear decals, circular brand stamps, purple monster cartoon sticker, and green recycling icon.\n• Metadata & Framing: Integrate \"// project\\ciel · AUTEUR DIRECTING\", \"[CIEL · 2026]\", and header/nav style: Stacked bold grotesque headline in background (\"Hungry(O'Clock) Packaging Concept\") with fine copyright stamps (\"©2025 Blender (mdr)\").\n\n=== [SLIDE 2 VARIATION CONTENT] ===\nSlide Purpose: Slide 2 of 8 (PROBLEM)\nCard Counter Tag: \"02 // 08\"\nTop Pill Badge: \"THE ROBOT TRAP\"\nMain Headline: \"why straight-line robot motion kills buyer trust.\"\nHighlight Focus: Emphasize keywords \"robot motion, fake physics\" in the reference style container\nSubtitle / Description: \"When an object glides at constant speed with zero gravity, your brain knows it is fake.\"\nBody Points:\n  1. \"Linear speed feels like a cheap 2010 video game\"\n  2. \"Real objects accelerate, decelerate, and have momentum\"\n  3. \"Without physical weight and sound impact, viewers swipe away\"\nCallout Box: \"RULE: Real physics creates organic trust and makes products feel expensive.\"\nBottom Prompt: \"SECRET 1: 50MM OPTICAL PRIME →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: white background, skate stickers, grotesque typography.\nDo not deviate from the reference image's visual composition and materials."
+    },
+    {
+      "slideIndex": 3,
+      "originalScore": 40,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white background\"",
+          "keyword": "white background",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"skate stickers\"",
+          "keyword": "skate stickers",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"grotesque typography\"",
+          "keyword": "grotesque typography",
+          "severity": "high"
+        }
+      ],
+      "repairedPrompt": "Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel.\n\n=== [5-LAYER STRUCTURAL PROMPT SPECIFICATION] ===\n\n1. SUBJECT LAYER\n• Primary Subject: Natural, authentic, approachable young creative founder / designer / model with genuine expression.\n• Pose & Attire: Grounded, high-taste. Styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants).\n• Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell \"CIEL\" or \"STORY\".\n\n2. ENVIRONMENT LAYER\n• Location Type: Streetwear Product Concept / Physical Hero Object\n• Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.\n• Background Details: Pure solid white studio backdrop with zero background clutter.\n\n3. LIGHTING LAYER\n• Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.\n• Light Quality & Direction: Studio macro photography lighting, soft natural contact shadow, authentic physical skin texture, razor-sharp 50mm clean prime.\n• Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.\n\n4. TECHNICAL / CAMERA LAYER\n• Camera Perspective: Recreate the exact camera angle, framing, and lens perspective of the reference image.\n• Format: 1080 x 1350 vertical aspect ratio (4:5 safety frame), high-status editorial layout.\n• Technical Spec: Razor-sharp focus, professional lens render, flat 2D graphic layout alignment.\n\n5. STYLE / AESTHETIC LAYER\n• Genre: Swiss Brutalist & Haute-Couture Campaign art direction.\n• Typography System: Heavy condensed grotesque sans-serif in solid black, layered behind and in front of the central physical object.\n• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #A3E635 neon lime recycling badge, #C084FC purple monster decal\n• Stickers & Decals: Central physical hero object completely covered in graphic streetwear decals, circular brand stamps, purple monster cartoon sticker, and green recycling icon.\n• Metadata & Framing: Integrate \"// project\\ciel · AUTEUR DIRECTING\", \"[CIEL · 2026]\", and header/nav style: Stacked bold grotesque headline in background (\"Hungry(O'Clock) Packaging Concept\") with fine copyright stamps (\"©2025 Blender (mdr)\").\n\n=== [SLIDE 3 VARIATION CONTENT] ===\nSlide Purpose: Slide 3 of 8 (STEP1)\nCard Counter Tag: \"03 // 08\"\nTop Pill Badge: \"SECRET 01: CINEMA OPTICS\"\nMain Headline: \"secret 1: 50mm optical prime & raking key light.\"\nHighlight Focus: Emphasize keywords \"50mm optical prime, raking light\" in the reference style container\nSubtitle / Description: \"The lens you pick in your prompt changes everything.\"\nBody Points:\n  1. \"Use 50mm or 85mm optical prime lenses for flattering portrait compression\"\n  2. \"Position a strong raking side key light to reveal micro-textures and glass cuts\"\n  3. \"Keep shadows open and lifted with subtle 35mm film grain\"\nCallout Box: \"PROMPT TAG: \"50mm optical prime, raking side key light, soft highlight roll-off.\"\"\nBottom Prompt: \"SECRET 2: SLOW DOLLY IN →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: white background, skate stickers, grotesque typography.\nDo not deviate from the reference image's visual composition and materials."
+    },
+    {
+      "slideIndex": 4,
+      "originalScore": 40,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white background\"",
+          "keyword": "white background",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"skate stickers\"",
+          "keyword": "skate stickers",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"grotesque typography\"",
+          "keyword": "grotesque typography",
+          "severity": "high"
+        }
+      ],
+      "repairedPrompt": "Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel.\n\n=== [5-LAYER STRUCTURAL PROMPT SPECIFICATION] ===\n\n1. SUBJECT LAYER\n• Primary Subject: Natural, authentic, approachable young creative founder / designer / model with genuine expression.\n• Pose & Attire: Grounded, high-taste. Styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants).\n• Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell \"CIEL\" or \"STORY\".\n\n2. ENVIRONMENT LAYER\n• Location Type: Streetwear Product Concept / Physical Hero Object\n• Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.\n• Background Details: Pure solid white studio backdrop with zero background clutter.\n\n3. LIGHTING LAYER\n• Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.\n• Light Quality & Direction: Studio macro photography lighting, soft natural contact shadow, authentic physical skin texture, razor-sharp 50mm clean prime.\n• Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.\n\n4. TECHNICAL / CAMERA LAYER\n• Camera Perspective: Recreate the exact camera angle, framing, and lens perspective of the reference image.\n• Format: 1080 x 1350 vertical aspect ratio (4:5 safety frame), high-status editorial layout.\n• Technical Spec: Razor-sharp focus, professional lens render, flat 2D graphic layout alignment.\n\n5. STYLE / AESTHETIC LAYER\n• Genre: Swiss Brutalist & Haute-Couture Campaign art direction.\n• Typography System: Heavy condensed grotesque sans-serif in solid black, layered behind and in front of the central physical object.\n• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #A3E635 neon lime recycling badge, #C084FC purple monster decal\n• Stickers & Decals: Central physical hero object completely covered in graphic streetwear decals, circular brand stamps, purple monster cartoon sticker, and green recycling icon.\n• Metadata & Framing: Integrate \"// project\\ciel · AUTEUR DIRECTING\", \"[CIEL · 2026]\", and header/nav style: Stacked bold grotesque headline in background (\"Hungry(O'Clock) Packaging Concept\") with fine copyright stamps (\"©2025 Blender (mdr)\").\n\n=== [SLIDE 4 VARIATION CONTENT] ===\nSlide Purpose: Slide 4 of 8 (STEP2)\nCard Counter Tag: \"04 // 08\"\nTop Pill Badge: \"SECRET 02: CAMERA MOVE\"\nMain Headline: \"secret 2: slow macro dolly in & 1/10,000s shutter.\"\nHighlight Focus: Emphasize keywords \"macro dolly in, shutter speed\" in the reference style container\nSubtitle / Description: \"Bring physical details to life with micro slow-motion splashes.\"\nBody Points:\n  1. \"Move the camera slowly inward to create depth and anticipation\"\n  2. \"Freeze micro liquid droplets and mist with high shutter speed math\"\n  3. \"Avoid crazy spinning 360 orbits — keep camera motion intentional\"\nCallout Box: \"PROMPT TAG: \"Slow cinematic dolly in on hero object, 1/10,000s shutter liquid splash.\"\"\nBottom Prompt: \"SECRET 3: SPRING PHYSICS →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: white background, skate stickers, grotesque typography.\nDo not deviate from the reference image's visual composition and materials."
+    },
+    {
+      "slideIndex": 5,
+      "originalScore": 40,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white background\"",
+          "keyword": "white background",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"skate stickers\"",
+          "keyword": "skate stickers",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"grotesque typography\"",
+          "keyword": "grotesque typography",
+          "severity": "high"
+        }
+      ],
+      "repairedPrompt": "Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel.\n\n=== [5-LAYER STRUCTURAL PROMPT SPECIFICATION] ===\n\n1. SUBJECT LAYER\n• Primary Subject: Natural, authentic, approachable young creative founder / designer / model with genuine expression.\n• Pose & Attire: Grounded, high-taste. Styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants).\n• Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell \"CIEL\" or \"STORY\".\n\n2. ENVIRONMENT LAYER\n• Location Type: Streetwear Product Concept / Physical Hero Object\n• Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.\n• Background Details: Pure solid white studio backdrop with zero background clutter.\n\n3. LIGHTING LAYER\n• Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.\n• Light Quality & Direction: Studio macro photography lighting, soft natural contact shadow, authentic physical skin texture, razor-sharp 50mm clean prime.\n• Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.\n\n4. TECHNICAL / CAMERA LAYER\n• Camera Perspective: Recreate the exact camera angle, framing, and lens perspective of the reference image.\n• Format: 1080 x 1350 vertical aspect ratio (4:5 safety frame), high-status editorial layout.\n• Technical Spec: Razor-sharp focus, professional lens render, flat 2D graphic layout alignment.\n\n5. STYLE / AESTHETIC LAYER\n• Genre: Swiss Brutalist & Haute-Couture Campaign art direction.\n• Typography System: Heavy condensed grotesque sans-serif in solid black, layered behind and in front of the central physical object.\n• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #A3E635 neon lime recycling badge, #C084FC purple monster decal\n• Stickers & Decals: Central physical hero object completely covered in graphic streetwear decals, circular brand stamps, purple monster cartoon sticker, and green recycling icon.\n• Metadata & Framing: Integrate \"// project\\ciel · AUTEUR DIRECTING\", \"[CIEL · 2026]\", and header/nav style: Stacked bold grotesque headline in background (\"Hungry(O'Clock) Packaging Concept\") with fine copyright stamps (\"©2025 Blender (mdr)\").\n\n=== [SLIDE 5 VARIATION CONTENT] ===\nSlide Purpose: Slide 5 of 8 (STEP3)\nCard Counter Tag: \"05 // 08\"\nTop Pill Badge: \"SECRET 03: SOUND DESIGN\"\nMain Headline: \"secret 3: spring physics & sub-bass audio impacts.\"\nHighlight Focus: Emphasize keywords \"spring physics, sub-bass audio\" in the reference style container\nSubtitle / Description: \"Sound is 50% of how real an AI video feels.\"\nBody Points:\n  1. \"Pair the visual drop with a deep tactile sub-bass impact sound\"\n  2. \"Add high-frequency texture sounds (glass clinking, mist spraying, cloth rustle)\"\n  3. \"When sound and spring physics sync, the screen feels tangible\"\nCallout Box: \"AUDIO RULE: Deep tactile bass + crisp micro-sound effects = physical reality.\"\nBottom Prompt: \"THE HIGGSFIELD CHEAT SHEET →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: white background, skate stickers, grotesque typography.\nDo not deviate from the reference image's visual composition and materials."
+    },
+    {
+      "slideIndex": 6,
+      "originalScore": 40,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white background\"",
+          "keyword": "white background",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"skate stickers\"",
+          "keyword": "skate stickers",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"grotesque typography\"",
+          "keyword": "grotesque typography",
+          "severity": "high"
+        }
+      ],
+      "repairedPrompt": "Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel.\n\n=== [5-LAYER STRUCTURAL PROMPT SPECIFICATION] ===\n\n1. SUBJECT LAYER\n• Primary Subject: Natural, authentic, approachable young creative founder / designer / model with genuine expression.\n• Pose & Attire: Grounded, high-taste. Styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants).\n• Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell \"CIEL\" or \"STORY\".\n\n2. ENVIRONMENT LAYER\n• Location Type: Streetwear Product Concept / Physical Hero Object\n• Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.\n• Background Details: Pure solid white studio backdrop with zero background clutter.\n\n3. LIGHTING LAYER\n• Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.\n• Light Quality & Direction: Studio macro photography lighting, soft natural contact shadow, authentic physical skin texture, razor-sharp 50mm clean prime.\n• Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.\n\n4. TECHNICAL / CAMERA LAYER\n• Camera Perspective: Recreate the exact camera angle, framing, and lens perspective of the reference image.\n• Format: 1080 x 1350 vertical aspect ratio (4:5 safety frame), high-status editorial layout.\n• Technical Spec: Razor-sharp focus, professional lens render, flat 2D graphic layout alignment.\n\n5. STYLE / AESTHETIC LAYER\n• Genre: Swiss Brutalist & Haute-Couture Campaign art direction.\n• Typography System: Heavy condensed grotesque sans-serif in solid black, layered behind and in front of the central physical object.\n• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #A3E635 neon lime recycling badge, #C084FC purple monster decal\n• Stickers & Decals: Central physical hero object completely covered in graphic streetwear decals, circular brand stamps, purple monster cartoon sticker, and green recycling icon.\n• Metadata & Framing: Integrate \"// project\\ciel · AUTEUR DIRECTING\", \"[CIEL · 2026]\", and header/nav style: Stacked bold grotesque headline in background (\"Hungry(O'Clock) Packaging Concept\") with fine copyright stamps (\"©2025 Blender (mdr)\").\n\n=== [SLIDE 6 VARIATION CONTENT] ===\nSlide Purpose: Slide 6 of 8 (CHEATSHEET)\nCard Counter Tag: \"06 // 08\"\nTop Pill Badge: \"SAVEABLE CHEAT SHEET\"\nMain Headline: \"the copy-paste higgsfield video prompt.\"\nHighlight Focus: Emphasize keywords \"higgsfield prompt, copy-paste code\" in the reference style container\nSubtitle / Description: \"Save this exact video generation code for Soul Cinema / Seedance:\"\nBody Points:\n  1. \"🎥 Framing: \"Medium shot, cinematic slow dolly in on hero object, 50mm FOV\"\"\n  2. \"💧 Physics: \"Natural gravity and inertia, macro liquid viscosity splash at 1/10,000s shutter\"\"\n  3. \"🎞️ Finish: \"Volumetric raking light, deep open shadows, fine 35mm motion-picture grain\"\"\n  4. \"🚫 Negative: \"No CGI sheen, no plastic skin, no video game artifacts, real optical capture\"\"\nCallout Box: \"💾 SAVE THIS POST: Copy-paste this exact prompt into Higgsfield!\"\nBottom Prompt: \"THE 3-STEP PIPELINE →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: white background, skate stickers, grotesque typography.\nDo not deviate from the reference image's visual composition and materials."
+    },
+    {
+      "slideIndex": 7,
+      "originalScore": 40,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white background\"",
+          "keyword": "white background",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"skate stickers\"",
+          "keyword": "skate stickers",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"grotesque typography\"",
+          "keyword": "grotesque typography",
+          "severity": "high"
+        }
+      ],
+      "repairedPrompt": "Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel.\n\n=== [5-LAYER STRUCTURAL PROMPT SPECIFICATION] ===\n\n1. SUBJECT LAYER\n• Primary Subject: Natural, authentic, approachable young creative founder / designer / model with genuine expression.\n• Pose & Attire: Grounded, high-taste. Styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants).\n• Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell \"CIEL\" or \"STORY\".\n\n2. ENVIRONMENT LAYER\n• Location Type: Streetwear Product Concept / Physical Hero Object\n• Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.\n• Background Details: Pure solid white studio backdrop with zero background clutter.\n\n3. LIGHTING LAYER\n• Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.\n• Light Quality & Direction: Studio macro photography lighting, soft natural contact shadow, authentic physical skin texture, razor-sharp 50mm clean prime.\n• Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.\n\n4. TECHNICAL / CAMERA LAYER\n• Camera Perspective: Recreate the exact camera angle, framing, and lens perspective of the reference image.\n• Format: 1080 x 1350 vertical aspect ratio (4:5 safety frame), high-status editorial layout.\n• Technical Spec: Razor-sharp focus, professional lens render, flat 2D graphic layout alignment.\n\n5. STYLE / AESTHETIC LAYER\n• Genre: Swiss Brutalist & Haute-Couture Campaign art direction.\n• Typography System: Heavy condensed grotesque sans-serif in solid black, layered behind and in front of the central physical object.\n• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #A3E635 neon lime recycling badge, #C084FC purple monster decal\n• Stickers & Decals: Central physical hero object completely covered in graphic streetwear decals, circular brand stamps, purple monster cartoon sticker, and green recycling icon.\n• Metadata & Framing: Integrate \"// project\\ciel · AUTEUR DIRECTING\", \"[CIEL · 2026]\", and header/nav style: Stacked bold grotesque headline in background (\"Hungry(O'Clock) Packaging Concept\") with fine copyright stamps (\"©2025 Blender (mdr)\").\n\n=== [SLIDE 7 VARIATION CONTENT] ===\nSlide Purpose: Slide 7 of 8 (SUMMARY)\nCard Counter Tag: \"07 // 08\"\nTop Pill Badge: \"THE 3-STEP PIPELINE\"\nMain Headline: \"the 3-step high-converting video pipeline.\"\nHighlight Focus: Emphasize keywords \"video pipeline, high-converting\" in the reference style container\nSubtitle / Description: \"From still poster to 4K cinematic commercial:\"\nBody Points:\n  1. \"1. Nano Banana: Generate high-res 4:5 visual poster with clean lighting\"\n  2. \"2. Higgsfield: Animate the hero object with our 50mm camera code\"\n  3. \"3. OpenReply DM Bot: Deliver product link the second someone comments\"\nCallout Box: \"✈️ SHARE WITH A VIDEO CREATOR: Level up someone’s AI video quality today!\"\nBottom Prompt: \"CLAIM THE FREE CINEMA PACK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: white background, skate stickers, grotesque typography.\nDo not deviate from the reference image's visual composition and materials."
+    },
+    {
+      "slideIndex": 8,
+      "originalScore": 40,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white background\"",
+          "keyword": "white background",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"skate stickers\"",
+          "keyword": "skate stickers",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"grotesque typography\"",
+          "keyword": "grotesque typography",
+          "severity": "high"
+        }
+      ],
+      "repairedPrompt": "Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel.\n\n=== [5-LAYER STRUCTURAL PROMPT SPECIFICATION] ===\n\n1. SUBJECT LAYER\n• Primary Subject: Natural, authentic, approachable young creative founder / designer / model with genuine expression.\n• Pose & Attire: Grounded, high-taste. Styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants).\n• Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell \"CIEL\" or \"STORY\".\n\n2. ENVIRONMENT LAYER\n• Location Type: Streetwear Product Concept / Physical Hero Object\n• Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.\n• Background Details: Pure solid white studio backdrop with zero background clutter.\n\n3. LIGHTING LAYER\n• Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.\n• Light Quality & Direction: Studio macro photography lighting, soft natural contact shadow, authentic physical skin texture, razor-sharp 50mm clean prime.\n• Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.\n\n4. TECHNICAL / CAMERA LAYER\n• Camera Perspective: Recreate the exact camera angle, framing, and lens perspective of the reference image.\n• Format: 1080 x 1350 vertical aspect ratio (4:5 safety frame), high-status editorial layout.\n• Technical Spec: Razor-sharp focus, professional lens render, flat 2D graphic layout alignment.\n\n5. STYLE / AESTHETIC LAYER\n• Genre: Swiss Brutalist & Haute-Couture Campaign art direction.\n• Typography System: Heavy condensed grotesque sans-serif in solid black, layered behind and in front of the central physical object.\n• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #A3E635 neon lime recycling badge, #C084FC purple monster decal\n• Stickers & Decals: Central physical hero object completely covered in graphic streetwear decals, circular brand stamps, purple monster cartoon sticker, and green recycling icon.\n• Metadata & Framing: Integrate \"// project\\ciel · AUTEUR DIRECTING\", \"[CIEL · 2026]\", and header/nav style: Stacked bold grotesque headline in background (\"Hungry(O'Clock) Packaging Concept\") with fine copyright stamps (\"©2025 Blender (mdr)\").\n\n=== [SLIDE 8 VARIATION CONTENT] ===\nSlide Purpose: Slide 8 of 8 (CTA)\nCard Counter Tag: \"08 // 08\"\nTop Pill Badge: \"FREE PRIZE\"\nMain Headline: \"want the free 4k higgsfield video prompt pack?\"\nHighlight Focus: Emphasize keywords \"4k prompt pack, camera codes\" in the reference style container\nSubtitle / Description: \"Drop a 1-word comment below and I will instantly DM you all camera codes & settings!\"\nBody Points:\n  1. \"💬 Comment \"CINEMA\" on this post right now\"\n  2. \"📥 Automated DM sends the complete 4K camera codes + lighting cheat sheet in 2s\"\n  3. \"🚀 Follow @junnbuilds / project\\ciel for daily AI directing secrets\"\nCallout Box: \"⚡ Instant free delivery: Drop \"CINEMA\" below to get the download link.\"\nBottom Prompt: \"COMMENT \"CINEMA\" NOW ↓\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: white background, skate stickers, grotesque typography.\nDo not deviate from the reference image's visual composition and materials."
+    }
+  ],
+  "reportFilePath": "/home/runner/work/cieluser/cieluser/out/fidelity_reports/fidelity_audit_1788014724995.json"
+}
