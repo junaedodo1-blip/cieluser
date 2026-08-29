@@ -1,0 +1,54 @@
+Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\ciel.
+
+=== [5-LAYER STRUCTURAL PROMPT SPECIFICATION] ===
+
+1. SUBJECT LAYER
+• Primary Subject: Natural, authentic, approachable young creative founder / designer / model with genuine expression.
+• Pose & Attire: Grounded, high-taste. Styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants).
+• Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell "CIEL" or "STORY".
+
+2. ENVIRONMENT LAYER
+• Location Type: Playful Y2K Editorial Grid Collage
+• Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.
+• Background Details: Clean white graph grid notebook paper with subtle technical grey grid lines.
+
+3. LIGHTING LAYER
+• Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.
+• Light Quality & Direction: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur.
+• Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.
+
+4. TECHNICAL / CAMERA LAYER
+• Camera Perspective: Recreate the exact camera angle, framing, and lens perspective of the reference image.
+• Format: 1080 x 1350 vertical aspect ratio (4:5 safety frame), high-status editorial layout.
+• Technical Spec: Razor-sharp focus, professional lens render, flat 2D graphic layout alignment.
+
+5. STYLE / AESTHETIC LAYER
+• Genre: Swiss Brutalist & Haute-Couture Campaign art direction.
+• Typography System: Large stacked high-contrast editorial serif headline with tight leading and bold lowercase contrast.
+• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #FCE7F3 pastel pink highlighter bar, #DCFCE7 pastel lime green, #BAE6FD pastel blue
+• Stickers & Decals: Playful floating 3D micro-stickers and icons: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash 💸, retro pixel mouse cursors 🖱️, and speech bubble cards.
+• Metadata & Framing: Integrate "// project\ciel · AUTEUR DIRECTING", "[CIEL · 2026]", and header/nav style: Minimalist top app navigation: "< project\ciel." on top-left, "☰ 🔍 +" icons on top-right in black.
+
+=== [SLIDE 6 VARIATION CONTENT] ===
+Slide Purpose: Slide 6 of 8 (CHEATSHEET)
+Card Counter Tag: "06 // 08"
+Top Pill Badge: "SAVEABLE CHEAT SHEET"
+Main Headline: "5 copy-paste viral hook templates."
+Highlight Focus: Emphasize keywords "viral hook templates, save this" in the reference style container
+Subtitle / Description: "Save these 5 proven hook archetypes for your next video shoot:"
+Body Points:
+  1. "1. The Cost Confession: "I spent $X so you can skip to $0.""
+  2. "2. The Contrarian: "Why [common habit] is ruining your [desired result].""
+  3. "3. The Withheld Reveal: "I found the 1 tool that actually works (not what you think).""
+  4. "4. The Juxtaposition: "Why putting [luxury item] in [gritty street] went viral.""
+  5. "5. The 3-Minute Fix: "How to fix [big headache] in 1 click.""
+Callout Box: "💾 SAVE THIS POST: Use these 5 templates whenever you write your next hook!"
+Bottom Prompt: "THE 15S RETENTION CURVE →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.
+
+=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===
+Mandatory Reference Visual Signatures: Ensure the output strictly incorporates: pill tag.
+Do not deviate from the reference image's visual composition and materials.
