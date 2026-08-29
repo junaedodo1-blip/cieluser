@@ -109,12 +109,43 @@ async function main() {
   // 3. Schedule LinkedIn
   console.log(`📤 Scheduling LinkedIn post...`);
   try {
+    const pdfPath = linkedinPostPath.replace('linkedin-post-', 'linkedin-carousel-').replace('.md', '.pdf');
+    const hasPdf = fs.existsSync(pdfPath);
+    
+    let assetsInput: any[] | undefined = undefined;
+    if (hasPdf) {
+      const runsDir = 'out/carousel_runs';
+      const subdirs = fs.readdirSync(runsDir)
+        .filter(f => f.startsWith('run_'))
+        .map(f => ({ name: f, time: fs.statSync(path.join(runsDir, f)).mtime.getTime() }))
+        .sort((a, b) => b.time - a.time);
+      
+      if (subdirs.length > 0) {
+        const coverPath = path.join(runsDir, subdirs[0].name, 'slide_01.jpg');
+        if (fs.existsSync(coverPath)) {
+          const pdfUrl = `https://junaedodo1-blip.github.io/cieluser/${pdfPath.replace(/\\/g, '/')}`;
+          const coverUrl = `https://junaedodo1-blip.github.io/cieluser/${coverPath.replace(/\\/g, '/')}`;
+          console.log(`📎 Attaching document carousel: ${pdfUrl}`);
+          console.log(`🖼️ Document cover thumbnail: ${coverUrl}`);
+          
+          assetsInput = [{
+            document: {
+              url: pdfUrl,
+              title: path.basename(pdfPath, '.pdf').replace('linkedin-carousel-', '').replace(/-/g, ' '),
+              thumbnailUrl: coverUrl
+            }
+          }];
+        }
+      }
+    }
+
     const res = await makeGraphQLRequest(CREATE_POST_MUTATION, {
       input: {
         channelId: LINKEDIN_CHANNEL_ID,
         text: finalLinkedInText,
         mode: 'addToQueue',
         schedulingType: 'automatic',
+        assets: assetsInput,
       }
     });
     console.log(`✅ LinkedIn post scheduled!`);

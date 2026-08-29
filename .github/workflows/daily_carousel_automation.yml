@@ -69,12 +69,6 @@ jobs:
           BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-      - name: 🚀 Publish & Schedule to Buffer
-        run: |
-          node --import tsx/esm scripts/carousel_automation/publish_buffer.ts
-        env:
-          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
-
       - name: 💾 Commit & Push Automation State
         run: |
           git config --global user.name "github-actions[bot]"
@@ -85,3 +79,12 @@ jobs:
           git push origin HEAD:${{ github.ref_name }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: ⏳ Wait for GitHub Pages Deployment
+        run: sleep 45
+
+      - name: 🚀 Publish & Schedule to Buffer
+        run: |
+          node --import tsx/esm scripts/carousel_automation/publish_buffer.ts
+        env:
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
