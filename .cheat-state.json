@@ -21,8 +21,8 @@
   "enabled_perf_adapters": [],
   "last_bump_at": null,
   "last_bump_self_audited": false,
-  "last_published_at": "2026-08-28T10:12:12.648Z",
-  "last_published_file": "predictions/2026-08-28_exec_1787911932638_nano_banana_pos.md",
+  "last_published_at": "2026-08-29T10:38:18.598Z",
+  "last_published_file": "predictions/2026-08-29_exec_1787999898595_ciel_invisible_.md",
   "last_retro_at": null,
   "last_trends_run_at": null,
   "last_trends_added_count": 0,
@@ -60,6 +60,12 @@
       "scriptPath": "scripts/2026-08-28_exec_1787911932638_nano_banana_pos.md",
       "predictionPath": "predictions/2026-08-28_exec_1787911932638_nano_banana_pos.md",
       "shotAt": "2026-08-28T10:12:12.648Z"
+    },
+    {
+      "postId": "exec_1787999898595",
+      "scriptPath": "scripts/2026-08-29_exec_1787999898595_ciel_invisible_.md",
+      "predictionPath": "predictions/2026-08-29_exec_1787999898595_ciel_invisible_.md",
+      "shotAt": "2026-08-29T10:38:18.598Z"
     }
   ],
   "in_progress_session": null,
