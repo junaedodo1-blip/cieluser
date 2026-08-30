@@ -1,0 +1,53 @@
+Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\ciel.
+
+=== [5-LAYER STRUCTURAL PROMPT SPECIFICATION] ===
+
+1. SUBJECT LAYER
+• Primary Subject: Natural, authentic, approachable young creative founder / designer / model with genuine expression.
+• Pose & Attire: Grounded, high-taste. Styled in effortless, relatable creator wardrobe (clean heavyweight black cotton tee, relaxed overshirt, minimalist crewneck, or clean black blazer with relaxed pants).
+• Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell "CIEL" or "STORY".
+
+2. ENVIRONMENT LAYER
+• Location Type: Swiss Brutalist Museum Exhibition Poster
+• Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.
+• Background Details: Clean off-white gallery paper canvas with flat 2D graphic layout.
+
+3. LIGHTING LAYER
+• Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.
+• Light Quality & Direction: Flat 2D graphic vector print design, razor-sharp typography, zero 3D rendering, zero realistic drop shadows.
+• Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.
+
+4. TECHNICAL / CAMERA LAYER
+• Camera Perspective: Recreate the exact camera angle, framing, and lens perspective of the reference image.
+• Format: 1080 x 1350 vertical aspect ratio (4:5 safety frame), high-status editorial layout.
+• Technical Spec: Razor-sharp focus, professional lens render, flat 2D graphic layout alignment.
+
+5. STYLE / AESTHETIC LAYER
+• Genre: Swiss Brutalist & Haute-Couture Campaign art direction.
+• Typography System: Brutalist heavy condensed sans-serif in solid black, paired with beaded/dotted chain-link numbers ("20-21") and Swiss typewriter body metadata.
+• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #22C55E vibrant green amoeba blob, #2EBD6E emerald
+• Stickers & Decals: Giant green 8-point amoeboid starburst blob dominating the center, beaded chain-link numbers, and typewriter museum metadata cards with directional arrows.
+• Metadata & Framing: Integrate "// project\ciel · AUTEUR DIRECTING", "[CIEL · 2026]", and header/nav style: Massive bold condensed grotesque headline on top-left with asterisk icon ("THE BOMBAY MUSEUM OF * PARASITES").
+
+=== [GREEN AMOEBA BLOB DIRECTIVE] ===
+• Center: Giant vibrant green 8-point amoeboid starburst blob (#22C55E) dominating the layout.
+• Typography: Heavy bold condensed black grotesque headline on top-left, and beaded chain-link numbers ("07") on bottom-left.
+• Metadata: Tilted oval badge with arrow, BMOP pill, and typewriter definition paragraph with smiley stamp.
+
+=== [SLIDE 7 VARIATION CONTENT] ===
+Slide Purpose: Slide 7 of 8 (CTA)
+Card Counter Tag: "07 // 08"
+Top Pill Badge: "TELEGRAM VIP ACCESS"
+Main Headline: "Want to master the art of auteur visual storytelling?"
+Highlight Focus: Emphasize keywords "auteur storytelling, Telegram VIP" in the reference style container
+Subtitle / Description: "All taste frameworks, prompt codes & breakdown guides are pinned in our Telegram group."
+Body Points:
+  1. "💬 Drop "TASTE" below to get the private Telegram VIP invite link"
+  2. "📥 Complete Auteur Brand Directing Playbook & 8K prompt swipe file"
+  3. "🚀 Follow @junnbuilds / project\ciel for daily visual storytelling breakdowns"
+Callout Box: "📲 Instant VIP Telegram Access: All raw prompt packs & Figma templates pinned inside."
+Bottom Prompt: "COMMENT "TASTE" NOW ↓"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.
