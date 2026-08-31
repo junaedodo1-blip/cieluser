@@ -21,8 +21,8 @@
   "enabled_perf_adapters": [],
   "last_bump_at": null,
   "last_bump_self_audited": false,
-  "last_published_at": "2026-08-30T14:33:32.414Z",
-  "last_published_file": "predictions/2026-08-30_exec_1788100412411_auteur_cultural.md",
+  "last_published_at": "2026-08-31T17:17:08.461Z",
+  "last_published_file": "predictions/2026-08-31_exec_1788196628458_automated_dm_sa.md",
   "last_retro_at": null,
   "last_trends_run_at": null,
   "last_trends_added_count": 0,
@@ -84,6 +84,12 @@
       "scriptPath": "scripts/2026-08-30_exec_1788100412411_auteur_cultural.md",
       "predictionPath": "predictions/2026-08-30_exec_1788100412411_auteur_cultural.md",
       "shotAt": "2026-08-30T14:33:32.414Z"
+    },
+    {
+      "postId": "exec_1788196628458",
+      "scriptPath": "scripts/2026-08-31_exec_1788196628458_automated_dm_sa.md",
+      "predictionPath": "predictions/2026-08-31_exec_1788196628458_automated_dm_sa.md",
+      "shotAt": "2026-08-31T17:17:08.461Z"
     }
   ],
   "in_progress_session": null,

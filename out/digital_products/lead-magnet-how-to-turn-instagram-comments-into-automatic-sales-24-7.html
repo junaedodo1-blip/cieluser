@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Turn Instagram Comments into Automatic Sales 24/7 — Interactive Playbook // open design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,600;0,800;1,400;1,600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --abyss: #070709;
+      --slate: #111115;
+      --slate-card: #18181E;
+      --white: #FFFFFF;
+      --platinum: #E4E4EB;
+      --muted: #82828C;
+      --border: rgba(228, 228, 235, 0.12);
+      --border-focus: rgba(228, 228, 235, 0.3);
+      --accent-lime: #10B981;
+      --accent-pink: #F472B6;
+      --accent-telegram: #229ED9;
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body: 'Archivo', -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--abyss);
+      color: var(--platinum);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px 80px;
+      line-height: 1.6;
+      position: relative;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+      background-size: 28px 28px;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .wrapper {
+      width: 100%;
+      max-width: 960px;
+      position: relative;
+      z-index: 1;
+    }
+    
+    /* Open Design Glass HUD Header */
+    .hud-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(17, 17, 21, 0.75);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 24px;
+      margin-bottom: 32px;
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .hud-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--accent-lime);
+      padding: 3px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      font-weight: 600;
+    }
+    .status-badge::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent-lime);
+      box-shadow: 0 0 8px var(--accent-lime);
+    }
+    .hud-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .btn-action {
+      background: var(--platinum);
+      color: var(--abyss);
+      border: none;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .btn-action:hover {
+      background: var(--white);
+      transform: translateY(-1px);
+    }
+    .btn-telegram {
+      background: rgba(34, 158, 217, 0.15);
+      color: #38BDF8;
+      border: 1px solid rgba(34, 158, 217, 0.35);
+    }
+    .btn-telegram:hover {
+      background: #229ED9;
+      color: #FFFFFF;
+      border-color: #229ED9;
+    }
+
+    /* Double Spread Container */
+    .spread-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+    @media (min-width: 900px) {
+      .spread-container {
+        grid-template-columns: 360px 1fr;
+      }
+    }
+
+    /* Left Cover Card (Open Design Editorial Style) */
+    .cover-card {
+      background: var(--slate);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      position: sticky;
+      top: 32px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .cover-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+    .cover-title {
+      font-family: var(--font-display);
+      font-size: 28px;
+      line-height: 1.15;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 14px;
+    }
+    .cover-title em {
+      font-style: italic;
+      color: var(--accent-pink);
+    }
+    .cover-author {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 24px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .cover-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .stat-box {
+      background: var(--slate-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 8px;
+      text-align: center;
+    }
+    .stat-num {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--platinum);
+    }
+    .stat-lbl {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+    .cover-toc {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 12px;
+    }
+    .toc-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      border-bottom: 1px dashed rgba(255,255,255,0.06);
+    }
+    .cover-telegram-box {
+      margin-top: 24px;
+      background: rgba(34, 158, 217, 0.08);
+      border: 1px solid rgba(34, 158, 217, 0.25);
+      padding: 16px;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .cover-telegram-title {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      color: #38BDF8;
+      margin-bottom: 6px;
+    }
+    .cover-telegram-sub {
+      font-size: 11.5px;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    /* Right Playbook Content Spread */
+    .playbook-card {
+      background: var(--slate);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 36px 32px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+    .playbook-header {
+      margin-bottom: 28px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .playbook-header h2 {
+      font-family: var(--font-display);
+      font-size: 24px;
+      color: var(--white);
+      margin-bottom: 6px;
+    }
+    .playbook-header p {
+      font-size: 13.5px;
+      color: var(--muted);
+    }
+
+    /* Step / Slide Card */
+    .module-card {
+      background: var(--slate-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+      transition: border-color 0.2s ease;
+    }
+    .module-card:hover {
+      border-color: var(--border-focus);
+    }
+    .module-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .module-tag {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent-lime);
+      font-weight: 700;
+    }
+    .module-num {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .module-title {
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: 17px;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .module-desc {
+      font-size: 13.5px;
+      color: var(--platinum);
+      margin-bottom: 14px;
+      line-height: 1.5;
+    }
+    .module-bullets {
+      list-style: none;
+      margin-bottom: 16px;
+    }
+    .module-bullets li {
+      font-size: 12.5px;
+      color: var(--muted);
+      padding: 3px 0;
+      padding-left: 16px;
+      position: relative;
+    }
+    .module-bullets li::before {
+      content: "✦";
+      position: absolute;
+      left: 0;
+      color: var(--accent-lime);
+      font-size: 10px;
+    }
+
+    /* 1-Click Copy Box */
+    .copy-box {
+      background: var(--abyss);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .copy-text {
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      color: var(--platinum);
+      white-space: pre-wrap;
+      word-break: break-all;
+      flex: 1;
+    }
+    .btn-copy {
+      background: rgba(228, 228, 235, 0.1);
+      border: 1px solid var(--border);
+      color: var(--white);
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 700;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .btn-copy:hover {
+      background: var(--accent-lime);
+      color: var(--abyss);
+      border-color: var(--accent-lime);
+    }
+
+    /* Big Telegram Bottom Banner */
+    .telegram-banner {
+      background: linear-gradient(135deg, rgba(34, 158, 217, 0.15) 0%, rgba(17, 17, 21, 0.9) 100%);
+      border: 1px solid rgba(34, 158, 217, 0.35);
+      border-radius: 16px;
+      padding: 28px;
+      margin-top: 28px;
+      text-align: center;
+    }
+    .telegram-banner h3 {
+      font-family: var(--font-display);
+      font-size: 20px;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+    }
+    .telegram-banner p {
+      font-size: 13px;
+      color: var(--platinum);
+      max-width: 480px;
+      margin: 0 auto 18px;
+    }
+
+    /* Toast Notification */
+    #toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--white);
+      color: var(--abyss);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 10px 18px;
+      border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 1000;
+    }
+    #toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Open Design Top HUD -->
+    <div class="hud-header">
+      <div class="hud-left">
+        <div class="status-badge">OPEN DESIGN LIVE ARTIFACT</div>
+        <span>project\ciel (@junnbuilds)</span>
+      </div>
+      <div class="hud-right">
+        <button class="btn-action" onclick="copyAllPrompts()">📋 COPY ALL PROMPTS</button>
+        <a href="https://t.me/projectciel" target="_blank" class="btn-action btn-telegram">📲 TELEGRAM GROUP</a>
+      </div>
+    </div>
+
+    <!-- Double Spread Layout -->
+    <div class="spread-container">
+      
+      <!-- Left Column: Editorial Cover -->
+      <div class="cover-card">
+        <div>
+          <div class="cover-eyebrow">Interactive Digital Guide // 2026</div>
+          <h1 class="cover-title">How to Turn Instagram Comments into Automatic Sales 24/7</h1>
+          <div class="cover-author">By <b>project\ciel (@junnbuilds)</b> · Open Design Engine</div>
+          
+          <div class="cover-stats">
+            <div class="stat-box">
+              <div class="stat-num">8</div>
+              <div class="stat-lbl">Modules</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-num">100%</div>
+              <div class="stat-lbl">Free</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-num">1-Click</div>
+              <div class="stat-lbl">Copy</div>
+            </div>
+          </div>
+
+          <div class="cover-toc">
+            <div class="toc-item"><span>01. Scroll-Stopping Hook</span><span>p. 01</span></div>
+            <div class="toc-item"><span>02. The Core Mistake</span><span>p. 02</span></div>
+            <div class="toc-item"><span>03. Reference Blueprint</span><span>p. 03</span></div>
+            <div class="toc-item"><span>04. Prompt Recipe</span><span>p. 04</span></div>
+            <div class="toc-item"><span>05. Saveable Cheat Sheet</span><span>p. 05</span></div>
+          </div>
+        </div>
+
+        <div class="cover-telegram-box">
+          <div class="cover-telegram-title">📲 PRIVATE TELEGRAM COMMUNITY</div>
+          <div class="cover-telegram-sub">Raw assets, prompt drops & editable Figma files are posted daily.</div>
+          <a href="https://t.me/projectciel" target="_blank" class="btn-action btn-telegram" style="width:100%; justify-content:center;">JOIN TELEGRAM GROUP</a>
+        </div>
+      </div>
+
+      <!-- Right Column: Interactive Playbook -->
+      <div class="playbook-card">
+        <div class="playbook-header">
+          <h2>The Step-by-Step Playbook</h2>
+          <p>Click any prompt box to instantly copy the exact formula to your clipboard.</p>
+        </div>
+
+        
+          <div class="module-card">
+            <div class="module-meta">
+              <span class="module-tag">Module 01</span>
+              <span class="module-num">Slide 1/8</span>
+            </div>
+            <div class="module-title">how to turn 1 simple comment into sales while you sleep.</div>
+            <div class="module-desc">You do not need to beg people to click the link in bio. Set up this automated DM robot in 2 minutes.</div>
+            <ul class="module-bullets">
+              
+            </ul>
+            <div class="copy-box">
+              <div class="copy-text" id="prompt-0">Use reference style, 50mm clean lighting, razor-sharp typography for: "how to turn 1 simple comment into sales while you sleep.".</div>
+              <button class="btn-copy" onclick="copyPrompt('prompt-0')">📋 COPY</button>
+            </div>
+          </div>
+        
+          <div class="module-card">
+            <div class="module-meta">
+              <span class="module-tag">Module 02</span>
+              <span class="module-num">Slide 2/8</span>
+            </div>
+            <div class="module-title">why "link in bio" loses 90% of your buyers.</div>
+            <div class="module-desc">Forcing people to leave the feed, open your profile, and find a tiny link kills conversion.</div>
+            <ul class="module-bullets">
+              <li>Every extra click cuts conversion rate in half</li><li>People are lazy and do not want to leave the Instagram feed</li><li>When they leave the post to find your bio, they get distracted and forget</li>
+            </ul>
+            <div class="copy-box">
+              <div class="copy-text" id="prompt-1">RULE: Never ask them to go to your bio. Deliver the link straight to their private DMs.</div>
+              <button class="btn-copy" onclick="copyPrompt('prompt-1')">📋 COPY</button>
+            </div>
+          </div>
+        
+          <div class="module-card">
+            <div class="module-meta">
+              <span class="module-tag">Module 03</span>
+              <span class="module-num">Slide 3/8</span>
+            </div>
+            <div class="module-title">step 1: the low-friction 1-word trigger keyword.</div>
+            <div class="module-desc">Make it effortlessly easy for the viewer to claim the free value.</div>
+            <ul class="module-bullets">
+              <li>Pick a simple 1-word keyword (e.g. "CIEL", "POSTER", "SCALE")</li><li>Tell them exactly what happens: "Comment POSTER and I will DM you the prompt pack"</li><li>Single words require 0 typing friction and trigger high comment velocity</li>
+            </ul>
+            <div class="copy-box">
+              <div class="copy-text" id="prompt-2">KEYWORD RULE: 1 simple word = 10x more comments and higher algorithmic push.</div>
+              <button class="btn-copy" onclick="copyPrompt('prompt-2')">📋 COPY</button>
+            </div>
+          </div>
+        
+          <div class="module-card">
+            <div class="module-meta">
+              <span class="module-tag">Module 04</span>
+              <span class="module-num">Slide 4/8</span>
+            </div>
+            <div class="module-title">step 2: instant automated dm delivery in 2 seconds.</div>
+            <div class="module-desc">The robot sends the private link the exact millisecond they comment.</div>
+            <ul class="module-bullets">
+              <li>Use OpenReply / ManyChat to listen for the trigger word</li><li>Instantly reply to the comment: "Sent to your DMs! ✨ Check your inbox!"</li><li>Send a friendly, high-value DM containing the direct interactive guide link</li>
+            </ul>
+            <div class="copy-box">
+              <div class="copy-text" id="prompt-3">DELIVERY RULE: Instant speed (under 3 seconds) turns curiosity into immediate downloads.</div>
+              <button class="btn-copy" onclick="copyPrompt('prompt-3')">📋 COPY</button>
+            </div>
+          </div>
+        
+          <div class="module-card">
+            <div class="module-meta">
+              <span class="module-tag">Module 05</span>
+              <span class="module-num">Slide 5/8</span>
+            </div>
+            <div class="module-title">step 3: interactive lead magnet with 1-click copy.</div>
+            <div class="module-desc">Give them so much undeniable free value they fall in love with your brand.</div>
+            <ul class="module-bullets">
+              <li>Interactive web playbook with 1-click [📋 COPY PROMPT] buttons</li><li>Clean luxury design matching project\ciel Swiss HUD aesthetic</li><li>Include a direct link to your shop / service at the bottom</li>
+            </ul>
+            <div class="copy-box">
+              <div class="copy-text" id="prompt-4">VALUE RULE: Free value builds trust. Trust creates lifelong high-ticket buyers.</div>
+              <button class="btn-copy" onclick="copyPrompt('prompt-4')">📋 COPY</button>
+            </div>
+          </div>
+        
+          <div class="module-card">
+            <div class="module-meta">
+              <span class="module-tag">Module 06</span>
+              <span class="module-num">Slide 6/8</span>
+            </div>
+            <div class="module-title">the automated sales cheat sheet.</div>
+            <div class="module-desc">Save this simple 3-part blueprint for your next campaign:</div>
+            <ul class="module-bullets">
+              <li>🎯 Carousel Post: Hook + 9-year-old clarity + free value recipe</li><li>💬 1-Word CTA: Slide 8 asks for "POSTER" or "CIEL"</li><li>🤖 DM Automation: OpenReply sends link in 2s flat</li><li>📈 Conversion: Tracked sales and email captures on 100% autopilot</li>
+            </ul>
+            <div class="copy-box">
+              <div class="copy-text" id="prompt-5">💾 SAVE THIS POST: Build this automated funnel once, profit 24/7 forever!</div>
+              <button class="btn-copy" onclick="copyPrompt('prompt-5')">📋 COPY</button>
+            </div>
+          </div>
+        
+          <div class="module-card">
+            <div class="module-meta">
+              <span class="module-tag">Module 07</span>
+              <span class="module-num">Slide 7/8</span>
+            </div>
+            <div class="module-title">the complete autonomous conversion loop.</div>
+            <div class="module-desc">How to scale from 0 to 500 automated leads every week:</div>
+            <ul class="module-bullets">
+              <li>1. Post daily reference-styled carousels</li><li>2. Let the algorithm push your high-comment posts to new audiences</li><li>3. Collect leads and sales continuously in your sleep</li>
+            </ul>
+            <div class="copy-box">
+              <div class="copy-text" id="prompt-6">✈️ SHARE WITH A CREATOR: Help someone stop wasting time with broken bio links!</div>
+              <button class="btn-copy" onclick="copyPrompt('prompt-6')">📋 COPY</button>
+            </div>
+          </div>
+        
+          <div class="module-card">
+            <div class="module-meta">
+              <span class="module-tag">Module 08</span>
+              <span class="module-num">Slide 8/8</span>
+            </div>
+            <div class="module-title">want the free automated dm funnel blueprint?</div>
+            <div class="module-desc">Drop a 1-word comment below and I will instantly DM you the complete setup guide!</div>
+            <ul class="module-bullets">
+              <li>💬 Comment "SALES" on this post right now</li><li>📥 Automated DM sends the complete 2-minute OpenReply setup guide + scripts</li><li>🚀 Follow @junnbuilds / project\ciel for daily visual directing & automation secrets</li>
+            </ul>
+            <div class="copy-box">
+              <div class="copy-text" id="prompt-7">⚡ Instant free delivery: Drop "SALES" below to get the download link.</div>
+              <button class="btn-copy" onclick="copyPrompt('prompt-7')">📋 COPY</button>
+            </div>
+          </div>
+        
+
+        <!-- Big Telegram Community Card -->
+        <div class="telegram-banner">
+          <h3>Join the VIP Telegram Creator Community 🚀</h3>
+          <p>Get instant access to all raw 8K prompt files, editable Figma templates, and weekly breakdown sessions.</p>
+          <a href="https://t.me/projectciel" target="_blank" class="btn-action btn-telegram" style="font-size:12px; padding:10px 24px;">📲 JOIN TELEGRAM GROUP (FREE)</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="toast">Prompt copied to clipboard! ✅</div>
+
+  <script>
+    function copyPrompt(id) {
+      const text = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        showToast('Prompt copied to clipboard! ✅');
+      });
+    }
+
+    function copyAllPrompts() {
+      const texts = Array.from(document.querySelectorAll('.copy-text'))
+        .map((el, idx) => `--- Module ${idx + 1} ---\n${el.innerText}`)
+        .join('\n\n');
+      navigator.clipboard.writeText(texts).then(() => {
+        showToast('All 8 prompts copied to clipboard! ✅');
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.innerText = msg;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2500);
+    }
+  </script>
+</body>
+</html>
