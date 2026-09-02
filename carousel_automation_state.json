@@ -1,8 +1,11 @@
 {
-  "usedStyles": [],
+  "usedStyles": [
+    "editorial_photo_storytelling"
+  ],
   "usedTopics": [
     "automated_dm_sales",
-    "nano_banana_posters"
+    "nano_banana_posters",
+    "ciel_invisible_craft_story"
   ],
   "winningStyles": [
     "editorial_photo_storytelling",
