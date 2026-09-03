@@ -1,7 +1,7 @@
 🏛️ **PROJECT\CIEL — VIP DAILY BREAKDOWN**
 
 🔥 **The 3-Second Hook Secret That Makes Millions Stop Scrolling**
-🎨 **Visual Style Blueprint:** Community Graph Grid Collage
+🎨 **Visual Style Blueprint:** Ciel Auteur High-Fashion Storytelling
 
 ---
 📖 **Core 8-Slide Breakdown:**
@@ -35,8 +35,8 @@ VERBAL RULE: Lead with the prize, withhold the answer until slide 3.
 ---
 📌 **Saveable Production Blueprint:**
 • Ratio: 1080 x 1350 (4:5)
-• Canvas: Clean white graph grid notebook paper with subtle technical grey grid lines.
-• Style Spec: Community Graph Grid Collage
+• Canvas: Full-bleed 4:5 authentic 35mm / medium-format Hasselblad high-fashion editorial campaigns: cantilevered travertine platforms over mist-shrouded fjords, monolithic chrome mirrors on Mediterranean salt flats, minimalist brutalist glass pavilions, vast concrete hangars with cinematic spotlight shafts, black Portoro marble with golden veins, and architectural rooftop pavilions at dusk. ZERO domestic clutter, ZERO generic desks, ZERO reused fur textures.
+• Style Spec: Ciel Auteur High-Fashion Storytelling
 • Zero plastic sheen, pure 2D vector print finish
 
 🎁 **All raw Figma templates & 8K high-res slides are pinned in this group!**

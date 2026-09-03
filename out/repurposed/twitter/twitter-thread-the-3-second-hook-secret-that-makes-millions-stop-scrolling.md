@@ -19,7 +19,7 @@ Rule: Lock your layout with a reference image first.
 ---
 
 ### Tweet 3 / 9
-2/ Step 1: Pick a Visual Blueprint (Community Graph Grid Collage)
+2/ Step 1: Pick a Visual Blueprint (Ciel Auteur High-Fashion Storytelling)
 
 Never start from scratch. Upload a reference and let Nano Banana copy the container grid and typography.
 
@@ -45,8 +45,8 @@ Never start from scratch. Upload a reference and let Nano Banana copy the contai
 5/ 💾 The Saveable Cheat Sheet:
 
 • Ratio: 1080x1350 (4:5)
-• Background: #F8F8F5 off-white cream graph paper
-• Style: Community Graph Grid Collage
+• Background: Abyss Black (#0A0A0C), travertine ivory, brushed sterling silver, golden sunrise rim light, deep Portoro marble, and dusk slate
+• Style: Ciel Auteur High-Fashion Storytelling
 • Zero plastic sheen
 
 ---
