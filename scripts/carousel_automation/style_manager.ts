@@ -14,6 +14,9 @@ export interface AutomationState {
   currentCycle: number;
   usedStyles: string[];
   lastUsedStyle: string | null;
+  usedCookbookStyles?: string[];
+  currentCookbookCycle?: number;
+  lastUsedCookbookStyle?: string | null;
   lastRunAt: string | null;
   history: Array<{
     timestamp: string;
@@ -23,7 +26,67 @@ export interface AutomationState {
   }>;
 }
 
+export interface CookbookStyleDefinition {
+  slug: string;
+  name: string;
+  category?: string;
+  prompt?: string;
+  rawJson: any;
+}
+
 const DEFAULT_STATE_FILE = 'carousel_automation_state.json';
+
+export function getCookbookStylesDir(): string {
+  return path.resolve(process.cwd(), 'data', 'ai_visual_prompt_cookbook');
+}
+
+export function selectNextCookbookStyle(stateFilePath = DEFAULT_STATE_FILE): CookbookStyleDefinition {
+  const cookbookDir = getCookbookStylesDir();
+  if (!fs.existsSync(cookbookDir)) {
+    throw new Error(`Cookbook directory not found at ${cookbookDir}`);
+  }
+
+  const files = fs.readdirSync(cookbookDir)
+    .filter(f => f.endsWith('.json') && f !== 'catalog.json')
+    .sort();
+
+  if (files.length === 0) {
+    throw new Error(`No JSON prompt style files found in ${cookbookDir}`);
+  }
+
+  const state = loadState(stateFilePath);
+  const usedCookbookStyles = state.usedCookbookStyles || [];
+  
+  let unusedFiles = files.filter(f => !usedCookbookStyles.includes(f));
+  let currentCycle = state.currentCookbookCycle || 1;
+
+  if (unusedFiles.length === 0) {
+    currentCycle += 1;
+    state.usedCookbookStyles = [];
+    unusedFiles = [...files];
+  }
+
+  const selectedFile = unusedFiles[0]!;
+  const filePath = path.join(cookbookDir, selectedFile);
+  const rawContent = fs.readFileSync(filePath, 'utf8');
+  const rawJson = JSON.parse(rawContent);
+
+  const slug = path.basename(selectedFile, '.json');
+  
+  if (!state.usedCookbookStyles) state.usedCookbookStyles = [];
+  state.usedCookbookStyles.push(selectedFile);
+  state.currentCookbookCycle = currentCycle;
+  state.lastUsedCookbookStyle = slug;
+  saveState(state, stateFilePath);
+
+  return {
+    slug,
+    name: rawJson.name || slug.replace(/-/g, ' '),
+    category: rawJson.category || 'General',
+    prompt: rawJson.prompt || rawJson.system_prompt || '',
+    rawJson,
+  };
+}
 
 export function getDefaultReferencesDir(): string {
   // Check user's Downloads/insta references folder first

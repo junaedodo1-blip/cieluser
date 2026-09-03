@@ -31,8 +31,9 @@ export function generateSlideVariationPrompt(params: {
   referenceStyle: DeconstructedReferenceStyle;
   outputFileName: string;
   aspectRatio?: string;
+  cookbookStyle?: { name: string; prompt?: string; rawJson?: any };
 }): NanoBananaSlidePromptJob {
-  const { slide, referenceStyle, outputFileName, aspectRatio = '4:5' } = params;
+  const { slide, referenceStyle, outputFileName, aspectRatio = '4:5', cookbookStyle } = params;
 
   let prompt = `Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel.
 
@@ -65,6 +66,28 @@ export function generateSlideVariationPrompt(params: {
 • Stickers & Decals: ${referenceStyle.stickerAndDecalStyle}
 • Metadata & Framing: Integrate "// project\\ciel · AUTEUR DIRECTING", "[CIEL · 2026]", and header/nav style: ${referenceStyle.headerNavigationStyle}
 \n`;
+
+  if (cookbookStyle) {
+    prompt += `=== [AI VISUAL PROMPT COOKBOOK STYLE DIRECTIVE: ${cookbookStyle.name.toUpperCase()}] ===\n`;
+    if (cookbookStyle.prompt) {
+      prompt += `• Cookbook Style Formula: "${cookbookStyle.prompt}"\n`;
+    }
+    if (cookbookStyle.rawJson) {
+      const { visual_genre, color_palette, typography_system, background_description } = cookbookStyle.rawJson;
+      if (visual_genre) prompt += `• Cookbook Visual Genre: ${visual_genre}\n`;
+      if (background_description) prompt += `• Cookbook Background: ${background_description}\n`;
+      if (typography_system) prompt += `• Cookbook Typography: ${typography_system}\n`;
+    }
+    prompt += `\n`;
+  }
+
+  if (slide.slideIndex > 1) {
+    prompt += `=== [SLIDES 2-8: VALUE UNDERSTANDING & VISUAL CLARITY DIRECTIVE] ===\n`;
+    prompt += `• MAXIMUM READABILITY & DIAGRAMMATIC CLARITY: Slide ${slide.slideIndex} MUST clearly communicate step-by-step educational value and technical frameworks with 9-year-old clarity.\n`;
+    prompt += `• HIGH-CONTRAST DATA CARDS: Use clean, high-contrast container cards, 0.5px architectural grid lines, bulleted checklists, and structured callout boxes.\n`;
+    prompt += `• NO CLUTTER: Zero visual clutter, zero messy overlaps. Keep generous negative space around headline text and key takeaways.\n`;
+    prompt += `• VISUAL DIAGRAMS: Transform complex concepts into clean step-by-step visual flows, before-and-after split cards, or 3-step action blueprints.\n\n`;
+  }
 
   if (referenceStyle.id === 'stepped_pixel_acid_poster') {
     prompt += `=== [SWISS ACID STEPPED-POLYGON DIRECTIVE] ===\n`;
@@ -156,6 +179,8 @@ export function generateSlideVariationPrompt(params: {
   };
 }
 
+import { selectNextCookbookStyle, type CookbookStyleDefinition } from './style_manager.js';
+
 /**
  * Builds the complete 8-slide Nano Banana 2 prompt batch, runs the Visual Fidelity Self-Checker,
  * and saves the verified output to out/nano_banana_prompts/.
@@ -167,6 +192,14 @@ export function buildNanoBananaVariationBatch(params: {
 }): NanoBananaBatchResult {
   const { copyPackage, referenceStyleKey = 'stepped_pixel_acid_poster', outputDir } = params;
   const referenceStyle = getDeconstructedReference(referenceStyleKey);
+
+  let cookbookStyle: CookbookStyleDefinition | undefined = undefined;
+  try {
+    cookbookStyle = selectNextCookbookStyle();
+    console.log(`📖 [AI Visual Prompt Cookbook] Active Style: "${cookbookStyle.name}" (${cookbookStyle.slug})`);
+  } catch (e) {
+    console.warn(`⚠️ Could not load cookbook style:`, e);
+  }
 
   const resolvedOutputDir = outputDir
     ? path.resolve(process.cwd(), outputDir)
@@ -184,6 +217,7 @@ export function buildNanoBananaVariationBatch(params: {
       referenceStyle,
       outputFileName: fileName,
       aspectRatio: '4:5',
+      cookbookStyle,
     });
   });
 
