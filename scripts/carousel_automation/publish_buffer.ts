@@ -4,6 +4,7 @@ import path from 'node:path';
 const BUFFER_ACCESS_TOKEN = process.env.BUFFER_ACCESS_TOKEN;
 const LINKEDIN_CHANNEL_ID = '6a88672fccaf649a67ec3385';
 const TWITTER_CHANNEL_ID = '6a8866c5ccaf649a67ec320e';
+const INSTAGRAM_CHANNEL_ID = '6a74577299afb4434910ba18';
 
 async function makeGraphQLRequest(query: string, variables: any) {
   const res = await fetch('https://api.buffer.com/', {
@@ -172,6 +173,49 @@ async function main() {
     console.log(`✅ Twitter thread scheduled!`);
   } catch (e) {
     console.error(`❌ Failed to schedule Twitter thread:`, e);
+  }
+
+  // 5. Schedule Instagram Post
+  console.log(`📤 Scheduling Instagram carousel post...`);
+  try {
+    const instagramPostPath = getLatestFile('out/repurposed/instagram', 'instagram-post-');
+    const instagramText = fs.readFileSync(instagramPostPath, 'utf8').trim();
+
+    const runsDir = 'out/carousel_runs';
+    const subdirs = fs.readdirSync(runsDir)
+      .filter(f => f.startsWith('run_'))
+      .map(f => ({ name: f, time: fs.statSync(path.join(runsDir, f)).mtime.getTime() }))
+      .sort((a, b) => b.time - a.time);
+
+    let assetsInput: any[] | undefined = undefined;
+    if (subdirs.length > 0) {
+      const latestRun = path.join(runsDir, subdirs[0].name);
+      const slideFiles = fs.readdirSync(latestRun)
+        .filter(f => f.startsWith('slide_') && (f.endsWith('.jpg') || f.endsWith('.jpeg') || f.endsWith('.png')))
+        .sort();
+
+      if (slideFiles.length > 0) {
+        assetsInput = slideFiles.map(slide => ({
+          image: {
+            url: `https://junaedodo1-blip.github.io/cieluser/${path.join(latestRun, slide).replace(/\\/g, '/')}`
+          }
+        }));
+        console.log(`🖼️ Attaching ${assetsInput.length} image slides for Instagram carousel.`);
+      }
+    }
+
+    const res = await makeGraphQLRequest(CREATE_POST_MUTATION, {
+      input: {
+        channelId: INSTAGRAM_CHANNEL_ID,
+        text: instagramText,
+        mode: 'addToQueue',
+        schedulingType: 'automatic',
+        assets: assetsInput,
+      }
+    });
+    console.log(`✅ Instagram post scheduled!`);
+  } catch (e) {
+    console.error(`❌ Failed to schedule Instagram post:`, e);
   }
 }
 

@@ -256,6 +256,54 @@ export function generateTwitterThread(params: {
   return { mdPath, jsonPath, tweets };
 }
 
+export interface RepurposedPackage {
+  topicKey: string;
+  topicTitle: string;
+  linkedInPdfPath: string;
+  linkedInPostPath: string;
+  linkedInPostText: string;
+  instagramPostPath: string;
+  instagramPostText: string;
+  twitterThreadPath: string;
+  twitterThreadJsonPath: string;
+  tweetCount: number;
+}
+
+/**
+ * Generates a Visual-First, High-Engagement Instagram Caption tailored for feed consumption.
+ * Uses native Instagram formatting, visual emojis, DM keyword trigger, and hashtag discovery block.
+ */
+export function generateInstagramPostText(params: {
+  copyPackage: CarouselCopyPackage;
+  referenceStyle?: DeconstructedReferenceStyle;
+}): string {
+  const { copyPackage, referenceStyle } = params;
+  const s4 = copyPackage.slides[3];
+
+  const styleName = referenceStyle?.referenceName || 'Swiss Acid Stepped-Polygon';
+  const typography = referenceStyle?.typographySystem || 'Geometric Sans layered with Liquid Melting Script';
+
+  const hook = `${copyPackage.slides[0]?.header || copyPackage.topicTitle}\n\nSwipe through the slides 👈 for the exact breakdown.`;
+
+  return `${hook}
+
+Here is the exact visual directing breakdown for "${copyPackage.topicTitle}":
+
+1. Blueprint Reference: ${styleName}
+2. Grid Rules: Razor-sharp Swiss typography & flat 2D print texture.
+3. Color Stack: Abyss Black (#0A0A0C) contrast with Muted Platinum accents.
+4. Core Prompt Formula:
+"${s4?.keyCallout || 'Use reference style, 2D vector print finish, 4:5 vertical ratio.'}"
+
+📌 Swipe through all 8 slides for the step-by-step visual guide.
+
+💾 Save this post for your next prompt run.
+
+📩 Comment "${copyPackage.triggerWord}" below to get the raw prompt files & Figma templates sent directly to your DM!
+
+#VisualDirecting #BrandStrategy #CreativeDirection #DesignSystem #LuxuryBranding #ProjectCiel #ArtDirection #GraphicDesign #NanoBanana #PromptEngineering`;
+}
+
 /**
  * Runs full multi-platform repurposing.
  */
@@ -283,6 +331,19 @@ export async function runMultiPlatformRepurposing(params: {
   const linkedInPostPath = path.resolve(process.cwd(), 'out/repurposed/linkedin', `linkedin-post-${sanitizedTitle}.md`);
   fs.writeFileSync(linkedInPostPath, linkedInPostText, 'utf8');
 
+  // Instagram-Specific Post Generation
+  const instagramPostText = generateInstagramPostText({
+    copyPackage,
+    ...(referenceStyle ? { referenceStyle } : {}),
+  });
+  const instaDir = path.resolve(process.cwd(), 'out/repurposed/instagram');
+  if (!fs.existsSync(instaDir)) {
+    fs.mkdirSync(instaDir, { recursive: true });
+  }
+  const instagramPostPath = path.join(instaDir, `instagram-post-${sanitizedTitle}.md`);
+  fs.writeFileSync(instagramPostPath, instagramPostText, 'utf8');
+  console.log(`📸 [Instagram Post] Created: ${instagramPostPath}`);
+
   const { mdPath, jsonPath, tweets } = generateTwitterThread({
     copyPackage,
     ...(referenceStyle ? { referenceStyle } : {}),
@@ -295,6 +356,8 @@ export async function runMultiPlatformRepurposing(params: {
     linkedInPdfPath,
     linkedInPostPath,
     linkedInPostText,
+    instagramPostPath,
+    instagramPostText,
     twitterThreadPath: mdPath,
     twitterThreadJsonPath: jsonPath,
     tweetCount: tweets.length,
