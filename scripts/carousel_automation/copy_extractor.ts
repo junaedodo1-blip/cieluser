@@ -1816,12 +1816,24 @@ export function generateCarouselCopy(params: {
   const topicKeys = Object.keys(SINGLE_TOPIC_CAROUSEL_BLUEPRINTS) as SingleTopicKey[];
   const selectedKey: SingleTopicKey = topicKey || topicKeys[Math.floor(Math.random() * topicKeys.length)] || 'nano_banana_posters';
   const blueprint = SINGLE_TOPIC_CAROUSEL_BLUEPRINTS[selectedKey] || SINGLE_TOPIC_CAROUSEL_BLUEPRINTS['nano_banana_posters'];
+  const totalSlides = blueprint.slides.length;
+  const slides: CarouselSlideCopy[] = blueprint.slides.map((s: any, idx: number) => {
+    const slideIndex = idx + 1;
+    const isFinalSlide = slideIndex === totalSlides;
+    
+    const slideType = isFinalSlide ? 'cta' : s.slideType;
+    const header = isFinalSlide ? `comment "${blueprint.triggerWord}" to get the raw prompt pack.` : s.header;
+    const keyCallout = isFinalSlide ? `DIRECT ACCESS: Comment "${blueprint.triggerWord}" for 1-click prompt files & Figma templates sent to your DM.` : s.keyCallout;
 
-  const slides: CarouselSlideCopy[] = blueprint.slides.map((s: any, idx: number) => ({
-    ...s,
-    slideIndex: idx + 1,
-    cardIndexText: `0${idx + 1} // 08`,
-  }));
+    return {
+      ...s,
+      slideIndex,
+      slideType,
+      header,
+      keyCallout,
+      cardIndexText: `${String(slideIndex).padStart(2, '0')} // ${String(totalSlides).padStart(2, '0')}`,
+    };
+  });
 
   const instagramCaption = `${blueprint.captionHook}\n\nHere is the simple step-by-step breakdown:\n\n${slides
     .map((s) => `0${s.slideIndex} // ${s.header}`)

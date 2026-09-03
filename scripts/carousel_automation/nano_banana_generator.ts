@@ -30,10 +30,12 @@ export function generateSlideVariationPrompt(params: {
   slide: CarouselSlideCopy;
   referenceStyle: DeconstructedReferenceStyle;
   outputFileName: string;
+  totalSlides?: number;
   aspectRatio?: string;
   cookbookStyle?: { name: string; prompt?: string; rawJson?: any };
 }): NanoBananaSlidePromptJob {
-  const { slide, referenceStyle, outputFileName, aspectRatio = '4:5', cookbookStyle } = params;
+  const { slide, referenceStyle, outputFileName, totalSlides = 8, aspectRatio = '4:5', cookbookStyle } = params;
+  const isFinalSlide = slide.slideIndex === totalSlides;
 
   let prompt = `Use this image as the exact visual template (scene environment, camera angle, physical props, and layout structure) to create a faithful variation branded specifically for project\\ciel.
 
@@ -81,8 +83,15 @@ export function generateSlideVariationPrompt(params: {
     prompt += `\n`;
   }
 
-  if (slide.slideIndex > 1) {
-    prompt += `=== [SLIDES 2-8: VALUE UNDERSTANDING & VISUAL CLARITY DIRECTIVE] ===\n`;
+  if (isFinalSlide) {
+    prompt += `=== [FINAL SLIDE: HIGH-CONVERTING CALL-TO-ACTION (CTA) DIRECTIVE] ===\n`;
+    prompt += `• PURPOSE: Final slide of the carousel (${slide.slideIndex} of ${totalSlides}). Must drive high-converting DM keyword leads, saves, and Telegram community joins.\n`;
+    prompt += `• PROMINENT DM TRIGGER WORD: Display massive high-contrast headline: "COMMENT KEYWORD TO GET THE RAW PACK"\n`;
+    prompt += `• VALUE OFFER: "Get all raw prompt files, editable Figma templates, and asset breakdowns sent directly to your DM."\n`;
+    prompt += `• COMMUNITY & SAVE CALLOUT: Include community tag "join @projectciel on Telegram" and bookmark prompt "💾 Save this post for your next prompt run | ↗️ Share with a founder".\n`;
+    prompt += `• VISUAL STRUCTURE: Ultra-clean, high-contrast, zero clutter, generous negative space, 9-year-old readability.\n\n`;
+  } else if (slide.slideIndex > 1) {
+    prompt += `=== [SLIDES 2-${totalSlides - 1}: VALUE UNDERSTANDING & VISUAL CLARITY DIRECTIVE] ===\n`;
     prompt += `• MAXIMUM READABILITY & DIAGRAMMATIC CLARITY: Slide ${slide.slideIndex} MUST clearly communicate step-by-step educational value and technical frameworks with 9-year-old clarity.\n`;
     prompt += `• HIGH-CONTRAST DATA CARDS: Use clean, high-contrast container cards, 0.5px architectural grid lines, bulleted checklists, and structured callout boxes.\n`;
     prompt += `• NO CLUTTER: Zero visual clutter, zero messy overlaps. Keep generous negative space around headline text and key takeaways.\n`;
@@ -209,6 +218,8 @@ export function buildNanoBananaVariationBatch(params: {
     fs.mkdirSync(resolvedOutputDir, { recursive: true });
   }
 
+  const totalSlides = copyPackage.slides.length;
+
   // 1. Initial Prompt Generation
   const initialBatch: NanoBananaSlidePromptJob[] = copyPackage.slides.map((slide) => {
     const fileName = `slide_0${slide.slideIndex}.png`;
@@ -216,6 +227,7 @@ export function buildNanoBananaVariationBatch(params: {
       slide,
       referenceStyle,
       outputFileName: fileName,
+      totalSlides,
       aspectRatio: '4:5',
       cookbookStyle,
     });
