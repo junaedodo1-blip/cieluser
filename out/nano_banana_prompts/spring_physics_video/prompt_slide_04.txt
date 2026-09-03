@@ -1,0 +1,34 @@
+Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Style Name: Green Amoeba Starburst Museum Poster
+• Genre: Swiss Brutalist Museum Exhibition Poster
+• Background: Clean off-white gallery paper canvas with flat 2D graphic layout.
+• Header & Navigation: Massive bold condensed grotesque headline on top-left with asterisk icon ("THE BOMBAY MUSEUM OF * PARASITES").
+• Typography Hierarchy: Brutalist heavy condensed sans-serif in solid black, paired with beaded/dotted chain-link numbers ("20-21") and Swiss typewriter body metadata.
+• Color Palette & Containers: #F5F5F0 off-white gallery paper, text: #000000 pure black, colors: #22C55E vibrant green amoeba blob, #2EBD6E emerald
+• Stickers & Accents: Giant green 8-point amoeboid starburst blob dominating the center, beaded chain-link numbers, and typewriter museum metadata cards with directional arrows.
+• Lighting & Finish: Flat 2D graphic vector print design, razor-sharp typography, zero 3D rendering, zero realistic drop shadows.
+
+=== [GREEN AMOEBA BLOB DIRECTIVE] ===
+• Center: Giant vibrant green 8-point amoeboid starburst blob (#22C55E) dominating the layout.
+• Typography: Heavy bold condensed black grotesque headline on top-left, and beaded chain-link numbers ("04") on bottom-left.
+• Metadata: Tilted oval badge with arrow, BMOP pill, and typewriter definition paragraph with smiley stamp.
+
+=== [SLIDE 4 VARIATION CONTENT] ===
+Slide Purpose: Slide 4 of 8 (STEP2)
+Card Counter Tag: "04 // 08"
+Top Pill Badge: "SECRET 02: PACING"
+Main Headline: "secret 2: non-uniform pacing & zero-g float."
+Highlight Focus: Emphasize keywords "non-uniform pacing, zero-g float" in the reference style container
+Subtitle / Description: "Fast high-speed sprint resolving into weightless slow-motion."
+Body Points:
+  1. "Frame 0-10: Explosive high-speed burst (creates adrenaline and grabs thumb)"
+  2. "Frame 11-40: Smooth zero-G deceleration (allows viewer to admire luxury details)"
+  3. "Contrast between fast and slow is what makes video hypnotic"
+Callout Box: "PACING RULE: Fast explosion $\rightarrow$ Slow weightless float $\rightarrow$ Snappy snap."
+Bottom Prompt: "SECRET 3: VOLUMETRIC LIGHT →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.

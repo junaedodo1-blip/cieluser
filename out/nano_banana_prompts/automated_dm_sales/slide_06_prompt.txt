@@ -1,0 +1,33 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.
+• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.
+• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.
+• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.
+
+=== [SLIDE 6 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 6 VARIATION CONTENT] ===
+Slide Purpose: Slide 6 of 8 (CHEATSHEET)
+Card Counter Tag: "06 // 08"
+Top Pill Badge: "SAVEABLE CHEAT SHEET" with a small pink dot
+Main Headline: "the automated sales cheat sheet." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "sales cheat sheet, save this"
+Subtitle / Description: "Save this simple 3-part blueprint for your next campaign:"
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "🎯 Carousel Post: Hook + 9-year-old clarity + free value recipe"
+  2. "💬 1-Word CTA: Slide 8 asks for "POSTER" or "CIEL""
+  3. "🤖 DM Automation: OpenReply sends link in 2s flat"
+  4. "📈 Conversion: Tracked sales and email captures on 100% autopilot"
+Callout Box: "💾 SAVE THIS POST: Build this automated funnel once, profit 24/7 forever!" (Render in clean white code container with black border)
+Speech Bubble Stickers: "24/7 Funnel" (green)
+Bottom Swipe Prompt: "THE 3-STEP SYSTEM →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

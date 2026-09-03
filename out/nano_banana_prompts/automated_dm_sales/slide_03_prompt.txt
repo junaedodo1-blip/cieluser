@@ -1,0 +1,32 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.
+• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.
+• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.
+• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.
+
+=== [SLIDE 3 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 3 VARIATION CONTENT] ===
+Slide Purpose: Slide 3 of 8 (STEP1)
+Card Counter Tag: "03 // 08"
+Top Pill Badge: "STEP 01: 1-WORD TRIGGER" with a small pink dot
+Main Headline: "step 1: the low-friction 1-word trigger keyword." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "1-word trigger, low-friction"
+Subtitle / Description: "Make it effortlessly easy for the viewer to claim the free value."
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "Pick a simple 1-word keyword (e.g. "CIEL", "POSTER", "SCALE")"
+  2. "Tell them exactly what happens: "Comment POSTER and I will DM you the prompt pack""
+  3. "Single words require 0 typing friction and trigger high comment velocity"
+Callout Box: "KEYWORD RULE: 1 simple word = 10x more comments and higher algorithmic push." (Render in clean white code container with black border)
+Speech Bubble Stickers: "Zero Friction" (blue)
+Bottom Swipe Prompt: "STEP 2: THE 2-SECOND DM BOT →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

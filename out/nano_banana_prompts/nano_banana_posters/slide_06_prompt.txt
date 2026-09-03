@@ -1,0 +1,33 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Pure minimalist white studio background with soft natural floor shadow.
+• Top Navigation: Clean metadata typography with copyright stamps and bold title block.
+• Typography Hierarchy: Heavy condensed grotesque sans-serif with bold geometry and sharp letterforms.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Central physical luxury hero object completely covered in graphic streetwear decals, barcodes, and skate stickers.
+• Lighting & Finish: 50mm prime macro lens, soft directional key light, authentic subsurface scattering, 35mm motion-picture film grain.
+
+=== [SLIDE 6 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 6 VARIATION CONTENT] ===
+Slide Purpose: Slide 6 of 8 (CHEATSHEET)
+Card Counter Tag: "06 // 08"
+Top Pill Badge: "SAVEABLE CHEAT SHEET" with a small pink dot
+Main Headline: "the saveable poster cheat sheet." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "cheat sheet, save this"
+Subtitle / Description: "Save this slide for your next product poster creation:"
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "🎯 Canvas Size: 1080 x 1350 (4:5 vertical ratio)"
+  2. "🎨 Colors: Off-white graph paper (#F9F9F7) + Black text + Neon lime/pink"
+  3. "🔤 Typography: Extra Bold Sans Serif + Italic Display Serif (stacked tightly)"
+  4. "✨ Finish: Raking side key light, lifted shadows, 35mm film grain"
+Callout Box: "💾 SAVE THIS POST: Keep these 4 rules ready whenever you open Nano Banana!" (Render in clean white code container with black border)
+Speech Bubble Stickers: "Pocket Guide" (green)
+Bottom Swipe Prompt: "THE WINNING WORKFLOW →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

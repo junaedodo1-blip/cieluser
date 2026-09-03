@@ -1,0 +1,34 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.
+• Top Navigation: Minimalist top app navigation: "< project\ciel." on top-left, "☰ 🔍 +" icons on top-right.
+• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.
+• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.
+
+=== [SLIDE 6 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 6 VARIATION CONTENT] ===
+Slide Purpose: Slide 6 of 8 (CHEATSHEET)
+Card Counter Tag: "06 // 08"
+Top Pill Badge: "SAVEABLE CHEAT SHEET" with a small pink dot
+Main Headline: "5 copy-paste viral hook templates." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "viral hook templates, save this"
+Subtitle / Description: "Save these 5 proven hook archetypes for your next video shoot:"
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "1. The Cost Confession: "I spent $X so you can skip to $0.""
+  2. "2. The Contrarian: "Why [common habit] is ruining your [desired result].""
+  3. "3. The Withheld Reveal: "I found the 1 tool that actually works (not what you think).""
+  4. "4. The Juxtaposition: "Why putting [luxury item] in [gritty street] went viral.""
+  5. "5. The 3-Minute Fix: "How to fix [big headache] in 1 click.""
+Callout Box: "💾 SAVE THIS POST: Use these 5 templates whenever you write your next hook!" (Render in clean white code container with black border)
+Speech Bubble Stickers: "5 Plug-and-Play" (green)
+Bottom Swipe Prompt: "THE 15S RETENTION CURVE →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

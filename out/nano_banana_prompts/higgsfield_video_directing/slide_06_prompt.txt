@@ -1,0 +1,33 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.
+• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.
+• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.
+• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.
+
+=== [SLIDE 6 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 6 VARIATION CONTENT] ===
+Slide Purpose: Slide 6 of 8 (CHEATSHEET)
+Card Counter Tag: "06 // 08"
+Top Pill Badge: "SAVEABLE CHEAT SHEET" with a small pink dot
+Main Headline: "the copy-paste higgsfield video prompt." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "higgsfield prompt, copy-paste code"
+Subtitle / Description: "Save this exact video generation code for Soul Cinema / Seedance:"
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "🎥 Framing: "Medium shot, cinematic slow dolly in on hero object, 50mm FOV""
+  2. "💧 Physics: "Natural gravity and inertia, macro liquid viscosity splash at 1/10,000s shutter""
+  3. "🎞️ Finish: "Volumetric raking light, deep open shadows, fine 35mm motion-picture grain""
+  4. "🚫 Negative: "No CGI sheen, no plastic skin, no video game artifacts, real optical capture""
+Callout Box: "💾 SAVE THIS POST: Copy-paste this exact prompt into Higgsfield!" (Render in clean white code container with black border)
+Speech Bubble Stickers: "Video Code" (green)
+Bottom Swipe Prompt: "THE 3-STEP PIPELINE →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

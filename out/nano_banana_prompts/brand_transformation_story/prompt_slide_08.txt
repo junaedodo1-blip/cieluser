@@ -1,0 +1,41 @@
+Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Style Name: Ciel Auteur Cinematic Storytelling
+• Genre: Auteur Photographic Storytelling & Narrative Carousels
+• Background: Full-bleed 4:5 rich authentic 35mm film photography: vibrant lifestyle/travel scenes (striped umbrellas, vintage Mediterranean light), everyday surrealist street moments (subway car, rain-soaked asphalt), luxury tactile product macros in use, simple relatable moments of tension and creative effort (messy desk with steaming coffee, hands typing late at night, pouring morning espresso), organic cowhide texture, and diverse global lifestyle settings (modern loft studios, gallery terraces, Tokyo cafes).
+• Header & Navigation: Pure minimalism: Zero fake UI frames, zero , zero box containers. Clean crisp white text floating directly over the photographic negative space.
+• Typography Hierarchy: Playfair Display + Lato Photographic Narrative Hierarchy:
+• Slides 1 & 6 (Hook & Climax): Massive stacked high-contrast Playfair Display Serif in pure crisp white (#FFFFFF) with tight line-height.
+• Slides 2, 3, 4, 7 (Story & Narrative Body): Clean, modern Lato sans-serif in pure white, placed top-left or bottom-left with natural line breaks.
+• Slide 5 (Tension & Stakes): Lato body copy paired with a Playfair Display Serif punchline.
+• Spacing & Punctuation: Natural editorial rhythm with deliberate commas and zero artificial container boxes.
+• Color Palette & Containers: Authentic 35mm photographic palettes: Mediterranean cobalt blue & candy stripes, moody urban subway teal & charcoal, warm amber rain coat, rich cognac crocodile leather, tactile brown-and-white cowhide, and golden sunset amber, text: #FFFFFF pure crisp white text overlay, colors: Natural photographic negative space contrast, High-contrast Playfair serif punchlines
+•  & Accents: Zero , zero clip art, zero geometric blobs. Pure auteur photographic authority where the photograph carries the emotion and the typography delivers the narrative.
+• Lighting & Finish: Authentic 35mm film stock, natural sunlight, warm directional golden hour light, rain-streaked glass refractions, and real tactile material textures.
+
+=== [AUTEUR PHOTOGRAPHIC STORYTELLING DIRECTIVE (COPIED FROM REFERENCE CAROUSEL)] ===
+• Slide 8 Scene Archetype (Diverse Cinematic Setting & Organic CTA): Diverse, atmospheric cinematic lifestyle scene in an authentic global setting (e.g. diverse creative founders in an airy brutalist loft studio with floor-to-ceiling city views, modern gallery rooftop terrace at dusk, an intimate minimalist Tokyo cafe corner with warm lantern light, or architectural urban pavilion). Natural warmth, diverse subjects, cinematic 35mm depth of field.
+• Slide 8 Typography: Minimalist 2-line white Lato sans-serif call-to-action placed cleanly at the bottom-left over negative space.
+
+=== [SLIDE 8 VARIATION CONTENT] ===
+Slide Purpose: Slide 8 of 8 (CTA)
+Card Counter Tag: "08 // 08"
+Top Pill Badge: "TELEGRAM VIP ACCESS"
+Main Headline: "Want a brand story people actually see themselves in?"
+Highlight Focus: Emphasize keywords "brand story, see themselves in" in the reference style container
+Subtitle / Description: "All storytelling frameworks, prompt codes & breakdown guides are pinned in our Telegram group."
+Body Points:
+  1. "💬 Drop "STORY" below to get the private Telegram VIP invite link"
+  2. "📥 Complete Storytelling Playbook & 8K cinematic visual prompts delivered instantly"
+  3. "🚀 Follow @junnbuilds / project\ciel for daily creative directing breakdowns"
+Callout Box: "📲 Instant VIP Telegram Access: All raw prompt packs & Figma templates pinned inside."
+Bottom Prompt: "COMMENT "STORY" NOW ↓"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.
+
+=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===
+Mandatory Reference Visual Signatures: Ensure the output strictly incorporates: full-bleed photo, white typography.
+Do not deviate from the reference image's visual composition and materials.

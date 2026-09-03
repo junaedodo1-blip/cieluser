@@ -1,0 +1,27 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.
+• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.
+• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.
+• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.
+
+=== [SLIDE 1 MISSION: SCROLL-STOPPING VISUAL HERO PIECE] ===
+• Objective: Stop the scroll instantly within 1.5 seconds with a breathtaking, high-aesthetic visual masterpiece.
+• Visual Architecture: Dominant central composition, massive bold stacked typography with vibrant highlighter bars, and playful floating 3D micro-stickers (cherries 🍒, disco ball 🪩, lightning ⚡, cash 💸, pixel mouse cursor 🖱️).
+
+=== [SLIDE 1 VARIATION CONTENT] ===
+Slide Purpose: Slide 1 of 8 (HOOK)
+Card Counter Tag: "01 // 08"
+Top Pill Badge: "COMMERCE FUNNEL" with a small pink dot
+Main Headline: "how to turn 1 simple comment into sales while you sleep." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "sales while you sleep, automated dm"
+Subtitle / Description: "You do not need to beg people to click the link in bio. Set up this automated DM robot in 2 minutes."
+Speech Bubble Stickers: "Autopilot Sales" (green), "2-Min Setup" (pink)
+Bottom Swipe Prompt: "THE BIO LINK TRAP →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

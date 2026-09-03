@@ -1,0 +1,32 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.
+• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.
+• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.
+• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.
+
+=== [SLIDE 4 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 4 VARIATION CONTENT] ===
+Slide Purpose: Slide 4 of 8 (STEP2)
+Card Counter Tag: "04 // 08"
+Top Pill Badge: "STEP 02: INSTANT DM" with a small pink dot
+Main Headline: "step 2: instant automated dm delivery in 2 seconds." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "automated dm delivery, 2 seconds"
+Subtitle / Description: "The robot sends the private link the exact millisecond they comment."
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "Use OpenReply / ManyChat to listen for the trigger word"
+  2. "Instantly reply to the comment: "Sent to your DMs! ✨ Check your inbox!""
+  3. "Send a friendly, high-value DM containing the direct interactive guide link"
+Callout Box: "DELIVERY RULE: Instant speed (under 3 seconds) turns curiosity into immediate downloads." (Render in clean white code container with black border)
+Speech Bubble Stickers: "Instant Reply" (green)
+Bottom Swipe Prompt: "STEP 3: THE HIGH-VALUE PLAYBOOK →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

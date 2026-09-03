@@ -1,0 +1,33 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.
+• Top Navigation: Minimalist top app navigation: "< project\ciel." on top-left, "☰ 🔍 +" icons on top-right.
+• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.
+• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.
+
+=== [SLIDE 7 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 7 VARIATION CONTENT] ===
+Slide Purpose: Slide 7 of 8 (SUMMARY)
+Card Counter Tag: "07 // 08"
+Top Pill Badge: "RETENTION CURVE" with a small pink dot
+Main Headline: "the 15-second viral retention curve." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "retention curve, 15-second"
+Subtitle / Description: "How to turn a 3-second hook into a completed watch and comment:"
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "0-3s: Hook (Visual shock + Spoken intrigue + 4-word text)"
+  2. "4-8s: Tension (Explain why the standard way fails)"
+  3. "9-13s: Reward (Deliver the exact actionable formula)"
+  4. "14-15s: CTA (Comment keyword for the free complete PDF)"
+Callout Box: "✈️ SHARE WITH A CREATOR: Help someone stop losing viewers in second 2!" (Render in clean white code container with black border)
+Speech Bubble Stickers: "Algorithm Proof" (blue)
+Bottom Swipe Prompt: "CLAIM THE FREE 25 HOOK PACK →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

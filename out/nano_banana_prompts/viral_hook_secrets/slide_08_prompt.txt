@@ -1,0 +1,31 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.
+• Top Navigation: Minimalist top app navigation: "< project\ciel." on top-left, "☰ 🔍 +" icons on top-right.
+• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.
+• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.
+
+=== [SLIDE 8 MISSION: FREE PRIZE & CONVERSION CTA] ===
+• Objective: Convert engagement into saves, shares, and instant DM comments with a clear 3-step action checklist and free value offer.
+
+=== [SLIDE 8 VARIATION CONTENT] ===
+Slide Purpose: Slide 8 of 8 (CTA)
+Card Counter Tag: "08 // 08"
+Top Pill Badge: "FREE PRIZE" with a small pink dot
+Main Headline: "want the free 25 viral hook templates pack?" (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "25 viral hook templates, free swipe file"
+Subtitle / Description: "Drop a 1-word comment below and I will instantly DM you the complete swipe file!"
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "💬 Comment "HOOKS" on this post right now"
+  2. "📥 Automated DM delivers all 25 hook scripts + retention formulas in 2s"
+  3. "🚀 Follow @junnbuilds / project\ciel for daily visual directing secrets"
+Callout Box: "⚡ Instant free delivery: Drop "HOOKS" below to get the download link." (Render in clean white code container with black border)
+Speech Bubble Stickers: "Instant DM" (pink)
+Bottom Swipe Prompt: "COMMENT "HOOKS" NOW ↓"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

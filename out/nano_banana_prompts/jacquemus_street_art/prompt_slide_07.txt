@@ -1,0 +1,37 @@
+Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Style Name: Blue Laundry Basket & Graph Notebook Sheet
+• Genre: Top-Down Physical Everyday Object Collage
+• Background: Top-down photographic view looking into a vibrant cobalt-blue plastic grid laundry/storage crate basket.
+• Header & Navigation: Top-left logo "VOIX STUDIO" on 3-hole punched graph notebook sheet.
+• Typography Hierarchy: Heavy cut-paper grotesque uppercase sans-serif in charcoal black ("BRANDING IS NOT ONE SIZE-FITS-ALL") paired with blue handwritten script.
+• Color Palette & Containers: #2563EB vibrant cobalt-blue plastic grid basket & #FFFFFF white graph paper sheet, text: #1F2937 charcoal black and #1D4ED8 blue handwritten ink, colors: #FB923C orange/red speech bubble outline, #C084FC purple speech bubble interior
+• Stickers & Accents: 3-hole punched lined graph paper, tilted orange-and-purple speech bubble sticker, and handwritten blue pen notes.
+• Lighting & Finish: Direct top-down physical flatlay photography, natural soft plastic shadows inside basket grid, tactile paper grain.
+
+=== [BLUE BASKET FLATLAY DIRECTIVE] ===
+• Composition: Top-down photographic perspective looking into a vibrant cobalt-blue plastic grid basket with white 3-hole punched graph paper resting inside.
+• Badges: Tilted orange/purple speech bubble sticker and handwritten blue ink script at bottom.
+
+=== [SLIDE 7 VARIATION CONTENT] ===
+Slide Purpose: Slide 7 of 8 (SUMMARY)
+Card Counter Tag: "07 // 08"
+Top Pill Badge: "VIRAL BLUEPRINT"
+Main Headline: "the 3-step viral disruption blueprint."
+Highlight Focus: Emphasize keywords "viral disruption, brand sales" in the reference style container
+Subtitle / Description: "How to turn viral street attention into tracked brand sales:"
+Body Points:
+  1. "1. Scale Disruption Video: 15s surreal street video stops the algorithm"
+  2. "2. Viral Comment Loop: Viewers debate "Is this real?" in the comments"
+  3. "3. Automated DM Playbook: Sends private shop link to everyone who comments"
+Callout Box: "✈️ SHARE WITH A BRAND FOUNDER: Show them how to get millions of views with zero ad spend!"
+Bottom Prompt: "CLAIM THE FREE SCALE PACK →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.
+
+=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===
+Mandatory Reference Visual Signatures: Ensure the output strictly incorporates: blue plastic basket, cut-paper typography.
+Do not deviate from the reference image's visual composition and materials.

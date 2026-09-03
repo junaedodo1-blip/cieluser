@@ -1,0 +1,66 @@
+{
+  "executionTimestamp": "2026-08-28T10:12:12.658Z",
+  "referenceStyleId": "editorial_photo_storytelling",
+  "referenceStyleName": "Editorial Cinematic Photo-Narrative Storytelling",
+  "overallStatus": "passed",
+  "averageFidelityScore": 100,
+  "slides": [
+    {
+      "slideIndex": 1,
+      "originalScore": 100,
+      "finalScore": 100,
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "slideIndex": 2,
+      "originalScore": 100,
+      "finalScore": 100,
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "slideIndex": 3,
+      "originalScore": 100,
+      "finalScore": 100,
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "slideIndex": 4,
+      "originalScore": 100,
+      "finalScore": 100,
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "slideIndex": 5,
+      "originalScore": 100,
+      "finalScore": 100,
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "slideIndex": 6,
+      "originalScore": 100,
+      "finalScore": 100,
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "slideIndex": 7,
+      "originalScore": 100,
+      "finalScore": 100,
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "slideIndex": 8,
+      "originalScore": 100,
+      "finalScore": 100,
+      "status": "passed",
+      "issues": []
+    }
+  ],
+  "reportFilePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\out\\fidelity_reports\\fidelity_audit_1787911932658.json"
+}

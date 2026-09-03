@@ -1,0 +1,89 @@
+{
+  "project": "beer-tsunami",
+  "topic": "The 1814 Beer Tsunami",
+  "language": "en",
+  "aspect": "9:16",
+  "style": "collage",
+  "theme": "american-retro",
+  "arc": "timeline",
+  "video_model": "google/gemini-omni-flash/image-to-video",
+  "image_model": "google/nano-banana-2/text-to-image",
+  "image_resolution": "1k",
+  "video_resolution": "720p",
+  "motion_style": "punchy",
+  "constraints": "strict",
+  "voice": {
+    "voice_id": "leo",
+    "language": "en",
+    "speed": 1.2,
+    "persona": "Zack D Films style fast punchy narrator, energetic and objective tone"
+  },
+  "music": "fast ticking clock and rising bass riser into punchy energetic beat",
+  "mix": {
+    "music": 0.5,
+    "voice": 1.3
+  },
+  "caption_style": "paper",
+  "captions": true,
+  "watermark": "Vox Director",
+  "beats": [
+    {
+      "id": 1,
+      "title_cn": "",
+      "title_en": "A 15-FOOT BEER TSUNAMI?!",
+      "bg": "vintage parchment sepia",
+      "feel": "chaotic, dramatic, historical",
+      "hook": "surprising_stat",
+      "narration": "In 1814, a literal 15-foot tidal wave of beer smashed through the streets of London...",
+      "shots": [
+        {
+          "id": "a",
+          "dur": 3,
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "push_in",
+          "scene": "vintage 1800s London map and sketch overlaid with violent liquid amber splash and torn paper edges",
+          "element_motion": "map zooms rapidly, paper edges rip, dark amber beer foam violently splashes across cobblestone illustration"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title_cn": "",
+      "title_en": "323,000 GALLONS",
+      "bg": "deep amber brewing wood",
+      "feel": "explosive, fast-paced",
+      "narration": "...when a massive brewery vat exploded, releasing over 300,000 gallons into the city...",
+      "shots": [
+        {
+          "id": "a",
+          "dur": 4,
+          "title": true,
+          "shot_size": "MEDIUM",
+          "camera_move": "pan",
+          "scene": "chaotic vintage woodcut of massive exploding wooden brewery vats and surge of dark beer tidal wave",
+          "element_motion": "wooden staves splinter, beer wave surges forward across paper cut-out buildings, halftone dots flash"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title_cn": "",
+      "title_en": "HOW DID THIS HAPPEN?",
+      "bg": "newspaper editorial black and white",
+      "feel": "glitchy, intriguing cliffhanger",
+      "narration": "...and people literally tried to drink the street dry because...",
+      "shots": [
+        {
+          "id": "a",
+          "dur": 3,
+          "title": true,
+          "shot_size": "CLOSE",
+          "camera_move": "parallax",
+          "scene": "vintage 1814 newspaper clipping and paper cut-outs of crowd gathering with mugs in flooded street",
+          "element_motion": "newspaper headline flashes with subtle glitch effect, crowd figures shift, hard loop back to start"
+        }
+      ]
+    }
+  ]
+}

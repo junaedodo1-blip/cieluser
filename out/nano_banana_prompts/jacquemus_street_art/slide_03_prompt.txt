@@ -1,0 +1,32 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.
+• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.
+• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.
+• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.
+
+=== [SLIDE 3 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 3 VARIATION CONTENT] ===
+Slide Purpose: Slide 3 of 8 (STEP1)
+Card Counter Tag: "03 // 08"
+Top Pill Badge: "STEP 01: 10X SCALE" with a small pink dot
+Main Headline: "step 1: the 10x impossible scale rule." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "10x scale, impossible"
+Subtitle / Description: "Take one small physical luxury item and scale it up to the size of a building or bus."
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "A 5-inch lipstick turned into a 20-foot city transit bus"
+  2. "A luxury handbag floating down the Seine river like a giant boat"
+  3. "Keep the material, leather grain, and stitching 100% physically authentic"
+Callout Box: "SCALE RULE: Extreme surreal scale + 100% real physical texture = viral magic." (Render in clean white code container with black border)
+Speech Bubble Stickers: "Impossible Scale" (blue)
+Bottom Swipe Prompt: "STEP 2: URBAN CONTRAST →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

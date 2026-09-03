@@ -1,0 +1,32 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Pure minimalist white studio background with soft natural floor shadow.
+• Top Navigation: Clean metadata typography with copyright stamps and bold title block.
+• Typography Hierarchy: Heavy condensed grotesque sans-serif with bold geometry and sharp letterforms.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Central physical luxury hero object completely covered in graphic streetwear decals, barcodes, and skate stickers.
+• Lighting & Finish: 50mm prime macro lens, soft directional key light, authentic subsurface scattering, 35mm motion-picture film grain.
+
+=== [SLIDE 5 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 5 VARIATION CONTENT] ===
+Slide Purpose: Slide 5 of 8 (STEP3)
+Card Counter Tag: "05 // 08"
+Top Pill Badge: "STEP 03: MICRO ACCENTS" with a small pink dot
+Main Headline: "step 3: add retro stickers & pastel highlights." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "retro stickers, highlights"
+Subtitle / Description: "This is what gives the poster that high-end editorial agency aesthetic."
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "Add a soft pastel pink or lime highlighter strip behind the main keyword"
+  2. "Layer small speech bubbles with mini descriptive notes"
+  3. "Drop 3D micro icons (cherries, lightning, retro mouse cursors) near the letters"
+Callout Box: "SECRET: Floating micro-stickers turn flat text into an interactive artwork." (Render in clean white code container with black border)
+Speech Bubble Stickers: "Collage Style" (pink), "Interactive" (yellow)
+Bottom Swipe Prompt: "THE CHEAT SHEET →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

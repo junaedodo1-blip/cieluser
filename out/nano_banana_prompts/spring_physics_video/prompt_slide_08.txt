@@ -1,0 +1,34 @@
+Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Style Name: Green Amoeba Starburst Museum Poster
+• Genre: Swiss Brutalist Museum Exhibition Poster
+• Background: Clean off-white gallery paper canvas with flat 2D graphic layout.
+• Header & Navigation: Massive bold condensed grotesque headline on top-left with asterisk icon ("THE BOMBAY MUSEUM OF * PARASITES").
+• Typography Hierarchy: Brutalist heavy condensed sans-serif in solid black, paired with beaded/dotted chain-link numbers ("20-21") and Swiss typewriter body metadata.
+• Color Palette & Containers: #F5F5F0 off-white gallery paper, text: #000000 pure black, colors: #22C55E vibrant green amoeba blob, #2EBD6E emerald
+• Stickers & Accents: Giant green 8-point amoeboid starburst blob dominating the center, beaded chain-link numbers, and typewriter museum metadata cards with directional arrows.
+• Lighting & Finish: Flat 2D graphic vector print design, razor-sharp typography, zero 3D rendering, zero realistic drop shadows.
+
+=== [GREEN AMOEBA BLOB DIRECTIVE] ===
+• Center: Giant vibrant green 8-point amoeboid starburst blob (#22C55E) dominating the layout.
+• Typography: Heavy bold condensed black grotesque headline on top-left, and beaded chain-link numbers ("08") on bottom-left.
+• Metadata: Tilted oval badge with arrow, BMOP pill, and typewriter definition paragraph with smiley stamp.
+
+=== [SLIDE 8 VARIATION CONTENT] ===
+Slide Purpose: Slide 8 of 8 (CTA)
+Card Counter Tag: "08 // 08"
+Top Pill Badge: "FREE PRIZE"
+Main Headline: "want the free remotion spring physics code pack?"
+Highlight Focus: Emphasize keywords "spring physics code, free templates" in the reference style container
+Subtitle / Description: "Drop a 1-word comment below and I will instantly DM you the complete code templates!"
+Body Points:
+  1. "💬 Comment "PHYSICS" on this post right now"
+  2. "📥 Automated DM sends all Remotion spring templates + Higgsfield camera codes in 2s"
+  3. "🚀 Follow @junnbuilds / project\ciel for daily AI directing secrets"
+Callout Box: "⚡ Instant free delivery: Drop "PHYSICS" below to get the download link."
+Bottom Prompt: "COMMENT "PHYSICS" NOW ↓"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.

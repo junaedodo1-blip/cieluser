@@ -1,0 +1,32 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.
+• Top Navigation: Vintage magazine masthead with date stamp and volume number.
+• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Masking tape strips holding cards, rubber ink "CONFIDENTIAL" stamps, and sticker stars ⭐.
+• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.
+
+=== [SLIDE 2 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 2 VARIATION CONTENT] ===
+Slide Purpose: Slide 2 of 8 (PROBLEM)
+Card Counter Tag: "02 // 08"
+Top Pill Badge: "THE LINEAR TRAP" with a small pink dot
+Main Headline: "the linear speed problem: zero gravity and zero inertia." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "zero gravity, fake cgi"
+Subtitle / Description: "When an AI video moves in a flat straight line, your brain instantly detects the fake CGI."
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "Real objects never move at constant speed"
+  2. "When an object stops, it overshoots and bounces back into place"
+  3. "Spring physics is what separates amateur AI clips from $100K luxury commercials"
+Callout Box: "RULE: Natural overshoot and elastic settle is the secret to photoreal motion." (Render in clean white code container with black border)
+Speech Bubble Stickers: "Linear Trap" (pink)
+Bottom Swipe Prompt: "SECRET 1: DAMPED SPRINGS →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

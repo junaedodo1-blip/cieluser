@@ -1,0 +1,27 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.
+• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.
+• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.
+• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.
+
+=== [SLIDE 1 MISSION: SCROLL-STOPPING VISUAL HERO PIECE] ===
+• Objective: Stop the scroll instantly within 1.5 seconds with a breathtaking, high-aesthetic visual masterpiece.
+• Visual Architecture: Dominant central composition, massive bold stacked typography with vibrant highlighter bars, and playful floating 3D micro-stickers (cherries 🍒, disco ball 🪩, lightning ⚡, cash 💸, pixel mouse cursor 🖱️).
+
+=== [SLIDE 1 VARIATION CONTENT] ===
+Slide Purpose: Slide 1 of 8 (HOOK)
+Card Counter Tag: "01 // 08"
+Top Pill Badge: "HIGGSFIELD CINEMA SPEC" with a small pink dot
+Main Headline: "how to direct 4k product videos with real fluid physics." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "4k product videos, fluid physics"
+Subtitle / Description: "Stop making stiff robot AI videos. Here is how to add weight, bounce, and cinematic motion."
+Speech Bubble Stickers: "Soul Cinema" (green), "Real Physics" (pink)
+Bottom Swipe Prompt: "SWIPE FOR CAMERA MOVES →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

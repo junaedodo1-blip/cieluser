@@ -1,0 +1,32 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.
+• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.
+• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.
+• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.
+
+=== [SLIDE 2 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 2 VARIATION CONTENT] ===
+Slide Purpose: Slide 2 of 8 (PROBLEM)
+Card Counter Tag: "02 // 08"
+Top Pill Badge: "THE BIO LINK TRAP" with a small pink dot
+Main Headline: "why "link in bio" loses 90% of your buyers." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "loses 90%, kills conversion"
+Subtitle / Description: "Forcing people to leave the feed, open your profile, and find a tiny link kills conversion."
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "Every extra click cuts conversion rate in half"
+  2. "People are lazy and do not want to leave the Instagram feed"
+  3. "When they leave the post to find your bio, they get distracted and forget"
+Callout Box: "RULE: Never ask them to go to your bio. Deliver the link straight to their private DMs." (Render in clean white code container with black border)
+Speech Bubble Stickers: "Friction Point" (pink)
+Bottom Swipe Prompt: "STEP 1: THE 1-WORD TRIGGER →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

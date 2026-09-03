@@ -1,0 +1,32 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.
+• Top Navigation: Vintage magazine masthead with date stamp and volume number.
+• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Masking tape strips holding cards, rubber ink "CONFIDENTIAL" stamps, and sticker stars ⭐.
+• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.
+
+=== [SLIDE 7 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 7 VARIATION CONTENT] ===
+Slide Purpose: Slide 7 of 8 (SUMMARY)
+Card Counter Tag: "07 // 08"
+Top Pill Badge: "CINEMA STACK" with a small pink dot
+Main Headline: "the 3-step programmatic cinema stack." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "programmatic cinema, motion commercial"
+Subtitle / Description: "How to build $100K-looking motion commercials in code:"
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "1. Prompt with 50mm optical prime & raking key light"
+  2. "2. Animate with damped harmonic spring physics"
+  3. "3. Add sub-bass tactile sound effects for physical reality"
+Callout Box: "✈️ SHARE WITH A MOTION DESIGNER: Help someone fix their stiff robotic AI videos!" (Render in clean white code container with black border)
+Speech Bubble Stickers: "Code + Cinema" (blue)
+Bottom Swipe Prompt: "CLAIM THE FREE CODE PACK →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

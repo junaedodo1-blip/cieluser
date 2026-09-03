@@ -1,0 +1,31 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.
+• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.
+• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.
+• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.
+
+=== [SLIDE 8 MISSION: FREE PRIZE & CONVERSION CTA] ===
+• Objective: Convert engagement into saves, shares, and instant DM comments with a clear 3-step action checklist and free value offer.
+
+=== [SLIDE 8 VARIATION CONTENT] ===
+Slide Purpose: Slide 8 of 8 (CTA)
+Card Counter Tag: "08 // 08"
+Top Pill Badge: "FREE PRIZE" with a small pink dot
+Main Headline: "want the full jacquemus scale prompt pack?" (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "scale prompt pack, 10 formulas"
+Subtitle / Description: "Drop a 1-word comment below and I will instantly DM you all 10 scale prompt formulas!"
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "💬 Comment "SCALE" on this post right now"
+  2. "📥 Automated DM sends all 10 urban scale prompt codes + lighting setups in 2s"
+  3. "🚀 Follow @junnbuilds / project\ciel for daily luxury directing breakdowns"
+Callout Box: "⚡ Instant free delivery: Drop "SCALE" below to get the download link." (Render in clean white code container with black border)
+Speech Bubble Stickers: "Instant DM" (pink)
+Bottom Swipe Prompt: "COMMENT "SCALE" NOW ↓"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

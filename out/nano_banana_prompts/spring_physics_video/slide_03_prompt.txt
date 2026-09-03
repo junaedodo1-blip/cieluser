@@ -1,0 +1,32 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.
+• Top Navigation: Vintage magazine masthead with date stamp and volume number.
+• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Masking tape strips holding cards, rubber ink "CONFIDENTIAL" stamps, and sticker stars ⭐.
+• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.
+
+=== [SLIDE 3 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 3 VARIATION CONTENT] ===
+Slide Purpose: Slide 3 of 8 (STEP1)
+Card Counter Tag: "03 // 08"
+Top Pill Badge: "SECRET 01: SPRING MATH" with a small pink dot
+Main Headline: "secret 1: the damped harmonic spring equation." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "damped harmonic, spring equation"
+Subtitle / Description: "Use programmatic physics springs (mass, tension, friction) instead of flat keyframes."
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "Mass: 1.0 (gives the hero object heavy physical presence)"
+  2. "Tension: 180 (creates snappy, energetic response)"
+  3. "Friction: 12 (smoothly absorbs the energy without shaking forever)"
+Callout Box: "SPRING CODE: { mass: 1, tension: 180, friction: 12 } = juicy luxury settle." (Render in clean white code container with black border)
+Speech Bubble Stickers: "Juicy Settle" (blue)
+Bottom Swipe Prompt: "SECRET 2: SPEED RAMPS →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

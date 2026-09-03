@@ -1,0 +1,31 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Pure minimalist white studio background with soft natural floor shadow.
+• Top Navigation: Clean metadata typography with copyright stamps and bold title block.
+• Typography Hierarchy: Heavy condensed grotesque sans-serif with bold geometry and sharp letterforms.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Central physical luxury hero object completely covered in graphic streetwear decals, barcodes, and skate stickers.
+• Lighting & Finish: 50mm prime macro lens, soft directional key light, authentic subsurface scattering, 35mm motion-picture film grain.
+
+=== [SLIDE 8 MISSION: FREE PRIZE & CONVERSION CTA] ===
+• Objective: Convert engagement into saves, shares, and instant DM comments with a clear 3-step action checklist and free value offer.
+
+=== [SLIDE 8 VARIATION CONTENT] ===
+Slide Purpose: Slide 8 of 8 (CTA)
+Card Counter Tag: "08 // 08"
+Top Pill Badge: "TELEGRAM VIP ACCESS" with a small pink dot
+Main Headline: "want the free poster prompt pack & figma templates?" (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "telegram group, free prompt pack"
+Subtitle / Description: "All raw assets, prompt files, and breakdowns are posted in our private Telegram group."
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "💬 Drop "POSTER" below for the instant Telegram invite link"
+  2. "📲 All prompt templates & editable Figma files are pinned in our Telegram group"
+  3. "🚀 Follow @junnbuilds / project\ciel for daily creator breakdowns"
+Callout Box: "⚡ Instant Telegram Access: Drop "POSTER" below or check the link in bio!" (Render in clean white code container with black border)
+Speech Bubble Stickers: "Telegram Group" (blue)
+Bottom Swipe Prompt: "DROP "POSTER" FOR TELEGRAM LINK ↓"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

@@ -1,0 +1,32 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.
+• Top Navigation: Minimalist top app navigation: "< project\ciel." on top-left, "☰ 🔍 +" icons on top-right.
+• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.
+• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.
+
+=== [SLIDE 2 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 2 VARIATION CONTENT] ===
+Slide Purpose: Slide 2 of 8 (PROBLEM)
+Card Counter Tag: "02 // 08"
+Top Pill Badge: "THE RETENTION TRAP" with a small pink dot
+Main Headline: "why 90% of videos die in the first 2 seconds." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "die in 2 seconds, drop-off"
+Subtitle / Description: "Starting with boring greetings ("Hey guys") or channel logos kills distribution instantly."
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "The algorithm decides in 1.5 to 3 seconds whether to push your video"
+  2. "Throat-clearing and slow intros cause 80% immediate drop-off"
+  3. "Viewers want the prize immediately, not your autobiography"
+Callout Box: "RULE: Never introduce yourself. Start right inside the middle of the transformation." (Render in clean white code container with black border)
+Speech Bubble Stickers: "Algorithm Gate" (pink)
+Bottom Swipe Prompt: "LAYER 1: VISUAL SHOCK →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

@@ -1,0 +1,32 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Pure minimalist white studio background with soft natural floor shadow.
+• Top Navigation: Clean metadata typography with copyright stamps and bold title block.
+• Typography Hierarchy: Heavy condensed grotesque sans-serif with bold geometry and sharp letterforms.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Central physical luxury hero object completely covered in graphic streetwear decals, barcodes, and skate stickers.
+• Lighting & Finish: 50mm prime macro lens, soft directional key light, authentic subsurface scattering, 35mm motion-picture film grain.
+
+=== [SLIDE 2 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 2 VARIATION CONTENT] ===
+Slide Purpose: Slide 2 of 8 (PROBLEM)
+Card Counter Tag: "02 // 08"
+Top Pill Badge: "THE BIG MISTAKE" with a small pink dot
+Main Headline: "why 90% of ai posters look cheap and messy." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "cheap, messy"
+Subtitle / Description: "Typing random words gives you chaotic layouts, blurry fonts, and plastic lighting."
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "Mistake 1: Starting with a blank prompt instead of a reference layout"
+  2. "Mistake 2: Asking for too many elements at once (visual clutter)"
+  3. "Mistake 3: Zero grid structure or typographic hierarchy"
+Callout Box: "RULE: Great design is not about more prompt words. It is about strict layout rules." (Render in clean white code container with black border)
+Speech Bubble Stickers: "Why Ads Fail" (pink)
+Bottom Swipe Prompt: "STEP 1: THE GRID →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.

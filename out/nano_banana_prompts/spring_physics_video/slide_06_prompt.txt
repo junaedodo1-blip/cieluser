@@ -1,0 +1,33 @@
+Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:
+
+=== [REFERENCE STYLE SPECIFICATION] ===
+• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.
+• Top Navigation: Vintage magazine masthead with date stamp and volume number.
+• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.
+• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words
+• Floating Decals: Masking tape strips holding cards, rubber ink "CONFIDENTIAL" stamps, and sticker stars ⭐.
+• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.
+
+=== [SLIDE 6 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===
+• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.
+• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.
+
+=== [SLIDE 6 VARIATION CONTENT] ===
+Slide Purpose: Slide 6 of 8 (CHEATSHEET)
+Card Counter Tag: "06 // 08"
+Top Pill Badge: "SAVEABLE CHEAT SHEET" with a small pink dot
+Main Headline: "the spring physics cheat sheet." (Render in massive bold stacked editorial serif with tight leading)
+Highlighter Words: Put a soft pastel pink highlighter bar behind words: "physics cheat sheet, save this"
+Subtitle / Description: "Save this quick reference guide for Remotion & AI video prompts:"
+Body Points (Render as clean white cards with black border & drop shadow):
+  1. "🏎️ Snappy Button / Card: { mass: 0.5, tension: 300, friction: 18 }"
+  2. "💎 Heavy Luxury Object: { mass: 2.0, tension: 120, friction: 14 }"
+  3. "💧 Water Splash / Fluid: { mass: 0.8, tension: 220, friction: 8 }"
+  4. "🎞️ Shutter Speed: 1/10,000s for crisp frozen micro-droplets"
+Callout Box: "💾 SAVE THIS POST: Copy-paste these exact physics spring values!" (Render in clean white code container with black border)
+Speech Bubble Stickers: "Spring Values" (green)
+Bottom Swipe Prompt: "THE COMPLETE CODE ENGINE →"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.
