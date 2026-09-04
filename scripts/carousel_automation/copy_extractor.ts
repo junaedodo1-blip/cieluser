@@ -1822,8 +1822,8 @@ export function generateCarouselCopy(params: {
     const isFinalSlide = slideIndex === totalSlides;
     
     const slideType = isFinalSlide ? 'cta' : s.slideType;
-    const header = isFinalSlide ? `comment "${blueprint.triggerWord}" to get the raw prompt pack.` : s.header;
-    const keyCallout = isFinalSlide ? `DIRECT ACCESS: Comment "${blueprint.triggerWord}" for 1-click prompt files & Figma templates sent to your DM.` : s.keyCallout;
+    const header = isFinalSlide ? `comment "${blueprint.triggerWord}" for direct VIP Telegram access.` : s.header;
+    const keyCallout = isFinalSlide ? `VIP ACCESS: Comment "${blueprint.triggerWord}" to unlock raw prompt files in https://t.me/projectciel.` : s.keyCallout;
 
     return {
       ...s,

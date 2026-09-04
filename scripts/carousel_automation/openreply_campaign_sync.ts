@@ -12,25 +12,19 @@ export interface OpenReplyCampaignConfig {
 }
 
 export function generateOpenReplyCampaigns(): OpenReplyCampaignConfig[] {
-  const cdnBase = 'https://junaedodo1-blip.github.io/cieluser/';
+  const telegramUrl = 'https://t.me/projectciel';
   const topicKeys = Object.keys(SINGLE_TOPIC_CAROUSEL_BLUEPRINTS) as SingleTopicKey[];
 
   return topicKeys.map((key) => {
     const blueprint = SINGLE_TOPIC_CAROUSEL_BLUEPRINTS[key];
-    const sanitizedTitle = blueprint.topicTitle
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/(^-|-$)/g, '');
-    const leadMagnetPath = 'out/digital_products/lead-magnet-' + sanitizedTitle + '.html';
-    const leadMagnetUrl = cdnBase + leadMagnetPath;
 
     return {
       topicKey: key,
       topicTitle: blueprint.topicTitle,
       triggerKeyword: blueprint.triggerWord.toUpperCase(),
-      publicCommentReply: 'Done! Check your inbox/DM for the raw prompt files & Figma templates!',
-      privateDmMessage: 'Hey! Here is the raw prompt pack & interactive playbook for ' + blueprint.topicTitle + ':\n\n' + leadMagnetUrl + '\n\nSave this link! It includes 1-click copy buttons for all prompts.',
-      leadMagnetUrl,
+      publicCommentReply: 'Done! Check your DM for direct VIP access to our Telegram prompt channel!',
+      privateDmMessage: 'Hey! Here is your instant access to the raw prompt files, Figma templates & daily drops for ' + blueprint.topicTitle + ':\n\n👉 Join ' + telegramUrl + '\n\nTap the link above to join @projectciel on Telegram!',
+      leadMagnetUrl: telegramUrl,
     };
   });
 }
@@ -44,7 +38,7 @@ export function exportOpenReplyManifest(): string {
   }
 
   fs.writeFileSync(outPath, JSON.stringify(campaigns, null, 2), 'utf8');
-  console.log('OpenReply Exported ' + campaigns.length + ' campaigns manifest: ' + outPath);
+  console.log('OpenReply Exported ' + campaigns.length + ' campaigns manifest pointing to Telegram: ' + outPath);
   return outPath;
 }
 
