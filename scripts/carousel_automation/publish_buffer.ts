@@ -144,8 +144,8 @@ async function main() {
       if (subdirs.length > 0) {
         const coverPath = path.join(runsDir, subdirs[0].name, 'slide_01.jpg');
         if (fs.existsSync(coverPath)) {
-          const pdfUrl = `https://junaedodo1-blip.github.io/cieluser/${pdfPath.replace(/\\/g, '/')}`;
-          const coverUrl = `https://junaedodo1-blip.github.io/cieluser/${coverPath.replace(/\\/g, '/')}`;
+          const pdfUrl = `https://raw.githubusercontent.com/junaedodo1-blip/cieluser/main/${pdfPath.replace(/\\/g, '/')}`;
+          const coverUrl = `https://raw.githubusercontent.com/junaedodo1-blip/cieluser/main/${coverPath.replace(/\\/g, '/')}`;
           console.log(`📎 Attaching document carousel: ${pdfUrl}`);
           console.log(`🖼️ Document cover thumbnail: ${coverUrl}`);
           
@@ -223,7 +223,7 @@ async function main() {
       if (slideFiles.length > 0) {
         assetsInput = slideFiles.map(slide => ({
           image: {
-            url: `https://junaedodo1-blip.github.io/cieluser/${path.join(latestRun, slide).replace(/\\/g, '/')}`
+            url: `https://raw.githubusercontent.com/junaedodo1-blip/cieluser/main/${path.join(latestRun, slide).replace(/\\/g, '/')}`
           }
         }));
         console.log(`🖼️ Attaching ${assetsInput.length} image slides for Instagram carousel.`);
@@ -239,6 +239,12 @@ async function main() {
         text: instagramText,
         mode: publishMode,
         schedulingType: 'automatic',
+        metadata: {
+          instagram: {
+            type: 'post',
+            shouldShareToFeed: true,
+          }
+        },
         assets: assetsInput,
       }
     });
