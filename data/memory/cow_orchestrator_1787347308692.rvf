@@ -1,0 +1,390 @@
+{
+  "parent": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+  "subagent": "orchestrator",
+  "label": "run_exec_1787347308691",
+  "createdAt": "2026-08-21T21:21:48.692Z",
+  "entries": [
+    {
+      "key": "trend_scout_selection",
+      "value": {
+        "insight": {
+          "topicKey": "spring_physics_video",
+          "topicTitle": "Natural Spring Physics: Making Digital UI Feel Heavy & Tactile",
+          "nichePillar": "motion_3d",
+          "viralHookArchetype": "Micro-Interaction Physics / Design Craft",
+          "whyItPerforms": "Appeals to designers and product creators who want buttery smooth 60fps tactile feel.",
+          "predictedSaveRate": 0.87,
+          "triggerWord": "PHYSICS",
+          "bulletProofThesis": "Linear easing feels robotic; mass, stiffness, and damping create real physical weight.",
+          "slideCopyBlueprint": {
+            "slide1Hook": "the secret to natural spring physics in digital design.",
+            "slide2MistakeOrTension": "why linear animations look stiff and robotic.",
+            "slide3Step1": "rule 1: set mass = 1, stiffness = 120, damping = 14.",
+            "slide4Step2PromptCode": "rule 2: add micro-overshoot and settle time.",
+            "slide5Step3Secret": "rule 3: directional momentum on release.",
+            "slide6SaveableCheatSheet": "the ultimate spring physics configuration matrix.",
+            "slide7Routine": "how to apply springs in code or design tools.",
+            "slide8CallToAction": "get the copy-paste spring physics presets free."
+          }
+        },
+        "copyPackage": {
+          "topicKey": "spring_physics_video",
+          "topicTitle": "How to Add Natural Spring Physics and Elastic Bounce to AI Videos",
+          "triggerWord": "PHYSICS",
+          "hookHeadline": "why normal ai videos look stiff like a robot.",
+          "slides": [
+            {
+              "slideType": "hook",
+              "header": "why normal ai videos look stiff like a robot.",
+              "subhead": "And how adding natural spring physics and elastic bounce makes them feel physically real.",
+              "badgeText": "PHYSICS FORMULA",
+              "highlightWords": [
+                "stiff like a robot",
+                "spring physics"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Spring Math",
+                  "color": "green"
+                },
+                {
+                  "text": "Real Bounce",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "⚡",
+                "🪩",
+                "🖱️"
+              ],
+              "swissHudMetadata": "01 // PHYSICS // MOTION DIRECTING",
+              "swipePrompt": "THE ROBOT TRAP →",
+              "slideIndex": 1,
+              "cardIndexText": "01 // 08"
+            },
+            {
+              "slideType": "problem",
+              "header": "the linear speed problem: zero gravity and zero inertia.",
+              "subhead": "When an AI video moves in a flat straight line, your brain instantly detects the fake CGI.",
+              "bodyBullets": [
+                "Real objects never move at constant speed",
+                "When an object stops, it overshoots and bounces back into place",
+                "Spring physics is what separates amateur AI clips from $100K luxury commercials"
+              ],
+              "keyCallout": "RULE: Natural overshoot and elastic settle is the secret to photoreal motion.",
+              "badgeText": "THE LINEAR TRAP",
+              "highlightWords": [
+                "zero gravity",
+                "fake cgi"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Linear Trap",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "💸"
+              ],
+              "swissHudMetadata": "02 // THE PROBLEM // LINEAR MOTION",
+              "swipePrompt": "SECRET 1: DAMPED SPRINGS →",
+              "slideIndex": 2,
+              "cardIndexText": "02 // 08"
+            },
+            {
+              "slideType": "step1",
+              "header": "secret 1: the damped harmonic spring equation.",
+              "subhead": "Use programmatic physics springs (mass, tension, friction) instead of flat keyframes.",
+              "bodyBullets": [
+                "Mass: 1.0 (gives the hero object heavy physical presence)",
+                "Tension: 180 (creates snappy, energetic response)",
+                "Friction: 12 (smoothly absorbs the energy without shaking forever)"
+              ],
+              "keyCallout": "SPRING CODE: { mass: 1, tension: 180, friction: 12 } = juicy luxury settle.",
+              "badgeText": "SECRET 01: SPRING MATH",
+              "highlightWords": [
+                "damped harmonic",
+                "spring equation"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Juicy Settle",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🪩",
+                "⚡"
+              ],
+              "swissHudMetadata": "03 // SECRET 01 // SPRING MATH",
+              "swipePrompt": "SECRET 2: SPEED RAMPS →",
+              "slideIndex": 3,
+              "cardIndexText": "03 // 08"
+            },
+            {
+              "slideType": "step2",
+              "header": "secret 2: non-uniform pacing & zero-g float.",
+              "subhead": "Fast high-speed sprint resolving into weightless slow-motion.",
+              "bodyBullets": [
+                "Frame 0-10: Explosive high-speed burst (creates adrenaline and grabs thumb)",
+                "Frame 11-40: Smooth zero-G deceleration (allows viewer to admire luxury details)",
+                "Contrast between fast and slow is what makes video hypnotic"
+              ],
+              "keyCallout": "PACING RULE: Fast explosion $\\rightarrow$ Slow weightless float $\\rightarrow$ Snappy snap.",
+              "badgeText": "SECRET 02: PACING",
+              "highlightWords": [
+                "non-uniform pacing",
+                "zero-g float"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Speed Ramps",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "💸"
+              ],
+              "swissHudMetadata": "04 // SECRET 02 // SPEED RAMPS",
+              "swipePrompt": "SECRET 3: VOLUMETRIC LIGHT →",
+              "slideIndex": 4,
+              "cardIndexText": "04 // 08"
+            },
+            {
+              "slideType": "step3",
+              "header": "secret 3: volumetric raking light & caustics.",
+              "subhead": "Lighting that reacts physically to the object as it moves through 3D space.",
+              "bodyBullets": [
+                "Raking side key light creates deep shifting shadows across surfaces",
+                "Ray-traced caustics project dancing light refractions onto background walls",
+                "35mm film grain glues the lighting and physics together naturally"
+              ],
+              "keyCallout": "LIGHTING RULE: Shifting light shadows prove to the human eye that the 3D space is real.",
+              "badgeText": "SECRET 03: RAKING LIGHT",
+              "highlightWords": [
+                "volumetric light",
+                "caustics"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Real Shadows",
+                  "color": "yellow"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "05 // SECRET 03 // VOLUMETRIC LIGHT",
+              "swipePrompt": "THE PHYSICS CHEAT SHEET →",
+              "slideIndex": 5,
+              "cardIndexText": "05 // 08"
+            },
+            {
+              "slideType": "cheatsheet",
+              "header": "the spring physics cheat sheet.",
+              "subhead": "Save this quick reference guide for Remotion & AI video prompts:",
+              "bodyBullets": [
+                "🏎️ Snappy Button / Card: { mass: 0.5, tension: 300, friction: 18 }",
+                "💎 Heavy Luxury Object: { mass: 2.0, tension: 120, friction: 14 }",
+                "💧 Water Splash / Fluid: { mass: 0.8, tension: 220, friction: 8 }",
+                "🎞️ Shutter Speed: 1/10,000s for crisp frozen micro-droplets"
+              ],
+              "keyCallout": "💾 SAVE THIS POST: Copy-paste these exact physics spring values!",
+              "badgeText": "SAVEABLE CHEAT SHEET",
+              "highlightWords": [
+                "physics cheat sheet",
+                "save this"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Spring Values",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "💾",
+                "🍒"
+              ],
+              "swissHudMetadata": "06 // CHEAT SHEET // SPRING VALUES",
+              "swipePrompt": "THE COMPLETE CODE ENGINE →",
+              "slideIndex": 6,
+              "cardIndexText": "06 // 08"
+            },
+            {
+              "slideType": "summary",
+              "header": "the 3-step programmatic cinema stack.",
+              "subhead": "How to build $100K-looking motion commercials in code:",
+              "bodyBullets": [
+                "1. Prompt with 50mm optical prime & raking key light",
+                "2. Animate with damped harmonic spring physics",
+                "3. Add sub-bass tactile sound effects for physical reality"
+              ],
+              "keyCallout": "✈️ SHARE WITH A MOTION DESIGNER: Help someone fix their stiff robotic AI videos!",
+              "badgeText": "CINEMA STACK",
+              "highlightWords": [
+                "programmatic cinema",
+                "motion commercial"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Code + Cinema",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🚀",
+                "⚡"
+              ],
+              "swissHudMetadata": "07 // SYSTEM // CODE + CINEMA",
+              "swipePrompt": "CLAIM THE FREE CODE PACK →",
+              "slideIndex": 7,
+              "cardIndexText": "07 // 08"
+            },
+            {
+              "slideType": "cta",
+              "header": "want the free remotion spring physics code pack?",
+              "subhead": "Drop a 1-word comment below and I will instantly DM you the complete code templates!",
+              "bodyBullets": [
+                "💬 Comment \"PHYSICS\" on this post right now",
+                "📥 Automated DM sends all Remotion spring templates + Higgsfield camera codes in 2s",
+                "🚀 Follow @junnbuilds / project\\ciel for daily AI directing secrets"
+              ],
+              "keyCallout": "⚡ Instant free delivery: Drop \"PHYSICS\" below to get the download link.",
+              "badgeText": "FREE PRIZE",
+              "highlightWords": [
+                "spring physics code",
+                "free templates"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Instant DM",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🎁",
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "08 // FREE PRIZE // DROP \"PHYSICS\" BELOW",
+              "swipePrompt": "COMMENT \"PHYSICS\" NOW ↓",
+              "slideIndex": 8,
+              "cardIndexText": "08 // 08"
+            }
+          ],
+          "instagramCaption": "Why normal AI videos look stiff like a robot — and how spring physics fixes them.\n\nHere is the simple step-by-step breakdown:\n\n01 // why normal ai videos look stiff like a robot.\n02 // the linear speed problem: zero gravity and zero inertia.\n03 // secret 1: the damped harmonic spring equation.\n04 // secret 2: non-uniform pacing & zero-g float.\n05 // secret 3: volumetric raking light & caustics.\n06 // the spring physics cheat sheet.\n07 // the 3-step programmatic cinema stack.\n08 // want the free remotion spring physics code pack?\n\n---\n💾 SAVE this post so you have the formulas for your next project.\n✈️ SHARE with a friend or creator who needs this.\n👇 Drop \"PHYSICS\" in the comments and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.",
+          "hashtags": [
+            "#projectciel",
+            "#visualdirecting",
+            "#luxurymarketing",
+            "#nanobanana",
+            "#contentcreator",
+            "#creativeagency",
+            "#graphicdesign",
+            "#marketingtips"
+          ]
+        }
+      },
+      "timestamp": "2026-08-21T21:21:48.695Z"
+    },
+    {
+      "key": "visual_style_blueprint",
+      "value": {
+        "id": "retro_magazine_collage",
+        "referenceName": "Retro 90s Magazine Collage",
+        "referencePath": "carousel_references/insta_downloads_style/c1349ae39d28db7587b0f882027f3d2b.jpg",
+        "backgroundDescription": "Aged newsprint paper with torn magazine paper edges and masking tape corners.",
+        "headerNavigationStyle": "Vintage magazine masthead with date stamp and volume number.",
+        "typographySystem": "Cut-out magazine letterforms mixed with distressed typewriter body text.",
+        "colorPalette": {
+          "background": "#F0ECE1 vintage cream newsprint",
+          "text": "#1A1A1A printer ink black",
+          "highlighters": [
+            "#EF4444 punk red tape",
+            "#FBBF24 yellow highlighter"
+          ],
+          "badges": [
+            "Masking tape strips, rubber ink stamps, and polaroid photo borders"
+          ]
+        },
+        "stickerAndDecalStyle": "Masking tape strips holding cards, rubber ink \"CONFIDENTIAL\" stamps, and sticker stars ⭐.",
+        "cinemaLightingStack": "Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.",
+        "corePromptTemplate": "Use this image as reference to create a graphic carousel slide in the exact same visual style.\nVisual Style: 90s vintage magazine collage with torn paper edges, masking tape, and halftone ink texture.\nTypography: Bold punchy cut-out headlines with typewriter detail cards.\nQuality: Authentic retro analog aesthetic, razor-sharp readable text, 4:5 vertical portrait."
+      },
+      "timestamp": "2026-08-21T21:21:48.697Z"
+    },
+    {
+      "key": "nano_banana_prompts_batch",
+      "value": [
+        {
+          "slideIndex": 1,
+          "slideType": "hook",
+          "referenceImagePath": "carousel_references/insta_downloads_style/c1349ae39d28db7587b0f882027f3d2b.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.\n• Top Navigation: Vintage magazine masthead with date stamp and volume number.\n• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Masking tape strips holding cards, rubber ink \"CONFIDENTIAL\" stamps, and sticker stars ⭐.\n• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.\n\n=== [SLIDE 1 MISSION: SCROLL-STOPPING VISUAL HERO PIECE] ===\n• Objective: Stop the scroll instantly within 1.5 seconds with a breathtaking, high-aesthetic visual masterpiece.\n• Visual Architecture: Dominant central composition, massive bold stacked typography with vibrant highlighter bars, and playful floating 3D micro-stickers (cherries 🍒, disco ball 🪩, lightning ⚡, cash 💸, pixel mouse cursor 🖱️).\n\n=== [SLIDE 1 VARIATION CONTENT] ===\nSlide Purpose: Slide 1 of 8 (HOOK)\nCard Counter Tag: \"01 // 08\"\nTop Pill Badge: \"PHYSICS FORMULA\" with a small pink dot\nMain Headline: \"why normal ai videos look stiff like a robot.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"stiff like a robot, spring physics\"\nSubtitle / Description: \"And how adding natural spring physics and elastic bounce makes them feel physically real.\"\nSpeech Bubble Stickers: \"Spring Math\" (green), \"Real Bounce\" (pink)\nBottom Swipe Prompt: \"THE ROBOT TRAP →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_01.png"
+        },
+        {
+          "slideIndex": 2,
+          "slideType": "problem",
+          "referenceImagePath": "carousel_references/insta_downloads_style/c1349ae39d28db7587b0f882027f3d2b.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.\n• Top Navigation: Vintage magazine masthead with date stamp and volume number.\n• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Masking tape strips holding cards, rubber ink \"CONFIDENTIAL\" stamps, and sticker stars ⭐.\n• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.\n\n=== [SLIDE 2 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 2 VARIATION CONTENT] ===\nSlide Purpose: Slide 2 of 8 (PROBLEM)\nCard Counter Tag: \"02 // 08\"\nTop Pill Badge: \"THE LINEAR TRAP\" with a small pink dot\nMain Headline: \"the linear speed problem: zero gravity and zero inertia.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"zero gravity, fake cgi\"\nSubtitle / Description: \"When an AI video moves in a flat straight line, your brain instantly detects the fake CGI.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Real objects never move at constant speed\"\n  2. \"When an object stops, it overshoots and bounces back into place\"\n  3. \"Spring physics is what separates amateur AI clips from $100K luxury commercials\"\nCallout Box: \"RULE: Natural overshoot and elastic settle is the secret to photoreal motion.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Linear Trap\" (pink)\nBottom Swipe Prompt: \"SECRET 1: DAMPED SPRINGS →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_02.png"
+        },
+        {
+          "slideIndex": 3,
+          "slideType": "step1",
+          "referenceImagePath": "carousel_references/insta_downloads_style/c1349ae39d28db7587b0f882027f3d2b.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.\n• Top Navigation: Vintage magazine masthead with date stamp and volume number.\n• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Masking tape strips holding cards, rubber ink \"CONFIDENTIAL\" stamps, and sticker stars ⭐.\n• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.\n\n=== [SLIDE 3 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 3 VARIATION CONTENT] ===\nSlide Purpose: Slide 3 of 8 (STEP1)\nCard Counter Tag: \"03 // 08\"\nTop Pill Badge: \"SECRET 01: SPRING MATH\" with a small pink dot\nMain Headline: \"secret 1: the damped harmonic spring equation.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"damped harmonic, spring equation\"\nSubtitle / Description: \"Use programmatic physics springs (mass, tension, friction) instead of flat keyframes.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Mass: 1.0 (gives the hero object heavy physical presence)\"\n  2. \"Tension: 180 (creates snappy, energetic response)\"\n  3. \"Friction: 12 (smoothly absorbs the energy without shaking forever)\"\nCallout Box: \"SPRING CODE: { mass: 1, tension: 180, friction: 12 } = juicy luxury settle.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Juicy Settle\" (blue)\nBottom Swipe Prompt: \"SECRET 2: SPEED RAMPS →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_03.png"
+        },
+        {
+          "slideIndex": 4,
+          "slideType": "step2",
+          "referenceImagePath": "carousel_references/insta_downloads_style/c1349ae39d28db7587b0f882027f3d2b.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.\n• Top Navigation: Vintage magazine masthead with date stamp and volume number.\n• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Masking tape strips holding cards, rubber ink \"CONFIDENTIAL\" stamps, and sticker stars ⭐.\n• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.\n\n=== [SLIDE 4 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 4 VARIATION CONTENT] ===\nSlide Purpose: Slide 4 of 8 (STEP2)\nCard Counter Tag: \"04 // 08\"\nTop Pill Badge: \"SECRET 02: PACING\" with a small pink dot\nMain Headline: \"secret 2: non-uniform pacing & zero-g float.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"non-uniform pacing, zero-g float\"\nSubtitle / Description: \"Fast high-speed sprint resolving into weightless slow-motion.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Frame 0-10: Explosive high-speed burst (creates adrenaline and grabs thumb)\"\n  2. \"Frame 11-40: Smooth zero-G deceleration (allows viewer to admire luxury details)\"\n  3. \"Contrast between fast and slow is what makes video hypnotic\"\nCallout Box: \"PACING RULE: Fast explosion $\\rightarrow$ Slow weightless float $\\rightarrow$ Snappy snap.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Speed Ramps\" (green)\nBottom Swipe Prompt: \"SECRET 3: VOLUMETRIC LIGHT →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_04.png"
+        },
+        {
+          "slideIndex": 5,
+          "slideType": "step3",
+          "referenceImagePath": "carousel_references/insta_downloads_style/c1349ae39d28db7587b0f882027f3d2b.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.\n• Top Navigation: Vintage magazine masthead with date stamp and volume number.\n• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Masking tape strips holding cards, rubber ink \"CONFIDENTIAL\" stamps, and sticker stars ⭐.\n• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.\n\n=== [SLIDE 5 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 5 VARIATION CONTENT] ===\nSlide Purpose: Slide 5 of 8 (STEP3)\nCard Counter Tag: \"05 // 08\"\nTop Pill Badge: \"SECRET 03: RAKING LIGHT\" with a small pink dot\nMain Headline: \"secret 3: volumetric raking light & caustics.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"volumetric light, caustics\"\nSubtitle / Description: \"Lighting that reacts physically to the object as it moves through 3D space.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Raking side key light creates deep shifting shadows across surfaces\"\n  2. \"Ray-traced caustics project dancing light refractions onto background walls\"\n  3. \"35mm film grain glues the lighting and physics together naturally\"\nCallout Box: \"LIGHTING RULE: Shifting light shadows prove to the human eye that the 3D space is real.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Real Shadows\" (yellow)\nBottom Swipe Prompt: \"THE PHYSICS CHEAT SHEET →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_05.png"
+        },
+        {
+          "slideIndex": 6,
+          "slideType": "cheatsheet",
+          "referenceImagePath": "carousel_references/insta_downloads_style/c1349ae39d28db7587b0f882027f3d2b.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.\n• Top Navigation: Vintage magazine masthead with date stamp and volume number.\n• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Masking tape strips holding cards, rubber ink \"CONFIDENTIAL\" stamps, and sticker stars ⭐.\n• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.\n\n=== [SLIDE 6 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 6 VARIATION CONTENT] ===\nSlide Purpose: Slide 6 of 8 (CHEATSHEET)\nCard Counter Tag: \"06 // 08\"\nTop Pill Badge: \"SAVEABLE CHEAT SHEET\" with a small pink dot\nMain Headline: \"the spring physics cheat sheet.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"physics cheat sheet, save this\"\nSubtitle / Description: \"Save this quick reference guide for Remotion & AI video prompts:\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"🏎️ Snappy Button / Card: { mass: 0.5, tension: 300, friction: 18 }\"\n  2. \"💎 Heavy Luxury Object: { mass: 2.0, tension: 120, friction: 14 }\"\n  3. \"💧 Water Splash / Fluid: { mass: 0.8, tension: 220, friction: 8 }\"\n  4. \"🎞️ Shutter Speed: 1/10,000s for crisp frozen micro-droplets\"\nCallout Box: \"💾 SAVE THIS POST: Copy-paste these exact physics spring values!\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Spring Values\" (green)\nBottom Swipe Prompt: \"THE COMPLETE CODE ENGINE →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_06.png"
+        },
+        {
+          "slideIndex": 7,
+          "slideType": "summary",
+          "referenceImagePath": "carousel_references/insta_downloads_style/c1349ae39d28db7587b0f882027f3d2b.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.\n• Top Navigation: Vintage magazine masthead with date stamp and volume number.\n• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Masking tape strips holding cards, rubber ink \"CONFIDENTIAL\" stamps, and sticker stars ⭐.\n• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.\n\n=== [SLIDE 7 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 7 VARIATION CONTENT] ===\nSlide Purpose: Slide 7 of 8 (SUMMARY)\nCard Counter Tag: \"07 // 08\"\nTop Pill Badge: \"CINEMA STACK\" with a small pink dot\nMain Headline: \"the 3-step programmatic cinema stack.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"programmatic cinema, motion commercial\"\nSubtitle / Description: \"How to build $100K-looking motion commercials in code:\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"1. Prompt with 50mm optical prime & raking key light\"\n  2. \"2. Animate with damped harmonic spring physics\"\n  3. \"3. Add sub-bass tactile sound effects for physical reality\"\nCallout Box: \"✈️ SHARE WITH A MOTION DESIGNER: Help someone fix their stiff robotic AI videos!\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Code + Cinema\" (blue)\nBottom Swipe Prompt: \"CLAIM THE FREE CODE PACK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_07.png"
+        },
+        {
+          "slideIndex": 8,
+          "slideType": "cta",
+          "referenceImagePath": "carousel_references/insta_downloads_style/c1349ae39d28db7587b0f882027f3d2b.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Aged newsprint paper with torn magazine paper edges and masking tape corners.\n• Top Navigation: Vintage magazine masthead with date stamp and volume number.\n• Typography Hierarchy: Cut-out magazine letterforms mixed with distressed typewriter body text.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Masking tape strips holding cards, rubber ink \"CONFIDENTIAL\" stamps, and sticker stars ⭐.\n• Lighting & Finish: Flat desktop scanner capture, subtle paper texture, authentic ink halftone dots.\n\n=== [SLIDE 8 MISSION: FREE PRIZE & CONVERSION CTA] ===\n• Objective: Convert engagement into saves, shares, and instant DM comments with a clear 3-step action checklist and free value offer.\n\n=== [SLIDE 8 VARIATION CONTENT] ===\nSlide Purpose: Slide 8 of 8 (CTA)\nCard Counter Tag: \"08 // 08\"\nTop Pill Badge: \"FREE PRIZE\" with a small pink dot\nMain Headline: \"want the free remotion spring physics code pack?\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"spring physics code, free templates\"\nSubtitle / Description: \"Drop a 1-word comment below and I will instantly DM you the complete code templates!\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"💬 Comment \"PHYSICS\" on this post right now\"\n  2. \"📥 Automated DM sends all Remotion spring templates + Higgsfield camera codes in 2s\"\n  3. \"🚀 Follow @junnbuilds / project\\ciel for daily AI directing secrets\"\nCallout Box: \"⚡ Instant free delivery: Drop \"PHYSICS\" below to get the download link.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Instant DM\" (pink)\nBottom Swipe Prompt: \"COMMENT \"PHYSICS\" NOW ↓\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_08.png"
+        }
+      ],
+      "timestamp": "2026-08-21T21:21:48.704Z"
+    }
+  ]
+}

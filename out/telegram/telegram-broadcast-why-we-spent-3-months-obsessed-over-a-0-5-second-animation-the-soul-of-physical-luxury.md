@@ -1,7 +1,7 @@
 🏛️ **PROJECT\CIEL — VIP DAILY BREAKDOWN**
 
 🔥 **Why We Spent 3 Months Obsessed Over a 0.5-Second Animation: The Soul of Physical Luxury**
-🎨 **Visual Style Blueprint:** Editorial Cinematic Photo-Narrative Storytelling
+🎨 **Visual Style Blueprint:** Brand Agency Graph Paper & Target Decals
 
 ---
 📖 **Core 8-Slide Breakdown:**
@@ -35,8 +35,8 @@ NARRATIVE FRAMEWORK: Tension creates attention. The physical object delivers the
 ---
 📌 **Saveable Production Blueprint:**
 • Ratio: 1080 x 1350 (4:5)
-• Canvas: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.
-• Style Spec: Editorial Cinematic Photo-Narrative Storytelling
+• Canvas: Light textured graph paper canvas with soft neon lime-green spray ambient glow in top-right and bottom-left corners.
+• Style Spec: Brand Agency Graph Paper & Target Decals
 • Zero plastic sheen, pure 2D vector print finish
 
 🎁 **All raw Figma templates & 8K high-res slides are pinned in this group!**

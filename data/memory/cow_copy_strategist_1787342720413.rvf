@@ -1,0 +1,275 @@
+{
+  "parent": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+  "subagent": "copy_strategist",
+  "label": "hook_selection_jacquemus_street_art_primary_single_topic",
+  "createdAt": "2026-08-21T20:05:20.413Z",
+  "entries": [
+    {
+      "key": "candidate_evaluation",
+      "value": {
+        "score": 100,
+        "payload": {
+          "topicKey": "jacquemus_street_art",
+          "topicTitle": "Scale Disruption & Surreal Street Art: The Jacquemus Strategy",
+          "triggerWord": "SCALE",
+          "hookHeadline": "the jacquemus secret: scale disruption in public streets.",
+          "slides": [
+            {
+              "slideType": "hook",
+              "header": "the jacquemus secret: scale disruption in public streets.",
+              "subhead": "How turning giant luxury handbags into public streetcars generated 50M views with zero ad spend.",
+              "badgeText": "SURREAL STREET ART",
+              "highlightWords": [
+                "scale disruption",
+                "jacquemus secret"
+              ],
+              "stickerTags": [
+                {
+                  "text": "50M Views",
+                  "color": "green"
+                },
+                {
+                  "text": "Zero Ad Spend",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "⚡",
+                "🪩",
+                "🖱️"
+              ],
+              "swissHudMetadata": "01 // JACQUEMUS // SCALE DISRUPTION",
+              "swipePrompt": "WHY CLEAN ADS DIE →",
+              "slideIndex": 1,
+              "cardIndexText": "01 // 08"
+            },
+            {
+              "slideType": "problem",
+              "header": "why clean studio product renders are invisible.",
+              "subhead": "When everything is clean, perfect, and isolated on a white screen, your brain ignores it.",
+              "bodyBullets": [
+                "Studio renders look like ordinary catalog advertisements",
+                "Our brains are wired to notice things that look out of place in the real world",
+                "Putting luxury inside brutalist concrete streets creates instant thumb-stopping contrast"
+              ],
+              "keyCallout": "RULE: Contrast creates curiosity, and curiosity creates millions of organic shares.",
+              "badgeText": "THE INVISIBILITY TRAP",
+              "highlightWords": [
+                "studio renders",
+                "invisible"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Pattern Interrupt",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "💸"
+              ],
+              "swissHudMetadata": "02 // THE PROBLEM // STUDIO ADS",
+              "swipePrompt": "STEP 1: THE 10X SCALE RULE →",
+              "slideIndex": 2,
+              "cardIndexText": "02 // 08"
+            },
+            {
+              "slideType": "step1",
+              "header": "step 1: the 10x impossible scale rule.",
+              "subhead": "Take one small physical luxury item and scale it up to the size of a building or bus.",
+              "bodyBullets": [
+                "A 5-inch lipstick turned into a 20-foot city transit bus",
+                "A luxury handbag floating down the Seine river like a giant boat",
+                "Keep the material, leather grain, and stitching 100% physically authentic"
+              ],
+              "keyCallout": "SCALE RULE: Extreme surreal scale + 100% real physical texture = viral magic.",
+              "badgeText": "STEP 01: 10X SCALE",
+              "highlightWords": [
+                "10x scale",
+                "impossible"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Impossible Scale",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🪩",
+                "⚡"
+              ],
+              "swissHudMetadata": "03 // STEP 01 // 10X SCALE",
+              "swipePrompt": "STEP 2: URBAN CONTRAST →",
+              "slideIndex": 3,
+              "cardIndexText": "03 // 08"
+            },
+            {
+              "slideType": "step2",
+              "header": "step 2: raw brutalist urban environments.",
+              "subhead": "Anchor the impossible object inside mundane, everyday physical architecture.",
+              "bodyBullets": [
+                "Paris cobblestone streets, London rainy crosswalks, brutalist concrete tunnels",
+                "Include real background elements: pedestrians walking, streetlights, asphalt reflections",
+                "The contrast between gritty streets and immaculate luxury creates high prestige"
+              ],
+              "keyCallout": "ENVIRONMENT RULE: The more ordinary the street, the more shocking the luxury object.",
+              "badgeText": "STEP 02: URBAN CONTRAST",
+              "highlightWords": [
+                "raw brutalist",
+                "urban contrast"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Gritty vs Luxury",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "💸"
+              ],
+              "swissHudMetadata": "04 // STEP 02 // STREET CONTRAST",
+              "swipePrompt": "STEP 3: CAMERA CONFIRMATION →",
+              "slideIndex": 4,
+              "cardIndexText": "04 // 08"
+            },
+            {
+              "slideType": "step3",
+              "header": "step 3: handheld camera & bystander angle.",
+              "subhead": "Shoot the scene from a realistic human perspective, not a floating drone.",
+              "bodyBullets": [
+                "Eye-level handheld camera with subtle natural shake",
+                "Casual street bystander angle makes the scene feel like a real iPhone recording",
+                "When viewers think \"Is that real?!\", they comment, share, and tag their friends"
+              ],
+              "keyCallout": "PERSPECTIVE RULE: Bystander angle turns a CGI render into a trending viral moment.",
+              "badgeText": "STEP 03: EYE-LEVEL ANGLE",
+              "highlightWords": [
+                "handheld camera",
+                "bystander angle"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Real Human POV",
+                  "color": "yellow"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "05 // STEP 03 // CAMERA ANGLE",
+              "swipePrompt": "THE SCALE CHEAT SHEET →",
+              "slideIndex": 5,
+              "cardIndexText": "05 // 08"
+            },
+            {
+              "slideType": "cheatsheet",
+              "header": "the jacquemus prompt cheat sheet.",
+              "subhead": "Save this exact scale-disruption prompt formula for Nano Banana & Higgsfield:",
+              "bodyBullets": [
+                "🏢 Object: \"Giant 20-foot monolithic luxury perfume bottle driving down rainy Paris street\"",
+                "🌧️ Lighting: \"Overcast moody sky, wet asphalt reflections, raking golden street lamps\"",
+                "📱 Camera: \"Eye-level 50mm handheld bystander perspective, natural camera shake\"",
+                "🧪 Finish: \"Authentic glass refraction, real rainwater physics, 35mm film grain\""
+              ],
+              "keyCallout": "💾 SAVE THIS POST: Use this formula whenever you launch a physical product campaign!",
+              "badgeText": "SAVEABLE CHEAT SHEET",
+              "highlightWords": [
+                "jacquemus prompt",
+                "cheat sheet"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Scale Formula",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "💾",
+                "🍒"
+              ],
+              "swissHudMetadata": "06 // CHEAT SHEET // SCALE PROMPT",
+              "swipePrompt": "THE VIRAL ROI SYSTEM →",
+              "slideIndex": 6,
+              "cardIndexText": "06 // 08"
+            },
+            {
+              "slideType": "summary",
+              "header": "the 3-step viral disruption blueprint.",
+              "subhead": "How to turn viral street attention into tracked brand sales:",
+              "bodyBullets": [
+                "1. Scale Disruption Video: 15s surreal street video stops the algorithm",
+                "2. Viral Comment Loop: Viewers debate \"Is this real?\" in the comments",
+                "3. Automated DM Playbook: Sends private shop link to everyone who comments"
+              ],
+              "keyCallout": "✈️ SHARE WITH A BRAND FOUNDER: Show them how to get millions of views with zero ad spend!",
+              "badgeText": "VIRAL BLUEPRINT",
+              "highlightWords": [
+                "viral disruption",
+                "brand sales"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Zero Ad Spend",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🚀",
+                "⚡"
+              ],
+              "swissHudMetadata": "07 // BLUEPRINT // ORGANIC REACH",
+              "swipePrompt": "CLAIM THE FREE SCALE PACK →",
+              "slideIndex": 7,
+              "cardIndexText": "07 // 08"
+            },
+            {
+              "slideType": "cta",
+              "header": "want the full jacquemus scale prompt pack?",
+              "subhead": "Drop a 1-word comment below and I will instantly DM you all 10 scale prompt formulas!",
+              "bodyBullets": [
+                "💬 Comment \"SCALE\" on this post right now",
+                "📥 Automated DM sends all 10 urban scale prompt codes + lighting setups in 2s",
+                "🚀 Follow @junnbuilds / project\\ciel for daily luxury directing breakdowns"
+              ],
+              "keyCallout": "⚡ Instant free delivery: Drop \"SCALE\" below to get the download link.",
+              "badgeText": "FREE PRIZE",
+              "highlightWords": [
+                "scale prompt pack",
+                "10 formulas"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Instant DM",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🎁",
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "08 // FREE PRIZE // DROP \"SCALE\" BELOW",
+              "swipePrompt": "COMMENT \"SCALE\" NOW ↓",
+              "slideIndex": 8,
+              "cardIndexText": "08 // 08"
+            }
+          ],
+          "instagramCaption": "How Jacquemus gets 50 million views by breaking physical scale in streets.\n\nHere is the simple step-by-step breakdown:\n\n01 // the jacquemus secret: scale disruption in public streets.\n02 // why clean studio product renders are invisible.\n03 // step 1: the 10x impossible scale rule.\n04 // step 2: raw brutalist urban environments.\n05 // step 3: handheld camera & bystander angle.\n06 // the jacquemus prompt cheat sheet.\n07 // the 3-step viral disruption blueprint.\n08 // want the full jacquemus scale prompt pack?\n\n---\n💾 SAVE this post so you have the formulas for your next project.\n✈️ SHARE with a friend or creator who needs this.\n👇 Drop \"SCALE\" in the comments and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.",
+          "hashtags": [
+            "#projectciel",
+            "#visualdirecting",
+            "#luxurymarketing",
+            "#nanobanana",
+            "#contentcreator",
+            "#creativeagency",
+            "#graphicdesign",
+            "#marketingtips"
+          ]
+        }
+      },
+      "timestamp": "2026-08-21T20:05:20.419Z"
+    }
+  ]
+}

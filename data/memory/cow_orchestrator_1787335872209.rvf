@@ -1,0 +1,538 @@
+{
+  "parent": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+  "subagent": "orchestrator",
+  "label": "run_exec_1787335872209",
+  "createdAt": "2026-08-21T18:11:12.210Z",
+  "entries": [
+    {
+      "key": "trend_scout_selection",
+      "value": {
+        "insight": {
+          "topicKey": "brand_transformation_story",
+          "topicTitle": "Nobody Remembers Your Origin Story. They Remember The Transformation.",
+          "nichePillar": "viral_marketing",
+          "viralHookArchetype": "Brand Transformation / Storytelling Case Study",
+          "whyItPerforms": "High-emotion founder & brand narrative reframe with full-bleed cinematic photography that earns massive saves and shares.",
+          "predictedSaveRate": 0.96,
+          "triggerWord": "STORY",
+          "bulletProofThesis": "Nobody remembers your origin timeline. They remember the transformation they got to be part of.",
+          "slideCopyBlueprint": {
+            "slide1Hook": "Your brand needs to tell a story.",
+            "slide2MistakeOrTension": "Most brands tell a story about themselves. Customers do not care how you got here.",
+            "slide3Step1": "The 10-Minute Origin Pitch Trap: Investors checked out by minute two.",
+            "slide4Step2PromptCode": "The story that actually sells isn't about your history. It is a before and after transformation map.",
+            "slide5Step3Secret": "Most 'brand stories' skip the tension entirely. A story without a problem is just a timeline.",
+            "slide6SaveableCheatSheet": "Nobody remembers your founding story. They remember the transformation they got to be part of.",
+            "slide7Routine": "The 3-Step Story Engine: Old World → Catalyst → Transformed Identity.",
+            "slide8CallToAction": "Want a brand story people actually see themselves in? Drop \"STORY\" below for Telegram VIP access."
+          }
+        },
+        "copyPackage": {
+          "topicKey": "brand_transformation_story",
+          "topicTitle": "Nobody Remembers Your Origin Story. They Remember The Transformation.",
+          "triggerWord": "STORY",
+          "hookHeadline": "Your brand needs to tell a story.",
+          "slides": [
+            {
+              "slideType": "hook",
+              "header": "Your brand needs to tell a story.",
+              "subhead": "Why origin stories fail, and how customer transformations build billion-dollar brands.",
+              "badgeText": "BRAND STORYTELLING",
+              "highlightWords": [
+                "brand",
+                "story"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Transformation Arc",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "📖",
+                "⚡",
+                "🏛️"
+              ],
+              "swissHudMetadata": "01 // BRAND STORY // SPEC 2026",
+              "swipePrompt": "SWIPE FOR THE STORY →",
+              "slideIndex": 1,
+              "cardIndexText": "01 // 08"
+            },
+            {
+              "slideType": "problem",
+              "header": "Most brands tell a story about themselves.",
+              "subhead": "Founder journey. Company values. How it all started.",
+              "bodyBullets": [
+                "Founders spend 10 minutes talking about their childhood garage ideas",
+                "Audiences scroll past self-centered origin timelines",
+                "People do not buy who you were; they buy who they become with you"
+              ],
+              "keyCallout": "Customers don't care how you got here. They care whether they see themselves in what happens next.",
+              "badgeText": "THE ORIGIN TRAP",
+              "highlightWords": [
+                "about themselves",
+                "see themselves"
+              ],
+              "stickerTags": [
+                {
+                  "text": "The Mistake",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "⚠️",
+                "📉"
+              ],
+              "swissHudMetadata": "02 // THE ORIGIN TRAP",
+              "swipePrompt": "THE 10-MINUTE PITCH →",
+              "slideIndex": 2,
+              "cardIndexText": "02 // 08"
+            },
+            {
+              "slideType": "step1",
+              "header": "The 10-Minute Origin Pitch Trap",
+              "subhead": "A founder once opened a pitch with 10 minutes on his origin story.",
+              "bodyBullets": [
+                "The investors checked out by minute two",
+                "They wanted to know what changes for the customer, not for him",
+                "Shift the spotlight from your biography to the buyer’s transformation"
+              ],
+              "keyCallout": "RULE: The customer is always Luke Skywalker. You are Yoda.",
+              "badgeText": "SECRET 1",
+              "highlightWords": [
+                "origin pitch",
+                "spotlight"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Pivot",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "🎯",
+                "💡"
+              ],
+              "swissHudMetadata": "03 // PIVOT THE HERO",
+              "swipePrompt": "WHAT ACTUALLY SELLS →",
+              "slideIndex": 3,
+              "cardIndexText": "03 // 08"
+            },
+            {
+              "slideType": "step2",
+              "header": "The story that actually sells isn't about your history.",
+              "subhead": "It is a before and after transformation map.",
+              "bodyBullets": [
+                "Who someone was before they discovered you",
+                "Who they become after they experience your product",
+                "Every marketing touchpoint must sit somewhere on that line"
+              ],
+              "keyCallout": "TRANSFORMATION FORMULA: Before State (Frustrated & Stuck) → After State (Empowered & Transformed).",
+              "badgeText": "SECRET 2",
+              "highlightWords": [
+                "before and after",
+                "transformation"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Core Formula",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🔥",
+                "✨"
+              ],
+              "swissHudMetadata": "04 // BEFORE & AFTER",
+              "swipePrompt": "THE MISSING INGREDIENT →",
+              "slideIndex": 4,
+              "cardIndexText": "04 // 08"
+            },
+            {
+              "slideType": "step3",
+              "header": "Most 'brand stories' skip the tension entirely.",
+              "subhead": "No conflict. No stakes. No reason to keep watching.",
+              "bodyBullets": [
+                "Without real tension, a story is just a dry chronological timeline",
+                "Show the obstacle, the frustration, the high-stakes friction",
+                "When tension is resolved, trust and loyalty are unlocked"
+              ],
+              "keyCallout": "NARRATIVE LAW: A story without a problem is just a timeline.",
+              "badgeText": "SECRET 3",
+              "highlightWords": [
+                "skip the tension",
+                "stakes"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Tension & Stakes",
+                  "color": "yellow"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🎬"
+              ],
+              "swissHudMetadata": "05 // NARRATIVE LAW",
+              "swipePrompt": "THE GOLDEN PUNCHLINE →",
+              "slideIndex": 5,
+              "cardIndexText": "05 // 08"
+            },
+            {
+              "slideType": "cheatsheet",
+              "header": "Nobody remembers your founding story.",
+              "subhead": "They remember the transformation they got to be part of.",
+              "bodyBullets": [
+                "1. Hook: Agitate their current unresolved problem",
+                "2. Mirror: Reflect the internal frustration they feel daily",
+                "3. Guide: Offer the proven vehicle and actionable path forward",
+                "4. Identity: Celebrate the new identity they step into"
+              ],
+              "keyCallout": "💾 SAVE THIS POST: The 4-Part Brand Transformation Architecture.",
+              "badgeText": "THE CHEAT SHEET",
+              "highlightWords": [
+                "transformation",
+                "got to be part of"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Save This Arc",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "💾",
+                "🏛️"
+              ],
+              "swissHudMetadata": "06 // TRANSFORMATION CHEATSHEET",
+              "swipePrompt": "THE 3-STEP FRAMEWORK →",
+              "slideIndex": 6,
+              "cardIndexText": "06 // 08"
+            },
+            {
+              "slideType": "summary",
+              "header": "The 3-Step Story Engine",
+              "subhead": "How to write high-converting brand stories in under 5 minutes:",
+              "bodyBullets": [
+                "1. Define the Old World (Pain, Friction, Antiquated methods)",
+                "2. Introduce the Catalyst (The new vehicle, philosophy, or tool)",
+                "3. Reveal the New World (Status elevation, speed, freedom)"
+              ],
+              "keyCallout": "✈️ SHARE WITH A FOUNDER: Help someone stop telling boring origin stories!",
+              "badgeText": "WORKFLOW",
+              "highlightWords": [
+                "story engine",
+                "catalyst"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Fast Framework",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🚀",
+                "📈"
+              ],
+              "swissHudMetadata": "07 // 3-STEP STORY ENGINE",
+              "swipePrompt": "CLAIM THE STORY PLAYBOOK →",
+              "slideIndex": 7,
+              "cardIndexText": "07 // 08"
+            },
+            {
+              "slideType": "cta",
+              "header": "Want a brand story people actually see themselves in?",
+              "subhead": "All storytelling frameworks, prompt codes & breakdown guides are pinned in our Telegram group.",
+              "bodyBullets": [
+                "💬 Drop \"STORY\" below to get the private Telegram VIP invite link",
+                "📥 Complete Storytelling Playbook & 8K cinematic visual prompts delivered instantly",
+                "🚀 Follow @junnbuilds / project\\ciel for daily creative directing breakdowns"
+              ],
+              "keyCallout": "📲 Instant VIP Telegram Access: All raw prompt packs & Figma templates pinned inside.",
+              "badgeText": "TELEGRAM VIP ACCESS",
+              "highlightWords": [
+                "brand story",
+                "see themselves in"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Instant Access",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🎁",
+                "📲",
+                "🚀"
+              ],
+              "swissHudMetadata": "08 // VIP ACCESS // DROP \"STORY\" BELOW",
+              "swipePrompt": "COMMENT \"STORY\" NOW ↓",
+              "slideIndex": 8,
+              "cardIndexText": "08 // 08"
+            }
+          ],
+          "instagramCaption": "Nobody remembers your founding story. They remember the transformation they got to be part of.\n\nHere is the simple step-by-step breakdown:\n\n01 // Your brand needs to tell a story.\n02 // Most brands tell a story about themselves.\n03 // The 10-Minute Origin Pitch Trap\n04 // The story that actually sells isn't about your history.\n05 // Most 'brand stories' skip the tension entirely.\n06 // Nobody remembers your founding story.\n07 // The 3-Step Story Engine\n08 // Want a brand story people actually see themselves in?\n\n---\n💾 SAVE this post so you have the formulas for your next project.\n✈️ SHARE with a friend or creator who needs this.\n👇 Drop \"STORY\" in the comments and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.",
+          "hashtags": [
+            "#projectciel",
+            "#visualdirecting",
+            "#luxurymarketing",
+            "#nanobanana",
+            "#contentcreator",
+            "#creativeagency",
+            "#graphicdesign",
+            "#marketingtips"
+          ]
+        }
+      },
+      "timestamp": "2026-08-21T18:11:12.216Z"
+    },
+    {
+      "key": "visual_style_blueprint",
+      "value": {
+        "id": "ciel_cinematic_storytelling",
+        "referenceName": "Ciel Auteur Cinematic Storytelling",
+        "referencePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+        "visualGenre": "Auteur Physical Luxury & Cinematic Storytelling",
+        "backgroundDescription": "Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.",
+        "headerNavigationStyle": "Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.",
+        "typographySystem": "Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.",
+        "colorPalette": {
+          "background": "Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow",
+          "text": "#FFFFFF crisp white and #E2E2E8 muted platinum",
+          "highlighters": [
+            "Crisp white high-contrast text overlay",
+            "Ray-traced caustics and glass refraction"
+          ],
+          "badges": [
+            "Minimalist Swiss HUD metadata stamps (\"PROJECT\\CIEL DOCTRINE\")",
+            "Zero artificial emojis or gimmicky stickers"
+          ]
+        },
+        "stickerAndDecalStyle": "Zero gimmicky stickers or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.",
+        "cinemaLightingStack": "35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).",
+        "corePromptTemplate": "Use this image as reference to create an auteur cinematic storytelling carousel slide in the exact project\\ciel brand visual style:\n• Scene & Materiality: Full-bleed 4:5 cinematic photography of physical luxury (sculpted fluted glass, tailored dark garments, raw concrete brutalism, authentic atmospheric rain streaks, 35mm film grain).\n• Typography: Crisp white (#FFFFFF) Playfair Display editorial serif headline layered with clean Archivo narrative copy and subtle Swiss HUD metadata stamps (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\").\n• Art Direction: Banana Pro Director 3.0 photorealism — lived-in natural light, real fabric weave, anti-plastic matte finish, flattering-realism ceiling, high-status auteur editorial clarity.\n• Quality: 35mm prime cinema capture, razor-sharp typography, 4:5 vertical portrait (1080x1350).",
+        "requiredKeywords": [
+          "cinematic photography",
+          "editorial serif",
+          "swiss hud",
+          "full-bleed",
+          "white typography"
+        ],
+        "forbiddenKeywords": [
+          "graph paper",
+          "stickers",
+          "wax seal",
+          "neon lime badge",
+          "starburst blob",
+          "plastic sheen",
+          "cgi 3d"
+        ]
+      },
+      "timestamp": "2026-08-21T18:11:12.222Z"
+    },
+    {
+      "key": "nano_banana_prompts_batch",
+      "value": [
+        {
+          "slideIndex": 1,
+          "slideType": "hook",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"01 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 1 VARIATION CONTENT] ===\nSlide Purpose: Slide 1 of 8 (HOOK)\nCard Counter Tag: \"01 // 08\"\nTop Pill Badge: \"BRAND STORYTELLING\"\nMain Headline: \"Your brand needs to tell a story.\"\nHighlight Focus: Emphasize keywords \"brand, story\" in the reference style container\nSubtitle / Description: \"Why origin stories fail, and how customer transformations build billion-dollar brands.\"\nBottom Prompt: \"SWIPE FOR THE STORY →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_01.png"
+        },
+        {
+          "slideIndex": 2,
+          "slideType": "problem",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"02 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 2 VARIATION CONTENT] ===\nSlide Purpose: Slide 2 of 8 (PROBLEM)\nCard Counter Tag: \"02 // 08\"\nTop Pill Badge: \"THE ORIGIN TRAP\"\nMain Headline: \"Most brands tell a story about themselves.\"\nHighlight Focus: Emphasize keywords \"about themselves, see themselves\" in the reference style container\nSubtitle / Description: \"Founder journey. Company values. How it all started.\"\nBody Points:\n  1. \"Founders spend 10 minutes talking about their childhood garage ideas\"\n  2. \"Audiences scroll past self-centered origin timelines\"\n  3. \"People do not buy who you were; they buy who they become with you\"\nCallout Box: \"Customers don't care how you got here. They care whether they see themselves in what happens next.\"\nBottom Prompt: \"THE 10-MINUTE PITCH →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_02.png"
+        },
+        {
+          "slideIndex": 3,
+          "slideType": "step1",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"03 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 3 VARIATION CONTENT] ===\nSlide Purpose: Slide 3 of 8 (STEP1)\nCard Counter Tag: \"03 // 08\"\nTop Pill Badge: \"SECRET 1\"\nMain Headline: \"The 10-Minute Origin Pitch Trap\"\nHighlight Focus: Emphasize keywords \"origin pitch, spotlight\" in the reference style container\nSubtitle / Description: \"A founder once opened a pitch with 10 minutes on his origin story.\"\nBody Points:\n  1. \"The investors checked out by minute two\"\n  2. \"They wanted to know what changes for the customer, not for him\"\n  3. \"Shift the spotlight from your biography to the buyer’s transformation\"\nCallout Box: \"RULE: The customer is always Luke Skywalker. You are Yoda.\"\nBottom Prompt: \"WHAT ACTUALLY SELLS →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_03.png"
+        },
+        {
+          "slideIndex": 4,
+          "slideType": "step2",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"04 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 4 VARIATION CONTENT] ===\nSlide Purpose: Slide 4 of 8 (STEP2)\nCard Counter Tag: \"04 // 08\"\nTop Pill Badge: \"SECRET 2\"\nMain Headline: \"The story that actually sells isn't about your history.\"\nHighlight Focus: Emphasize keywords \"before and after, transformation\" in the reference style container\nSubtitle / Description: \"It is a before and after transformation map.\"\nBody Points:\n  1. \"Who someone was before they discovered you\"\n  2. \"Who they become after they experience your product\"\n  3. \"Every marketing touchpoint must sit somewhere on that line\"\nCallout Box: \"TRANSFORMATION FORMULA: Before State (Frustrated & Stuck) → After State (Empowered & Transformed).\"\nBottom Prompt: \"THE MISSING INGREDIENT →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_04.png"
+        },
+        {
+          "slideIndex": 5,
+          "slideType": "step3",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"05 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 5 VARIATION CONTENT] ===\nSlide Purpose: Slide 5 of 8 (STEP3)\nCard Counter Tag: \"05 // 08\"\nTop Pill Badge: \"SECRET 3\"\nMain Headline: \"Most 'brand stories' skip the tension entirely.\"\nHighlight Focus: Emphasize keywords \"skip the tension, stakes\" in the reference style container\nSubtitle / Description: \"No conflict. No stakes. No reason to keep watching.\"\nBody Points:\n  1. \"Without real tension, a story is just a dry chronological timeline\"\n  2. \"Show the obstacle, the frustration, the high-stakes friction\"\n  3. \"When tension is resolved, trust and loyalty are unlocked\"\nCallout Box: \"NARRATIVE LAW: A story without a problem is just a timeline.\"\nBottom Prompt: \"THE GOLDEN PUNCHLINE →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_05.png"
+        },
+        {
+          "slideIndex": 6,
+          "slideType": "cheatsheet",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"06 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 6 VARIATION CONTENT] ===\nSlide Purpose: Slide 6 of 8 (CHEATSHEET)\nCard Counter Tag: \"06 // 08\"\nTop Pill Badge: \"THE CHEAT SHEET\"\nMain Headline: \"Nobody remembers your founding story.\"\nHighlight Focus: Emphasize keywords \"transformation, got to be part of\" in the reference style container\nSubtitle / Description: \"They remember the transformation they got to be part of.\"\nBody Points:\n  1. \"1. Hook: Agitate their current unresolved problem\"\n  2. \"2. Mirror: Reflect the internal frustration they feel daily\"\n  3. \"3. Guide: Offer the proven vehicle and actionable path forward\"\n  4. \"4. Identity: Celebrate the new identity they step into\"\nCallout Box: \"💾 SAVE THIS POST: The 4-Part Brand Transformation Architecture.\"\nBottom Prompt: \"THE 3-STEP FRAMEWORK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_06.png"
+        },
+        {
+          "slideIndex": 7,
+          "slideType": "summary",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"07 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 7 VARIATION CONTENT] ===\nSlide Purpose: Slide 7 of 8 (SUMMARY)\nCard Counter Tag: \"07 // 08\"\nTop Pill Badge: \"WORKFLOW\"\nMain Headline: \"The 3-Step Story Engine\"\nHighlight Focus: Emphasize keywords \"story engine, catalyst\" in the reference style container\nSubtitle / Description: \"How to write high-converting brand stories in under 5 minutes:\"\nBody Points:\n  1. \"1. Define the Old World (Pain, Friction, Antiquated methods)\"\n  2. \"2. Introduce the Catalyst (The new vehicle, philosophy, or tool)\"\n  3. \"3. Reveal the New World (Status elevation, speed, freedom)\"\nCallout Box: \"✈️ SHARE WITH A FOUNDER: Help someone stop telling boring origin stories!\"\nBottom Prompt: \"CLAIM THE STORY PLAYBOOK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_07.png"
+        },
+        {
+          "slideIndex": 8,
+          "slideType": "cta",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"08 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 8 VARIATION CONTENT] ===\nSlide Purpose: Slide 8 of 8 (CTA)\nCard Counter Tag: \"08 // 08\"\nTop Pill Badge: \"TELEGRAM VIP ACCESS\"\nMain Headline: \"Want a brand story people actually see themselves in?\"\nHighlight Focus: Emphasize keywords \"brand story, see themselves in\" in the reference style container\nSubtitle / Description: \"All storytelling frameworks, prompt codes & breakdown guides are pinned in our Telegram group.\"\nBody Points:\n  1. \"💬 Drop \"STORY\" below to get the private Telegram VIP invite link\"\n  2. \"📥 Complete Storytelling Playbook & 8K cinematic visual prompts delivered instantly\"\n  3. \"🚀 Follow @junnbuilds / project\\ciel for daily creative directing breakdowns\"\nCallout Box: \"📲 Instant VIP Telegram Access: All raw prompt packs & Figma templates pinned inside.\"\nBottom Prompt: \"COMMENT \"STORY\" NOW ↓\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_08.png"
+        }
+      ],
+      "timestamp": "2026-08-21T18:11:12.241Z"
+    },
+    {
+      "key": "visual_fidelity_audit",
+      "value": {
+        "executionTimestamp": "2026-08-21T18:11:12.228Z",
+        "referenceStyleId": "ciel_cinematic_storytelling",
+        "referenceStyleName": "Ciel Auteur Cinematic Storytelling",
+        "overallStatus": "auto_repaired",
+        "averageFidelityScore": 100,
+        "slides": [
+          {
+            "slideIndex": 1,
+            "originalScore": 80,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"01 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 1 VARIATION CONTENT] ===\nSlide Purpose: Slide 1 of 8 (HOOK)\nCard Counter Tag: \"01 // 08\"\nTop Pill Badge: \"BRAND STORYTELLING\"\nMain Headline: \"Your brand needs to tell a story.\"\nHighlight Focus: Emphasize keywords \"brand, story\" in the reference style container\nSubtitle / Description: \"Why origin stories fail, and how customer transformations build billion-dollar brands.\"\nBottom Prompt: \"SWIPE FOR THE STORY →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen."
+          },
+          {
+            "slideIndex": 2,
+            "originalScore": 80,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"02 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 2 VARIATION CONTENT] ===\nSlide Purpose: Slide 2 of 8 (PROBLEM)\nCard Counter Tag: \"02 // 08\"\nTop Pill Badge: \"THE ORIGIN TRAP\"\nMain Headline: \"Most brands tell a story about themselves.\"\nHighlight Focus: Emphasize keywords \"about themselves, see themselves\" in the reference style container\nSubtitle / Description: \"Founder journey. Company values. How it all started.\"\nBody Points:\n  1. \"Founders spend 10 minutes talking about their childhood garage ideas\"\n  2. \"Audiences scroll past self-centered origin timelines\"\n  3. \"People do not buy who you were; they buy who they become with you\"\nCallout Box: \"Customers don't care how you got here. They care whether they see themselves in what happens next.\"\nBottom Prompt: \"THE 10-MINUTE PITCH →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen."
+          },
+          {
+            "slideIndex": 3,
+            "originalScore": 80,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"03 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 3 VARIATION CONTENT] ===\nSlide Purpose: Slide 3 of 8 (STEP1)\nCard Counter Tag: \"03 // 08\"\nTop Pill Badge: \"SECRET 1\"\nMain Headline: \"The 10-Minute Origin Pitch Trap\"\nHighlight Focus: Emphasize keywords \"origin pitch, spotlight\" in the reference style container\nSubtitle / Description: \"A founder once opened a pitch with 10 minutes on his origin story.\"\nBody Points:\n  1. \"The investors checked out by minute two\"\n  2. \"They wanted to know what changes for the customer, not for him\"\n  3. \"Shift the spotlight from your biography to the buyer’s transformation\"\nCallout Box: \"RULE: The customer is always Luke Skywalker. You are Yoda.\"\nBottom Prompt: \"WHAT ACTUALLY SELLS →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen."
+          },
+          {
+            "slideIndex": 4,
+            "originalScore": 80,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"04 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 4 VARIATION CONTENT] ===\nSlide Purpose: Slide 4 of 8 (STEP2)\nCard Counter Tag: \"04 // 08\"\nTop Pill Badge: \"SECRET 2\"\nMain Headline: \"The story that actually sells isn't about your history.\"\nHighlight Focus: Emphasize keywords \"before and after, transformation\" in the reference style container\nSubtitle / Description: \"It is a before and after transformation map.\"\nBody Points:\n  1. \"Who someone was before they discovered you\"\n  2. \"Who they become after they experience your product\"\n  3. \"Every marketing touchpoint must sit somewhere on that line\"\nCallout Box: \"TRANSFORMATION FORMULA: Before State (Frustrated & Stuck) → After State (Empowered & Transformed).\"\nBottom Prompt: \"THE MISSING INGREDIENT →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen."
+          },
+          {
+            "slideIndex": 5,
+            "originalScore": 80,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"05 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 5 VARIATION CONTENT] ===\nSlide Purpose: Slide 5 of 8 (STEP3)\nCard Counter Tag: \"05 // 08\"\nTop Pill Badge: \"SECRET 3\"\nMain Headline: \"Most 'brand stories' skip the tension entirely.\"\nHighlight Focus: Emphasize keywords \"skip the tension, stakes\" in the reference style container\nSubtitle / Description: \"No conflict. No stakes. No reason to keep watching.\"\nBody Points:\n  1. \"Without real tension, a story is just a dry chronological timeline\"\n  2. \"Show the obstacle, the frustration, the high-stakes friction\"\n  3. \"When tension is resolved, trust and loyalty are unlocked\"\nCallout Box: \"NARRATIVE LAW: A story without a problem is just a timeline.\"\nBottom Prompt: \"THE GOLDEN PUNCHLINE →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen."
+          },
+          {
+            "slideIndex": 6,
+            "originalScore": 80,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"06 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 6 VARIATION CONTENT] ===\nSlide Purpose: Slide 6 of 8 (CHEATSHEET)\nCard Counter Tag: \"06 // 08\"\nTop Pill Badge: \"THE CHEAT SHEET\"\nMain Headline: \"Nobody remembers your founding story.\"\nHighlight Focus: Emphasize keywords \"transformation, got to be part of\" in the reference style container\nSubtitle / Description: \"They remember the transformation they got to be part of.\"\nBody Points:\n  1. \"1. Hook: Agitate their current unresolved problem\"\n  2. \"2. Mirror: Reflect the internal frustration they feel daily\"\n  3. \"3. Guide: Offer the proven vehicle and actionable path forward\"\n  4. \"4. Identity: Celebrate the new identity they step into\"\nCallout Box: \"💾 SAVE THIS POST: The 4-Part Brand Transformation Architecture.\"\nBottom Prompt: \"THE 3-STEP FRAMEWORK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen."
+          },
+          {
+            "slideIndex": 7,
+            "originalScore": 80,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"07 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 7 VARIATION CONTENT] ===\nSlide Purpose: Slide 7 of 8 (SUMMARY)\nCard Counter Tag: \"07 // 08\"\nTop Pill Badge: \"WORKFLOW\"\nMain Headline: \"The 3-Step Story Engine\"\nHighlight Focus: Emphasize keywords \"story engine, catalyst\" in the reference style container\nSubtitle / Description: \"How to write high-converting brand stories in under 5 minutes:\"\nBody Points:\n  1. \"1. Define the Old World (Pain, Friction, Antiquated methods)\"\n  2. \"2. Introduce the Catalyst (The new vehicle, philosophy, or tool)\"\n  3. \"3. Reveal the New World (Status elevation, speed, freedom)\"\nCallout Box: \"✈️ SHARE WITH A FOUNDER: Help someone stop telling boring origin stories!\"\nBottom Prompt: \"CLAIM THE STORY PLAYBOOK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen."
+          },
+          {
+            "slideIndex": 8,
+            "originalScore": 80,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Ciel Auteur Cinematic Storytelling\n• Genre: Auteur Physical Luxury & Cinematic Storytelling\n• Background: Full-bleed 4:5 auteur cinematic photography applying Banana Pro Director 3.0 photorealism: lived-in natural lighting, rich physical textures (fluted fragrance glass, rain-streaked tramway windows, tailored Abyss Black wool coat, brushed titanium hardware, raw brutalist concrete juxtaposition), and authentic 35mm film grain.\n• Header & Navigation: Minimalist Swiss HUD top metadata (\"01 // CIEL NARRATIVE CORE // SPEC 2026.01\") in Archivo 300 / Mono with crisp white typography floating over photographic negative space.\n• Typography Hierarchy: Playfair Display / High-Contrast Luxury Editorial Serif with tight leading for emotional thesis punchlines, paired with Swiss Archivo (300/900) for narrative storytelling paragraphs.\n• Color Palette & Containers: Abyss Black (#0A0A0C), Studio Slate (#141418), misty Parisian rain, rich amber dusk glow, text: #FFFFFF crisp white and #E2E2E8 muted platinum, colors: Crisp white high-contrast text overlay, Ray-traced caustics and glass refraction\n•  & Accents: Zero gimmicky  or clipart. Pure auteur cinematic realism with subtle Swiss typographic metadata stamps.\n• Lighting & Finish: 35mm anamorphic prime lens, directional raking key light, authentic subsurface scattering, tactile fabric weave, subtle volumetric haze, unflattering-realism ceiling (fine, even, flattering lived-in realism with zero CGI sheen).\n\n=== [CIEL AUTEUR PHOTOGRAPHIC & CINEMA DOCTRINE (BANANA PRO DIRECTOR 3.0)] ===\n• Scene & Atmosphere: Full-bleed 4:5 auteur cinematic photography of physical luxury (sculpted fluted glass fragrance bottles, tailored Abyss Black wool outerwear, brushed titanium hardware, rain-streaked tramway windows, raw brutalist architectural juxtaposition).\n• Banana Pro Director 3.0 Cinema Stack: 35mm anamorphic prime lens, directional raking key light casting deep Abyss Black (#0A0A0C) shadow wells, authentic subsurface scattering, genuine fabric weave, subtle volumetric haze, flattering-realism ceiling (fine lived-in pore texture, zero plastic CGI sheen, zero artificial beauty filters).\n• Typography System: Crisp white (#FFFFFF) Playfair Display high-contrast editorial serif headline layered with clean Archivo narrative copy.\n• Swiss HUD Framing: Clean micro-metadata in Archivo 300 / Mono stamps (\"08 // CIEL DOCTRINE // SPEC 2026.01\") floating cleanly in negative space.\n• Zero Gimmicks: No clip art, no emojis, no neon sticker badges. Pure auteur luxury cinema authority.\n\n=== [SLIDE 8 VARIATION CONTENT] ===\nSlide Purpose: Slide 8 of 8 (CTA)\nCard Counter Tag: \"08 // 08\"\nTop Pill Badge: \"TELEGRAM VIP ACCESS\"\nMain Headline: \"Want a brand story people actually see themselves in?\"\nHighlight Focus: Emphasize keywords \"brand story, see themselves in\" in the reference style container\nSubtitle / Description: \"All storytelling frameworks, prompt codes & breakdown guides are pinned in our Telegram group.\"\nBody Points:\n  1. \"💬 Drop \"STORY\" below to get the private Telegram VIP invite link\"\n  2. \"📥 Complete Storytelling Playbook & 8K cinematic visual prompts delivered instantly\"\n  3. \"🚀 Follow @junnbuilds / project\\ciel for daily creative directing breakdowns\"\nCallout Box: \"📲 Instant VIP Telegram Access: All raw prompt packs & Figma templates pinned inside.\"\nBottom Prompt: \"COMMENT \"STORY\" NOW ↓\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen."
+          }
+        ],
+        "reportFilePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\out\\fidelity_reports\\fidelity_audit_1787335872228.json"
+      },
+      "timestamp": "2026-08-21T18:11:12.245Z"
+    }
+  ]
+}

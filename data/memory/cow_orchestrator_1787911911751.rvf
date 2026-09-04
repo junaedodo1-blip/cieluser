@@ -1,0 +1,327 @@
+{
+  "parent": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+  "subagent": "orchestrator",
+  "label": "run_exec_1787911911750",
+  "createdAt": "2026-08-28T10:11:51.751Z",
+  "entries": [
+    {
+      "key": "trend_scout_selection",
+      "value": {
+        "insight": {
+          "topicKey": "nano_banana_posters",
+          "topicTitle": "How to Make $5,000 Luxury Brand Posters in Nano Banana (In 3 Minutes)",
+          "nichePillar": "ai_visual_directing",
+          "viralHookArchetype": "Cost Confession / Speed Advantage",
+          "whyItPerforms": "Directly addresses how to achieve high-ticket agency visual quality with zero 3D software.",
+          "predictedSaveRate": 0.92,
+          "triggerWord": "POSTER",
+          "bulletProofThesis": "Great design is about reference-locking and layout rules, not typing 50 random prompt buzzwords.",
+          "slideCopyBlueprint": {
+            "slide1Hook": "how to make $5k luxury brand posters in 3 minutes.",
+            "slide2MistakeOrTension": "why 90% of ai posters look cheap and messy.",
+            "slide3Step1": "step 1: pick a grid reference layout.",
+            "slide4Step2PromptCode": "step 2: the exact copy-paste prompt formula.",
+            "slide5Step3Secret": "step 3: add retro stickers & pastel highlights.",
+            "slide6SaveableCheatSheet": "the saveable poster cheat sheet.",
+            "slide7Routine": "the 3-minute daily production routine.",
+            "slide8CallToAction": "want the free prompt pack + templates?"
+          }
+        },
+        "copyPackage": {
+          "topicKey": "nano_banana_posters",
+          "topicTitle": "How to Make $5,000 Luxury Brand Posters in Nano Banana (In 3 Minutes)",
+          "triggerWord": "POSTER",
+          "hookHeadline": "how to make $5k luxury brand posters in 3 minutes.",
+          "slides": [
+            {
+              "slideType": "hook",
+              "header": "how to make $5k luxury brand posters in 3 minutes.",
+              "subhead": "You do not need Photoshop or complex 3D software. Just this simple reference formula.",
+              "badgeText": "NANO BANANA RECIPE",
+              "highlightWords": [
+                "luxury",
+                "posters",
+                "3 minutes"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Simple Strategy",
+                  "color": "green"
+                },
+                {
+                  "text": "Nano Banana 2",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "⚡",
+                "🪩",
+                "🖱️"
+              ],
+              "swissHudMetadata": "01 // POSTER DESIGN // SPEC 2026",
+              "swipePrompt": "SWIPE FOR THE PROMPT →",
+              "slideIndex": 1,
+              "cardIndexText": "01 // 08"
+            },
+            {
+              "slideType": "problem",
+              "header": "why 90% of ai posters look cheap and messy.",
+              "subhead": "Typing random words gives you chaotic layouts, blurry fonts, and plastic lighting.",
+              "bodyBullets": [
+                "Mistake 1: Starting with a blank prompt instead of a reference layout",
+                "Mistake 2: Asking for too many elements at once (visual clutter)",
+                "Mistake 3: Zero grid structure or typographic hierarchy"
+              ],
+              "keyCallout": "RULE: Great design is not about more prompt words. It is about strict layout rules.",
+              "badgeText": "THE BIG MISTAKE",
+              "highlightWords": [
+                "cheap",
+                "messy"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Why Ads Fail",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "💸"
+              ],
+              "swissHudMetadata": "02 // THE PROBLEM // VISUAL CLUTTER",
+              "swipePrompt": "STEP 1: THE GRID →",
+              "slideIndex": 2,
+              "cardIndexText": "02 // 08"
+            },
+            {
+              "slideType": "step1",
+              "header": "step 1: pick a grid reference layout.",
+              "subhead": "Never start from scratch. Upload a graphic poster you love to guide the structure.",
+              "bodyBullets": [
+                "Choose a poster with bold stacked typography and clean grid lines",
+                "Let Nano Banana analyze the spacing, fonts, and color contrast",
+                "Keep the background minimal (off-white graph grid or deep black)"
+              ],
+              "keyCallout": "PRO TIP: Reference images act as the blueprint for your typography.",
+              "badgeText": "STEP 01: THE GRID",
+              "highlightWords": [
+                "grid reference",
+                "layout"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Layout Blueprint",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "03 // STEP 01 // GRID LAYOUT",
+              "swipePrompt": "STEP 2: THE PROMPT →",
+              "slideIndex": 3,
+              "cardIndexText": "03 // 08"
+            },
+            {
+              "slideType": "step2",
+              "header": "step 2: the exact copy-paste prompt formula.",
+              "subhead": "Paste this exact prompt structure into Nano Banana:",
+              "bodyBullets": [
+                "1. \"Use this image as reference for composition and typographic layout.\"",
+                "2. \"Swap main text to: [YOUR TITLE]. Archivo Black + Playfair Serif.\"",
+                "3. \"Lighting: 50mm clean prime portrait, soft raking key light, 35mm film grain.\""
+              ],
+              "keyCallout": "PROMPT: \"Use reference style, add 50mm macro lighting, razor-sharp typography, 4:5 vertical poster.\"",
+              "badgeText": "STEP 02: THE PROMPT",
+              "highlightWords": [
+                "copy-paste",
+                "prompt formula"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Free Code",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "💸"
+              ],
+              "swissHudMetadata": "04 // STEP 02 // PROMPT CODE",
+              "swipePrompt": "STEP 3: STICKERS →",
+              "slideIndex": 4,
+              "cardIndexText": "04 // 08"
+            },
+            {
+              "slideType": "step3",
+              "header": "step 3: add retro stickers & pastel highlights.",
+              "subhead": "This is what gives the poster that high-end editorial agency aesthetic.",
+              "bodyBullets": [
+                "Add a soft pastel pink or lime highlighter strip behind the main keyword",
+                "Layer small speech bubbles with mini descriptive notes",
+                "Drop 3D micro icons (cherries, lightning, retro mouse cursors) near the letters"
+              ],
+              "keyCallout": "SECRET: Floating micro-stickers turn flat text into an interactive artwork.",
+              "badgeText": "STEP 03: MICRO ACCENTS",
+              "highlightWords": [
+                "retro stickers",
+                "highlights"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Collage Style",
+                  "color": "pink"
+                },
+                {
+                  "text": "Interactive",
+                  "color": "yellow"
+                }
+              ],
+              "icons": [
+                "🪩",
+                "⚡",
+                "🍒"
+              ],
+              "swissHudMetadata": "05 // STEP 03 // STICKERS & ACCENTS",
+              "swipePrompt": "THE CHEAT SHEET →",
+              "slideIndex": 5,
+              "cardIndexText": "05 // 08"
+            },
+            {
+              "slideType": "cheatsheet",
+              "header": "the saveable poster cheat sheet.",
+              "subhead": "Save this slide for your next product poster creation:",
+              "bodyBullets": [
+                "🎯 Canvas Size: 1080 x 1350 (4:5 vertical ratio)",
+                "🎨 Colors: Off-white graph paper (#F9F9F7) + Black text + Neon lime/pink",
+                "🔤 Typography: Extra Bold Sans Serif + Italic Display Serif (stacked tightly)",
+                "✨ Finish: Raking side key light, lifted shadows, 35mm film grain"
+              ],
+              "keyCallout": "💾 SAVE THIS POST: Keep these 4 rules ready whenever you open Nano Banana!",
+              "badgeText": "SAVEABLE CHEAT SHEET",
+              "highlightWords": [
+                "cheat sheet",
+                "save this"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Pocket Guide",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "💾",
+                "⚡"
+              ],
+              "swissHudMetadata": "06 // CHEAT SHEET // SAVE FOR LATER",
+              "swipePrompt": "THE WINNING WORKFLOW →",
+              "slideIndex": 6,
+              "cardIndexText": "06 // 08"
+            },
+            {
+              "slideType": "summary",
+              "header": "the 3-minute poster workflow.",
+              "subhead": "How to make 10 high-converting posters every single day:",
+              "bodyBullets": [
+                "1. Save 5 aesthetic reference posters from Pinterest / Instagram",
+                "2. Feed into Nano Banana with our 3-line copy formula",
+                "3. Export high-res and pair with an automated DM keyword"
+              ],
+              "keyCallout": "✈️ SHARE WITH A CREATOR: Help a friend level up their graphic design!",
+              "badgeText": "THE COMPLETE WORKFLOW",
+              "highlightWords": [
+                "3-minute",
+                "workflow"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Scale to 10x",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🚀",
+                "💸"
+              ],
+              "swissHudMetadata": "07 // WORKFLOW // DAILY ENGINE",
+              "swipePrompt": "CLAIM THE FREE PROMPT PACK →",
+              "slideIndex": 7,
+              "cardIndexText": "07 // 08"
+            },
+            {
+              "slideType": "cta",
+              "header": "want the free poster prompt pack & figma templates?",
+              "subhead": "All raw assets, prompt files, and breakdowns are posted in our private Telegram group.",
+              "bodyBullets": [
+                "💬 Drop \"POSTER\" below for the instant Telegram invite link",
+                "📲 All prompt templates & editable Figma files are pinned in our Telegram group",
+                "🚀 Follow @junnbuilds / project\\ciel for daily creator breakdowns"
+              ],
+              "keyCallout": "⚡ Instant Telegram Access: Drop \"POSTER\" below or check the link in bio!",
+              "badgeText": "TELEGRAM VIP ACCESS",
+              "highlightWords": [
+                "telegram group",
+                "free prompt pack"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Telegram Group",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "📲",
+                "⚡",
+                "🎁"
+              ],
+              "swissHudMetadata": "08 // TELEGRAM VIP // DROP \"POSTER\" BELOW",
+              "swipePrompt": "DROP \"POSTER\" FOR TELEGRAM LINK ↓",
+              "slideIndex": 8,
+              "cardIndexText": "08 // 08"
+            }
+          ],
+          "instagramCaption": "How to make $5K luxury brand posters in Nano Banana in under 3 minutes.\n\nHere is the simple step-by-step breakdown:\n\n01 // how to make $5k luxury brand posters in 3 minutes.\n02 // why 90% of ai posters look cheap and messy.\n03 // step 1: pick a grid reference layout.\n04 // step 2: the exact copy-paste prompt formula.\n05 // step 3: add retro stickers & pastel highlights.\n06 // the saveable poster cheat sheet.\n07 // the 3-minute poster workflow.\n08 // want the free poster prompt pack & figma templates?\n\n---\n💾 SAVE this post so you have the formulas for your next project.\n✈️ SHARE with a friend or creator who needs this.\n👇 Drop \"POSTER\" in the comments and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.",
+          "hashtags": [
+            "#projectciel",
+            "#visualdirecting",
+            "#luxurymarketing",
+            "#nanobanana",
+            "#contentcreator",
+            "#creativeagency",
+            "#graphicdesign",
+            "#marketingtips"
+          ]
+        }
+      },
+      "timestamp": "2026-08-28T10:11:51.758Z"
+    },
+    {
+      "key": "visual_style_blueprint",
+      "value": {
+        "id": "editorial_photo_storytelling",
+        "referenceName": "Editorial Cinematic Photo-Narrative Storytelling",
+        "referencePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+        "visualGenre": "Cinematic High-Aesthetic Photo Narrative / Storytelling",
+        "backgroundDescription": "Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.",
+        "headerNavigationStyle": "Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.",
+        "typographySystem": "Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.",
+        "colorPalette": {
+          "background": "Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow)",
+          "text": "#FFFFFF pure crisp white",
+          "highlighters": [
+            "Crisp white contrast overlay",
+            "Natural depth plane separation"
+          ],
+          "badges": [
+            "Zero artificial stickers or badges",
+            "Pure cinematic narrative clarity"
+          ]
+        },
+        "stickerAndDecalStyle": "Zero artificial stickers or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.",
+        "cinemaLightingStack": "35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain."
+      },
+      "timestamp": "2026-08-28T10:11:51.766Z"
+    }
+  ]
+}

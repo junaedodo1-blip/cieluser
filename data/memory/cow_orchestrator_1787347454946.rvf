@@ -1,0 +1,396 @@
+{
+  "parent": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+  "subagent": "orchestrator",
+  "label": "run_exec_1787347454945",
+  "createdAt": "2026-08-21T21:24:14.946Z",
+  "entries": [
+    {
+      "key": "trend_scout_selection",
+      "value": {
+        "insight": {
+          "topicKey": "viral_hook_secrets",
+          "topicTitle": "The 1.5-Second Visual Hook Blueprint (Stopping the Scroll)",
+          "nichePillar": "viral_marketing",
+          "viralHookArchetype": "Retention Anatomy / Mathematical Formula",
+          "whyItPerforms": "Solves the #1 problem of creators and agencies: skipping and low retention on slide 1.",
+          "predictedSaveRate": 0.95,
+          "triggerWord": "HOOKS",
+          "bulletProofThesis": "The 3-layer hook (Dominant visual centerpiece + High-contrast typography + Floating sticker badge) stops 80% of skips.",
+          "slideCopyBlueprint": {
+            "slide1Hook": "the 1.5-second visual hook formula that stops the scroll.",
+            "slide2MistakeOrTension": "why viewers swipe past your first slide.",
+            "slide3Step1": "layer 1: dominant optical centerpiece.",
+            "slide4Step2PromptCode": "layer 2: bold stacked lowercase serif title.",
+            "slide5Step3Secret": "layer 3: tilted high-contrast 3D accent decals.",
+            "slide6SaveableCheatSheet": "the scroll-stopper visual layout blueprint.",
+            "slide7Routine": "how to A/B test 5 hooks before publishing.",
+            "slide8CallToAction": "download the 20 viral hook templates free."
+          }
+        },
+        "copyPackage": {
+          "topicKey": "viral_hook_secrets",
+          "topicTitle": "The 3-Second Hook Secret That Makes Millions Stop Scrolling",
+          "triggerWord": "HOOKS",
+          "hookHeadline": "the 3-second hook secret that stops the scroll.",
+          "slides": [
+            {
+              "slideType": "hook",
+              "header": "the 3-second hook secret that stops the scroll.",
+              "subhead": "How top creators write opening lines that hook viewers, hold them for 15 seconds, and go viral.",
+              "badgeText": "VIRAL HOOK FORMULA",
+              "highlightWords": [
+                "3-second",
+                "hook secret",
+                "stop the scroll"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Retention Science",
+                  "color": "green"
+                },
+                {
+                  "text": "1.5s Gate",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🍒",
+                "🪩",
+                "🖱️"
+              ],
+              "swissHudMetadata": "01 // VIRAL HOOKS // RETENTION SPEC",
+              "swipePrompt": "WHY MOST DIE IN 2S →",
+              "slideIndex": 1,
+              "cardIndexText": "01 // 08"
+            },
+            {
+              "slideType": "problem",
+              "header": "why 90% of videos die in the first 2 seconds.",
+              "subhead": "Starting with boring greetings (\"Hey guys\") or channel logos kills distribution instantly.",
+              "bodyBullets": [
+                "The algorithm decides in 1.5 to 3 seconds whether to push your video",
+                "Throat-clearing and slow intros cause 80% immediate drop-off",
+                "Viewers want the prize immediately, not your autobiography"
+              ],
+              "keyCallout": "RULE: Never introduce yourself. Start right inside the middle of the transformation.",
+              "badgeText": "THE RETENTION TRAP",
+              "highlightWords": [
+                "die in 2 seconds",
+                "drop-off"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Algorithm Gate",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "💸"
+              ],
+              "swissHudMetadata": "02 // RETENTION TRAP // WHY IT DIES",
+              "swipePrompt": "LAYER 1: VISUAL SHOCK →",
+              "slideIndex": 2,
+              "cardIndexText": "02 // 08"
+            },
+            {
+              "slideType": "step1",
+              "header": "layer 1: the silent visual shock.",
+              "subhead": "Your video must stop thumbs on mute before the viewer hears a single word.",
+              "bodyBullets": [
+                "Show an impossible, oversized, or high-contrast physical object",
+                "Use extreme close-up macro texture (water droplets, raking light, liquid splash)",
+                "When the first frame looks visually shocking, the thumb freezes"
+              ],
+              "keyCallout": "VISUAL RULE: The first frame must make sense and look stunning even on mute.",
+              "badgeText": "LAYER 01: VISUAL SHOCK",
+              "highlightWords": [
+                "silent",
+                "visual shock"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Works on Mute",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🪩",
+                "⚡"
+              ],
+              "swissHudMetadata": "03 // LAYER 01 // VISUAL SHOCK",
+              "swipePrompt": "LAYER 2: SPOKEN INTRIGUE →",
+              "slideIndex": 3,
+              "cardIndexText": "03 // 08"
+            },
+            {
+              "slideType": "step2",
+              "header": "layer 2: the spoken intrigue (under 2s).",
+              "subhead": "Lead with the shocking prize or counter-intuitive truth.",
+              "bodyBullets": [
+                "Bad: \"Today I want to show you how to edit videos faster.\"",
+                "Good: \"I spent $10,000 on video gear so you can copy the $0 formula.\"",
+                "Open a curiosity gap that the viewer MUST watch 15s to resolve"
+              ],
+              "keyCallout": "VERBAL RULE: Lead with the prize, withhold the answer until slide 3.",
+              "badgeText": "LAYER 02: SPOKEN INTRIGUE",
+              "highlightWords": [
+                "spoken intrigue",
+                "curiosity gap"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Curiosity Loop",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "💸"
+              ],
+              "swissHudMetadata": "04 // LAYER 02 // SPOKEN INTRIGUE",
+              "swipePrompt": "LAYER 3: ON-SCREEN PUNCH →",
+              "slideIndex": 4,
+              "cardIndexText": "04 // 08"
+            },
+            {
+              "slideType": "step3",
+              "header": "layer 3: the 4-word on-screen punchline.",
+              "subhead": "Do not repeat the spoken words. Sharpen the message into 4 big bold words.",
+              "bodyBullets": [
+                "Spoken: \"Your expensive camera is why your videos look worse.\"",
+                "On-screen text: \"$3,000 vs $0 Truth.\"",
+                "High contrast typography with a neon highlighter strip behind the keyword"
+              ],
+              "keyCallout": "TEXT RULE: 3 to 7 high-impact words that punch the message into their eyes.",
+              "badgeText": "LAYER 03: ON-SCREEN PUNCH",
+              "highlightWords": [
+                "4-word",
+                "punchline"
+              ],
+              "stickerTags": [
+                {
+                  "text": "High Contrast",
+                  "color": "yellow"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "05 // LAYER 03 // ON-SCREEN TEXT",
+              "swipePrompt": "5 TEMPLATES CHEAT SHEET →",
+              "slideIndex": 5,
+              "cardIndexText": "05 // 08"
+            },
+            {
+              "slideType": "cheatsheet",
+              "header": "5 copy-paste viral hook templates.",
+              "subhead": "Save these 5 proven hook archetypes for your next video shoot:",
+              "bodyBullets": [
+                "1. The Cost Confession: \"I spent $X so you can skip to $0.\"",
+                "2. The Contrarian: \"Why [common habit] is ruining your [desired result].\"",
+                "3. The Withheld Reveal: \"I found the 1 tool that actually works (not what you think).\"",
+                "4. The Juxtaposition: \"Why putting [luxury item] in [gritty street] went viral.\"",
+                "5. The 3-Minute Fix: \"How to fix [big headache] in 1 click.\""
+              ],
+              "keyCallout": "💾 SAVE THIS POST: Use these 5 templates whenever you write your next hook!",
+              "badgeText": "SAVEABLE CHEAT SHEET",
+              "highlightWords": [
+                "viral hook templates",
+                "save this"
+              ],
+              "stickerTags": [
+                {
+                  "text": "5 Plug-and-Play",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "💾",
+                "🍒"
+              ],
+              "swissHudMetadata": "06 // CHEAT SHEET // 5 HOOK TEMPLATES",
+              "swipePrompt": "THE 15S RETENTION CURVE →",
+              "slideIndex": 6,
+              "cardIndexText": "06 // 08"
+            },
+            {
+              "slideType": "summary",
+              "header": "the 15-second viral retention curve.",
+              "subhead": "How to turn a 3-second hook into a completed watch and comment:",
+              "bodyBullets": [
+                "0-3s: Hook (Visual shock + Spoken intrigue + 4-word text)",
+                "4-8s: Tension (Explain why the standard way fails)",
+                "9-13s: Reward (Deliver the exact actionable formula)",
+                "14-15s: CTA (Comment keyword for the free complete PDF)"
+              ],
+              "keyCallout": "✈️ SHARE WITH A CREATOR: Help someone stop losing viewers in second 2!",
+              "badgeText": "RETENTION CURVE",
+              "highlightWords": [
+                "retention curve",
+                "15-second"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Algorithm Proof",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🚀",
+                "⚡"
+              ],
+              "swissHudMetadata": "07 // RETENTION // 15S SYSTEM",
+              "swipePrompt": "CLAIM THE FREE 25 HOOK PACK →",
+              "slideIndex": 7,
+              "cardIndexText": "07 // 08"
+            },
+            {
+              "slideType": "cta",
+              "header": "want the free 25 viral hook templates pack?",
+              "subhead": "Drop a 1-word comment below and I will instantly DM you the complete swipe file!",
+              "bodyBullets": [
+                "💬 Comment \"HOOKS\" on this post right now",
+                "📥 Automated DM delivers all 25 hook scripts + retention formulas in 2s",
+                "🚀 Follow @junnbuilds / project\\ciel for daily visual directing secrets"
+              ],
+              "keyCallout": "⚡ Instant free delivery: Drop \"HOOKS\" below to get the download link.",
+              "badgeText": "FREE PRIZE",
+              "highlightWords": [
+                "25 viral hook templates",
+                "free swipe file"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Instant DM",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🎁",
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "08 // FREE PRIZE // DROP \"HOOKS\" BELOW",
+              "swipePrompt": "COMMENT \"HOOKS\" NOW ↓",
+              "slideIndex": 8,
+              "cardIndexText": "08 // 08"
+            }
+          ],
+          "instagramCaption": "The 3-second hook secret that makes millions stop scrolling.\n\nHere is the simple step-by-step breakdown:\n\n01 // the 3-second hook secret that stops the scroll.\n02 // why 90% of videos die in the first 2 seconds.\n03 // layer 1: the silent visual shock.\n04 // layer 2: the spoken intrigue (under 2s).\n05 // layer 3: the 4-word on-screen punchline.\n06 // 5 copy-paste viral hook templates.\n07 // the 15-second viral retention curve.\n08 // want the free 25 viral hook templates pack?\n\n---\n💾 SAVE this post so you have the formulas for your next project.\n✈️ SHARE with a friend or creator who needs this.\n👇 Drop \"HOOKS\" in the comments and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.",
+          "hashtags": [
+            "#projectciel",
+            "#visualdirecting",
+            "#luxurymarketing",
+            "#nanobanana",
+            "#contentcreator",
+            "#creativeagency",
+            "#graphicdesign",
+            "#marketingtips"
+          ]
+        }
+      },
+      "timestamp": "2026-08-21T21:24:14.950Z"
+    },
+    {
+      "key": "visual_style_blueprint",
+      "value": {
+        "id": "community_grid_collage",
+        "referenceName": "Community Graph Grid Collage",
+        "referencePath": "carousel_references/insta_downloads_style/47682beae2eaca13fedf18527dbef244.jpg",
+        "backgroundDescription": "Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.",
+        "headerNavigationStyle": "Minimalist top app navigation: \"< project\\ciel.\" on top-left, \"☰ 🔍 +\" icons on top-right.",
+        "typographySystem": "Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.",
+        "colorPalette": {
+          "background": "#F8F8F5 off-white cream paper",
+          "text": "#0A0A0C obsidian black",
+          "highlighters": [
+            "#FCE7F3 pastel pink",
+            "#DCFCE7 pastel lime green",
+            "#E0F2FE pastel blue"
+          ],
+          "badges": [
+            "#FFFFFF pill tags with pink dot",
+            "#B4DCA4 green speech bubble",
+            "#BAE6FD blue speech bubble"
+          ]
+        },
+        "stickerAndDecalStyle": "Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.",
+        "cinemaLightingStack": "Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.",
+        "corePromptTemplate": "Use this image as reference to create a graphic carousel slide in the exact same visual style.\nVisual Style: Off-white graph grid notebook paper background, minimalist top app navigation header \"< project\\ciel.\" and \"☰ 🔍 +\".\nTypography: Massive bold stacked high-contrast serif typography with tight line spacing.\nHighlighters: Soft pastel pink and pastel lime highlighter rectangles behind key words.\nStickers & Badges: Tilted speech bubbles with drop shadows, pill tags with pink dots, and floating 3D micro-stickers (cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash 💸, retro pixel mouse cursor 🖱️).\nQuality: Razor-sharp graphic design, ultra-clean typography, 4:5 vertical portrait (1080x1350)."
+      },
+      "timestamp": "2026-08-21T21:24:14.951Z"
+    },
+    {
+      "key": "nano_banana_prompts_batch",
+      "value": [
+        {
+          "slideIndex": 1,
+          "slideType": "hook",
+          "referenceImagePath": "carousel_references/insta_downloads_style/47682beae2eaca13fedf18527dbef244.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.\n• Top Navigation: Minimalist top app navigation: \"< project\\ciel.\" on top-left, \"☰ 🔍 +\" icons on top-right.\n• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.\n• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.\n\n=== [SLIDE 1 MISSION: SCROLL-STOPPING VISUAL HERO PIECE] ===\n• Objective: Stop the scroll instantly within 1.5 seconds with a breathtaking, high-aesthetic visual masterpiece.\n• Visual Architecture: Dominant central composition, massive bold stacked typography with vibrant highlighter bars, and playful floating 3D micro-stickers (cherries 🍒, disco ball 🪩, lightning ⚡, cash 💸, pixel mouse cursor 🖱️).\n\n=== [SLIDE 1 VARIATION CONTENT] ===\nSlide Purpose: Slide 1 of 8 (HOOK)\nCard Counter Tag: \"01 // 08\"\nTop Pill Badge: \"VIRAL HOOK FORMULA\" with a small pink dot\nMain Headline: \"the 3-second hook secret that stops the scroll.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"3-second, hook secret, stop the scroll\"\nSubtitle / Description: \"How top creators write opening lines that hook viewers, hold them for 15 seconds, and go viral.\"\nSpeech Bubble Stickers: \"Retention Science\" (green), \"1.5s Gate\" (pink)\nBottom Swipe Prompt: \"WHY MOST DIE IN 2S →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_01.png"
+        },
+        {
+          "slideIndex": 2,
+          "slideType": "problem",
+          "referenceImagePath": "carousel_references/insta_downloads_style/47682beae2eaca13fedf18527dbef244.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.\n• Top Navigation: Minimalist top app navigation: \"< project\\ciel.\" on top-left, \"☰ 🔍 +\" icons on top-right.\n• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.\n• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.\n\n=== [SLIDE 2 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 2 VARIATION CONTENT] ===\nSlide Purpose: Slide 2 of 8 (PROBLEM)\nCard Counter Tag: \"02 // 08\"\nTop Pill Badge: \"THE RETENTION TRAP\" with a small pink dot\nMain Headline: \"why 90% of videos die in the first 2 seconds.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"die in 2 seconds, drop-off\"\nSubtitle / Description: \"Starting with boring greetings (\"Hey guys\") or channel logos kills distribution instantly.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"The algorithm decides in 1.5 to 3 seconds whether to push your video\"\n  2. \"Throat-clearing and slow intros cause 80% immediate drop-off\"\n  3. \"Viewers want the prize immediately, not your autobiography\"\nCallout Box: \"RULE: Never introduce yourself. Start right inside the middle of the transformation.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Algorithm Gate\" (pink)\nBottom Swipe Prompt: \"LAYER 1: VISUAL SHOCK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_02.png"
+        },
+        {
+          "slideIndex": 3,
+          "slideType": "step1",
+          "referenceImagePath": "carousel_references/insta_downloads_style/47682beae2eaca13fedf18527dbef244.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.\n• Top Navigation: Minimalist top app navigation: \"< project\\ciel.\" on top-left, \"☰ 🔍 +\" icons on top-right.\n• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.\n• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.\n\n=== [SLIDE 3 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 3 VARIATION CONTENT] ===\nSlide Purpose: Slide 3 of 8 (STEP1)\nCard Counter Tag: \"03 // 08\"\nTop Pill Badge: \"LAYER 01: VISUAL SHOCK\" with a small pink dot\nMain Headline: \"layer 1: the silent visual shock.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"silent, visual shock\"\nSubtitle / Description: \"Your video must stop thumbs on mute before the viewer hears a single word.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Show an impossible, oversized, or high-contrast physical object\"\n  2. \"Use extreme close-up macro texture (water droplets, raking light, liquid splash)\"\n  3. \"When the first frame looks visually shocking, the thumb freezes\"\nCallout Box: \"VISUAL RULE: The first frame must make sense and look stunning even on mute.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Works on Mute\" (blue)\nBottom Swipe Prompt: \"LAYER 2: SPOKEN INTRIGUE →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_03.png"
+        },
+        {
+          "slideIndex": 4,
+          "slideType": "step2",
+          "referenceImagePath": "carousel_references/insta_downloads_style/47682beae2eaca13fedf18527dbef244.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.\n• Top Navigation: Minimalist top app navigation: \"< project\\ciel.\" on top-left, \"☰ 🔍 +\" icons on top-right.\n• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.\n• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.\n\n=== [SLIDE 4 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 4 VARIATION CONTENT] ===\nSlide Purpose: Slide 4 of 8 (STEP2)\nCard Counter Tag: \"04 // 08\"\nTop Pill Badge: \"LAYER 02: SPOKEN INTRIGUE\" with a small pink dot\nMain Headline: \"layer 2: the spoken intrigue (under 2s).\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"spoken intrigue, curiosity gap\"\nSubtitle / Description: \"Lead with the shocking prize or counter-intuitive truth.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Bad: \"Today I want to show you how to edit videos faster.\"\"\n  2. \"Good: \"I spent $10,000 on video gear so you can copy the $0 formula.\"\"\n  3. \"Open a curiosity gap that the viewer MUST watch 15s to resolve\"\nCallout Box: \"VERBAL RULE: Lead with the prize, withhold the answer until slide 3.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Curiosity Loop\" (green)\nBottom Swipe Prompt: \"LAYER 3: ON-SCREEN PUNCH →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_04.png"
+        },
+        {
+          "slideIndex": 5,
+          "slideType": "step3",
+          "referenceImagePath": "carousel_references/insta_downloads_style/47682beae2eaca13fedf18527dbef244.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.\n• Top Navigation: Minimalist top app navigation: \"< project\\ciel.\" on top-left, \"☰ 🔍 +\" icons on top-right.\n• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.\n• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.\n\n=== [SLIDE 5 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 5 VARIATION CONTENT] ===\nSlide Purpose: Slide 5 of 8 (STEP3)\nCard Counter Tag: \"05 // 08\"\nTop Pill Badge: \"LAYER 03: ON-SCREEN PUNCH\" with a small pink dot\nMain Headline: \"layer 3: the 4-word on-screen punchline.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"4-word, punchline\"\nSubtitle / Description: \"Do not repeat the spoken words. Sharpen the message into 4 big bold words.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Spoken: \"Your expensive camera is why your videos look worse.\"\"\n  2. \"On-screen text: \"$3,000 vs $0 Truth.\"\"\n  3. \"High contrast typography with a neon highlighter strip behind the keyword\"\nCallout Box: \"TEXT RULE: 3 to 7 high-impact words that punch the message into their eyes.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"High Contrast\" (yellow)\nBottom Swipe Prompt: \"5 TEMPLATES CHEAT SHEET →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_05.png"
+        },
+        {
+          "slideIndex": 6,
+          "slideType": "cheatsheet",
+          "referenceImagePath": "carousel_references/insta_downloads_style/47682beae2eaca13fedf18527dbef244.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.\n• Top Navigation: Minimalist top app navigation: \"< project\\ciel.\" on top-left, \"☰ 🔍 +\" icons on top-right.\n• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.\n• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.\n\n=== [SLIDE 6 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 6 VARIATION CONTENT] ===\nSlide Purpose: Slide 6 of 8 (CHEATSHEET)\nCard Counter Tag: \"06 // 08\"\nTop Pill Badge: \"SAVEABLE CHEAT SHEET\" with a small pink dot\nMain Headline: \"5 copy-paste viral hook templates.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"viral hook templates, save this\"\nSubtitle / Description: \"Save these 5 proven hook archetypes for your next video shoot:\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"1. The Cost Confession: \"I spent $X so you can skip to $0.\"\"\n  2. \"2. The Contrarian: \"Why [common habit] is ruining your [desired result].\"\"\n  3. \"3. The Withheld Reveal: \"I found the 1 tool that actually works (not what you think).\"\"\n  4. \"4. The Juxtaposition: \"Why putting [luxury item] in [gritty street] went viral.\"\"\n  5. \"5. The 3-Minute Fix: \"How to fix [big headache] in 1 click.\"\"\nCallout Box: \"💾 SAVE THIS POST: Use these 5 templates whenever you write your next hook!\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"5 Plug-and-Play\" (green)\nBottom Swipe Prompt: \"THE 15S RETENTION CURVE →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_06.png"
+        },
+        {
+          "slideIndex": 7,
+          "slideType": "summary",
+          "referenceImagePath": "carousel_references/insta_downloads_style/47682beae2eaca13fedf18527dbef244.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.\n• Top Navigation: Minimalist top app navigation: \"< project\\ciel.\" on top-left, \"☰ 🔍 +\" icons on top-right.\n• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.\n• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.\n\n=== [SLIDE 7 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 7 VARIATION CONTENT] ===\nSlide Purpose: Slide 7 of 8 (SUMMARY)\nCard Counter Tag: \"07 // 08\"\nTop Pill Badge: \"RETENTION CURVE\" with a small pink dot\nMain Headline: \"the 15-second viral retention curve.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"retention curve, 15-second\"\nSubtitle / Description: \"How to turn a 3-second hook into a completed watch and comment:\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"0-3s: Hook (Visual shock + Spoken intrigue + 4-word text)\"\n  2. \"4-8s: Tension (Explain why the standard way fails)\"\n  3. \"9-13s: Reward (Deliver the exact actionable formula)\"\n  4. \"14-15s: CTA (Comment keyword for the free complete PDF)\"\nCallout Box: \"✈️ SHARE WITH A CREATOR: Help someone stop losing viewers in second 2!\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Algorithm Proof\" (blue)\nBottom Swipe Prompt: \"CLAIM THE FREE 25 HOOK PACK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_07.png"
+        },
+        {
+          "slideIndex": 8,
+          "slideType": "cta",
+          "referenceImagePath": "carousel_references/insta_downloads_style/47682beae2eaca13fedf18527dbef244.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Light off-white / cream graph grid notebook paper with fine technical 32px grey grid lines.\n• Top Navigation: Minimalist top app navigation: \"< project\\ciel.\" on top-left, \"☰ 🔍 +\" icons on top-right.\n• Typography Hierarchy: Large, stacked, high-contrast, editorial serif headline (Playfair Display / Archivo Black style) with tight leading and bold uppercase/lowercase contrast.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Playful floating 3D micro-stickers and icons scattered around letters: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash with wings 💸, and retro pixel mouse cursors 🖱️.\n• Lighting & Finish: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur, 35mm fine grain.\n\n=== [SLIDE 8 MISSION: FREE PRIZE & CONVERSION CTA] ===\n• Objective: Convert engagement into saves, shares, and instant DM comments with a clear 3-step action checklist and free value offer.\n\n=== [SLIDE 8 VARIATION CONTENT] ===\nSlide Purpose: Slide 8 of 8 (CTA)\nCard Counter Tag: \"08 // 08\"\nTop Pill Badge: \"FREE PRIZE\" with a small pink dot\nMain Headline: \"want the free 25 viral hook templates pack?\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"25 viral hook templates, free swipe file\"\nSubtitle / Description: \"Drop a 1-word comment below and I will instantly DM you the complete swipe file!\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"💬 Comment \"HOOKS\" on this post right now\"\n  2. \"📥 Automated DM delivers all 25 hook scripts + retention formulas in 2s\"\n  3. \"🚀 Follow @junnbuilds / project\\ciel for daily visual directing secrets\"\nCallout Box: \"⚡ Instant free delivery: Drop \"HOOKS\" below to get the download link.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Instant DM\" (pink)\nBottom Swipe Prompt: \"COMMENT \"HOOKS\" NOW ↓\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_08.png"
+        }
+      ],
+      "timestamp": "2026-08-21T21:24:14.957Z"
+    }
+  ]
+}

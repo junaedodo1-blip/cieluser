@@ -1,8 +1,5 @@
 node_modules
 dist/
-out/
-!out/digital_products/
-!out/carousel_ciel/
 !carousel_references/
 .next/
 .next-*/

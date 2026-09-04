@@ -1,0 +1,591 @@
+{
+  "parent": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+  "subagent": "orchestrator",
+  "label": "run_exec_1787334877156",
+  "createdAt": "2026-08-21T17:54:37.158Z",
+  "entries": [
+    {
+      "key": "trend_scout_selection",
+      "value": {
+        "insight": {
+          "topicKey": "viral_hook_secrets",
+          "topicTitle": "The 1.5-Second Visual Hook Blueprint (Stopping the Scroll)",
+          "nichePillar": "viral_marketing",
+          "viralHookArchetype": "Retention Anatomy / Mathematical Formula",
+          "whyItPerforms": "Solves the #1 problem of creators and agencies: skipping and low retention on slide 1.",
+          "predictedSaveRate": 0.95,
+          "triggerWord": "HOOKS",
+          "bulletProofThesis": "The 3-layer hook (Dominant visual centerpiece + High-contrast typography + Floating sticker badge) stops 80% of skips.",
+          "slideCopyBlueprint": {
+            "slide1Hook": "the 1.5-second visual hook formula that stops the scroll.",
+            "slide2MistakeOrTension": "why viewers swipe past your first slide.",
+            "slide3Step1": "layer 1: dominant optical centerpiece.",
+            "slide4Step2PromptCode": "layer 2: bold stacked lowercase serif title.",
+            "slide5Step3Secret": "layer 3: tilted high-contrast 3D accent decals.",
+            "slide6SaveableCheatSheet": "the scroll-stopper visual layout blueprint.",
+            "slide7Routine": "how to A/B test 5 hooks before publishing.",
+            "slide8CallToAction": "download the 20 viral hook templates free."
+          }
+        },
+        "copyPackage": {
+          "topicKey": "viral_hook_secrets",
+          "topicTitle": "The 3-Second Hook Secret That Makes Millions Stop Scrolling",
+          "triggerWord": "HOOKS",
+          "hookHeadline": "the 3-second hook secret that stops the scroll.",
+          "slides": [
+            {
+              "slideType": "hook",
+              "header": "the 3-second hook secret that stops the scroll.",
+              "subhead": "How top creators write opening lines that hook viewers, hold them for 15 seconds, and go viral.",
+              "badgeText": "VIRAL HOOK FORMULA",
+              "highlightWords": [
+                "3-second",
+                "hook secret",
+                "stop the scroll"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Retention Science",
+                  "color": "green"
+                },
+                {
+                  "text": "1.5s Gate",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🍒",
+                "🪩",
+                "🖱️"
+              ],
+              "swissHudMetadata": "01 // VIRAL HOOKS // RETENTION SPEC",
+              "swipePrompt": "WHY MOST DIE IN 2S →",
+              "slideIndex": 1,
+              "cardIndexText": "01 // 08"
+            },
+            {
+              "slideType": "problem",
+              "header": "why 90% of videos die in the first 2 seconds.",
+              "subhead": "Starting with boring greetings (\"Hey guys\") or channel logos kills distribution instantly.",
+              "bodyBullets": [
+                "The algorithm decides in 1.5 to 3 seconds whether to push your video",
+                "Throat-clearing and slow intros cause 80% immediate drop-off",
+                "Viewers want the prize immediately, not your autobiography"
+              ],
+              "keyCallout": "RULE: Never introduce yourself. Start right inside the middle of the transformation.",
+              "badgeText": "THE RETENTION TRAP",
+              "highlightWords": [
+                "die in 2 seconds",
+                "drop-off"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Algorithm Gate",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "💸"
+              ],
+              "swissHudMetadata": "02 // RETENTION TRAP // WHY IT DIES",
+              "swipePrompt": "LAYER 1: VISUAL SHOCK →",
+              "slideIndex": 2,
+              "cardIndexText": "02 // 08"
+            },
+            {
+              "slideType": "step1",
+              "header": "layer 1: the silent visual shock.",
+              "subhead": "Your video must stop thumbs on mute before the viewer hears a single word.",
+              "bodyBullets": [
+                "Show an impossible, oversized, or high-contrast physical object",
+                "Use extreme close-up macro texture (water droplets, raking light, liquid splash)",
+                "When the first frame looks visually shocking, the thumb freezes"
+              ],
+              "keyCallout": "VISUAL RULE: The first frame must make sense and look stunning even on mute.",
+              "badgeText": "LAYER 01: VISUAL SHOCK",
+              "highlightWords": [
+                "silent",
+                "visual shock"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Works on Mute",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🪩",
+                "⚡"
+              ],
+              "swissHudMetadata": "03 // LAYER 01 // VISUAL SHOCK",
+              "swipePrompt": "LAYER 2: SPOKEN INTRIGUE →",
+              "slideIndex": 3,
+              "cardIndexText": "03 // 08"
+            },
+            {
+              "slideType": "step2",
+              "header": "layer 2: the spoken intrigue (under 2s).",
+              "subhead": "Lead with the shocking prize or counter-intuitive truth.",
+              "bodyBullets": [
+                "Bad: \"Today I want to show you how to edit videos faster.\"",
+                "Good: \"I spent $10,000 on video gear so you can copy the $0 formula.\"",
+                "Open a curiosity gap that the viewer MUST watch 15s to resolve"
+              ],
+              "keyCallout": "VERBAL RULE: Lead with the prize, withhold the answer until slide 3.",
+              "badgeText": "LAYER 02: SPOKEN INTRIGUE",
+              "highlightWords": [
+                "spoken intrigue",
+                "curiosity gap"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Curiosity Loop",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "💸"
+              ],
+              "swissHudMetadata": "04 // LAYER 02 // SPOKEN INTRIGUE",
+              "swipePrompt": "LAYER 3: ON-SCREEN PUNCH →",
+              "slideIndex": 4,
+              "cardIndexText": "04 // 08"
+            },
+            {
+              "slideType": "step3",
+              "header": "layer 3: the 4-word on-screen punchline.",
+              "subhead": "Do not repeat the spoken words. Sharpen the message into 4 big bold words.",
+              "bodyBullets": [
+                "Spoken: \"Your expensive camera is why your videos look worse.\"",
+                "On-screen text: \"$3,000 vs $0 Truth.\"",
+                "High contrast typography with a neon highlighter strip behind the keyword"
+              ],
+              "keyCallout": "TEXT RULE: 3 to 7 high-impact words that punch the message into their eyes.",
+              "badgeText": "LAYER 03: ON-SCREEN PUNCH",
+              "highlightWords": [
+                "4-word",
+                "punchline"
+              ],
+              "stickerTags": [
+                {
+                  "text": "High Contrast",
+                  "color": "yellow"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "05 // LAYER 03 // ON-SCREEN TEXT",
+              "swipePrompt": "5 TEMPLATES CHEAT SHEET →",
+              "slideIndex": 5,
+              "cardIndexText": "05 // 08"
+            },
+            {
+              "slideType": "cheatsheet",
+              "header": "5 copy-paste viral hook templates.",
+              "subhead": "Save these 5 proven hook archetypes for your next video shoot:",
+              "bodyBullets": [
+                "1. The Cost Confession: \"I spent $X so you can skip to $0.\"",
+                "2. The Contrarian: \"Why [common habit] is ruining your [desired result].\"",
+                "3. The Withheld Reveal: \"I found the 1 tool that actually works (not what you think).\"",
+                "4. The Juxtaposition: \"Why putting [luxury item] in [gritty street] went viral.\"",
+                "5. The 3-Minute Fix: \"How to fix [big headache] in 1 click.\""
+              ],
+              "keyCallout": "💾 SAVE THIS POST: Use these 5 templates whenever you write your next hook!",
+              "badgeText": "SAVEABLE CHEAT SHEET",
+              "highlightWords": [
+                "viral hook templates",
+                "save this"
+              ],
+              "stickerTags": [
+                {
+                  "text": "5 Plug-and-Play",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "💾",
+                "🍒"
+              ],
+              "swissHudMetadata": "06 // CHEAT SHEET // 5 HOOK TEMPLATES",
+              "swipePrompt": "THE 15S RETENTION CURVE →",
+              "slideIndex": 6,
+              "cardIndexText": "06 // 08"
+            },
+            {
+              "slideType": "summary",
+              "header": "the 15-second viral retention curve.",
+              "subhead": "How to turn a 3-second hook into a completed watch and comment:",
+              "bodyBullets": [
+                "0-3s: Hook (Visual shock + Spoken intrigue + 4-word text)",
+                "4-8s: Tension (Explain why the standard way fails)",
+                "9-13s: Reward (Deliver the exact actionable formula)",
+                "14-15s: CTA (Comment keyword for the free complete PDF)"
+              ],
+              "keyCallout": "✈️ SHARE WITH A CREATOR: Help someone stop losing viewers in second 2!",
+              "badgeText": "RETENTION CURVE",
+              "highlightWords": [
+                "retention curve",
+                "15-second"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Algorithm Proof",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🚀",
+                "⚡"
+              ],
+              "swissHudMetadata": "07 // RETENTION // 15S SYSTEM",
+              "swipePrompt": "CLAIM THE FREE 25 HOOK PACK →",
+              "slideIndex": 7,
+              "cardIndexText": "07 // 08"
+            },
+            {
+              "slideType": "cta",
+              "header": "want the free 25 viral hook templates pack?",
+              "subhead": "All raw hook templates, swipe files, and breakdowns are posted in our private Telegram group.",
+              "bodyBullets": [
+                "💬 Drop \"HOOKS\" below for the instant Telegram invite link",
+                "📲 All 25 hook scripts & retention templates are pinned in our Telegram group",
+                "🚀 Follow @junnbuilds / project\\ciel for daily visual directing secrets"
+              ],
+              "keyCallout": "⚡ Instant Telegram Access: Drop \"HOOKS\" below or check the link in bio!",
+              "badgeText": "TELEGRAM VIP ACCESS",
+              "highlightWords": [
+                "telegram group",
+                "free hook templates"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Telegram Group",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "📲",
+                "⚡",
+                "🎁"
+              ],
+              "swissHudMetadata": "08 // TELEGRAM VIP // DROP \"HOOKS\" BELOW",
+              "swipePrompt": "DROP \"HOOKS\" FOR TELEGRAM LINK ↓",
+              "slideIndex": 8,
+              "cardIndexText": "08 // 08"
+            }
+          ],
+          "instagramCaption": "The 3-second hook secret that makes millions stop scrolling.\n\nHere is the simple step-by-step breakdown:\n\n01 // the 3-second hook secret that stops the scroll.\n02 // why 90% of videos die in the first 2 seconds.\n03 // layer 1: the silent visual shock.\n04 // layer 2: the spoken intrigue (under 2s).\n05 // layer 3: the 4-word on-screen punchline.\n06 // 5 copy-paste viral hook templates.\n07 // the 15-second viral retention curve.\n08 // want the free 25 viral hook templates pack?\n\n---\n💾 SAVE this post so you have the formulas for your next project.\n✈️ SHARE with a friend or creator who needs this.\n👇 Drop \"HOOKS\" in the comments and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.",
+          "hashtags": [
+            "#projectciel",
+            "#visualdirecting",
+            "#luxurymarketing",
+            "#nanobanana",
+            "#contentcreator",
+            "#creativeagency",
+            "#graphicdesign",
+            "#marketingtips"
+          ]
+        }
+      },
+      "timestamp": "2026-08-21T17:54:37.176Z"
+    },
+    {
+      "key": "visual_style_blueprint",
+      "value": {
+        "id": "editorial_photo_storytelling",
+        "referenceName": "Editorial Cinematic Photo-Narrative Storytelling",
+        "referencePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+        "visualGenre": "Cinematic High-Aesthetic Photo Narrative / Storytelling",
+        "backgroundDescription": "Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.",
+        "headerNavigationStyle": "Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.",
+        "typographySystem": "Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.",
+        "colorPalette": {
+          "background": "Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow)",
+          "text": "#FFFFFF pure crisp white",
+          "highlighters": [
+            "Crisp white contrast overlay",
+            "Natural depth plane separation"
+          ],
+          "badges": [
+            "Zero artificial stickers or badges",
+            "Pure cinematic narrative clarity"
+          ]
+        },
+        "stickerAndDecalStyle": "Zero artificial stickers or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.",
+        "cinemaLightingStack": "35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.",
+        "corePromptTemplate": "Use this image as reference to create an editorial cinematic photo-narrative storytelling carousel slide in the exact same visual style:\n• Background: Full-bleed high-aesthetic 4:5 cinematic photography (authentic atmosphere, natural light, rich materials, 35mm film grain).\n• Typography: Pure crisp white (#FFFFFF) text floating directly over the photograph. Massive stacked luxury Didot/Ogg serif headline paired with clean modern sans-serif storytelling copy.\n• Composition: Clean negative space placement, zero clutter, zero artificial badges or stickers, high-status auteur editorial art direction.\n• Quality: 35mm cinematic photograph, razor-sharp white typography, 4:5 vertical portrait (1080x1350).",
+        "requiredKeywords": [
+          "cinematic photography",
+          "editorial serif",
+          "clean sans-serif",
+          "full-bleed",
+          "white typography"
+        ],
+        "forbiddenKeywords": [
+          "graph paper",
+          "stickers",
+          "wax seal",
+          "neon lime badge",
+          "starburst blob"
+        ]
+      },
+      "timestamp": "2026-08-21T17:54:37.187Z"
+    },
+    {
+      "key": "nano_banana_prompts_batch",
+      "value": [
+        {
+          "slideIndex": 1,
+          "slideType": "hook",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 1 VARIATION CONTENT] ===\nSlide Purpose: Slide 1 of 8 (HOOK)\nCard Counter Tag: \"01 // 08\"\nTop Pill Badge: \"VIRAL HOOK FORMULA\"\nMain Headline: \"the 3-second hook secret that stops the scroll.\"\nHighlight Focus: Emphasize keywords \"3-second, hook secret, stop the scroll\" in the reference style container\nSubtitle / Description: \"How top creators write opening lines that hook viewers, hold them for 15 seconds, and go viral.\"\nBottom Prompt: \"WHY MOST DIE IN 2S →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_01.png"
+        },
+        {
+          "slideIndex": 2,
+          "slideType": "problem",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 2 VARIATION CONTENT] ===\nSlide Purpose: Slide 2 of 8 (PROBLEM)\nCard Counter Tag: \"02 // 08\"\nTop Pill Badge: \"THE RETENTION TRAP\"\nMain Headline: \"why 90% of videos die in the first 2 seconds.\"\nHighlight Focus: Emphasize keywords \"die in 2 seconds, drop-off\" in the reference style container\nSubtitle / Description: \"Starting with boring greetings (\"Hey guys\") or channel logos kills distribution instantly.\"\nBody Points:\n  1. \"The algorithm decides in 1.5 to 3 seconds whether to push your video\"\n  2. \"Throat-clearing and slow intros cause 80% immediate drop-off\"\n  3. \"Viewers want the prize immediately, not your autobiography\"\nCallout Box: \"RULE: Never introduce yourself. Start right inside the middle of the transformation.\"\nBottom Prompt: \"LAYER 1: VISUAL SHOCK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_02.png"
+        },
+        {
+          "slideIndex": 3,
+          "slideType": "step1",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 3 VARIATION CONTENT] ===\nSlide Purpose: Slide 3 of 8 (STEP1)\nCard Counter Tag: \"03 // 08\"\nTop Pill Badge: \"LAYER 01: VISUAL SHOCK\"\nMain Headline: \"layer 1: the silent visual shock.\"\nHighlight Focus: Emphasize keywords \"silent, visual shock\" in the reference style container\nSubtitle / Description: \"Your video must stop thumbs on mute before the viewer hears a single word.\"\nBody Points:\n  1. \"Show an impossible, oversized, or high-contrast physical object\"\n  2. \"Use extreme close-up macro texture (water droplets, raking light, liquid splash)\"\n  3. \"When the first frame looks visually shocking, the thumb freezes\"\nCallout Box: \"VISUAL RULE: The first frame must make sense and look stunning even on mute.\"\nBottom Prompt: \"LAYER 2: SPOKEN INTRIGUE →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_03.png"
+        },
+        {
+          "slideIndex": 4,
+          "slideType": "step2",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 4 VARIATION CONTENT] ===\nSlide Purpose: Slide 4 of 8 (STEP2)\nCard Counter Tag: \"04 // 08\"\nTop Pill Badge: \"LAYER 02: SPOKEN INTRIGUE\"\nMain Headline: \"layer 2: the spoken intrigue (under 2s).\"\nHighlight Focus: Emphasize keywords \"spoken intrigue, curiosity gap\" in the reference style container\nSubtitle / Description: \"Lead with the shocking prize or counter-intuitive truth.\"\nBody Points:\n  1. \"Bad: \"Today I want to show you how to edit videos faster.\"\"\n  2. \"Good: \"I spent $10,000 on video gear so you can copy the $0 formula.\"\"\n  3. \"Open a curiosity gap that the viewer MUST watch 15s to resolve\"\nCallout Box: \"VERBAL RULE: Lead with the prize, withhold the answer until slide 3.\"\nBottom Prompt: \"LAYER 3: ON-SCREEN PUNCH →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_04.png"
+        },
+        {
+          "slideIndex": 5,
+          "slideType": "step3",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 5 VARIATION CONTENT] ===\nSlide Purpose: Slide 5 of 8 (STEP3)\nCard Counter Tag: \"05 // 08\"\nTop Pill Badge: \"LAYER 03: ON-SCREEN PUNCH\"\nMain Headline: \"layer 3: the 4-word on-screen punchline.\"\nHighlight Focus: Emphasize keywords \"4-word, punchline\" in the reference style container\nSubtitle / Description: \"Do not repeat the spoken words. Sharpen the message into 4 big bold words.\"\nBody Points:\n  1. \"Spoken: \"Your expensive camera is why your videos look worse.\"\"\n  2. \"On-screen text: \"$3,000 vs $0 Truth.\"\"\n  3. \"High contrast typography with a neon highlighter strip behind the keyword\"\nCallout Box: \"TEXT RULE: 3 to 7 high-impact words that punch the message into their eyes.\"\nBottom Prompt: \"5 TEMPLATES CHEAT SHEET →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_05.png"
+        },
+        {
+          "slideIndex": 6,
+          "slideType": "cheatsheet",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 6 VARIATION CONTENT] ===\nSlide Purpose: Slide 6 of 8 (CHEATSHEET)\nCard Counter Tag: \"06 // 08\"\nTop Pill Badge: \"SAVEABLE CHEAT SHEET\"\nMain Headline: \"5 copy-paste viral hook templates.\"\nHighlight Focus: Emphasize keywords \"viral hook templates, save this\" in the reference style container\nSubtitle / Description: \"Save these 5 proven hook archetypes for your next video shoot:\"\nBody Points:\n  1. \"1. The Cost Confession: \"I spent $X so you can skip to $0.\"\"\n  2. \"2. The Contrarian: \"Why [common habit] is ruining your [desired result].\"\"\n  3. \"3. The Withheld Reveal: \"I found the 1 tool that actually works (not what you think).\"\"\n  4. \"4. The Juxtaposition: \"Why putting [luxury item] in [gritty street] went viral.\"\"\n  5. \"5. The 3-Minute Fix: \"How to fix [big headache] in 1 click.\"\"\nCallout Box: \"💾 SAVE THIS POST: Use these 5 templates whenever you write your next hook!\"\nBottom Prompt: \"THE 15S RETENTION CURVE →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_06.png"
+        },
+        {
+          "slideIndex": 7,
+          "slideType": "summary",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 7 VARIATION CONTENT] ===\nSlide Purpose: Slide 7 of 8 (SUMMARY)\nCard Counter Tag: \"07 // 08\"\nTop Pill Badge: \"RETENTION CURVE\"\nMain Headline: \"the 15-second viral retention curve.\"\nHighlight Focus: Emphasize keywords \"retention curve, 15-second\" in the reference style container\nSubtitle / Description: \"How to turn a 3-second hook into a completed watch and comment:\"\nBody Points:\n  1. \"0-3s: Hook (Visual shock + Spoken intrigue + 4-word text)\"\n  2. \"4-8s: Tension (Explain why the standard way fails)\"\n  3. \"9-13s: Reward (Deliver the exact actionable formula)\"\n  4. \"14-15s: CTA (Comment keyword for the free complete PDF)\"\nCallout Box: \"✈️ SHARE WITH A CREATOR: Help someone stop losing viewers in second 2!\"\nBottom Prompt: \"CLAIM THE FREE 25 HOOK PACK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_07.png"
+        },
+        {
+          "slideIndex": 8,
+          "slideType": "cta",
+          "referenceImagePath": "carousel_references/story_photo_narrative/Nobody remembers your founding story.They remember the transformation they got to be part of.Wan.jpg",
+          "prompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 8 VARIATION CONTENT] ===\nSlide Purpose: Slide 8 of 8 (CTA)\nCard Counter Tag: \"08 // 08\"\nTop Pill Badge: \"TELEGRAM VIP ACCESS\"\nMain Headline: \"want the free 25 viral hook templates pack?\"\nHighlight Focus: Emphasize keywords \"telegram group, free hook templates\" in the reference style container\nSubtitle / Description: \"All raw hook templates, swipe files, and breakdowns are posted in our private Telegram group.\"\nBody Points:\n  1. \"💬 Drop \"HOOKS\" below for the instant Telegram invite link\"\n  2. \"📲 All 25 hook scripts & retention templates are pinned in our Telegram group\"\n  3. \"🚀 Follow @junnbuilds / project\\ciel for daily visual directing secrets\"\nCallout Box: \"⚡ Instant Telegram Access: Drop \"HOOKS\" below or check the link in bio!\"\nBottom Prompt: \"DROP \"HOOKS\" FOR TELEGRAM LINK ↓\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_08.png"
+        }
+      ],
+      "timestamp": "2026-08-21T17:54:37.212Z"
+    },
+    {
+      "key": "visual_fidelity_audit",
+      "value": {
+        "executionTimestamp": "2026-08-21T17:54:37.196Z",
+        "referenceStyleId": "editorial_photo_storytelling",
+        "referenceStyleName": "Editorial Cinematic Photo-Narrative Storytelling",
+        "overallStatus": "auto_repaired",
+        "averageFidelityScore": 100,
+        "slides": [
+          {
+            "slideIndex": 1,
+            "originalScore": 60,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "missing_required_keyword",
+                "description": "Missing required reference style signature: \"clean sans-serif\"",
+                "keyword": "clean sans-serif",
+                "severity": "high"
+              },
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 1 VARIATION CONTENT] ===\nSlide Purpose: Slide 1 of 8 (HOOK)\nCard Counter Tag: \"01 // 08\"\nTop Pill Badge: \"VIRAL HOOK FORMULA\"\nMain Headline: \"the 3-second hook secret that stops the scroll.\"\nHighlight Focus: Emphasize keywords \"3-second, hook secret, stop the scroll\" in the reference style container\nSubtitle / Description: \"How top creators write opening lines that hook viewers, hold them for 15 seconds, and go viral.\"\nBottom Prompt: \"WHY MOST DIE IN 2S →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials."
+          },
+          {
+            "slideIndex": 2,
+            "originalScore": 60,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "missing_required_keyword",
+                "description": "Missing required reference style signature: \"clean sans-serif\"",
+                "keyword": "clean sans-serif",
+                "severity": "high"
+              },
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 2 VARIATION CONTENT] ===\nSlide Purpose: Slide 2 of 8 (PROBLEM)\nCard Counter Tag: \"02 // 08\"\nTop Pill Badge: \"THE RETENTION TRAP\"\nMain Headline: \"why 90% of videos die in the first 2 seconds.\"\nHighlight Focus: Emphasize keywords \"die in 2 seconds, drop-off\" in the reference style container\nSubtitle / Description: \"Starting with boring greetings (\"Hey guys\") or channel logos kills distribution instantly.\"\nBody Points:\n  1. \"The algorithm decides in 1.5 to 3 seconds whether to push your video\"\n  2. \"Throat-clearing and slow intros cause 80% immediate drop-off\"\n  3. \"Viewers want the prize immediately, not your autobiography\"\nCallout Box: \"RULE: Never introduce yourself. Start right inside the middle of the transformation.\"\nBottom Prompt: \"LAYER 1: VISUAL SHOCK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials."
+          },
+          {
+            "slideIndex": 3,
+            "originalScore": 60,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "missing_required_keyword",
+                "description": "Missing required reference style signature: \"clean sans-serif\"",
+                "keyword": "clean sans-serif",
+                "severity": "high"
+              },
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 3 VARIATION CONTENT] ===\nSlide Purpose: Slide 3 of 8 (STEP1)\nCard Counter Tag: \"03 // 08\"\nTop Pill Badge: \"LAYER 01: VISUAL SHOCK\"\nMain Headline: \"layer 1: the silent visual shock.\"\nHighlight Focus: Emphasize keywords \"silent, visual shock\" in the reference style container\nSubtitle / Description: \"Your video must stop thumbs on mute before the viewer hears a single word.\"\nBody Points:\n  1. \"Show an impossible, oversized, or high-contrast physical object\"\n  2. \"Use extreme close-up macro texture (water droplets, raking light, liquid splash)\"\n  3. \"When the first frame looks visually shocking, the thumb freezes\"\nCallout Box: \"VISUAL RULE: The first frame must make sense and look stunning even on mute.\"\nBottom Prompt: \"LAYER 2: SPOKEN INTRIGUE →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials."
+          },
+          {
+            "slideIndex": 4,
+            "originalScore": 60,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "missing_required_keyword",
+                "description": "Missing required reference style signature: \"clean sans-serif\"",
+                "keyword": "clean sans-serif",
+                "severity": "high"
+              },
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 4 VARIATION CONTENT] ===\nSlide Purpose: Slide 4 of 8 (STEP2)\nCard Counter Tag: \"04 // 08\"\nTop Pill Badge: \"LAYER 02: SPOKEN INTRIGUE\"\nMain Headline: \"layer 2: the spoken intrigue (under 2s).\"\nHighlight Focus: Emphasize keywords \"spoken intrigue, curiosity gap\" in the reference style container\nSubtitle / Description: \"Lead with the shocking prize or counter-intuitive truth.\"\nBody Points:\n  1. \"Bad: \"Today I want to show you how to edit videos faster.\"\"\n  2. \"Good: \"I spent $10,000 on video gear so you can copy the $0 formula.\"\"\n  3. \"Open a curiosity gap that the viewer MUST watch 15s to resolve\"\nCallout Box: \"VERBAL RULE: Lead with the prize, withhold the answer until slide 3.\"\nBottom Prompt: \"LAYER 3: ON-SCREEN PUNCH →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials."
+          },
+          {
+            "slideIndex": 5,
+            "originalScore": 60,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "missing_required_keyword",
+                "description": "Missing required reference style signature: \"clean sans-serif\"",
+                "keyword": "clean sans-serif",
+                "severity": "high"
+              },
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 5 VARIATION CONTENT] ===\nSlide Purpose: Slide 5 of 8 (STEP3)\nCard Counter Tag: \"05 // 08\"\nTop Pill Badge: \"LAYER 03: ON-SCREEN PUNCH\"\nMain Headline: \"layer 3: the 4-word on-screen punchline.\"\nHighlight Focus: Emphasize keywords \"4-word, punchline\" in the reference style container\nSubtitle / Description: \"Do not repeat the spoken words. Sharpen the message into 4 big bold words.\"\nBody Points:\n  1. \"Spoken: \"Your expensive camera is why your videos look worse.\"\"\n  2. \"On-screen text: \"$3,000 vs $0 Truth.\"\"\n  3. \"High contrast typography with a neon highlighter strip behind the keyword\"\nCallout Box: \"TEXT RULE: 3 to 7 high-impact words that punch the message into their eyes.\"\nBottom Prompt: \"5 TEMPLATES CHEAT SHEET →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials."
+          },
+          {
+            "slideIndex": 6,
+            "originalScore": 60,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "missing_required_keyword",
+                "description": "Missing required reference style signature: \"clean sans-serif\"",
+                "keyword": "clean sans-serif",
+                "severity": "high"
+              },
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 6 VARIATION CONTENT] ===\nSlide Purpose: Slide 6 of 8 (CHEATSHEET)\nCard Counter Tag: \"06 // 08\"\nTop Pill Badge: \"SAVEABLE CHEAT SHEET\"\nMain Headline: \"5 copy-paste viral hook templates.\"\nHighlight Focus: Emphasize keywords \"viral hook templates, save this\" in the reference style container\nSubtitle / Description: \"Save these 5 proven hook archetypes for your next video shoot:\"\nBody Points:\n  1. \"1. The Cost Confession: \"I spent $X so you can skip to $0.\"\"\n  2. \"2. The Contrarian: \"Why [common habit] is ruining your [desired result].\"\"\n  3. \"3. The Withheld Reveal: \"I found the 1 tool that actually works (not what you think).\"\"\n  4. \"4. The Juxtaposition: \"Why putting [luxury item] in [gritty street] went viral.\"\"\n  5. \"5. The 3-Minute Fix: \"How to fix [big headache] in 1 click.\"\"\nCallout Box: \"💾 SAVE THIS POST: Use these 5 templates whenever you write your next hook!\"\nBottom Prompt: \"THE 15S RETENTION CURVE →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials."
+          },
+          {
+            "slideIndex": 7,
+            "originalScore": 60,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "missing_required_keyword",
+                "description": "Missing required reference style signature: \"clean sans-serif\"",
+                "keyword": "clean sans-serif",
+                "severity": "high"
+              },
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 7 VARIATION CONTENT] ===\nSlide Purpose: Slide 7 of 8 (SUMMARY)\nCard Counter Tag: \"07 // 08\"\nTop Pill Badge: \"RETENTION CURVE\"\nMain Headline: \"the 15-second viral retention curve.\"\nHighlight Focus: Emphasize keywords \"retention curve, 15-second\" in the reference style container\nSubtitle / Description: \"How to turn a 3-second hook into a completed watch and comment:\"\nBody Points:\n  1. \"0-3s: Hook (Visual shock + Spoken intrigue + 4-word text)\"\n  2. \"4-8s: Tension (Explain why the standard way fails)\"\n  3. \"9-13s: Reward (Deliver the exact actionable formula)\"\n  4. \"14-15s: CTA (Comment keyword for the free complete PDF)\"\nCallout Box: \"✈️ SHARE WITH A CREATOR: Help someone stop losing viewers in second 2!\"\nBottom Prompt: \"CLAIM THE FREE 25 HOOK PACK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials."
+          },
+          {
+            "slideIndex": 8,
+            "originalScore": 60,
+            "finalScore": 100,
+            "status": "auto_repaired",
+            "issues": [
+              {
+                "type": "missing_required_keyword",
+                "description": "Missing required reference style signature: \"clean sans-serif\"",
+                "keyword": "clean sans-serif",
+                "severity": "high"
+              },
+              {
+                "type": "contains_forbidden_element",
+                "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+                "keyword": "stickers",
+                "severity": "high"
+              }
+            ],
+            "repairedPrompt": "Use this image as reference to create a graphic carousel slide in the EXACT same visual style, replacing all copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Style Name: Editorial Cinematic Photo-Narrative Storytelling\n• Genre: Cinematic High-Aesthetic Photo Narrative / Storytelling\n• Background: Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.\n• Header & Navigation: Clean negative space framing with pure white (#FFFFFF) typography placed directly over the cinematic photograph.\n• Typography Hierarchy: Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.\n• Color Palette & Containers: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow), text: #FFFFFF pure crisp white, colors: Crisp white contrast overlay, Natural depth plane separation\n•  & Accents: Zero artificial  or badges. Clean unadorned cinematic photography with pure white typography floating in atmospheric negative space.\n• Lighting & Finish: 35mm prime cinematic capture, natural volumetric light, authentic rich tactile material textures, organic shallow depth of field, subtle film grain.\n\n=== [EDITORIAL CINEMATIC PHOTO-NARRATIVE DIRECTIVE] ===\n• Background: Full-bleed authentic 4:5 cinematic photography (evocative, atmospheric, rich materials, 35mm film grain, natural light).\n• Typography: Pure crisp white (#FFFFFF) text placed directly over the photograph. Massive stacked luxury editorial serif (Didot/Ogg/Playfair) with tight line height for punchlines, and clean modern white sans-serif for story paragraphs.\n• Composition: Clean negative space placement, zero artificial , zero clip art, high-status auteur editorial magazine art direction.\n\n=== [SLIDE 8 VARIATION CONTENT] ===\nSlide Purpose: Slide 8 of 8 (CTA)\nCard Counter Tag: \"08 // 08\"\nTop Pill Badge: \"TELEGRAM VIP ACCESS\"\nMain Headline: \"want the free 25 viral hook templates pack?\"\nHighlight Focus: Emphasize keywords \"telegram group, free hook templates\" in the reference style container\nSubtitle / Description: \"All raw hook templates, swipe files, and breakdowns are posted in our private Telegram group.\"\nBody Points:\n  1. \"💬 Drop \"HOOKS\" below for the instant Telegram invite link\"\n  2. \"📲 All 25 hook scripts & retention templates are pinned in our Telegram group\"\n  3. \"🚀 Follow @junnbuilds / project\\ciel for daily visual directing secrets\"\nCallout Box: \"⚡ Instant Telegram Access: Drop \"HOOKS\" below or check the link in bio!\"\nBottom Prompt: \"DROP \"HOOKS\" FOR TELEGRAM LINK ↓\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: clean sans-serif.\nDo not deviate from the reference image's visual composition and materials."
+          }
+        ],
+        "reportFilePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\out\\fidelity_reports\\fidelity_audit_1787334877195.json"
+      },
+      "timestamp": "2026-08-21T17:54:37.219Z"
+    }
+  ]
+}

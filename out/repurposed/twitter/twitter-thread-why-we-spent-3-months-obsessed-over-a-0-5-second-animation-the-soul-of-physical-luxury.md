@@ -19,7 +19,7 @@ Rule: Lock your layout with a reference image first.
 ---
 
 ### Tweet 3 / 9
-2/ Step 1: Pick a Visual Blueprint (Editorial Cinematic Photo-Narrative Storytelling)
+2/ Step 1: Pick a Visual Blueprint (Brand Agency Graph Paper & Target Decals)
 
 Never start from scratch. Upload a reference and let Nano Banana copy the container grid and typography.
 
@@ -45,8 +45,8 @@ Never start from scratch. Upload a reference and let Nano Banana copy the contai
 5/ 💾 The Saveable Cheat Sheet:
 
 • Ratio: 1080x1350 (4:5)
-• Background: Full-bleed cinematic color photography (warm terracotta, deep subway teal, emerald green newspaper, bronze rain coat, amber glow)
-• Style: Editorial Cinematic Photo-Narrative Storytelling
+• Background: #FAFAFA fine graph paper with soft lime spray glow
+• Style: Brand Agency Graph Paper & Target Decals
 • Zero plastic sheen
 
 ---

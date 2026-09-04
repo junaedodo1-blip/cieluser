@@ -1,0 +1,758 @@
+[
+  {
+    "slug": "acid-lime-3d-streetwear-type-poster-style",
+    "name": "acid-lime-3d-streetwear-type-poster-style",
+    "category": "General",
+    "file": "acid-lime-3d-streetwear-type-poster-style.json"
+  },
+  {
+    "slug": "analog-sticker-diary-portrait-poster-style",
+    "name": "analog-sticker-diary-portrait-poster-style",
+    "category": "General",
+    "file": "analog-sticker-diary-portrait-poster-style.json"
+  },
+  {
+    "slug": "backseat-transit-doodle-letter-poster-style",
+    "name": "backseat-transit-doodle-letter-poster-style",
+    "category": "General",
+    "file": "backseat-transit-doodle-letter-poster-style.json"
+  },
+  {
+    "slug": "black-cutout-food-card-ad-style",
+    "name": "black-cutout-food-card-ad-style",
+    "category": "General",
+    "file": "black-cutout-food-card-ad-style.json"
+  },
+  {
+    "slug": "blue-bubble-fisheye-action-poster-style",
+    "name": "blue-bubble-fisheye-action-poster-style",
+    "category": "General",
+    "file": "blue-bubble-fisheye-action-poster-style.json"
+  },
+  {
+    "slug": "blue-chinese-perspective-type-canyon-style",
+    "name": "blue-chinese-perspective-type-canyon-style",
+    "category": "General",
+    "file": "blue-chinese-perspective-type-canyon-style.json"
+  },
+  {
+    "slug": "blue-halftone-ransom-zine-poster-style",
+    "name": "blue-halftone-ransom-zine-poster-style",
+    "category": "General",
+    "file": "blue-halftone-ransom-zine-poster-style.json"
+  },
+  {
+    "slug": "blue-hud-macro-product-poster",
+    "name": "blue-hud-macro-product-poster",
+    "category": "General",
+    "file": "blue-hud-macro-product-poster.json"
+  },
+  {
+    "slug": "blue-lime-kinetic-comic-type-poster-style",
+    "name": "blue-lime-kinetic-comic-type-poster-style",
+    "category": "General",
+    "file": "blue-lime-kinetic-comic-type-poster-style.json"
+  },
+  {
+    "slug": "bold-anime-reaction-thumbnail-style",
+    "name": "bold-anime-reaction-thumbnail-style",
+    "category": "General",
+    "file": "bold-anime-reaction-thumbnail-style.json"
+  },
+  {
+    "slug": "bold-block-mascot-poster-style",
+    "name": "bold-block-mascot-poster-style",
+    "category": "General",
+    "file": "bold-block-mascot-poster-style.json"
+  },
+  {
+    "slug": "burnt-orange-halftone-hero-collage",
+    "name": "burnt-orange-halftone-hero-collage",
+    "category": "General",
+    "file": "burnt-orange-halftone-hero-collage.json"
+  },
+  {
+    "slug": "chromatic-fisheye-orbit-pop-poster-style",
+    "name": "chromatic-fisheye-orbit-pop-poster-style",
+    "category": "General",
+    "file": "chromatic-fisheye-orbit-pop-poster-style.json"
+  },
+  {
+    "slug": "clean-triptych-travel-vlog-thumbnail-style",
+    "name": "clean-triptych-travel-vlog-thumbnail-style",
+    "category": "General",
+    "file": "clean-triptych-travel-vlog-thumbnail-style.json"
+  },
+  {
+    "slug": "cobalt-megatype-roadside-travel-editorial-style",
+    "name": "cobalt-megatype-roadside-travel-editorial-style",
+    "category": "General",
+    "file": "cobalt-megatype-roadside-travel-editorial-style.json"
+  },
+  {
+    "slug": "cobalt-pop-cutout-editorial",
+    "name": "cobalt-pop-cutout-editorial",
+    "category": "General",
+    "file": "cobalt-pop-cutout-editorial.json"
+  },
+  {
+    "slug": "cobalt-torn-didone-portrait-editorial-style",
+    "name": "cobalt-torn-didone-portrait-editorial-style",
+    "category": "General",
+    "file": "cobalt-torn-didone-portrait-editorial-style.json"
+  },
+  {
+    "slug": "cobalt-xerox-script-editorial-poster-style",
+    "name": "cobalt-xerox-script-editorial-poster-style",
+    "category": "General",
+    "file": "cobalt-xerox-script-editorial-poster-style.json"
+  },
+  {
+    "slug": "coral-window-megatype-motion-poster-style",
+    "name": "coral-window-megatype-motion-poster-style",
+    "category": "General",
+    "file": "coral-window-megatype-motion-poster-style.json"
+  },
+  {
+    "slug": "cozy-bedroom-doodle-companion-snapshot-style",
+    "name": "cozy-bedroom-doodle-companion-snapshot-style",
+    "category": "General",
+    "file": "cozy-bedroom-doodle-companion-snapshot-style.json"
+  },
+  {
+    "slug": "crayon-catalog-doodle-poster-style",
+    "name": "crayon-catalog-doodle-poster-style",
+    "category": "General",
+    "file": "crayon-catalog-doodle-poster-style.json"
+  },
+  {
+    "slug": "cream-smoke-city-manga-poster-style",
+    "name": "cream-smoke-city-manga-poster-style",
+    "category": "General",
+    "file": "cream-smoke-city-manga-poster-style.json"
+  },
+  {
+    "slug": "crimson-ink-manga-dossier",
+    "name": "crimson-ink-manga-dossier",
+    "category": "General",
+    "file": "crimson-ink-manga-dossier.json"
+  },
+  {
+    "slug": "crimson-noir-newsprint-editorial-style",
+    "name": "crimson-noir-newsprint-editorial-style",
+    "category": "General",
+    "file": "crimson-noir-newsprint-editorial-style.json"
+  },
+  {
+    "slug": "crimson-vanishing-point-editorial",
+    "name": "crimson-vanishing-point-editorial",
+    "category": "General",
+    "file": "crimson-vanishing-point-editorial.json"
+  },
+  {
+    "slug": "cyan-grain-macro-megatype-poster-style",
+    "name": "cyan-grain-macro-megatype-poster-style",
+    "category": "General",
+    "file": "cyan-grain-macro-megatype-poster-style.json"
+  },
+  {
+    "slug": "cyan-red-shockwave-type-poster-style",
+    "name": "cyan-red-shockwave-type-poster-style",
+    "category": "General",
+    "file": "cyan-red-shockwave-type-poster-style.json"
+  },
+  {
+    "slug": "dusk-cyan-layered-type-poster-style",
+    "name": "dusk-cyan-layered-type-poster-style",
+    "category": "General",
+    "file": "dusk-cyan-layered-type-poster-style.json"
+  },
+  {
+    "slug": "electric-blue-cutout-manga-poster-style",
+    "name": "electric-blue-cutout-manga-poster-style",
+    "category": "General",
+    "file": "electric-blue-cutout-manga-poster-style.json"
+  },
+  {
+    "slug": "electric-blue-silhouette-product-launch-style",
+    "name": "electric-blue-silhouette-product-launch-style",
+    "category": "General",
+    "file": "electric-blue-silhouette-product-launch-style.json"
+  },
+  {
+    "slug": "electric-cobalt-motion-type-poster-style",
+    "name": "electric-cobalt-motion-type-poster-style",
+    "category": "General",
+    "file": "electric-cobalt-motion-type-poster-style.json"
+  },
+  {
+    "slug": "electric-yellow-cutout-megatype-poster-style",
+    "name": "electric-yellow-cutout-megatype-poster-style",
+    "category": "General",
+    "file": "electric-yellow-cutout-megatype-poster-style.json"
+  },
+  {
+    "slug": "fantasy-scribble-mascot-poster-style",
+    "name": "fantasy-scribble-mascot-poster-style",
+    "category": "General",
+    "file": "fantasy-scribble-mascot-poster-style.json"
+  },
+  {
+    "slug": "folded-diamond-perspective-type-poster-style",
+    "name": "folded-diamond-perspective-type-poster-style",
+    "category": "General",
+    "file": "folded-diamond-perspective-type-poster-style.json"
+  },
+  {
+    "slug": "folded-newspaper-product-ad-style",
+    "name": "folded-newspaper-product-ad-style",
+    "category": "General",
+    "file": "folded-newspaper-product-ad-style.json"
+  },
+  {
+    "slug": "foreshortened-gradient-impact-ad-style",
+    "name": "foreshortened-gradient-impact-ad-style",
+    "category": "General",
+    "file": "foreshortened-gradient-impact-ad-style.json"
+  },
+  {
+    "slug": "gothic-cat-doodle-photo-collage-style",
+    "name": "gothic-cat-doodle-photo-collage-style",
+    "category": "General",
+    "file": "gothic-cat-doodle-photo-collage-style.json"
+  },
+  {
+    "slug": "halftone-assemblage-metaphor-psa-poster-style",
+    "name": "halftone-assemblage-metaphor-psa-poster-style",
+    "category": "General",
+    "file": "halftone-assemblage-metaphor-psa-poster-style.json"
+  },
+  {
+    "slug": "hot-ink-comic-poster",
+    "name": "hot-ink-comic-poster",
+    "category": "General",
+    "file": "hot-ink-comic-poster.json"
+  },
+  {
+    "slug": "ice-cyan-megatype-action-poster-style",
+    "name": "ice-cyan-megatype-action-poster-style",
+    "category": "General",
+    "file": "ice-cyan-megatype-action-poster-style.json"
+  },
+  {
+    "slug": "impact-burst-halftone-comic-poster-style",
+    "name": "impact-burst-halftone-comic-poster-style",
+    "category": "General",
+    "file": "impact-burst-halftone-comic-poster-style.json"
+  },
+  {
+    "slug": "jade-glyph-grocer-collage-poster-style",
+    "name": "jade-glyph-grocer-collage-poster-style",
+    "category": "General",
+    "file": "jade-glyph-grocer-collage-poster-style.json"
+  },
+  {
+    "slug": "jagged-red-street-photo-event-poster-style",
+    "name": "jagged-red-street-photo-event-poster-style",
+    "category": "General",
+    "file": "jagged-red-street-photo-event-poster-style.json"
+  },
+  {
+    "slug": "k-pop-apocalypse-ransom-zine-style",
+    "name": "k-pop-apocalypse-ransom-zine-style",
+    "category": "General",
+    "file": "k-pop-apocalypse-ransom-zine-style.json"
+  },
+  {
+    "slug": "kinetic-editorial-photo-collage-style",
+    "name": "kinetic-editorial-photo-collage-style",
+    "category": "General",
+    "file": "kinetic-editorial-photo-collage-style.json"
+  },
+  {
+    "slug": "kinetic-geometric-doodle-cutouts",
+    "name": "kinetic-geometric-doodle-cutouts",
+    "category": "General",
+    "file": "kinetic-geometric-doodle-cutouts.json"
+  },
+  {
+    "slug": "kinetic-luxury-street-fashion-cover-style",
+    "name": "kinetic-luxury-street-fashion-cover-style",
+    "category": "General",
+    "file": "kinetic-luxury-street-fashion-cover-style.json"
+  },
+  {
+    "slug": "lime-loop-megatype-action-poster-style",
+    "name": "lime-loop-megatype-action-poster-style",
+    "category": "General",
+    "file": "lime-loop-megatype-action-poster-style.json"
+  },
+  {
+    "slug": "liquid-chrome-clearance-poster-style",
+    "name": "liquid-chrome-clearance-poster-style",
+    "category": "General",
+    "file": "liquid-chrome-clearance-poster-style.json"
+  },
+  {
+    "slug": "loose-scribble-riso-print-style",
+    "name": "loose-scribble-riso-print-style",
+    "category": "General",
+    "file": "loose-scribble-riso-print-style.json"
+  },
+  {
+    "slug": "luxury-perspective-checkerboard-editorial",
+    "name": "luxury-perspective-checkerboard-editorial",
+    "category": "General",
+    "file": "luxury-perspective-checkerboard-editorial.json"
+  },
+  {
+    "slug": "manga-dossier-blueprint-poster",
+    "name": "manga-dossier-blueprint-poster",
+    "category": "General",
+    "file": "manga-dossier-blueprint-poster.json"
+  },
+  {
+    "slug": "market-brush-produce-poster-style",
+    "name": "market-brush-produce-poster-style",
+    "category": "General",
+    "file": "market-brush-produce-poster-style.json"
+  },
+  {
+    "slug": "metro-doodle-snapshot-diary-style",
+    "name": "metro-doodle-snapshot-diary-style",
+    "category": "General",
+    "file": "metro-doodle-snapshot-diary-style.json"
+  },
+  {
+    "slug": "mono-noir-type-portrait-poster-style",
+    "name": "mono-noir-type-portrait-poster-style",
+    "category": "General",
+    "file": "mono-noir-type-portrait-poster-style.json"
+  },
+  {
+    "slug": "monochrome-grid-sneaker-tech-spec",
+    "name": "monochrome-grid-sneaker-tech-spec",
+    "category": "General",
+    "file": "monochrome-grid-sneaker-tech-spec.json"
+  },
+  {
+    "slug": "monochrome-xerox-sports-dossier",
+    "name": "monochrome-xerox-sports-dossier",
+    "category": "General",
+    "file": "monochrome-xerox-sports-dossier.json"
+  },
+  {
+    "slug": "motorsport-technical-editorial",
+    "name": "motorsport-technical-editorial",
+    "category": "General",
+    "file": "motorsport-technical-editorial.json"
+  },
+  {
+    "slug": "mountain-trail-monster-doodle-poster-style",
+    "name": "mountain-trail-monster-doodle-poster-style",
+    "category": "General",
+    "file": "mountain-trail-monster-doodle-poster-style.json"
+  },
+  {
+    "slug": "multi-color-beverage-splash-ad-system-style",
+    "name": "multi-color-beverage-splash-ad-system-style",
+    "category": "General",
+    "file": "multi-color-beverage-splash-ad-system-style.json"
+  },
+  {
+    "slug": "naive-marker-psa-poster-style",
+    "name": "naive-marker-psa-poster-style",
+    "category": "General",
+    "file": "naive-marker-psa-poster-style.json"
+  },
+  {
+    "slug": "naive-marker-quote-card-style",
+    "name": "naive-marker-quote-card-style",
+    "category": "General",
+    "file": "naive-marker-quote-card-style.json"
+  },
+  {
+    "slug": "neon-doodle-gallery-snapshot-style",
+    "name": "neon-doodle-gallery-snapshot-style",
+    "category": "General",
+    "file": "neon-doodle-gallery-snapshot-style.json"
+  },
+  {
+    "slug": "neon-kinetic-typographic-poster-style",
+    "name": "neon-kinetic-typographic-poster-style",
+    "category": "General",
+    "file": "neon-kinetic-typographic-poster-style.json"
+  },
+  {
+    "slug": "neon-outdoor-diary-longform-collage-style",
+    "name": "neon-outdoor-diary-longform-collage-style",
+    "category": "General",
+    "file": "neon-outdoor-diary-longform-collage-style.json"
+  },
+  {
+    "slug": "neon-plush-gadget-pop-3d-style",
+    "name": "neon-plush-gadget-pop-3d-style",
+    "category": "General",
+    "file": "neon-plush-gadget-pop-3d-style.json"
+  },
+  {
+    "slug": "neon-scribble-editorial-poster",
+    "name": "neon-scribble-editorial-poster",
+    "category": "General",
+    "file": "neon-scribble-editorial-poster.json"
+  },
+  {
+    "slug": "neon-stadium-3d-hero-type-poster-style",
+    "name": "neon-stadium-3d-hero-type-poster-style",
+    "category": "General",
+    "file": "neon-stadium-3d-hero-type-poster-style.json"
+  },
+  {
+    "slug": "neon-type-photo-scribble-poster",
+    "name": "neon-type-photo-scribble-poster",
+    "category": "General",
+    "file": "neon-type-photo-scribble-poster.json"
+  },
+  {
+    "slug": "olive-scribble-sports-poster-style",
+    "name": "olive-scribble-sports-poster-style",
+    "category": "General",
+    "file": "olive-scribble-sports-poster-style.json"
+  },
+  {
+    "slug": "orange-brush-mascot-action-poster-style",
+    "name": "orange-brush-mascot-action-poster-style",
+    "category": "General",
+    "file": "orange-brush-mascot-action-poster-style.json"
+  },
+  {
+    "slug": "photo-illustration-overlay-poster-style",
+    "name": "photo-illustration-overlay-poster-style",
+    "category": "General",
+    "file": "photo-illustration-overlay-poster-style.json"
+  },
+  {
+    "slug": "pink-anime-motorcycle-spec-poster-style",
+    "name": "pink-anime-motorcycle-spec-poster-style",
+    "category": "General",
+    "file": "pink-anime-motorcycle-spec-poster-style.json"
+  },
+  {
+    "slug": "playful-marker-grounding-poster-style",
+    "name": "playful-marker-grounding-poster-style",
+    "category": "General",
+    "file": "playful-marker-grounding-poster-style.json"
+  },
+  {
+    "slug": "playful-mascot-doodle-snapshot-style",
+    "name": "playful-mascot-doodle-snapshot-style",
+    "category": "General",
+    "file": "playful-mascot-doodle-snapshot-style.json"
+  },
+  {
+    "slug": "plush-city-festival-mobile-poster-style",
+    "name": "plush-city-festival-mobile-poster-style",
+    "category": "General",
+    "file": "plush-city-festival-mobile-poster-style.json"
+  },
+  {
+    "slug": "plush-comic-toy-product-poster-style",
+    "name": "plush-comic-toy-product-poster-style",
+    "category": "General",
+    "file": "plush-comic-toy-product-poster-style.json"
+  },
+  {
+    "slug": "pop-bubble-letter-photo-poster-style",
+    "name": "pop-bubble-letter-photo-poster-style",
+    "category": "General",
+    "file": "pop-bubble-letter-photo-poster-style.json"
+  },
+  {
+    "slug": "primary-block-isometric-editorial-poster-style",
+    "name": "primary-block-isometric-editorial-poster-style",
+    "category": "General",
+    "file": "primary-block-isometric-editorial-poster-style.json"
+  },
+  {
+    "slug": "prismatic-glass-animal-weekend-editorial",
+    "name": "prismatic-glass-animal-weekend-editorial",
+    "category": "General",
+    "file": "prismatic-glass-animal-weekend-editorial.json"
+  },
+  {
+    "slug": "quiet-luxury-furniture-nameplate-poster-style",
+    "name": "quiet-luxury-furniture-nameplate-poster-style",
+    "category": "General",
+    "file": "quiet-luxury-furniture-nameplate-poster-style.json"
+  },
+  {
+    "slug": "red-black-manga-tabloid-poster-style",
+    "name": "red-black-manga-tabloid-poster-style",
+    "category": "General",
+    "file": "red-black-manga-tabloid-poster-style.json"
+  },
+  {
+    "slug": "red-monochrome-editorial-grid",
+    "name": "red-monochrome-editorial-grid",
+    "category": "General",
+    "file": "red-monochrome-editorial-grid.json"
+  },
+  {
+    "slug": "red-yellow-grunge-skate-cover-style",
+    "name": "red-yellow-grunge-skate-cover-style",
+    "category": "General",
+    "file": "red-yellow-grunge-skate-cover-style.json"
+  },
+  {
+    "slug": "red-yellow-product-trophy-collage-style",
+    "name": "red-yellow-product-trophy-collage-style",
+    "category": "General",
+    "file": "red-yellow-product-trophy-collage-style.json"
+  },
+  {
+    "slug": "retro-future-chrome-portrait-dossier",
+    "name": "retro-future-chrome-portrait-dossier",
+    "category": "General",
+    "file": "retro-future-chrome-portrait-dossier.json"
+  },
+  {
+    "slug": "retro-pop-sticker-cutout",
+    "name": "retro-pop-sticker-cutout",
+    "category": "General",
+    "file": "retro-pop-sticker-cutout.json"
+  },
+  {
+    "slug": "rough-animation-pet-sketch-storyboard-style",
+    "name": "rough-animation-pet-sketch-storyboard-style",
+    "category": "General",
+    "file": "rough-animation-pet-sketch-storyboard-style.json"
+  },
+  {
+    "slug": "rough-ink-music-doodle-poster-style",
+    "name": "rough-ink-music-doodle-poster-style",
+    "category": "General",
+    "file": "rough-ink-music-doodle-poster-style.json"
+  },
+  {
+    "slug": "rough-marker-monster-poster-style",
+    "name": "rough-marker-monster-poster-style",
+    "category": "General",
+    "file": "rough-marker-monster-poster-style.json"
+  },
+  {
+    "slug": "scarlet-block-cutout-doodle-book-cover-style",
+    "name": "scarlet-block-cutout-doodle-book-cover-style",
+    "category": "General",
+    "file": "scarlet-block-cutout-doodle-book-cover-style.json"
+  },
+  {
+    "slug": "scarlet-court-photo-type-poster-style",
+    "name": "scarlet-court-photo-type-poster-style",
+    "category": "General",
+    "file": "scarlet-court-photo-type-poster-style.json"
+  },
+  {
+    "slug": "scarlet-megatype-action-collage-style",
+    "name": "scarlet-megatype-action-collage-style",
+    "category": "General",
+    "file": "scarlet-megatype-action-collage-style.json"
+  },
+  {
+    "slug": "school-grid-paper-cutout-poster",
+    "name": "school-grid-paper-cutout-poster",
+    "category": "General",
+    "file": "school-grid-paper-cutout-poster.json"
+  },
+  {
+    "slug": "signal-red-contour-poster",
+    "name": "signal-red-contour-poster",
+    "category": "General",
+    "file": "signal-red-contour-poster.json"
+  },
+  {
+    "slug": "signal-red-petal-profile-editorial-cover",
+    "name": "signal-red-petal-profile-editorial-cover",
+    "category": "General",
+    "file": "signal-red-petal-profile-editorial-cover.json"
+  },
+  {
+    "slug": "sky-blue-home-life-doodle-poster-style",
+    "name": "sky-blue-home-life-doodle-poster-style",
+    "category": "General",
+    "file": "sky-blue-home-life-doodle-poster-style.json"
+  },
+  {
+    "slug": "sky-blue-lucky-tag-doodle-poster-style",
+    "name": "sky-blue-lucky-tag-doodle-poster-style",
+    "category": "General",
+    "file": "sky-blue-lucky-tag-doodle-poster-style.json"
+  },
+  {
+    "slug": "soft-analog-future-editorial-poster-style",
+    "name": "soft-analog-future-editorial-poster-style",
+    "category": "General",
+    "file": "soft-analog-future-editorial-poster-style.json"
+  },
+  {
+    "slug": "split-ink-monumental-editorial",
+    "name": "split-ink-monumental-editorial",
+    "category": "General",
+    "file": "split-ink-monumental-editorial.json"
+  },
+  {
+    "slug": "split-scorched-editorial-poster",
+    "name": "split-scorched-editorial-poster",
+    "category": "General",
+    "file": "split-scorched-editorial-poster.json"
+  },
+  {
+    "slug": "subway-doodle-photo-hybrid-style",
+    "name": "subway-doodle-photo-hybrid-style",
+    "category": "General",
+    "file": "subway-doodle-photo-hybrid-style.json"
+  },
+  {
+    "slug": "sun-faded-scenic-editorial-poster",
+    "name": "sun-faded-scenic-editorial-poster",
+    "category": "General",
+    "file": "sun-faded-scenic-editorial-poster.json"
+  },
+  {
+    "slug": "sunburst-fisheye-bubble-type-poster-style",
+    "name": "sunburst-fisheye-bubble-type-poster-style",
+    "category": "General",
+    "file": "sunburst-fisheye-bubble-type-poster-style.json"
+  },
+  {
+    "slug": "sunlit-architectural-fashion-editorial",
+    "name": "sunlit-architectural-fashion-editorial",
+    "category": "General",
+    "file": "sunlit-architectural-fashion-editorial.json"
+  },
+  {
+    "slug": "sunlit-coastal-product-blitz",
+    "name": "sunlit-coastal-product-blitz",
+    "category": "General",
+    "file": "sunlit-coastal-product-blitz.json"
+  },
+  {
+    "slug": "sunlit-kinetic-block-type-photo-poster-style",
+    "name": "sunlit-kinetic-block-type-photo-poster-style",
+    "category": "General",
+    "file": "sunlit-kinetic-block-type-photo-poster-style.json"
+  },
+  {
+    "slug": "sunlit-supermodel-nameplate-editorial",
+    "name": "sunlit-supermodel-nameplate-editorial",
+    "category": "General",
+    "file": "sunlit-supermodel-nameplate-editorial.json"
+  },
+  {
+    "slug": "sunny-3d-avatar-campaign-style",
+    "name": "sunny-3d-avatar-campaign-style",
+    "category": "General",
+    "file": "sunny-3d-avatar-campaign-style.json"
+  },
+  {
+    "slug": "surreal-fish-doodle-landmark-photo-collage-style",
+    "name": "surreal-fish-doodle-landmark-photo-collage-style",
+    "category": "General",
+    "file": "surreal-fish-doodle-landmark-photo-collage-style.json"
+  },
+  {
+    "slug": "surreal-megatype-dossier-collage",
+    "name": "surreal-megatype-dossier-collage",
+    "category": "General",
+    "file": "surreal-megatype-dossier-collage.json"
+  },
+  {
+    "slug": "teenage-skate-scribble-screenprint-poster-style",
+    "name": "teenage-skate-scribble-screenprint-poster-style",
+    "category": "General",
+    "file": "teenage-skate-scribble-screenprint-poster-style.json"
+  },
+  {
+    "slug": "tokyo-kawaii-travel-collage-poster-style",
+    "name": "tokyo-kawaii-travel-collage-poster-style",
+    "category": "General",
+    "file": "tokyo-kawaii-travel-collage-poster-style.json"
+  },
+  {
+    "slug": "tri-color-hardcut-portrait-poster-style",
+    "name": "tri-color-hardcut-portrait-poster-style",
+    "category": "General",
+    "file": "tri-color-hardcut-portrait-poster-style.json"
+  },
+  {
+    "slug": "turquoise-red-techno-manga-poster-style",
+    "name": "turquoise-red-techno-manga-poster-style",
+    "category": "General",
+    "file": "turquoise-red-techno-manga-poster-style.json"
+  },
+  {
+    "slug": "urban-photo-ink-beast-collage-style",
+    "name": "urban-photo-ink-beast-collage-style",
+    "category": "General",
+    "file": "urban-photo-ink-beast-collage-style.json"
+  },
+  {
+    "slug": "urban-transit-doodle-diary-style",
+    "name": "urban-transit-doodle-diary-style",
+    "category": "General",
+    "file": "urban-transit-doodle-diary-style.json"
+  },
+  {
+    "slug": "vermilion-folk-screenprint-character-poster",
+    "name": "vermilion-folk-screenprint-character-poster",
+    "category": "General",
+    "file": "vermilion-folk-screenprint-character-poster.json"
+  },
+  {
+    "slug": "vermilion-photocopy-tension-editorial",
+    "name": "vermilion-photocopy-tension-editorial",
+    "category": "General",
+    "file": "vermilion-photocopy-tension-editorial.json"
+  },
+  {
+    "slug": "warm-fisheye-product-impact-ad-style",
+    "name": "warm-fisheye-product-impact-ad-style",
+    "category": "General",
+    "file": "warm-fisheye-product-impact-ad-style.json"
+  },
+  {
+    "slug": "xerox-neon-editorial-collage-style",
+    "name": "xerox-neon-editorial-collage-style",
+    "category": "General",
+    "file": "xerox-neon-editorial-collage-style.json"
+  },
+  {
+    "slug": "y2k-grunge-hiphop-cutout-poster-style",
+    "name": "y2k-grunge-hiphop-cutout-poster-style",
+    "category": "General",
+    "file": "y2k-grunge-hiphop-cutout-poster-style.json"
+  },
+  {
+    "slug": "y2k-mirror-ui-scribble-collage-style",
+    "name": "y2k-mirror-ui-scribble-collage-style",
+    "category": "General",
+    "file": "y2k-mirror-ui-scribble-collage-style.json"
+  },
+  {
+    "slug": "y2k-streetwear-sticker-collage-style",
+    "name": "y2k-streetwear-sticker-collage-style",
+    "category": "General",
+    "file": "y2k-streetwear-sticker-collage-style.json"
+  },
+  {
+    "slug": "yellow-black-manga-food-zine-ad-style",
+    "name": "yellow-black-manga-food-zine-ad-style",
+    "category": "General",
+    "file": "yellow-black-manga-food-zine-ad-style.json"
+  },
+  {
+    "slug": "yellow-graffiti-fisheye-manga-street-poster-style",
+    "name": "yellow-graffiti-fisheye-manga-street-poster-style",
+    "category": "General",
+    "file": "yellow-graffiti-fisheye-manga-street-poster-style.json"
+  }
+]

@@ -1,0 +1,2644 @@
+{
+  "version": "0.2.3",
+  "masterBasePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+  "branches": {
+    "cow_orchestrator_1787342720400": {
+      "branchId": "cow_orchestrator_1787342720400",
+      "label": "orchestrator:run_exec_1787342720399",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787342720400.rvf",
+      "createdAt": "2026-08-21T20:05:20.403Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T20:05:20.403Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T20:05:20.411Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {}
+      },
+      "isPromoted": true
+    },
+    "cow_copy_strategist_1787342720413": {
+      "branchId": "cow_copy_strategist_1787342720413",
+      "label": "copy_strategist:hook_selection_jacquemus_street_art_primary_single_topic",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_copy_strategist_1787342720413.rvf",
+      "createdAt": "2026-08-21T20:05:20.415Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T20:05:20.415Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "payload": {
+          "topicKey": "jacquemus_street_art",
+          "topicTitle": "Scale Disruption & Surreal Street Art: The Jacquemus Strategy",
+          "triggerWord": "SCALE",
+          "hookHeadline": "the jacquemus secret: scale disruption in public streets.",
+          "slides": [
+            {
+              "slideType": "hook",
+              "header": "the jacquemus secret: scale disruption in public streets.",
+              "subhead": "How turning giant luxury handbags into public streetcars generated 50M views with zero ad spend.",
+              "badgeText": "SURREAL STREET ART",
+              "highlightWords": [
+                "scale disruption",
+                "jacquemus secret"
+              ],
+              "stickerTags": [
+                {
+                  "text": "50M Views",
+                  "color": "green"
+                },
+                {
+                  "text": "Zero Ad Spend",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "⚡",
+                "🪩",
+                "🖱️"
+              ],
+              "swissHudMetadata": "01 // JACQUEMUS // SCALE DISRUPTION",
+              "swipePrompt": "WHY CLEAN ADS DIE →",
+              "slideIndex": 1,
+              "cardIndexText": "01 // 08"
+            },
+            {
+              "slideType": "problem",
+              "header": "why clean studio product renders are invisible.",
+              "subhead": "When everything is clean, perfect, and isolated on a white screen, your brain ignores it.",
+              "bodyBullets": [
+                "Studio renders look like ordinary catalog advertisements",
+                "Our brains are wired to notice things that look out of place in the real world",
+                "Putting luxury inside brutalist concrete streets creates instant thumb-stopping contrast"
+              ],
+              "keyCallout": "RULE: Contrast creates curiosity, and curiosity creates millions of organic shares.",
+              "badgeText": "THE INVISIBILITY TRAP",
+              "highlightWords": [
+                "studio renders",
+                "invisible"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Pattern Interrupt",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "💸"
+              ],
+              "swissHudMetadata": "02 // THE PROBLEM // STUDIO ADS",
+              "swipePrompt": "STEP 1: THE 10X SCALE RULE →",
+              "slideIndex": 2,
+              "cardIndexText": "02 // 08"
+            },
+            {
+              "slideType": "step1",
+              "header": "step 1: the 10x impossible scale rule.",
+              "subhead": "Take one small physical luxury item and scale it up to the size of a building or bus.",
+              "bodyBullets": [
+                "A 5-inch lipstick turned into a 20-foot city transit bus",
+                "A luxury handbag floating down the Seine river like a giant boat",
+                "Keep the material, leather grain, and stitching 100% physically authentic"
+              ],
+              "keyCallout": "SCALE RULE: Extreme surreal scale + 100% real physical texture = viral magic.",
+              "badgeText": "STEP 01: 10X SCALE",
+              "highlightWords": [
+                "10x scale",
+                "impossible"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Impossible Scale",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🪩",
+                "⚡"
+              ],
+              "swissHudMetadata": "03 // STEP 01 // 10X SCALE",
+              "swipePrompt": "STEP 2: URBAN CONTRAST →",
+              "slideIndex": 3,
+              "cardIndexText": "03 // 08"
+            },
+            {
+              "slideType": "step2",
+              "header": "step 2: raw brutalist urban environments.",
+              "subhead": "Anchor the impossible object inside mundane, everyday physical architecture.",
+              "bodyBullets": [
+                "Paris cobblestone streets, London rainy crosswalks, brutalist concrete tunnels",
+                "Include real background elements: pedestrians walking, streetlights, asphalt reflections",
+                "The contrast between gritty streets and immaculate luxury creates high prestige"
+              ],
+              "keyCallout": "ENVIRONMENT RULE: The more ordinary the street, the more shocking the luxury object.",
+              "badgeText": "STEP 02: URBAN CONTRAST",
+              "highlightWords": [
+                "raw brutalist",
+                "urban contrast"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Gritty vs Luxury",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "💸"
+              ],
+              "swissHudMetadata": "04 // STEP 02 // STREET CONTRAST",
+              "swipePrompt": "STEP 3: CAMERA CONFIRMATION →",
+              "slideIndex": 4,
+              "cardIndexText": "04 // 08"
+            },
+            {
+              "slideType": "step3",
+              "header": "step 3: handheld camera & bystander angle.",
+              "subhead": "Shoot the scene from a realistic human perspective, not a floating drone.",
+              "bodyBullets": [
+                "Eye-level handheld camera with subtle natural shake",
+                "Casual street bystander angle makes the scene feel like a real iPhone recording",
+                "When viewers think \"Is that real?!\", they comment, share, and tag their friends"
+              ],
+              "keyCallout": "PERSPECTIVE RULE: Bystander angle turns a CGI render into a trending viral moment.",
+              "badgeText": "STEP 03: EYE-LEVEL ANGLE",
+              "highlightWords": [
+                "handheld camera",
+                "bystander angle"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Real Human POV",
+                  "color": "yellow"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "05 // STEP 03 // CAMERA ANGLE",
+              "swipePrompt": "THE SCALE CHEAT SHEET →",
+              "slideIndex": 5,
+              "cardIndexText": "05 // 08"
+            },
+            {
+              "slideType": "cheatsheet",
+              "header": "the jacquemus prompt cheat sheet.",
+              "subhead": "Save this exact scale-disruption prompt formula for Nano Banana & Higgsfield:",
+              "bodyBullets": [
+                "🏢 Object: \"Giant 20-foot monolithic luxury perfume bottle driving down rainy Paris street\"",
+                "🌧️ Lighting: \"Overcast moody sky, wet asphalt reflections, raking golden street lamps\"",
+                "📱 Camera: \"Eye-level 50mm handheld bystander perspective, natural camera shake\"",
+                "🧪 Finish: \"Authentic glass refraction, real rainwater physics, 35mm film grain\""
+              ],
+              "keyCallout": "💾 SAVE THIS POST: Use this formula whenever you launch a physical product campaign!",
+              "badgeText": "SAVEABLE CHEAT SHEET",
+              "highlightWords": [
+                "jacquemus prompt",
+                "cheat sheet"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Scale Formula",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "💾",
+                "🍒"
+              ],
+              "swissHudMetadata": "06 // CHEAT SHEET // SCALE PROMPT",
+              "swipePrompt": "THE VIRAL ROI SYSTEM →",
+              "slideIndex": 6,
+              "cardIndexText": "06 // 08"
+            },
+            {
+              "slideType": "summary",
+              "header": "the 3-step viral disruption blueprint.",
+              "subhead": "How to turn viral street attention into tracked brand sales:",
+              "bodyBullets": [
+                "1. Scale Disruption Video: 15s surreal street video stops the algorithm",
+                "2. Viral Comment Loop: Viewers debate \"Is this real?\" in the comments",
+                "3. Automated DM Playbook: Sends private shop link to everyone who comments"
+              ],
+              "keyCallout": "✈️ SHARE WITH A BRAND FOUNDER: Show them how to get millions of views with zero ad spend!",
+              "badgeText": "VIRAL BLUEPRINT",
+              "highlightWords": [
+                "viral disruption",
+                "brand sales"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Zero Ad Spend",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🚀",
+                "⚡"
+              ],
+              "swissHudMetadata": "07 // BLUEPRINT // ORGANIC REACH",
+              "swipePrompt": "CLAIM THE FREE SCALE PACK →",
+              "slideIndex": 7,
+              "cardIndexText": "07 // 08"
+            },
+            {
+              "slideType": "cta",
+              "header": "want the full jacquemus scale prompt pack?",
+              "subhead": "Drop a 1-word comment below and I will instantly DM you all 10 scale prompt formulas!",
+              "bodyBullets": [
+                "💬 Comment \"SCALE\" on this post right now",
+                "📥 Automated DM sends all 10 urban scale prompt codes + lighting setups in 2s",
+                "🚀 Follow @junnbuilds / project\\ciel for daily luxury directing breakdowns"
+              ],
+              "keyCallout": "⚡ Instant free delivery: Drop \"SCALE\" below to get the download link.",
+              "badgeText": "FREE PRIZE",
+              "highlightWords": [
+                "scale prompt pack",
+                "10 formulas"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Instant DM",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🎁",
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "08 // FREE PRIZE // DROP \"SCALE\" BELOW",
+              "swipePrompt": "COMMENT \"SCALE\" NOW ↓",
+              "slideIndex": 8,
+              "cardIndexText": "08 // 08"
+            }
+          ],
+          "instagramCaption": "How Jacquemus gets 50 million views by breaking physical scale in streets.\n\nHere is the simple step-by-step breakdown:\n\n01 // the jacquemus secret: scale disruption in public streets.\n02 // why clean studio product renders are invisible.\n03 // step 1: the 10x impossible scale rule.\n04 // step 2: raw brutalist urban environments.\n05 // step 3: handheld camera & bystander angle.\n06 // the jacquemus prompt cheat sheet.\n07 // the 3-step viral disruption blueprint.\n08 // want the full jacquemus scale prompt pack?\n\n---\n💾 SAVE this post so you have the formulas for your next project.\n✈️ SHARE with a friend or creator who needs this.\n👇 Drop \"SCALE\" in the comments and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.",
+          "hashtags": [
+            "#projectciel",
+            "#visualdirecting",
+            "#luxurymarketing",
+            "#nanobanana",
+            "#contentcreator",
+            "#creativeagency",
+            "#graphicdesign",
+            "#marketingtips"
+          ]
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787347132867": {
+      "branchId": "cow_orchestrator_1787347132867",
+      "label": "orchestrator:run_exec_1787347132867",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787347132867.rvf",
+      "createdAt": "2026-08-21T21:18:52.868Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T21:18:52.868Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T21:18:52.872Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {}
+      },
+      "isPromoted": true
+    },
+    "cow_copy_strategist_1787347132872": {
+      "branchId": "cow_copy_strategist_1787347132872",
+      "label": "copy_strategist:hook_selection_automated_dm_sales_primary_single_topic",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_copy_strategist_1787347132872.rvf",
+      "createdAt": "2026-08-21T21:18:52.873Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T21:18:52.873Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "payload": {
+          "topicKey": "automated_dm_sales",
+          "topicTitle": "How to Turn Instagram Comments into Automatic Sales 24/7",
+          "triggerWord": "SALES",
+          "hookHeadline": "how to turn 1 simple comment into sales while you sleep.",
+          "slides": [
+            {
+              "slideType": "hook",
+              "header": "how to turn 1 simple comment into sales while you sleep.",
+              "subhead": "You do not need to beg people to click the link in bio. Set up this automated DM robot in 2 minutes.",
+              "badgeText": "COMMERCE FUNNEL",
+              "highlightWords": [
+                "sales while you sleep",
+                "automated dm"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Autopilot Sales",
+                  "color": "green"
+                },
+                {
+                  "text": "2-Min Setup",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "⚡",
+                "🪩",
+                "🖱️"
+              ],
+              "swissHudMetadata": "01 // COMMERCE // AUTOMATED FUNNEL",
+              "swipePrompt": "THE BIO LINK TRAP →",
+              "slideIndex": 1,
+              "cardIndexText": "01 // 08"
+            },
+            {
+              "slideType": "problem",
+              "header": "why \"link in bio\" loses 90% of your buyers.",
+              "subhead": "Forcing people to leave the feed, open your profile, and find a tiny link kills conversion.",
+              "bodyBullets": [
+                "Every extra click cuts conversion rate in half",
+                "People are lazy and do not want to leave the Instagram feed",
+                "When they leave the post to find your bio, they get distracted and forget"
+              ],
+              "keyCallout": "RULE: Never ask them to go to your bio. Deliver the link straight to their private DMs.",
+              "badgeText": "THE BIO LINK TRAP",
+              "highlightWords": [
+                "loses 90%",
+                "kills conversion"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Friction Point",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "💸"
+              ],
+              "swissHudMetadata": "02 // THE PROBLEM // BIO LINK",
+              "swipePrompt": "STEP 1: THE 1-WORD TRIGGER →",
+              "slideIndex": 2,
+              "cardIndexText": "02 // 08"
+            },
+            {
+              "slideType": "step1",
+              "header": "step 1: the low-friction 1-word trigger keyword.",
+              "subhead": "Make it effortlessly easy for the viewer to claim the free value.",
+              "bodyBullets": [
+                "Pick a simple 1-word keyword (e.g. \"CIEL\", \"POSTER\", \"SCALE\")",
+                "Tell them exactly what happens: \"Comment POSTER and I will DM you the prompt pack\"",
+                "Single words require 0 typing friction and trigger high comment velocity"
+              ],
+              "keyCallout": "KEYWORD RULE: 1 simple word = 10x more comments and higher algorithmic push.",
+              "badgeText": "STEP 01: 1-WORD TRIGGER",
+              "highlightWords": [
+                "1-word trigger",
+                "low-friction"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Zero Friction",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🪩",
+                "⚡"
+              ],
+              "swissHudMetadata": "03 // STEP 01 // 1-WORD TRIGGER",
+              "swipePrompt": "STEP 2: THE 2-SECOND DM BOT →",
+              "slideIndex": 3,
+              "cardIndexText": "03 // 08"
+            },
+            {
+              "slideType": "step2",
+              "header": "step 2: instant automated dm delivery in 2 seconds.",
+              "subhead": "The robot sends the private link the exact millisecond they comment.",
+              "bodyBullets": [
+                "Use OpenReply / ManyChat to listen for the trigger word",
+                "Instantly reply to the comment: \"Sent to your DMs! ✨ Check your inbox!\"",
+                "Send a friendly, high-value DM containing the direct interactive guide link"
+              ],
+              "keyCallout": "DELIVERY RULE: Instant speed (under 3 seconds) turns curiosity into immediate downloads.",
+              "badgeText": "STEP 02: INSTANT DM",
+              "highlightWords": [
+                "automated dm delivery",
+                "2 seconds"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Instant Reply",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "💸"
+              ],
+              "swissHudMetadata": "04 // STEP 02 // INSTANT DELIVERY",
+              "swipePrompt": "STEP 3: THE HIGH-VALUE PLAYBOOK →",
+              "slideIndex": 4,
+              "cardIndexText": "04 // 08"
+            },
+            {
+              "slideType": "step3",
+              "header": "step 3: interactive lead magnet with 1-click copy.",
+              "subhead": "Give them so much undeniable free value they fall in love with your brand.",
+              "bodyBullets": [
+                "Interactive web playbook with 1-click [📋 COPY PROMPT] buttons",
+                "Clean luxury design matching project\\ciel Swiss HUD aesthetic",
+                "Include a direct link to your shop / service at the bottom"
+              ],
+              "keyCallout": "VALUE RULE: Free value builds trust. Trust creates lifelong high-ticket buyers.",
+              "badgeText": "STEP 03: FREE VALUE",
+              "highlightWords": [
+                "interactive lead magnet",
+                "1-click copy"
+              ],
+              "stickerTags": [
+                {
+                  "text": "1-Click Copy",
+                  "color": "yellow"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "05 // STEP 03 // LEAD MAGNET",
+              "swipePrompt": "THE AUTOMATION CHEAT SHEET →",
+              "slideIndex": 5,
+              "cardIndexText": "05 // 08"
+            },
+            {
+              "slideType": "cheatsheet",
+              "header": "the automated sales cheat sheet.",
+              "subhead": "Save this simple 3-part blueprint for your next campaign:",
+              "bodyBullets": [
+                "🎯 Carousel Post: Hook + 9-year-old clarity + free value recipe",
+                "💬 1-Word CTA: Slide 8 asks for \"POSTER\" or \"CIEL\"",
+                "🤖 DM Automation: OpenReply sends link in 2s flat",
+                "📈 Conversion: Tracked sales and email captures on 100% autopilot"
+              ],
+              "keyCallout": "💾 SAVE THIS POST: Build this automated funnel once, profit 24/7 forever!",
+              "badgeText": "SAVEABLE CHEAT SHEET",
+              "highlightWords": [
+                "sales cheat sheet",
+                "save this"
+              ],
+              "stickerTags": [
+                {
+                  "text": "24/7 Funnel",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "💾",
+                "🍒"
+              ],
+              "swissHudMetadata": "06 // CHEAT SHEET // SALES FUNNEL",
+              "swipePrompt": "THE 3-STEP SYSTEM →",
+              "slideIndex": 6,
+              "cardIndexText": "06 // 08"
+            },
+            {
+              "slideType": "summary",
+              "header": "the complete autonomous conversion loop.",
+              "subhead": "How to scale from 0 to 500 automated leads every week:",
+              "bodyBullets": [
+                "1. Post daily reference-styled carousels",
+                "2. Let the algorithm push your high-comment posts to new audiences",
+                "3. Collect leads and sales continuously in your sleep"
+              ],
+              "keyCallout": "✈️ SHARE WITH A CREATOR: Help someone stop wasting time with broken bio links!",
+              "badgeText": "CONVERSION LOOP",
+              "highlightWords": [
+                "autonomous conversion",
+                "scale to 500"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Autopilot Engine",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🚀",
+                "⚡"
+              ],
+              "swissHudMetadata": "07 // SYSTEM // AUTOPILOT ENGINE",
+              "swipePrompt": "CLAIM THE FREE FUNNEL BLUEPRINT →",
+              "slideIndex": 7,
+              "cardIndexText": "07 // 08"
+            },
+            {
+              "slideType": "cta",
+              "header": "want the free automated dm funnel blueprint?",
+              "subhead": "Drop a 1-word comment below and I will instantly DM you the complete setup guide!",
+              "bodyBullets": [
+                "💬 Comment \"SALES\" on this post right now",
+                "📥 Automated DM sends the complete 2-minute OpenReply setup guide + scripts",
+                "🚀 Follow @junnbuilds / project\\ciel for daily visual directing & automation secrets"
+              ],
+              "keyCallout": "⚡ Instant free delivery: Drop \"SALES\" below to get the download link.",
+              "badgeText": "FREE PRIZE",
+              "highlightWords": [
+                "funnel blueprint",
+                "free setup guide"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Instant DM",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🎁",
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "08 // FREE PRIZE // DROP \"SALES\" BELOW",
+              "swipePrompt": "COMMENT \"SALES\" NOW ↓",
+              "slideIndex": 8,
+              "cardIndexText": "08 // 08"
+            }
+          ],
+          "instagramCaption": "How we turn 1 simple comment into automatic sales while we sleep.\n\nHere is the simple step-by-step breakdown:\n\n01 // how to turn 1 simple comment into sales while you sleep.\n02 // why \"link in bio\" loses 90% of your buyers.\n03 // step 1: the low-friction 1-word trigger keyword.\n04 // step 2: instant automated dm delivery in 2 seconds.\n05 // step 3: interactive lead magnet with 1-click copy.\n06 // the automated sales cheat sheet.\n07 // the complete autonomous conversion loop.\n08 // want the free automated dm funnel blueprint?\n\n---\n💾 SAVE this post so you have the formulas for your next project.\n✈️ SHARE with a friend or creator who needs this.\n👇 Drop \"SALES\" in the comments and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.",
+          "hashtags": [
+            "#projectciel",
+            "#visualdirecting",
+            "#luxurymarketing",
+            "#nanobanana",
+            "#contentcreator",
+            "#creativeagency",
+            "#graphicdesign",
+            "#marketingtips"
+          ]
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787347308692": {
+      "branchId": "cow_orchestrator_1787347308692",
+      "label": "orchestrator:run_exec_1787347308691",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787347308692.rvf",
+      "createdAt": "2026-08-21T21:21:48.693Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T21:21:48.693Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T21:21:48.696Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T21:21:48.698Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {}
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787347454946": {
+      "branchId": "cow_orchestrator_1787347454946",
+      "label": "orchestrator:run_exec_1787347454945",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787347454946.rvf",
+      "createdAt": "2026-08-21T21:24:14.947Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T21:24:14.947Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T21:24:14.950Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T21:24:14.952Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {}
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787347659054": {
+      "branchId": "cow_orchestrator_1787347659054",
+      "label": "orchestrator:run_exec_1787347659054",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787347659054.rvf",
+      "createdAt": "2026-08-21T21:27:39.056Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T21:27:39.056Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T21:27:39.059Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T21:27:39.061Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {}
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787347798126": {
+      "branchId": "cow_orchestrator_1787347798126",
+      "label": "orchestrator:run_exec_1787347798125",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787347798126.rvf",
+      "createdAt": "2026-08-21T21:29:58.127Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T21:29:58.127Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T21:29:58.130Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T21:29:58.132Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {}
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787347842831": {
+      "branchId": "cow_orchestrator_1787347842831",
+      "label": "orchestrator:run_exec_1787347842830",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787347842831.rvf",
+      "createdAt": "2026-08-21T21:30:42.832Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T21:30:42.832Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T21:30:42.835Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T21:30:42.838Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {}
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787348310971": {
+      "branchId": "cow_orchestrator_1787348310971",
+      "label": "orchestrator:run_exec_1787348310970",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787348310971.rvf",
+      "createdAt": "2026-08-21T21:38:30.974Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T21:38:30.974Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T21:38:30.981Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T21:38:30.985Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "referenceStyleKey": "stepped_pixel_acid_poster"
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787327435663": {
+      "branchId": "cow_orchestrator_1787327435663",
+      "label": "orchestrator:run_exec_1787327435662",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787327435663.rvf",
+      "createdAt": "2026-08-21T15:50:35.665Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T15:50:35.665Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T15:50:35.671Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T15:50:35.674Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T15:50:35.691Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {}
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787327585193": {
+      "branchId": "cow_orchestrator_1787327585193",
+      "label": "orchestrator:run_exec_1787327585192",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787327585193.rvf",
+      "createdAt": "2026-08-21T15:53:05.195Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T15:53:05.195Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T15:53:05.201Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T15:53:05.204Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T15:53:05.222Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {}
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787327601204": {
+      "branchId": "cow_orchestrator_1787327601204",
+      "label": "orchestrator:run_exec_1787327601204",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787327601204.rvf",
+      "createdAt": "2026-08-21T15:53:21.206Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T15:53:21.206Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T15:53:21.214Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T15:53:21.217Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T15:53:21.237Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "referenceStyleKey": "stepped_pixel_acid_poster",
+          "topicKey": "higgsfield_video_directing"
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787327860910": {
+      "branchId": "cow_orchestrator_1787327860910",
+      "label": "orchestrator:run_exec_1787327860909",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787327860910.rvf",
+      "createdAt": "2026-08-21T15:57:40.913Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T15:57:40.913Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T15:57:40.919Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T15:57:40.923Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T15:57:40.943Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {}
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787334768238": {
+      "branchId": "cow_orchestrator_1787334768238",
+      "label": "orchestrator:run_exec_1787334768236",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787334768238.rvf",
+      "createdAt": "2026-08-21T17:52:48.241Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T17:52:48.241Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T17:52:48.251Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T17:52:48.256Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T17:52:48.284Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "referenceStyleKey": "editorial_photo_storytelling",
+          "topicKey": "brand_transformation_story"
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787334850179": {
+      "branchId": "cow_orchestrator_1787334850179",
+      "label": "orchestrator:run_exec_1787334850178",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787334850179.rvf",
+      "createdAt": "2026-08-21T17:54:10.182Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T17:54:10.182Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T17:54:10.190Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T17:54:10.196Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T17:54:10.224Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "referenceStyleKey": "editorial_photo_storytelling",
+          "topicKey": "brand_transformation_story"
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787334877158": {
+      "branchId": "cow_orchestrator_1787334877158",
+      "label": "orchestrator:run_exec_1787334877156",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787334877158.rvf",
+      "createdAt": "2026-08-21T17:54:37.163Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T17:54:37.163Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T17:54:37.178Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T17:54:37.188Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T17:54:37.221Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "referenceStyleKey": "editorial_photo_storytelling",
+          "topicKey": "brand_transformation_story"
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787334902016": {
+      "branchId": "cow_orchestrator_1787334902016",
+      "label": "orchestrator:run_exec_1787334902014",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787334902016.rvf",
+      "createdAt": "2026-08-21T17:55:02.019Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T17:55:02.019Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T17:55:02.029Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T17:55:02.036Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T17:55:02.064Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "referenceStyleKey": "editorial_photo_storytelling",
+          "topicKey": "brand_transformation_story"
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787335872209": {
+      "branchId": "cow_orchestrator_1787335872209",
+      "label": "orchestrator:run_exec_1787335872209",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787335872209.rvf",
+      "createdAt": "2026-08-21T18:11:12.211Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T18:11:12.211Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T18:11:12.218Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T18:11:12.223Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T18:11:12.247Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "topicKey": "brand_transformation_story",
+          "referenceStyleKey": "ciel_cinematic_storytelling",
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787335880118": {
+      "branchId": "cow_orchestrator_1787335880118",
+      "label": "orchestrator:run_exec_1787335880118",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787335880118.rvf",
+      "createdAt": "2026-08-21T18:11:20.120Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T18:11:20.120Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T18:11:20.128Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T18:11:20.132Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T18:11:20.162Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "topicKey": "ciel_invisible_craft_story",
+          "referenceStyleKey": "ciel_cinematic_storytelling",
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787338844249": {
+      "branchId": "cow_orchestrator_1787338844249",
+      "label": "orchestrator:run_exec_1787338844248",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787338844249.rvf",
+      "createdAt": "2026-08-21T19:00:44.249Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T19:00:44.249Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T19:00:44.254Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T19:00:44.257Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T19:00:44.267Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "topicKey": "brand_transformation_story",
+          "referenceStyleKey": "ciel_cinematic_storytelling",
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787338847538": {
+      "branchId": "cow_orchestrator_1787338847538",
+      "label": "orchestrator:run_exec_1787338847537",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787338847538.rvf",
+      "createdAt": "2026-08-21T19:00:47.538Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-21T19:00:47.538Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-21T19:00:47.541Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-21T19:00:47.543Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-21T19:00:47.553Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "topicKey": "ciel_invisible_craft_story",
+          "referenceStyleKey": "ciel_cinematic_storytelling",
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787412568635": {
+      "branchId": "cow_orchestrator_1787412568635",
+      "label": "orchestrator:run_exec_1787412568635",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787412568635.rvf",
+      "createdAt": "2026-08-22T15:29:28.637Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-22T15:29:28.637Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-22T15:29:28.645Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-22T15:29:28.651Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-22T15:29:28.685Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "topicKey": "brand_transformation_story",
+          "referenceStyleKey": "ciel_cinematic_storytelling",
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787847733761": {
+      "branchId": "cow_orchestrator_1787847733761",
+      "label": "orchestrator:run_exec_1787847733760",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787847733761.rvf",
+      "createdAt": "2026-08-27T16:22:13.762Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-27T16:22:13.762Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-27T16:22:13.766Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-27T16:22:13.770Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-27T16:22:13.785Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "topicKey": "nano_banana_posters"
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787849017826": {
+      "branchId": "cow_orchestrator_1787849017826",
+      "label": "orchestrator:run_exec_1787849017825",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787849017826.rvf",
+      "createdAt": "2026-08-27T16:43:37.828Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-27T16:43:37.828Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-27T16:43:37.833Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-27T16:43:37.843Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-27T16:43:37.861Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {}
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787909941829": {
+      "branchId": "cow_orchestrator_1787909941829",
+      "label": "orchestrator:run_exec_1787909941829",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787909941829.rvf",
+      "createdAt": "2026-08-28T09:39:01.830Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-28T09:39:01.830Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-28T09:39:01.835Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-28T09:39:01.841Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-28T09:39:01.857Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1787911911751": {
+      "branchId": "cow_orchestrator_1787911911751",
+      "label": "orchestrator:run_exec_1787911911750",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787911911751.rvf",
+      "createdAt": "2026-08-28T10:11:51.752Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-28T10:11:51.752Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-28T10:11:51.758Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-28T10:11:51.766Z"
+        }
+      ],
+      "status": "active",
+      "metadata": {
+        "options": {
+          "forceStrictBrand": false
+        }
+      }
+    },
+    "cow_orchestrator_1787911932638": {
+      "branchId": "cow_orchestrator_1787911932638",
+      "label": "orchestrator:run_exec_1787911932638",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1787911932638.rvf",
+      "createdAt": "2026-08-28T10:12:12.640Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-08-28T10:12:12.640Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-08-28T10:12:12.645Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-08-28T10:12:12.655Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-08-28T10:12:12.671Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1788458768947": {
+      "branchId": "cow_orchestrator_1788458768947",
+      "label": "orchestrator:run_exec_1788458768946",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1788458768947.rvf",
+      "createdAt": "2026-09-03T18:06:08.948Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-09-03T18:06:08.948Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-09-03T18:06:08.956Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-09-03T18:06:08.967Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-09-03T18:06:08.986Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1788471456345": {
+      "branchId": "cow_orchestrator_1788471456345",
+      "label": "orchestrator:run_exec_1788471456345",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1788471456345.rvf",
+      "createdAt": "2026-09-03T21:37:36.346Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-09-03T21:37:36.346Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-09-03T21:37:36.354Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-09-03T21:37:36.366Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-09-03T21:37:36.391Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1788471604279": {
+      "branchId": "cow_orchestrator_1788471604279",
+      "label": "orchestrator:run_exec_1788471604279",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1788471604279.rvf",
+      "createdAt": "2026-09-03T21:40:04.280Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-09-03T21:40:04.280Z"
+        }
+      ],
+      "status": "active",
+      "metadata": {
+        "options": {
+          "forceStrictBrand": false
+        }
+      }
+    },
+    "cow_orchestrator_1788471608882": {
+      "branchId": "cow_orchestrator_1788471608882",
+      "label": "orchestrator:run_exec_1788471608881",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1788471608882.rvf",
+      "createdAt": "2026-09-03T21:40:08.884Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-09-03T21:40:08.884Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-09-03T21:40:08.895Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-09-03T21:40:08.907Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-09-03T21:40:08.931Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1788526815896": {
+      "branchId": "cow_orchestrator_1788526815896",
+      "label": "orchestrator:run_exec_1788526815895",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1788526815896.rvf",
+      "createdAt": "2026-09-04T13:00:15.909Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-09-04T13:00:15.909Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-09-04T13:00:15.922Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-09-04T13:00:15.936Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-09-04T13:00:15.982Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    },
+    "cow_orchestrator_1788528305469": {
+      "branchId": "cow_orchestrator_1788528305469",
+      "label": "orchestrator:run_exec_1788528305469",
+      "basePath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+      "branchPath": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\cow_orchestrator_1788528305469.rvf",
+      "createdAt": "2026-09-04T13:25:05.471Z",
+      "checkpoints": [
+        {
+          "label": "initial",
+          "timestamp": "2026-09-04T13:25:05.471Z"
+        },
+        {
+          "label": "topic_scouted_and_locked",
+          "timestamp": "2026-09-04T13:25:05.479Z"
+        },
+        {
+          "label": "visual_style_locked",
+          "timestamp": "2026-09-04T13:25:05.490Z"
+        },
+        {
+          "label": "prompts_fidelity_verified",
+          "timestamp": "2026-09-04T13:25:05.518Z"
+        }
+      ],
+      "status": "promoted",
+      "metadata": {
+        "options": {
+          "forceStrictBrand": false
+        }
+      },
+      "isPromoted": true
+    }
+  },
+  "activeBranchId": "cow_orchestrator_1788528305469",
+  "history": [
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787342720400",
+      "timestamp": "2026-08-21T20:05:20.403Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787342720399"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787342720400",
+      "timestamp": "2026-08-21T20:05:20.411Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_copy_strategist_1787342720413",
+      "timestamp": "2026-08-21T20:05:20.415Z",
+      "details": {
+        "subagentName": "copy_strategist",
+        "label": "hook_selection_jacquemus_street_art_primary_single_topic"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_copy_strategist_1787342720413",
+      "timestamp": "2026-08-21T20:05:20.425Z"
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787342720400",
+      "timestamp": "2026-08-21T20:05:21.242Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787347132867",
+      "timestamp": "2026-08-21T21:18:52.868Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787347132867"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787347132867",
+      "timestamp": "2026-08-21T21:18:52.872Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_copy_strategist_1787347132872",
+      "timestamp": "2026-08-21T21:18:52.873Z",
+      "details": {
+        "subagentName": "copy_strategist",
+        "label": "hook_selection_automated_dm_sales_primary_single_topic"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_copy_strategist_1787347132872",
+      "timestamp": "2026-08-21T21:18:52.876Z"
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787347132867",
+      "timestamp": "2026-08-21T21:18:53.168Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787347308692",
+      "timestamp": "2026-08-21T21:21:48.693Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787347308691"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787347308692",
+      "timestamp": "2026-08-21T21:21:48.696Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787347308692",
+      "timestamp": "2026-08-21T21:21:48.698Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787347308692",
+      "timestamp": "2026-08-21T21:21:49.006Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787347454946",
+      "timestamp": "2026-08-21T21:24:14.947Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787347454945"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787347454946",
+      "timestamp": "2026-08-21T21:24:14.950Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787347454946",
+      "timestamp": "2026-08-21T21:24:14.952Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787347454946",
+      "timestamp": "2026-08-21T21:24:15.256Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787347659054",
+      "timestamp": "2026-08-21T21:27:39.056Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787347659054"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787347659054",
+      "timestamp": "2026-08-21T21:27:39.059Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787347659054",
+      "timestamp": "2026-08-21T21:27:39.061Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787347659054",
+      "timestamp": "2026-08-21T21:27:39.372Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787347798126",
+      "timestamp": "2026-08-21T21:29:58.127Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787347798125"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787347798126",
+      "timestamp": "2026-08-21T21:29:58.130Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787347798126",
+      "timestamp": "2026-08-21T21:29:58.132Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787347798126",
+      "timestamp": "2026-08-21T21:29:58.435Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787347842831",
+      "timestamp": "2026-08-21T21:30:42.832Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787347842830"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787347842831",
+      "timestamp": "2026-08-21T21:30:42.835Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787347842831",
+      "timestamp": "2026-08-21T21:30:42.838Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787347842831",
+      "timestamp": "2026-08-21T21:30:43.171Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787348310971",
+      "timestamp": "2026-08-21T21:38:30.974Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787348310970"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787348310971",
+      "timestamp": "2026-08-21T21:38:30.981Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787348310971",
+      "timestamp": "2026-08-21T21:38:30.985Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787348310971",
+      "timestamp": "2026-08-21T21:38:31.534Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787327435663",
+      "timestamp": "2026-08-21T15:50:35.665Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787327435662"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327435663",
+      "timestamp": "2026-08-21T15:50:35.671Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327435663",
+      "timestamp": "2026-08-21T15:50:35.674Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327435663",
+      "timestamp": "2026-08-21T15:50:35.691Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787327435663",
+      "timestamp": "2026-08-21T15:50:36.225Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787327585193",
+      "timestamp": "2026-08-21T15:53:05.195Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787327585192"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327585193",
+      "timestamp": "2026-08-21T15:53:05.201Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327585193",
+      "timestamp": "2026-08-21T15:53:05.204Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327585193",
+      "timestamp": "2026-08-21T15:53:05.222Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787327585193",
+      "timestamp": "2026-08-21T15:53:05.739Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787327601204",
+      "timestamp": "2026-08-21T15:53:21.206Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787327601204"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327601204",
+      "timestamp": "2026-08-21T15:53:21.214Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327601204",
+      "timestamp": "2026-08-21T15:53:21.217Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327601204",
+      "timestamp": "2026-08-21T15:53:21.237Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787327601204",
+      "timestamp": "2026-08-21T15:53:21.766Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787327860910",
+      "timestamp": "2026-08-21T15:57:40.913Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787327860909"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327860910",
+      "timestamp": "2026-08-21T15:57:40.919Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327860910",
+      "timestamp": "2026-08-21T15:57:40.923Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787327860910",
+      "timestamp": "2026-08-21T15:57:40.943Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787327860910",
+      "timestamp": "2026-08-21T15:57:41.477Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787334768238",
+      "timestamp": "2026-08-21T17:52:48.241Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787334768236"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334768238",
+      "timestamp": "2026-08-21T17:52:48.251Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334768238",
+      "timestamp": "2026-08-21T17:52:48.256Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334768238",
+      "timestamp": "2026-08-21T17:52:48.284Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787334768238",
+      "timestamp": "2026-08-21T17:52:49.085Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787334850179",
+      "timestamp": "2026-08-21T17:54:10.182Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787334850178"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334850179",
+      "timestamp": "2026-08-21T17:54:10.190Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334850179",
+      "timestamp": "2026-08-21T17:54:10.196Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334850179",
+      "timestamp": "2026-08-21T17:54:10.224Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787334850179",
+      "timestamp": "2026-08-21T17:54:10.990Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787334877158",
+      "timestamp": "2026-08-21T17:54:37.163Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787334877156"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334877158",
+      "timestamp": "2026-08-21T17:54:37.178Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334877158",
+      "timestamp": "2026-08-21T17:54:37.188Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334877158",
+      "timestamp": "2026-08-21T17:54:37.221Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787334877158",
+      "timestamp": "2026-08-21T17:54:38.141Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787334902016",
+      "timestamp": "2026-08-21T17:55:02.019Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787334902014"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334902016",
+      "timestamp": "2026-08-21T17:55:02.029Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334902016",
+      "timestamp": "2026-08-21T17:55:02.036Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787334902016",
+      "timestamp": "2026-08-21T17:55:02.064Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787334902016",
+      "timestamp": "2026-08-21T17:55:03.311Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787335872209",
+      "timestamp": "2026-08-21T18:11:12.211Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787335872209"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787335872209",
+      "timestamp": "2026-08-21T18:11:12.218Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787335872209",
+      "timestamp": "2026-08-21T18:11:12.223Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787335872209",
+      "timestamp": "2026-08-21T18:11:12.247Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787335872209",
+      "timestamp": "2026-08-21T18:11:12.982Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787335880118",
+      "timestamp": "2026-08-21T18:11:20.120Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787335880118"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787335880118",
+      "timestamp": "2026-08-21T18:11:20.128Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787335880118",
+      "timestamp": "2026-08-21T18:11:20.132Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787335880118",
+      "timestamp": "2026-08-21T18:11:20.162Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787335880118",
+      "timestamp": "2026-08-21T18:11:20.860Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787338844249",
+      "timestamp": "2026-08-21T19:00:44.249Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787338844248"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787338844249",
+      "timestamp": "2026-08-21T19:00:44.254Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787338844249",
+      "timestamp": "2026-08-21T19:00:44.257Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787338844249",
+      "timestamp": "2026-08-21T19:00:44.267Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787338844249",
+      "timestamp": "2026-08-21T19:00:44.618Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787338847538",
+      "timestamp": "2026-08-21T19:00:47.538Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787338847537"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787338847538",
+      "timestamp": "2026-08-21T19:00:47.541Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787338847538",
+      "timestamp": "2026-08-21T19:00:47.543Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787338847538",
+      "timestamp": "2026-08-21T19:00:47.553Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787338847538",
+      "timestamp": "2026-08-21T19:00:47.884Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787412568635",
+      "timestamp": "2026-08-22T15:29:28.637Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787412568635"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787412568635",
+      "timestamp": "2026-08-22T15:29:28.645Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787412568635",
+      "timestamp": "2026-08-22T15:29:28.651Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787412568635",
+      "timestamp": "2026-08-22T15:29:28.685Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787412568635",
+      "timestamp": "2026-08-22T15:29:37.362Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787847733761",
+      "timestamp": "2026-08-27T16:22:13.762Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787847733760"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787847733761",
+      "timestamp": "2026-08-27T16:22:13.766Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787847733761",
+      "timestamp": "2026-08-27T16:22:13.770Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787847733761",
+      "timestamp": "2026-08-27T16:22:13.785Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787847733761",
+      "timestamp": "2026-08-27T16:22:17.825Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787849017826",
+      "timestamp": "2026-08-27T16:43:37.828Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787849017825"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787849017826",
+      "timestamp": "2026-08-27T16:43:37.833Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787849017826",
+      "timestamp": "2026-08-27T16:43:37.843Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787849017826",
+      "timestamp": "2026-08-27T16:43:37.861Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787849017826",
+      "timestamp": "2026-08-27T16:43:38.558Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787909941829",
+      "timestamp": "2026-08-28T09:39:01.830Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787909941829"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787909941829",
+      "timestamp": "2026-08-28T09:39:01.835Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787909941829",
+      "timestamp": "2026-08-28T09:39:01.841Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787909941829",
+      "timestamp": "2026-08-28T09:39:01.857Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787909941829",
+      "timestamp": "2026-08-28T09:39:06.454Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787911911751",
+      "timestamp": "2026-08-28T10:11:51.752Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787911911750"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787911911751",
+      "timestamp": "2026-08-28T10:11:51.759Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787911911751",
+      "timestamp": "2026-08-28T10:11:51.766Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1787911932638",
+      "timestamp": "2026-08-28T10:12:12.640Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1787911932638"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787911932638",
+      "timestamp": "2026-08-28T10:12:12.645Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787911932638",
+      "timestamp": "2026-08-28T10:12:12.655Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1787911932638",
+      "timestamp": "2026-08-28T10:12:12.671Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1787911932638",
+      "timestamp": "2026-08-28T10:12:13.223Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1788458768947",
+      "timestamp": "2026-09-03T18:06:08.948Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1788458768946"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788458768947",
+      "timestamp": "2026-09-03T18:06:08.956Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788458768947",
+      "timestamp": "2026-09-03T18:06:08.967Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788458768947",
+      "timestamp": "2026-09-03T18:06:08.986Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1788458768947",
+      "timestamp": "2026-09-03T18:06:14.425Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1788471456345",
+      "timestamp": "2026-09-03T21:37:36.347Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1788471456345"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788471456345",
+      "timestamp": "2026-09-03T21:37:36.354Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788471456345",
+      "timestamp": "2026-09-03T21:37:36.366Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788471456345",
+      "timestamp": "2026-09-03T21:37:36.391Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1788471456345",
+      "timestamp": "2026-09-03T21:37:36.975Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1788471604279",
+      "timestamp": "2026-09-03T21:40:04.280Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1788471604279"
+      }
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1788471608882",
+      "timestamp": "2026-09-03T21:40:08.884Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1788471608881"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788471608882",
+      "timestamp": "2026-09-03T21:40:08.895Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788471608882",
+      "timestamp": "2026-09-03T21:40:08.907Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788471608882",
+      "timestamp": "2026-09-03T21:40:08.931Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1788471608882",
+      "timestamp": "2026-09-03T21:40:09.513Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1788526815896",
+      "timestamp": "2026-09-04T13:00:15.909Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1788526815895"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788526815896",
+      "timestamp": "2026-09-04T13:00:15.922Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788526815896",
+      "timestamp": "2026-09-04T13:00:15.936Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788526815896",
+      "timestamp": "2026-09-04T13:00:15.982Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1788526815896",
+      "timestamp": "2026-09-04T13:00:21.195Z"
+    },
+    {
+      "action": "branch",
+      "branchId": "cow_orchestrator_1788528305469",
+      "timestamp": "2026-09-04T13:25:05.471Z",
+      "details": {
+        "subagentName": "orchestrator",
+        "label": "run_exec_1788528305469"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788528305469",
+      "timestamp": "2026-09-04T13:25:05.479Z",
+      "details": {
+        "label": "topic_scouted_and_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788528305469",
+      "timestamp": "2026-09-04T13:25:05.490Z",
+      "details": {
+        "label": "visual_style_locked"
+      }
+    },
+    {
+      "action": "checkpoint",
+      "branchId": "cow_orchestrator_1788528305469",
+      "timestamp": "2026-09-04T13:25:05.518Z",
+      "details": {
+        "label": "prompts_fidelity_verified"
+      }
+    },
+    {
+      "action": "promote",
+      "branchId": "cow_orchestrator_1788528305469",
+      "timestamp": "2026-09-04T13:25:07.033Z"
+    }
+  ]
+}

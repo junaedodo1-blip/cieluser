@@ -1,7 +1,27 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const BUFFER_ACCESS_TOKEN = process.env.BUFFER_ACCESS_TOKEN;
+function getBufferAccessToken(): string {
+  if (process.env.BUFFER_ACCESS_TOKEN) return process.env.BUFFER_ACCESS_TOKEN;
+  try {
+    const dotenvPath = path.resolve(process.cwd(), '.env');
+    if (fs.existsSync(dotenvPath)) {
+      const dotenvContent = fs.readFileSync(dotenvPath, 'utf8');
+      const match = dotenvContent.match(/BUFFER_ACCESS_TOKEN=(.+)/);
+      if (match && match[1]) return match[1].trim();
+    }
+  } catch {}
+  try {
+    const registryPath = path.resolve(process.cwd(), 'data/API_KEYS_REGISTRY.json');
+    if (fs.existsSync(registryPath)) {
+      const registry = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
+      if (registry?.api_keys?.buffer?.access_token) return registry.api_keys.buffer.access_token;
+    }
+  } catch {}
+  return '1/14ec5a5f1a546c1ca527f516aee9ecbb';
+}
+
+const BUFFER_ACCESS_TOKEN = getBufferAccessToken();
 const LINKEDIN_CHANNEL_ID = '6a88672fccaf649a67ec3385';
 const TWITTER_CHANNEL_ID = '6a8866c5ccaf649a67ec320e';
 const INSTAGRAM_CHANNEL_ID = '6a74577299afb4434910ba18';
@@ -140,16 +160,19 @@ async function main() {
       }
     }
 
+    const isShareNow = process.argv.includes('--now');
+    const publishMode = isShareNow ? 'shareNow' : 'addToQueue';
+
     const res = await makeGraphQLRequest(CREATE_POST_MUTATION, {
       input: {
         channelId: LINKEDIN_CHANNEL_ID,
         text: finalLinkedInText,
-        mode: 'addToQueue',
+        mode: publishMode,
         schedulingType: 'automatic',
         assets: assetsInput,
       }
     });
-    console.log(`✅ LinkedIn post scheduled!`);
+    console.log(`✅ LinkedIn post scheduled (${publishMode})!`);
   } catch (e) {
     console.error(`❌ Failed to schedule LinkedIn post:`, e);
   }
@@ -157,11 +180,14 @@ async function main() {
   // 4. Schedule Twitter Thread
   console.log(`📤 Scheduling Twitter thread...`);
   try {
+    const isShareNow = process.argv.includes('--now');
+    const publishMode = isShareNow ? 'shareNow' : 'addToQueue';
+
     const res = await makeGraphQLRequest(CREATE_POST_MUTATION, {
       input: {
         channelId: TWITTER_CHANNEL_ID,
         text: mainTweet,
-        mode: 'addToQueue',
+        mode: publishMode,
         schedulingType: 'automatic',
         metadata: {
           twitter: {
@@ -170,7 +196,7 @@ async function main() {
         }
       }
     });
-    console.log(`✅ Twitter thread scheduled!`);
+    console.log(`✅ Twitter thread scheduled (${publishMode})!`);
   } catch (e) {
     console.error(`❌ Failed to schedule Twitter thread:`, e);
   }
@@ -204,16 +230,19 @@ async function main() {
       }
     }
 
+    const isShareNow = process.argv.includes('--now');
+    const publishMode = isShareNow ? 'shareNow' : 'addToQueue';
+
     const res = await makeGraphQLRequest(CREATE_POST_MUTATION, {
       input: {
         channelId: INSTAGRAM_CHANNEL_ID,
         text: instagramText,
-        mode: 'addToQueue',
+        mode: publishMode,
         schedulingType: 'automatic',
         assets: assetsInput,
       }
     });
-    console.log(`✅ Instagram post scheduled!`);
+    console.log(`✅ Instagram post scheduled (${publishMode})!`);
   } catch (e) {
     console.error(`❌ Failed to schedule Instagram post:`, e);
   }

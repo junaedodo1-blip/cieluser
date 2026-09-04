@@ -307,3 +307,12 @@ frame reconstructs the original poster.
 - **Manual prompt-pack**: if the user isn't on Atlas, just produce the beat map + the per-beat
   image prompts + the per-clip motion prompts + the narration script for them to paste into
   any generator. The creative engine (the prompts) is identical.
+
+## Motion Design & Reference Integrations
+
+- For high-end commercial motion graphics, After Effects math/expressions, and camera rigs, refer to the [Motion Design Compendium](file:///c:/Users/High%20Tech/.gemini/antigravity/scratch/open-design/skills/vox-director/references/motion-compendium.md).
+- This project integrates with these aesthetic and motion styling skills:
+  - [smoothui](file:///c:/Users/High%20Tech/.gemini/antigravity/scratch/open-design/skills/smoothui/SKILL.md) for UI animation overlays and visualizers.
+  - [emilkowalski-motion](file:///c:/Users/High%20Tech/.gemini/antigravity/scratch/open-design/skills/emilkowalski-motion/SKILL.md) for micro-interactions and transitions.
+  - [taste-skill](file:///c:/Users/High%20Tech/.gemini/antigravity/scratch/open-design/skills/taste-skill/SKILL.md) for design variance, aesthetics, and visual density.
+  - [impeccable-design-polish](file:///c:/Users/High%20Tech/.gemini/antigravity/scratch/open-design/skills/impeccable-design-polish/SKILL.md) for quality critique and design hardening.

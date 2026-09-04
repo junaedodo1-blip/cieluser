@@ -1,0 +1,390 @@
+{
+  "parent": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+  "subagent": "orchestrator",
+  "label": "run_exec_1787347798125",
+  "createdAt": "2026-08-21T21:29:58.126Z",
+  "entries": [
+    {
+      "key": "trend_scout_selection",
+      "value": {
+        "insight": {
+          "topicKey": "automated_dm_sales",
+          "topicTitle": "How to Turn Instagram Comments into Automatic Sales 24/7",
+          "nichePillar": "automation_funnels",
+          "viralHookArchetype": "Passive Income & Conversion System",
+          "whyItPerforms": "Shows direct monetization path for creative carousels with zero manual DM handling.",
+          "predictedSaveRate": 0.91,
+          "triggerWord": "SALES",
+          "bulletProofThesis": "Replace link-in-bio dead ends with 1-word comment keywords that trigger instant ManyChat rich media delivery.",
+          "slideCopyBlueprint": {
+            "slide1Hook": "how to turn 1 simple comment into sales while you sleep.",
+            "slide2MistakeOrTension": "why link-in-bio kills 85% of your conversions.",
+            "slide3Step1": "step 1: pick a 1-word single-noun keyword.",
+            "slide4Step2PromptCode": "step 2: automated instant DM webhook payload.",
+            "slide5Step3Secret": "step 3: 2-step interactive value ladder delivery.",
+            "slide6SaveableCheatSheet": "the high-converting comment-to-DM cheat sheet.",
+            "slide7Routine": "how to launch a live campaign in under 10 minutes.",
+            "slide8CallToAction": "get the pre-built ManyChat automation flow free."
+          }
+        },
+        "copyPackage": {
+          "topicKey": "automated_dm_sales",
+          "topicTitle": "How to Turn Instagram Comments into Automatic Sales 24/7",
+          "triggerWord": "SALES",
+          "hookHeadline": "how to turn 1 simple comment into sales while you sleep.",
+          "slides": [
+            {
+              "slideType": "hook",
+              "header": "how to turn 1 simple comment into sales while you sleep.",
+              "subhead": "You do not need to beg people to click the link in bio. Set up this automated DM robot in 2 minutes.",
+              "badgeText": "COMMERCE FUNNEL",
+              "highlightWords": [
+                "sales while you sleep",
+                "automated dm"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Autopilot Sales",
+                  "color": "green"
+                },
+                {
+                  "text": "2-Min Setup",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "⚡",
+                "🪩",
+                "🖱️"
+              ],
+              "swissHudMetadata": "01 // COMMERCE // AUTOMATED FUNNEL",
+              "swipePrompt": "THE BIO LINK TRAP →",
+              "slideIndex": 1,
+              "cardIndexText": "01 // 08"
+            },
+            {
+              "slideType": "problem",
+              "header": "why \"link in bio\" loses 90% of your buyers.",
+              "subhead": "Forcing people to leave the feed, open your profile, and find a tiny link kills conversion.",
+              "bodyBullets": [
+                "Every extra click cuts conversion rate in half",
+                "People are lazy and do not want to leave the Instagram feed",
+                "When they leave the post to find your bio, they get distracted and forget"
+              ],
+              "keyCallout": "RULE: Never ask them to go to your bio. Deliver the link straight to their private DMs.",
+              "badgeText": "THE BIO LINK TRAP",
+              "highlightWords": [
+                "loses 90%",
+                "kills conversion"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Friction Point",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "💸"
+              ],
+              "swissHudMetadata": "02 // THE PROBLEM // BIO LINK",
+              "swipePrompt": "STEP 1: THE 1-WORD TRIGGER →",
+              "slideIndex": 2,
+              "cardIndexText": "02 // 08"
+            },
+            {
+              "slideType": "step1",
+              "header": "step 1: the low-friction 1-word trigger keyword.",
+              "subhead": "Make it effortlessly easy for the viewer to claim the free value.",
+              "bodyBullets": [
+                "Pick a simple 1-word keyword (e.g. \"CIEL\", \"POSTER\", \"SCALE\")",
+                "Tell them exactly what happens: \"Comment POSTER and I will DM you the prompt pack\"",
+                "Single words require 0 typing friction and trigger high comment velocity"
+              ],
+              "keyCallout": "KEYWORD RULE: 1 simple word = 10x more comments and higher algorithmic push.",
+              "badgeText": "STEP 01: 1-WORD TRIGGER",
+              "highlightWords": [
+                "1-word trigger",
+                "low-friction"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Zero Friction",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🪩",
+                "⚡"
+              ],
+              "swissHudMetadata": "03 // STEP 01 // 1-WORD TRIGGER",
+              "swipePrompt": "STEP 2: THE 2-SECOND DM BOT →",
+              "slideIndex": 3,
+              "cardIndexText": "03 // 08"
+            },
+            {
+              "slideType": "step2",
+              "header": "step 2: instant automated dm delivery in 2 seconds.",
+              "subhead": "The robot sends the private link the exact millisecond they comment.",
+              "bodyBullets": [
+                "Use OpenReply / ManyChat to listen for the trigger word",
+                "Instantly reply to the comment: \"Sent to your DMs! ✨ Check your inbox!\"",
+                "Send a friendly, high-value DM containing the direct interactive guide link"
+              ],
+              "keyCallout": "DELIVERY RULE: Instant speed (under 3 seconds) turns curiosity into immediate downloads.",
+              "badgeText": "STEP 02: INSTANT DM",
+              "highlightWords": [
+                "automated dm delivery",
+                "2 seconds"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Instant Reply",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "💸"
+              ],
+              "swissHudMetadata": "04 // STEP 02 // INSTANT DELIVERY",
+              "swipePrompt": "STEP 3: THE HIGH-VALUE PLAYBOOK →",
+              "slideIndex": 4,
+              "cardIndexText": "04 // 08"
+            },
+            {
+              "slideType": "step3",
+              "header": "step 3: interactive lead magnet with 1-click copy.",
+              "subhead": "Give them so much undeniable free value they fall in love with your brand.",
+              "bodyBullets": [
+                "Interactive web playbook with 1-click [📋 COPY PROMPT] buttons",
+                "Clean luxury design matching project\\ciel Swiss HUD aesthetic",
+                "Include a direct link to your shop / service at the bottom"
+              ],
+              "keyCallout": "VALUE RULE: Free value builds trust. Trust creates lifelong high-ticket buyers.",
+              "badgeText": "STEP 03: FREE VALUE",
+              "highlightWords": [
+                "interactive lead magnet",
+                "1-click copy"
+              ],
+              "stickerTags": [
+                {
+                  "text": "1-Click Copy",
+                  "color": "yellow"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "05 // STEP 03 // LEAD MAGNET",
+              "swipePrompt": "THE AUTOMATION CHEAT SHEET →",
+              "slideIndex": 5,
+              "cardIndexText": "05 // 08"
+            },
+            {
+              "slideType": "cheatsheet",
+              "header": "the automated sales cheat sheet.",
+              "subhead": "Save this simple 3-part blueprint for your next campaign:",
+              "bodyBullets": [
+                "🎯 Carousel Post: Hook + 9-year-old clarity + free value recipe",
+                "💬 1-Word CTA: Slide 8 asks for \"POSTER\" or \"CIEL\"",
+                "🤖 DM Automation: OpenReply sends link in 2s flat",
+                "📈 Conversion: Tracked sales and email captures on 100% autopilot"
+              ],
+              "keyCallout": "💾 SAVE THIS POST: Build this automated funnel once, profit 24/7 forever!",
+              "badgeText": "SAVEABLE CHEAT SHEET",
+              "highlightWords": [
+                "sales cheat sheet",
+                "save this"
+              ],
+              "stickerTags": [
+                {
+                  "text": "24/7 Funnel",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "💾",
+                "🍒"
+              ],
+              "swissHudMetadata": "06 // CHEAT SHEET // SALES FUNNEL",
+              "swipePrompt": "THE 3-STEP SYSTEM →",
+              "slideIndex": 6,
+              "cardIndexText": "06 // 08"
+            },
+            {
+              "slideType": "summary",
+              "header": "the complete autonomous conversion loop.",
+              "subhead": "How to scale from 0 to 500 automated leads every week:",
+              "bodyBullets": [
+                "1. Post daily reference-styled carousels",
+                "2. Let the algorithm push your high-comment posts to new audiences",
+                "3. Collect leads and sales continuously in your sleep"
+              ],
+              "keyCallout": "✈️ SHARE WITH A CREATOR: Help someone stop wasting time with broken bio links!",
+              "badgeText": "CONVERSION LOOP",
+              "highlightWords": [
+                "autonomous conversion",
+                "scale to 500"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Autopilot Engine",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🚀",
+                "⚡"
+              ],
+              "swissHudMetadata": "07 // SYSTEM // AUTOPILOT ENGINE",
+              "swipePrompt": "CLAIM THE FREE FUNNEL BLUEPRINT →",
+              "slideIndex": 7,
+              "cardIndexText": "07 // 08"
+            },
+            {
+              "slideType": "cta",
+              "header": "want the free automated dm funnel blueprint?",
+              "subhead": "Drop a 1-word comment below and I will instantly DM you the complete setup guide!",
+              "bodyBullets": [
+                "💬 Comment \"SALES\" on this post right now",
+                "📥 Automated DM sends the complete 2-minute OpenReply setup guide + scripts",
+                "🚀 Follow @junnbuilds / project\\ciel for daily visual directing & automation secrets"
+              ],
+              "keyCallout": "⚡ Instant free delivery: Drop \"SALES\" below to get the download link.",
+              "badgeText": "FREE PRIZE",
+              "highlightWords": [
+                "funnel blueprint",
+                "free setup guide"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Instant DM",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🎁",
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "08 // FREE PRIZE // DROP \"SALES\" BELOW",
+              "swipePrompt": "COMMENT \"SALES\" NOW ↓",
+              "slideIndex": 8,
+              "cardIndexText": "08 // 08"
+            }
+          ],
+          "instagramCaption": "How we turn 1 simple comment into automatic sales while we sleep.\n\nHere is the simple step-by-step breakdown:\n\n01 // how to turn 1 simple comment into sales while you sleep.\n02 // why \"link in bio\" loses 90% of your buyers.\n03 // step 1: the low-friction 1-word trigger keyword.\n04 // step 2: instant automated dm delivery in 2 seconds.\n05 // step 3: interactive lead magnet with 1-click copy.\n06 // the automated sales cheat sheet.\n07 // the complete autonomous conversion loop.\n08 // want the free automated dm funnel blueprint?\n\n---\n💾 SAVE this post so you have the formulas for your next project.\n✈️ SHARE with a friend or creator who needs this.\n👇 Drop \"SALES\" in the comments and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.",
+          "hashtags": [
+            "#projectciel",
+            "#visualdirecting",
+            "#luxurymarketing",
+            "#nanobanana",
+            "#contentcreator",
+            "#creativeagency",
+            "#graphicdesign",
+            "#marketingtips"
+          ]
+        }
+      },
+      "timestamp": "2026-08-21T21:29:58.129Z"
+    },
+    {
+      "key": "visual_style_blueprint",
+      "value": {
+        "id": "brutalist_photostat",
+        "referenceName": "Brutalist Dark Photostat",
+        "referencePath": "carousel_references/insta_downloads_style/1436e1a05901172598d39a538ffb0c28.jpg",
+        "backgroundDescription": "Deep matte obsidian black with tactile Xerox photocopy dither grain texture.",
+        "headerNavigationStyle": "Swiss HUD technical framing with monospace index coordinates and spec numbers.",
+        "typographySystem": "Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.",
+        "colorPalette": {
+          "background": "#0D0D11 deep obsidian",
+          "text": "#FFFFFF crisp white",
+          "highlighters": [
+            "#FACC15 industrial caution yellow",
+            "#38BDF8 cyan"
+          ],
+          "badges": [
+            "Technical barcode labels and stencil spec cards"
+          ]
+        },
+        "stickerAndDecalStyle": "Industrial caution tape strips, barcode badges, and inverted technical spec stamps.",
+        "cinemaLightingStack": "High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.",
+        "corePromptTemplate": "Use this image as reference to create a graphic carousel slide in the exact same visual style.\nVisual Style: Deep obsidian background with subtle Xerox photocopy grain and Swiss HUD framing.\nTypography: Monolithic bold white sans-serif with industrial caution tags.\nQuality: High-contrast auteur cinema, sharp vector text, 4:5 vertical portrait."
+      },
+      "timestamp": "2026-08-21T21:29:58.131Z"
+    },
+    {
+      "key": "nano_banana_prompts_batch",
+      "value": [
+        {
+          "slideIndex": 1,
+          "slideType": "hook",
+          "referenceImagePath": "carousel_references/insta_downloads_style/1436e1a05901172598d39a538ffb0c28.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.\n• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.\n• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.\n• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.\n\n=== [SLIDE 1 MISSION: SCROLL-STOPPING VISUAL HERO PIECE] ===\n• Objective: Stop the scroll instantly within 1.5 seconds with a breathtaking, high-aesthetic visual masterpiece.\n• Visual Architecture: Dominant central composition, massive bold stacked typography with vibrant highlighter bars, and playful floating 3D micro-stickers (cherries 🍒, disco ball 🪩, lightning ⚡, cash 💸, pixel mouse cursor 🖱️).\n\n=== [SLIDE 1 VARIATION CONTENT] ===\nSlide Purpose: Slide 1 of 8 (HOOK)\nCard Counter Tag: \"01 // 08\"\nTop Pill Badge: \"COMMERCE FUNNEL\" with a small pink dot\nMain Headline: \"how to turn 1 simple comment into sales while you sleep.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"sales while you sleep, automated dm\"\nSubtitle / Description: \"You do not need to beg people to click the link in bio. Set up this automated DM robot in 2 minutes.\"\nSpeech Bubble Stickers: \"Autopilot Sales\" (green), \"2-Min Setup\" (pink)\nBottom Swipe Prompt: \"THE BIO LINK TRAP →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_01.png"
+        },
+        {
+          "slideIndex": 2,
+          "slideType": "problem",
+          "referenceImagePath": "carousel_references/insta_downloads_style/1436e1a05901172598d39a538ffb0c28.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.\n• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.\n• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.\n• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.\n\n=== [SLIDE 2 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 2 VARIATION CONTENT] ===\nSlide Purpose: Slide 2 of 8 (PROBLEM)\nCard Counter Tag: \"02 // 08\"\nTop Pill Badge: \"THE BIO LINK TRAP\" with a small pink dot\nMain Headline: \"why \"link in bio\" loses 90% of your buyers.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"loses 90%, kills conversion\"\nSubtitle / Description: \"Forcing people to leave the feed, open your profile, and find a tiny link kills conversion.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Every extra click cuts conversion rate in half\"\n  2. \"People are lazy and do not want to leave the Instagram feed\"\n  3. \"When they leave the post to find your bio, they get distracted and forget\"\nCallout Box: \"RULE: Never ask them to go to your bio. Deliver the link straight to their private DMs.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Friction Point\" (pink)\nBottom Swipe Prompt: \"STEP 1: THE 1-WORD TRIGGER →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_02.png"
+        },
+        {
+          "slideIndex": 3,
+          "slideType": "step1",
+          "referenceImagePath": "carousel_references/insta_downloads_style/1436e1a05901172598d39a538ffb0c28.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.\n• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.\n• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.\n• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.\n\n=== [SLIDE 3 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 3 VARIATION CONTENT] ===\nSlide Purpose: Slide 3 of 8 (STEP1)\nCard Counter Tag: \"03 // 08\"\nTop Pill Badge: \"STEP 01: 1-WORD TRIGGER\" with a small pink dot\nMain Headline: \"step 1: the low-friction 1-word trigger keyword.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"1-word trigger, low-friction\"\nSubtitle / Description: \"Make it effortlessly easy for the viewer to claim the free value.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Pick a simple 1-word keyword (e.g. \"CIEL\", \"POSTER\", \"SCALE\")\"\n  2. \"Tell them exactly what happens: \"Comment POSTER and I will DM you the prompt pack\"\"\n  3. \"Single words require 0 typing friction and trigger high comment velocity\"\nCallout Box: \"KEYWORD RULE: 1 simple word = 10x more comments and higher algorithmic push.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Zero Friction\" (blue)\nBottom Swipe Prompt: \"STEP 2: THE 2-SECOND DM BOT →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_03.png"
+        },
+        {
+          "slideIndex": 4,
+          "slideType": "step2",
+          "referenceImagePath": "carousel_references/insta_downloads_style/1436e1a05901172598d39a538ffb0c28.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.\n• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.\n• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.\n• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.\n\n=== [SLIDE 4 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 4 VARIATION CONTENT] ===\nSlide Purpose: Slide 4 of 8 (STEP2)\nCard Counter Tag: \"04 // 08\"\nTop Pill Badge: \"STEP 02: INSTANT DM\" with a small pink dot\nMain Headline: \"step 2: instant automated dm delivery in 2 seconds.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"automated dm delivery, 2 seconds\"\nSubtitle / Description: \"The robot sends the private link the exact millisecond they comment.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Use OpenReply / ManyChat to listen for the trigger word\"\n  2. \"Instantly reply to the comment: \"Sent to your DMs! ✨ Check your inbox!\"\"\n  3. \"Send a friendly, high-value DM containing the direct interactive guide link\"\nCallout Box: \"DELIVERY RULE: Instant speed (under 3 seconds) turns curiosity into immediate downloads.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Instant Reply\" (green)\nBottom Swipe Prompt: \"STEP 3: THE HIGH-VALUE PLAYBOOK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_04.png"
+        },
+        {
+          "slideIndex": 5,
+          "slideType": "step3",
+          "referenceImagePath": "carousel_references/insta_downloads_style/1436e1a05901172598d39a538ffb0c28.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.\n• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.\n• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.\n• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.\n\n=== [SLIDE 5 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 5 VARIATION CONTENT] ===\nSlide Purpose: Slide 5 of 8 (STEP3)\nCard Counter Tag: \"05 // 08\"\nTop Pill Badge: \"STEP 03: FREE VALUE\" with a small pink dot\nMain Headline: \"step 3: interactive lead magnet with 1-click copy.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"interactive lead magnet, 1-click copy\"\nSubtitle / Description: \"Give them so much undeniable free value they fall in love with your brand.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Interactive web playbook with 1-click [📋 COPY PROMPT] buttons\"\n  2. \"Clean luxury design matching project\\ciel Swiss HUD aesthetic\"\n  3. \"Include a direct link to your shop / service at the bottom\"\nCallout Box: \"VALUE RULE: Free value builds trust. Trust creates lifelong high-ticket buyers.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"1-Click Copy\" (yellow)\nBottom Swipe Prompt: \"THE AUTOMATION CHEAT SHEET →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_05.png"
+        },
+        {
+          "slideIndex": 6,
+          "slideType": "cheatsheet",
+          "referenceImagePath": "carousel_references/insta_downloads_style/1436e1a05901172598d39a538ffb0c28.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.\n• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.\n• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.\n• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.\n\n=== [SLIDE 6 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 6 VARIATION CONTENT] ===\nSlide Purpose: Slide 6 of 8 (CHEATSHEET)\nCard Counter Tag: \"06 // 08\"\nTop Pill Badge: \"SAVEABLE CHEAT SHEET\" with a small pink dot\nMain Headline: \"the automated sales cheat sheet.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"sales cheat sheet, save this\"\nSubtitle / Description: \"Save this simple 3-part blueprint for your next campaign:\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"🎯 Carousel Post: Hook + 9-year-old clarity + free value recipe\"\n  2. \"💬 1-Word CTA: Slide 8 asks for \"POSTER\" or \"CIEL\"\"\n  3. \"🤖 DM Automation: OpenReply sends link in 2s flat\"\n  4. \"📈 Conversion: Tracked sales and email captures on 100% autopilot\"\nCallout Box: \"💾 SAVE THIS POST: Build this automated funnel once, profit 24/7 forever!\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"24/7 Funnel\" (green)\nBottom Swipe Prompt: \"THE 3-STEP SYSTEM →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_06.png"
+        },
+        {
+          "slideIndex": 7,
+          "slideType": "summary",
+          "referenceImagePath": "carousel_references/insta_downloads_style/1436e1a05901172598d39a538ffb0c28.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.\n• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.\n• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.\n• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.\n\n=== [SLIDE 7 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 7 VARIATION CONTENT] ===\nSlide Purpose: Slide 7 of 8 (SUMMARY)\nCard Counter Tag: \"07 // 08\"\nTop Pill Badge: \"CONVERSION LOOP\" with a small pink dot\nMain Headline: \"the complete autonomous conversion loop.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"autonomous conversion, scale to 500\"\nSubtitle / Description: \"How to scale from 0 to 500 automated leads every week:\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"1. Post daily reference-styled carousels\"\n  2. \"2. Let the algorithm push your high-comment posts to new audiences\"\n  3. \"3. Collect leads and sales continuously in your sleep\"\nCallout Box: \"✈️ SHARE WITH A CREATOR: Help someone stop wasting time with broken bio links!\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Autopilot Engine\" (blue)\nBottom Swipe Prompt: \"CLAIM THE FREE FUNNEL BLUEPRINT →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_07.png"
+        },
+        {
+          "slideIndex": 8,
+          "slideType": "cta",
+          "referenceImagePath": "carousel_references/insta_downloads_style/1436e1a05901172598d39a538ffb0c28.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Deep matte obsidian black with tactile Xerox photocopy dither grain texture.\n• Top Navigation: Swiss HUD technical framing with monospace index coordinates and spec numbers.\n• Typography Hierarchy: Monolithic grotesque display typography in crisp inverted white with high-contrast tracking.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Industrial caution tape strips, barcode badges, and inverted technical spec stamps.\n• Lighting & Finish: High-contrast raking rim light, deep lifted shadows, 35mm analog film grain, tactile physical texture.\n\n=== [SLIDE 8 MISSION: FREE PRIZE & CONVERSION CTA] ===\n• Objective: Convert engagement into saves, shares, and instant DM comments with a clear 3-step action checklist and free value offer.\n\n=== [SLIDE 8 VARIATION CONTENT] ===\nSlide Purpose: Slide 8 of 8 (CTA)\nCard Counter Tag: \"08 // 08\"\nTop Pill Badge: \"FREE PRIZE\" with a small pink dot\nMain Headline: \"want the free automated dm funnel blueprint?\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"funnel blueprint, free setup guide\"\nSubtitle / Description: \"Drop a 1-word comment below and I will instantly DM you the complete setup guide!\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"💬 Comment \"SALES\" on this post right now\"\n  2. \"📥 Automated DM sends the complete 2-minute OpenReply setup guide + scripts\"\n  3. \"🚀 Follow @junnbuilds / project\\ciel for daily visual directing & automation secrets\"\nCallout Box: \"⚡ Instant free delivery: Drop \"SALES\" below to get the download link.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Instant DM\" (pink)\nBottom Swipe Prompt: \"COMMENT \"SALES\" NOW ↓\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_08.png"
+        }
+      ],
+      "timestamp": "2026-08-21T21:29:58.137Z"
+    }
+  ]
+}

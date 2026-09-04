@@ -1,0 +1,390 @@
+{
+  "parent": "C:\\Users\\High Tech\\.gemini\\antigravity\\scratch\\open-design\\data\\memory\\ciel_master.rvf",
+  "subagent": "orchestrator",
+  "label": "run_exec_1787347842830",
+  "createdAt": "2026-08-21T21:30:42.831Z",
+  "entries": [
+    {
+      "key": "trend_scout_selection",
+      "value": {
+        "insight": {
+          "topicKey": "higgsfield_video_directing",
+          "topicTitle": "Directing 8K Cinema Video with Zero Prompter Drift",
+          "nichePillar": "motion_3d",
+          "viralHookArchetype": "Director Masterclass / Anti-AI Video Artifacts",
+          "whyItPerforms": "Solves AI video morphing and face-drift with strict camera FOV locks and physics doctrine.",
+          "predictedSaveRate": 0.89,
+          "triggerWord": "CINEMA",
+          "bulletProofThesis": "Lock FOV degrees, gravity timing, and anamorphic lens glass to eliminate AI camera jitter.",
+          "slideCopyBlueprint": {
+            "slide1Hook": "how to direct cinematic AI video without messy prompt drift.",
+            "slide2MistakeOrTension": "why AI camera movements look cheap and wobbly.",
+            "slide3Step1": "rule 1: lock your lens FOV to 50mm or 85mm prime.",
+            "slide4Step2PromptCode": "rule 2: describe real gravity physics and momentum.",
+            "slide5Step3Secret": "rule 3: directional key light with atmospheric haze.",
+            "slide6SaveableCheatSheet": "the 8K cinema director prompt cheat sheet.",
+            "slide7Routine": "the 4-step multi-shot storyboard workflow.",
+            "slide8CallToAction": "grab the complete 8K cinema prompt swipe file."
+          }
+        },
+        "copyPackage": {
+          "topicKey": "higgsfield_video_directing",
+          "topicTitle": "How to Direct 4K Product Videos with Real Fluid Physics in Higgsfield",
+          "triggerWord": "CINEMA",
+          "hookHeadline": "how to direct 4k product videos with real fluid physics.",
+          "slides": [
+            {
+              "slideType": "hook",
+              "header": "how to direct 4k product videos with real fluid physics.",
+              "subhead": "Stop making stiff robot AI videos. Here is how to add weight, bounce, and cinematic motion.",
+              "badgeText": "HIGGSFIELD CINEMA SPEC",
+              "highlightWords": [
+                "4k product videos",
+                "fluid physics"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Soul Cinema",
+                  "color": "green"
+                },
+                {
+                  "text": "Real Physics",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "⚡",
+                "🪩",
+                "🖱️"
+              ],
+              "swissHudMetadata": "01 // HIGGSFIELD // CAMERA DIRECTING",
+              "swipePrompt": "SWIPE FOR CAMERA MOVES →",
+              "slideIndex": 1,
+              "cardIndexText": "01 // 08"
+            },
+            {
+              "slideType": "problem",
+              "header": "why straight-line robot motion kills buyer trust.",
+              "subhead": "When an object glides at constant speed with zero gravity, your brain knows it is fake.",
+              "bodyBullets": [
+                "Linear speed feels like a cheap 2010 video game",
+                "Real objects accelerate, decelerate, and have momentum",
+                "Without physical weight and sound impact, viewers swipe away"
+              ],
+              "keyCallout": "RULE: Real physics creates organic trust and makes products feel expensive.",
+              "badgeText": "THE ROBOT TRAP",
+              "highlightWords": [
+                "robot motion",
+                "fake physics"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Physics Trap",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "💸"
+              ],
+              "swissHudMetadata": "02 // THE PROBLEM // ZERO WEIGHT",
+              "swipePrompt": "SECRET 1: 50MM OPTICAL PRIME →",
+              "slideIndex": 2,
+              "cardIndexText": "02 // 08"
+            },
+            {
+              "slideType": "step1",
+              "header": "secret 1: 50mm optical prime & raking key light.",
+              "subhead": "The lens you pick in your prompt changes everything.",
+              "bodyBullets": [
+                "Use 50mm or 85mm optical prime lenses for flattering portrait compression",
+                "Position a strong raking side key light to reveal micro-textures and glass cuts",
+                "Keep shadows open and lifted with subtle 35mm film grain"
+              ],
+              "keyCallout": "PROMPT TAG: \"50mm optical prime, raking side key light, soft highlight roll-off.\"",
+              "badgeText": "SECRET 01: CINEMA OPTICS",
+              "highlightWords": [
+                "50mm optical prime",
+                "raking light"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Cinema Glass",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🪩",
+                "⚡"
+              ],
+              "swissHudMetadata": "03 // SECRET 01 // LENS & LIGHT",
+              "swipePrompt": "SECRET 2: SLOW DOLLY IN →",
+              "slideIndex": 3,
+              "cardIndexText": "03 // 08"
+            },
+            {
+              "slideType": "step2",
+              "header": "secret 2: slow macro dolly in & 1/10,000s shutter.",
+              "subhead": "Bring physical details to life with micro slow-motion splashes.",
+              "bodyBullets": [
+                "Move the camera slowly inward to create depth and anticipation",
+                "Freeze micro liquid droplets and mist with high shutter speed math",
+                "Avoid crazy spinning 360 orbits — keep camera motion intentional"
+              ],
+              "keyCallout": "PROMPT TAG: \"Slow cinematic dolly in on hero object, 1/10,000s shutter liquid splash.\"",
+              "badgeText": "SECRET 02: CAMERA MOVE",
+              "highlightWords": [
+                "macro dolly in",
+                "shutter speed"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Liquid Viscosity",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "🍒",
+                "💸"
+              ],
+              "swissHudMetadata": "04 // SECRET 02 // DOLLY & SHUTTER",
+              "swipePrompt": "SECRET 3: SPRING PHYSICS →",
+              "slideIndex": 4,
+              "cardIndexText": "04 // 08"
+            },
+            {
+              "slideType": "step3",
+              "header": "secret 3: spring physics & sub-bass audio impacts.",
+              "subhead": "Sound is 50% of how real an AI video feels.",
+              "bodyBullets": [
+                "Pair the visual drop with a deep tactile sub-bass impact sound",
+                "Add high-frequency texture sounds (glass clinking, mist spraying, cloth rustle)",
+                "When sound and spring physics sync, the screen feels tangible"
+              ],
+              "keyCallout": "AUDIO RULE: Deep tactile bass + crisp micro-sound effects = physical reality.",
+              "badgeText": "SECRET 03: SOUND DESIGN",
+              "highlightWords": [
+                "spring physics",
+                "sub-bass audio"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Sound Design",
+                  "color": "yellow"
+                }
+              ],
+              "icons": [
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "05 // SECRET 03 // AUDIO PHYSICS",
+              "swipePrompt": "THE HIGGSFIELD CHEAT SHEET →",
+              "slideIndex": 5,
+              "cardIndexText": "05 // 08"
+            },
+            {
+              "slideType": "cheatsheet",
+              "header": "the copy-paste higgsfield video prompt.",
+              "subhead": "Save this exact video generation code for Soul Cinema / Seedance:",
+              "bodyBullets": [
+                "🎥 Framing: \"Medium shot, cinematic slow dolly in on hero object, 50mm FOV\"",
+                "💧 Physics: \"Natural gravity and inertia, macro liquid viscosity splash at 1/10,000s shutter\"",
+                "🎞️ Finish: \"Volumetric raking light, deep open shadows, fine 35mm motion-picture grain\"",
+                "🚫 Negative: \"No CGI sheen, no plastic skin, no video game artifacts, real optical capture\""
+              ],
+              "keyCallout": "💾 SAVE THIS POST: Copy-paste this exact prompt into Higgsfield!",
+              "badgeText": "SAVEABLE CHEAT SHEET",
+              "highlightWords": [
+                "higgsfield prompt",
+                "copy-paste code"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Video Code",
+                  "color": "green"
+                }
+              ],
+              "icons": [
+                "💾",
+                "🍒"
+              ],
+              "swissHudMetadata": "06 // CHEAT SHEET // HIGGSFIELD CODE",
+              "swipePrompt": "THE 3-STEP PIPELINE →",
+              "slideIndex": 6,
+              "cardIndexText": "06 // 08"
+            },
+            {
+              "slideType": "summary",
+              "header": "the 3-step high-converting video pipeline.",
+              "subhead": "From still poster to 4K cinematic commercial:",
+              "bodyBullets": [
+                "1. Nano Banana: Generate high-res 4:5 visual poster with clean lighting",
+                "2. Higgsfield: Animate the hero object with our 50mm camera code",
+                "3. OpenReply DM Bot: Deliver product link the second someone comments"
+              ],
+              "keyCallout": "✈️ SHARE WITH A VIDEO CREATOR: Level up someone’s AI video quality today!",
+              "badgeText": "THE 3-STEP PIPELINE",
+              "highlightWords": [
+                "video pipeline",
+                "high-converting"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Full Workflow",
+                  "color": "blue"
+                }
+              ],
+              "icons": [
+                "🚀",
+                "⚡"
+              ],
+              "swissHudMetadata": "07 // PIPELINE // AUTONOMOUS ENGINE",
+              "swipePrompt": "CLAIM THE FREE CINEMA PACK →",
+              "slideIndex": 7,
+              "cardIndexText": "07 // 08"
+            },
+            {
+              "slideType": "cta",
+              "header": "want the free 4k higgsfield video prompt pack?",
+              "subhead": "Drop a 1-word comment below and I will instantly DM you all camera codes & settings!",
+              "bodyBullets": [
+                "💬 Comment \"CINEMA\" on this post right now",
+                "📥 Automated DM sends the complete 4K camera codes + lighting cheat sheet in 2s",
+                "🚀 Follow @junnbuilds / project\\ciel for daily AI directing secrets"
+              ],
+              "keyCallout": "⚡ Instant free delivery: Drop \"CINEMA\" below to get the download link.",
+              "badgeText": "FREE PRIZE",
+              "highlightWords": [
+                "4k prompt pack",
+                "camera codes"
+              ],
+              "stickerTags": [
+                {
+                  "text": "Instant DM",
+                  "color": "pink"
+                }
+              ],
+              "icons": [
+                "🎁",
+                "⚡",
+                "🖱️"
+              ],
+              "swissHudMetadata": "08 // FREE PRIZE // DROP \"CINEMA\" BELOW",
+              "swipePrompt": "COMMENT \"CINEMA\" NOW ↓",
+              "slideIndex": 8,
+              "cardIndexText": "08 // 08"
+            }
+          ],
+          "instagramCaption": "How to direct 4K product videos with real fluid physics in Higgsfield.\n\nHere is the simple step-by-step breakdown:\n\n01 // how to direct 4k product videos with real fluid physics.\n02 // why straight-line robot motion kills buyer trust.\n03 // secret 1: 50mm optical prime & raking key light.\n04 // secret 2: slow macro dolly in & 1/10,000s shutter.\n05 // secret 3: spring physics & sub-bass audio impacts.\n06 // the copy-paste higgsfield video prompt.\n07 // the 3-step high-converting video pipeline.\n08 // want the free 4k higgsfield video prompt pack?\n\n---\n💾 SAVE this post so you have the formulas for your next project.\n✈️ SHARE with a friend or creator who needs this.\n👇 Drop \"CINEMA\" in the comments and I will instantly DM you the complete free interactive playbook & prompt templates!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.",
+          "hashtags": [
+            "#projectciel",
+            "#visualdirecting",
+            "#luxurymarketing",
+            "#nanobanana",
+            "#contentcreator",
+            "#creativeagency",
+            "#graphicdesign",
+            "#marketingtips"
+          ]
+        }
+      },
+      "timestamp": "2026-08-21T21:30:42.835Z"
+    },
+    {
+      "key": "visual_style_blueprint",
+      "value": {
+        "id": "editorial_luxury_split",
+        "referenceName": "Editorial Luxury Split Layout",
+        "referencePath": "carousel_references/insta_downloads_style/4b7cdcff38fc3e7931e62a761c9d2022.jpg",
+        "backgroundDescription": "Split architectural background: smooth limestone beige on top, warm charcoal on bottom.",
+        "headerNavigationStyle": "High-fashion editorial header with fine hair-line rules and Roman numeral indexing.",
+        "typographySystem": "High-contrast luxury Didot serif paired with ultra-light geometric sans.",
+        "colorPalette": {
+          "background": "#F5F5F0 limestone beige & #1C1C1E warm charcoal",
+          "text": "#0A0A0C obsidian black",
+          "highlighters": [
+            "#E2D4C0 warm champagne gold",
+            "#E0E7FF soft lavender"
+          ],
+          "badges": [
+            "Clean architectural line dividers and numbered Roman numeral pills"
+          ]
+        },
+        "stickerAndDecalStyle": "Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.",
+        "cinemaLightingStack": "Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.",
+        "corePromptTemplate": "Use this image as reference to create a graphic carousel slide in the exact same visual style.\nVisual Style: High-fashion architectural split layout with limestone beige and charcoal tones.\nTypography: Luxury Didot serif titles with elegant geometric sans body cards.\nQuality: Vogue/Cannes editorial prestige, razor-sharp typography, 4:5 vertical portrait."
+      },
+      "timestamp": "2026-08-21T21:30:42.837Z"
+    },
+    {
+      "key": "nano_banana_prompts_batch",
+      "value": [
+        {
+          "slideIndex": 1,
+          "slideType": "hook",
+          "referenceImagePath": "carousel_references/insta_downloads_style/4b7cdcff38fc3e7931e62a761c9d2022.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.\n• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.\n• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.\n• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.\n\n=== [SLIDE 1 MISSION: SCROLL-STOPPING VISUAL HERO PIECE] ===\n• Objective: Stop the scroll instantly within 1.5 seconds with a breathtaking, high-aesthetic visual masterpiece.\n• Visual Architecture: Dominant central composition, massive bold stacked typography with vibrant highlighter bars, and playful floating 3D micro-stickers (cherries 🍒, disco ball 🪩, lightning ⚡, cash 💸, pixel mouse cursor 🖱️).\n\n=== [SLIDE 1 VARIATION CONTENT] ===\nSlide Purpose: Slide 1 of 8 (HOOK)\nCard Counter Tag: \"01 // 08\"\nTop Pill Badge: \"HIGGSFIELD CINEMA SPEC\" with a small pink dot\nMain Headline: \"how to direct 4k product videos with real fluid physics.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"4k product videos, fluid physics\"\nSubtitle / Description: \"Stop making stiff robot AI videos. Here is how to add weight, bounce, and cinematic motion.\"\nSpeech Bubble Stickers: \"Soul Cinema\" (green), \"Real Physics\" (pink)\nBottom Swipe Prompt: \"SWIPE FOR CAMERA MOVES →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_01.png"
+        },
+        {
+          "slideIndex": 2,
+          "slideType": "problem",
+          "referenceImagePath": "carousel_references/insta_downloads_style/4b7cdcff38fc3e7931e62a761c9d2022.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.\n• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.\n• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.\n• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.\n\n=== [SLIDE 2 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 2 VARIATION CONTENT] ===\nSlide Purpose: Slide 2 of 8 (PROBLEM)\nCard Counter Tag: \"02 // 08\"\nTop Pill Badge: \"THE ROBOT TRAP\" with a small pink dot\nMain Headline: \"why straight-line robot motion kills buyer trust.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"robot motion, fake physics\"\nSubtitle / Description: \"When an object glides at constant speed with zero gravity, your brain knows it is fake.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Linear speed feels like a cheap 2010 video game\"\n  2. \"Real objects accelerate, decelerate, and have momentum\"\n  3. \"Without physical weight and sound impact, viewers swipe away\"\nCallout Box: \"RULE: Real physics creates organic trust and makes products feel expensive.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Physics Trap\" (pink)\nBottom Swipe Prompt: \"SECRET 1: 50MM OPTICAL PRIME →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_02.png"
+        },
+        {
+          "slideIndex": 3,
+          "slideType": "step1",
+          "referenceImagePath": "carousel_references/insta_downloads_style/4b7cdcff38fc3e7931e62a761c9d2022.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.\n• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.\n• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.\n• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.\n\n=== [SLIDE 3 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 3 VARIATION CONTENT] ===\nSlide Purpose: Slide 3 of 8 (STEP1)\nCard Counter Tag: \"03 // 08\"\nTop Pill Badge: \"SECRET 01: CINEMA OPTICS\" with a small pink dot\nMain Headline: \"secret 1: 50mm optical prime & raking key light.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"50mm optical prime, raking light\"\nSubtitle / Description: \"The lens you pick in your prompt changes everything.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Use 50mm or 85mm optical prime lenses for flattering portrait compression\"\n  2. \"Position a strong raking side key light to reveal micro-textures and glass cuts\"\n  3. \"Keep shadows open and lifted with subtle 35mm film grain\"\nCallout Box: \"PROMPT TAG: \"50mm optical prime, raking side key light, soft highlight roll-off.\"\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Cinema Glass\" (blue)\nBottom Swipe Prompt: \"SECRET 2: SLOW DOLLY IN →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_03.png"
+        },
+        {
+          "slideIndex": 4,
+          "slideType": "step2",
+          "referenceImagePath": "carousel_references/insta_downloads_style/4b7cdcff38fc3e7931e62a761c9d2022.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.\n• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.\n• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.\n• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.\n\n=== [SLIDE 4 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 4 VARIATION CONTENT] ===\nSlide Purpose: Slide 4 of 8 (STEP2)\nCard Counter Tag: \"04 // 08\"\nTop Pill Badge: \"SECRET 02: CAMERA MOVE\" with a small pink dot\nMain Headline: \"secret 2: slow macro dolly in & 1/10,000s shutter.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"macro dolly in, shutter speed\"\nSubtitle / Description: \"Bring physical details to life with micro slow-motion splashes.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Move the camera slowly inward to create depth and anticipation\"\n  2. \"Freeze micro liquid droplets and mist with high shutter speed math\"\n  3. \"Avoid crazy spinning 360 orbits — keep camera motion intentional\"\nCallout Box: \"PROMPT TAG: \"Slow cinematic dolly in on hero object, 1/10,000s shutter liquid splash.\"\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Liquid Viscosity\" (green)\nBottom Swipe Prompt: \"SECRET 3: SPRING PHYSICS →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_04.png"
+        },
+        {
+          "slideIndex": 5,
+          "slideType": "step3",
+          "referenceImagePath": "carousel_references/insta_downloads_style/4b7cdcff38fc3e7931e62a761c9d2022.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.\n• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.\n• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.\n• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.\n\n=== [SLIDE 5 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 5 VARIATION CONTENT] ===\nSlide Purpose: Slide 5 of 8 (STEP3)\nCard Counter Tag: \"05 // 08\"\nTop Pill Badge: \"SECRET 03: SOUND DESIGN\" with a small pink dot\nMain Headline: \"secret 3: spring physics & sub-bass audio impacts.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"spring physics, sub-bass audio\"\nSubtitle / Description: \"Sound is 50% of how real an AI video feels.\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"Pair the visual drop with a deep tactile sub-bass impact sound\"\n  2. \"Add high-frequency texture sounds (glass clinking, mist spraying, cloth rustle)\"\n  3. \"When sound and spring physics sync, the screen feels tangible\"\nCallout Box: \"AUDIO RULE: Deep tactile bass + crisp micro-sound effects = physical reality.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Sound Design\" (yellow)\nBottom Swipe Prompt: \"THE HIGGSFIELD CHEAT SHEET →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_05.png"
+        },
+        {
+          "slideIndex": 6,
+          "slideType": "cheatsheet",
+          "referenceImagePath": "carousel_references/insta_downloads_style/4b7cdcff38fc3e7931e62a761c9d2022.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.\n• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.\n• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.\n• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.\n\n=== [SLIDE 6 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 6 VARIATION CONTENT] ===\nSlide Purpose: Slide 6 of 8 (CHEATSHEET)\nCard Counter Tag: \"06 // 08\"\nTop Pill Badge: \"SAVEABLE CHEAT SHEET\" with a small pink dot\nMain Headline: \"the copy-paste higgsfield video prompt.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"higgsfield prompt, copy-paste code\"\nSubtitle / Description: \"Save this exact video generation code for Soul Cinema / Seedance:\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"🎥 Framing: \"Medium shot, cinematic slow dolly in on hero object, 50mm FOV\"\"\n  2. \"💧 Physics: \"Natural gravity and inertia, macro liquid viscosity splash at 1/10,000s shutter\"\"\n  3. \"🎞️ Finish: \"Volumetric raking light, deep open shadows, fine 35mm motion-picture grain\"\"\n  4. \"🚫 Negative: \"No CGI sheen, no plastic skin, no video game artifacts, real optical capture\"\"\nCallout Box: \"💾 SAVE THIS POST: Copy-paste this exact prompt into Higgsfield!\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Video Code\" (green)\nBottom Swipe Prompt: \"THE 3-STEP PIPELINE →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_06.png"
+        },
+        {
+          "slideIndex": 7,
+          "slideType": "summary",
+          "referenceImagePath": "carousel_references/insta_downloads_style/4b7cdcff38fc3e7931e62a761c9d2022.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.\n• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.\n• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.\n• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.\n\n=== [SLIDE 7 MISSION: VISUAL EXPLANATION & METAPHOR CLARITY] ===\n• Objective: Explain the information with radical 9-year-old clarity using clean visual metaphors, structured cards, and actionable examples.\n• Visual Architecture: Diagrammatic layout using clean white rectangular cards with crisp black borders and drop shadows, numbered step flows, and callout containers so the concept is intuitive at a single glance.\n\n=== [SLIDE 7 VARIATION CONTENT] ===\nSlide Purpose: Slide 7 of 8 (SUMMARY)\nCard Counter Tag: \"07 // 08\"\nTop Pill Badge: \"THE 3-STEP PIPELINE\" with a small pink dot\nMain Headline: \"the 3-step high-converting video pipeline.\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"video pipeline, high-converting\"\nSubtitle / Description: \"From still poster to 4K cinematic commercial:\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"1. Nano Banana: Generate high-res 4:5 visual poster with clean lighting\"\n  2. \"2. Higgsfield: Animate the hero object with our 50mm camera code\"\n  3. \"3. OpenReply DM Bot: Deliver product link the second someone comments\"\nCallout Box: \"✈️ SHARE WITH A VIDEO CREATOR: Level up someone’s AI video quality today!\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Full Workflow\" (blue)\nBottom Swipe Prompt: \"CLAIM THE FREE CINEMA PACK →\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_07.png"
+        },
+        {
+          "slideIndex": 8,
+          "slideType": "cta",
+          "referenceImagePath": "carousel_references/insta_downloads_style/4b7cdcff38fc3e7931e62a761c9d2022.jpg",
+          "prompt": "Use this image as reference to create a new variation in the exact same visual style, but replace all text and copy with the following slide content:\n\n=== [REFERENCE STYLE SPECIFICATION] ===\n• Background: Split architectural background: smooth limestone beige on top, warm charcoal on bottom.\n• Top Navigation: High-fashion editorial header with fine hair-line rules and Roman numeral indexing.\n• Typography Hierarchy: High-contrast luxury Didot serif paired with ultra-light geometric sans.\n• Color Highlights: Pastel pink and lime highlighter blocks behind key highlighted words\n• Floating Decals: Minimalist embossed wax seals, clean blind deboss tags, and gold-foil micro accents.\n• Lighting & Finish: Natural architectural window light, gentle highlight roll-off, 50mm optical prime bokeh, medium grain.\n\n=== [SLIDE 8 MISSION: FREE PRIZE & CONVERSION CTA] ===\n• Objective: Convert engagement into saves, shares, and instant DM comments with a clear 3-step action checklist and free value offer.\n\n=== [SLIDE 8 VARIATION CONTENT] ===\nSlide Purpose: Slide 8 of 8 (CTA)\nCard Counter Tag: \"08 // 08\"\nTop Pill Badge: \"FREE PRIZE\" with a small pink dot\nMain Headline: \"want the free 4k higgsfield video prompt pack?\" (Render in massive bold stacked editorial serif with tight leading)\nHighlighter Words: Put a soft pastel pink highlighter bar behind words: \"4k prompt pack, camera codes\"\nSubtitle / Description: \"Drop a 1-word comment below and I will instantly DM you all camera codes & settings!\"\nBody Points (Render as clean white cards with black border & drop shadow):\n  1. \"💬 Comment \"CINEMA\" on this post right now\"\n  2. \"📥 Automated DM sends the complete 4K camera codes + lighting cheat sheet in 2s\"\n  3. \"🚀 Follow @junnbuilds / project\\ciel for daily AI directing secrets\"\nCallout Box: \"⚡ Instant free delivery: Drop \"CINEMA\" below to get the download link.\" (Render in clean white code container with black border)\nSpeech Bubble Stickers: \"Instant DM\" (pink)\nBottom Swipe Prompt: \"COMMENT \"CINEMA\" NOW ↓\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, fine paper grain texture, zero AI blur, zero CGI sheen.",
+          "aspectRatio": "4:5",
+          "outputFileName": "slide_08.png"
+        }
+      ],
+      "timestamp": "2026-08-21T21:30:42.842Z"
+    }
+  ]
+}

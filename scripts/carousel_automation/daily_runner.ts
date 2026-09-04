@@ -17,68 +17,68 @@ export interface DayScheduleConfig {
  * • 5 Diverse High-Converting Design Formats per week from `insta references`
  */
 export const WEEKLY_SCHEDULE: Record<number, DayScheduleConfig> = {
-  // Monday: 🎨 1. Tactical Strategy / Agency Grid (from 47682beae2eaca13fedf18527dbef244.jpg)
+  // Monday: 🎨 1. Auteur Cultural Moat Story
   1: {
     dayOfWeek: 1,
     dayName: 'Monday',
-    isStorytelling: false,
-    topicKey: 'nano_banana_posters',
-    referenceStyleKey: 'community_grid_collage',
-    themeDescription: '🎨 TACTICAL STRATEGY GRID: Community Graph Paper, Pastel Highlighter & Floating 3D Icons (🍒 🪩 ⚡ 💸 🖱️)',
+    isStorytelling: true,
+    topicKey: 'auteur_cultural_moat_story',
+    referenceStyleKey: 'ciel_cinematic_storytelling',
+    themeDescription: '🎨 AUTEUR CULTURAL MOAT: Why Story is the Only True Commercial Moat for Luxury Brands',
   },
-  // Tuesday: 📸 2. PHOTOGRAPHIC NARRATIVE POST (Auteur 35mm Cinema Storytelling)
+  // Tuesday: 📸 2. Brand Transformation Arc
   2: {
     dayOfWeek: 2,
     dayName: 'Tuesday',
     isStorytelling: true,
     topicKey: 'brand_transformation_story',
     referenceStyleKey: 'ciel_cinematic_storytelling',
-    themeDescription: '📸 PHOTOGRAPHIC NARRATIVE: The Brand Transformation Arc (Ultra-Striking 35mm Cinema + Playfair/Lato)',
+    themeDescription: '📸 PHOTOGRAPHIC NARRATIVE: Nobody Remembers Your Founding Story, They Remember the Transformation',
   },
-  // Wednesday: 🔬 3. Biotech Luxury & HUD Data Teardown (from 866802259548952733)
+  // Wednesday: 🔬 3. Cinema Lighting & Negative Space
   3: {
     dayOfWeek: 3,
     dayName: 'Wednesday',
-    isStorytelling: false,
-    topicKey: 'higgsfield_video_directing',
-    referenceStyleKey: 'biotech_hud_luxury',
-    themeDescription: '🔬 CLINICAL BIOTECH & HUD: Macro Skin Textures, Concentric Circles & 0.5px Data HUD Diagrams',
+    isStorytelling: true,
+    topicKey: 'visual_directing_cinema_story',
+    referenceStyleKey: 'ciel_cinematic_storytelling',
+    themeDescription: '🔬 CINEMA LIGHTING: Deep Shadow Wells & Subconscious Luxury Value Creation',
   },
-  // Thursday: 🐟 4. Fisheye 0.5x Tech Commercial Drop (from 725501821271696137)
+  // Thursday: 🐟 4. Uncanny Luxury Juxtaposition
   4: {
     dayOfWeek: 4,
     dayName: 'Thursday',
-    isStorytelling: false,
-    topicKey: 'automated_dm_sales',
-    referenceStyleKey: 'fisheye_tech_commercial',
-    themeDescription: '🐟 0.5x FISHEYE TECH COMMERCIAL: Distorted Gadget Thrust, Pop Colors & Yellow Sale Badges',
+    isStorytelling: true,
+    topicKey: 'ciel_uncanny_luxury_story',
+    referenceStyleKey: 'ciel_cinematic_storytelling',
+    themeDescription: '🐟 UNCANNY JUXTAPOSITION: Placing High-Fashion Luxury in Raw Brutalist Environments',
   },
-  // Friday: 📱 5. Raw Urban Street POV & Notes App Hot Take (from 799389002652197521)
+  // Friday: 📱 5. The Invisible Craft of Auteur Directors
   5: {
     dayOfWeek: 5,
     dayName: 'Friday',
-    isStorytelling: false,
+    isStorytelling: true,
     topicKey: 'ciel_invisible_craft_story',
-    referenceStyleKey: 'urban_pov_notes_censor',
-    themeDescription: '📱 RAW STREET POV & NOTES APP: Pixelated Face Blur + Dark Mode Apple Notes Hard Truths',
+    referenceStyleKey: 'ciel_cinematic_storytelling',
+    themeDescription: '📱 THE INVISIBLE CRAFT: Why Great Visual Directing Feels Frictionless and Unforgettable',
   },
-  // Saturday: 🎈 6. VIRAL AI PROMPT BREAKDOWN POST (from 970525788475403918)
+  // Saturday: 🎈 6. The Transformation Framework
   6: {
     dayOfWeek: 6,
     dayName: 'Saturday',
-    isStorytelling: false,
-    topicKey: 'ciel_uncanny_luxury_story',
-    referenceStyleKey: 'inflatable_foil_balloons',
-    themeDescription: '🎈 VIRAL PROMPT POST: Giant 3D Inflatable Foil Balloons in Elevator + Raw Prompt Breakdown Overlay',
+    isStorytelling: true,
+    topicKey: 'transformation_framework_story',
+    referenceStyleKey: 'ciel_cinematic_storytelling',
+    themeDescription: '🎈 TRANSFORMATION FRAMEWORK: The 3-Act Narrative Spine for High-Ticket Products',
   },
-  // Sunday: 🍌 7. Streetwear Decal Physical Hero Drop (from 1df4921e54ec27062eea030fd76b32b0.jpg)
+  // Sunday: 🍌 7. Founder Vision & Psychology
   0: {
     dayOfWeek: 0,
     dayName: 'Sunday',
-    isStorytelling: false,
-    topicKey: 'spring_physics_video',
-    referenceStyleKey: 'street_decal_object',
-    themeDescription: '🍌 PHYSICAL HERO DROP: Seamless Studio Hero Object Plastered in Skate & Streetwear Decal Stickers',
+    isStorytelling: true,
+    topicKey: 'founder_origin_reframe',
+    referenceStyleKey: 'ciel_cinematic_storytelling',
+    themeDescription: '🍌 VISIONARY FOUNDER ARC: Why Great Founders Never Pitch What They Built',
   },
 };
 

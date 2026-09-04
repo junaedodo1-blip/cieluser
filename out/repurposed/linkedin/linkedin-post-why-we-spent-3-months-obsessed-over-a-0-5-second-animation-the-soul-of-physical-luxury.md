@@ -14,11 +14,11 @@ They lock the layout with a reference image first, then swap the assets.
 
 Here is the exact 3-minute production workflow for "Why We Spent 3 Months Obsessed Over a 0.5-Second Animation: The Soul of Physical Luxury":
 
-1. Pick a reference image (Editorial Cinematic Photo-Narrative Storytelling).
+1. Pick a reference image (Brand Agency Graph Paper & Target Decals).
 2. Let the model lock the font weights and grid spacing.
 3. Apply the exact design rules:
-   • Full-bleed high-aesthetic cinematic photography with natural lighting, rich textures (retro striped resort umbrellas, misty rain-streaked window, luxury bathrobe, crocodile leather briefcase, brown cowhide fur, warm amber window city reflections), and 35mm film grain.
-   • Hybrid Storytelling Typography: Massive stacked luxury editorial serif (Didot/Ogg/GT Super) with tight leading for punchline thesis statements, paired with clean, crisp, modern white grotesque sans-serif (Inter/Archivo) for narrative storytelling paragraphs.
+   • Light textured graph paper canvas with soft neon lime-green spray ambient glow in top-right and bottom-left corners.
+   • Modern geometric grotesque sans-serif ("We build brands that feel intentional. From identity to execution.") in dark charcoal.
 4. Layer signature color blocks and micro-accents.
 
 The exact prompt formula:
@@ -26,8 +26,8 @@ The exact prompt formula:
 
 📌 4 rules to bookmark for your next run:
 • 1080 x 1350 vertical ratio (4:5)
-• Layout style: Editorial Cinematic Photo-Narrative Storytelling
-• Typography: Hybrid Storytelling Typography: Massive stacked luxury editorial serif...
+• Layout style: Brand Agency Graph Paper & Target Decals
+• Typography: Modern geometric grotesque sans-serif ("We build brands that feel inte...
 • 2D vector print finish, zero plastic AI sheen
 
 Swipe through the document carousel above for the full 8-slide breakdown.
