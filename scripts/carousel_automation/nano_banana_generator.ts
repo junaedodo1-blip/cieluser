@@ -69,18 +69,28 @@ export function generateSlideVariationPrompt(params: {
 • Metadata & Framing: Integrate "// project\\ciel · AUTEUR DIRECTING", "[CIEL · 2026]", and header/nav style: ${referenceStyle.headerNavigationStyle}
 \n`;
 
-  if (cookbookStyle) {
-    prompt += `=== [AI VISUAL PROMPT COOKBOOK STYLE DIRECTIVE: ${cookbookStyle.name.toUpperCase()}] ===\n`;
-    if (cookbookStyle.prompt) {
-      prompt += `• Cookbook Style Formula: "${cookbookStyle.prompt}"\n`;
+  if (cookbookStyle && cookbookStyle.rawJson) {
+    const json = cookbookStyle.rawJson;
+    prompt += `=== [AI VISUAL PROMPT COOKBOOK MASTER DIRECTIVE: ${cookbookStyle.name.toUpperCase()}] ===\n`;
+    if (json.style_summary) {
+      prompt += `• STYLE SUMMARY: ${json.style_summary}\n`;
     }
-    if (cookbookStyle.rawJson) {
-      const { visual_genre, color_palette, typography_system, background_description } = cookbookStyle.rawJson;
-      if (visual_genre) prompt += `• Cookbook Visual Genre: ${visual_genre}\n`;
-      if (background_description) prompt += `• Cookbook Background: ${background_description}\n`;
-      if (typography_system) prompt += `• Cookbook Typography: ${typography_system}\n`;
+    if (json.style_fidelity_anchors && Array.isArray(json.style_fidelity_anchors)) {
+      prompt += `• MANDATORY STYLE ANCHORS:\n`;
+      json.style_fidelity_anchors.forEach((anchor: string) => {
+        prompt += `  - ${anchor}\n`;
+      });
     }
-    prompt += `\n`;
+    prompt += `\n=== [BRAND, TOPIC & COPY ADAPTATION] ===\n`;
+    prompt += `• BRAND MARK: project\\ciel (lowercase with forward slash)\n`;
+    prompt += `• HEADLINE (MAIN_TEXT): "${slide.header.toUpperCase()}"\n`;
+    if (slide.subhead) prompt += `• SUBHEAD (SECONDARY_TEXT): "${slide.subhead}"\n`;
+    if (slide.bodyBullets && slide.bodyBullets.length > 0) {
+      prompt += `• BODY BULLETS:\n${slide.bodyBullets.map(b => `  - ${b}`).join('\n')}\n`;
+    }
+    if (slide.badgeText) prompt += `• BADGE STAMP: "${slide.badgeText}"\n`;
+    prompt += `• ACCENT STICKERS & ICONS: ${slide.icons ? slide.icons.join(' ') : '🪩 ⚡ 🍒 💸 🖱️'}\n`;
+    prompt += `• SWISS HUD METADATA: "${slide.swissHudMetadata || `SLIDE 0${slide.slideIndex} // PROJECT\\CIEL`}"\n\n`;
   }
 
   if (isFinalSlide) {
