@@ -21,8 +21,8 @@
   "enabled_perf_adapters": [],
   "last_bump_at": null,
   "last_bump_self_audited": false,
-  "last_published_at": "2026-09-03T13:58:41.049Z",
-  "last_published_file": "predictions/2026-09-03_exec_1788443921047_viral_hook_secr.md",
+  "last_published_at": "2026-09-04T13:00:15.927Z",
+  "last_published_file": "predictions/2026-09-04_exec_1788526815895_nano_banana_pos.md",
   "last_retro_at": null,
   "last_trends_run_at": null,
   "last_trends_added_count": 0,
@@ -108,6 +108,30 @@
       "scriptPath": "scripts/2026-09-03_exec_1788443921047_viral_hook_secr.md",
       "predictionPath": "predictions/2026-09-03_exec_1788443921047_viral_hook_secr.md",
       "shotAt": "2026-09-03T13:58:41.049Z"
+    },
+    {
+      "postId": "exec_1788458768946",
+      "scriptPath": "scripts/2026-09-03_exec_1788458768946_higgsfield_vide.md",
+      "predictionPath": "predictions/2026-09-03_exec_1788458768946_higgsfield_vide.md",
+      "shotAt": "2026-09-03T18:06:08.959Z"
+    },
+    {
+      "postId": "exec_1788471456345",
+      "scriptPath": "scripts/2026-09-03_exec_1788471456345_auteur_cultural.md",
+      "predictionPath": "predictions/2026-09-03_exec_1788471456345_auteur_cultural.md",
+      "shotAt": "2026-09-03T21:37:36.358Z"
+    },
+    {
+      "postId": "exec_1788471608881",
+      "scriptPath": "scripts/2026-09-03_exec_1788471608881_automated_dm_sa.md",
+      "predictionPath": "predictions/2026-09-03_exec_1788471608881_automated_dm_sa.md",
+      "shotAt": "2026-09-03T21:40:08.899Z"
+    },
+    {
+      "postId": "exec_1788526815895",
+      "scriptPath": "scripts/2026-09-04_exec_1788526815895_nano_banana_pos.md",
+      "predictionPath": "predictions/2026-09-04_exec_1788526815895_nano_banana_pos.md",
+      "shotAt": "2026-09-04T13:00:15.927Z"
     }
   ],
   "in_progress_session": null,

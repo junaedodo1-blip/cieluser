@@ -1,7 +1,7 @@
 🏛️ **PROJECT\CIEL — VIP DAILY BREAKDOWN**
 
 🔥 **How to Make $5,000 Luxury Brand Posters in Nano Banana (In 3 Minutes)**
-🎨 **Visual Style Blueprint:** Brand Agency Graph Paper & Target Decals
+🎨 **Visual Style Blueprint:** Swiss Acid Stepped-Polygon Cutout Poster
 
 ---
 📖 **Core 8-Slide Breakdown:**
@@ -35,8 +35,8 @@ PROMPT: "Use reference style, add 50mm macro lighting, razor-sharp typography, 4
 ---
 📌 **Saveable Production Blueprint:**
 • Ratio: 1080 x 1350 (4:5)
-• Canvas: Light textured graph paper canvas with soft neon lime-green spray ambient glow in top-right and bottom-left corners.
-• Style Spec: Brand Agency Graph Paper & Target Decals
+• Canvas: Flat, clean, neutral light warm-grey / off-white poster canvas (#E3E3E3) with zero 3D lighting, completely flat 2D graphic design.
+• Style Spec: Swiss Acid Stepped-Polygon Cutout Poster
 • Zero plastic sheen, pure 2D vector print finish
 
 🎁 **All raw Figma templates & 8K high-res slides are pinned in this group!**

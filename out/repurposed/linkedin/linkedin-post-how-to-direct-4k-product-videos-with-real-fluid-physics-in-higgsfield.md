@@ -14,11 +14,11 @@ They lock the layout with a reference image first, then swap the assets.
 
 Here is the exact 3-minute production workflow for "How to Direct 4K Product Videos with Real Fluid Physics in Higgsfield":
 
-1. Pick a reference image (Streetwear Decal Banana Object).
+1. Pick a reference image (Community Graph Grid Collage).
 2. Let the model lock the font weights and grid spacing.
 3. Apply the exact design rules:
-   • Pure solid white studio backdrop with zero background clutter.
-   • Heavy condensed grotesque sans-serif in solid black, layered behind and in front of the central physical object.
+   • Clean white graph grid notebook paper with subtle technical grey grid lines.
+   • Large stacked high-contrast editorial serif headline with tight leading and bold lowercase contrast.
 4. Layer signature color blocks and micro-accents.
 
 The exact prompt formula:
@@ -26,8 +26,8 @@ The exact prompt formula:
 
 📌 4 rules to bookmark for your next run:
 • 1080 x 1350 vertical ratio (4:5)
-• Layout style: Streetwear Decal Banana Object
-• Typography: Heavy condensed grotesque sans-serif in solid black, layered behind an...
+• Layout style: Community Graph Grid Collage
+• Typography: Large stacked high-contrast editorial serif headline with tight leadin...
 • 2D vector print finish, zero plastic AI sheen
 
 Swipe through the document carousel above for the full 8-slide breakdown.

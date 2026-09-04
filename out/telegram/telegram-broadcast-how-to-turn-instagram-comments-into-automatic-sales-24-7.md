@@ -1,7 +1,7 @@
 🏛️ **PROJECT\CIEL — VIP DAILY BREAKDOWN**
 
 🔥 **How to Turn Instagram Comments into Automatic Sales 24/7**
-🎨 **Visual Style Blueprint:** Swiss Acid Stepped-Polygon Cutout Poster
+🎨 **Visual Style Blueprint:** Green Amoeba Starburst Museum Poster
 
 ---
 📖 **Core 8-Slide Breakdown:**
@@ -35,8 +35,8 @@ DELIVERY RULE: Instant speed (under 3 seconds) turns curiosity into immediate do
 ---
 📌 **Saveable Production Blueprint:**
 • Ratio: 1080 x 1350 (4:5)
-• Canvas: Flat, clean, neutral light warm-grey / off-white poster canvas (#E3E3E3) with zero 3D lighting, completely flat 2D graphic design.
-• Style Spec: Swiss Acid Stepped-Polygon Cutout Poster
+• Canvas: Clean off-white gallery paper canvas with flat 2D graphic layout.
+• Style Spec: Green Amoeba Starburst Museum Poster
 • Zero plastic sheen, pure 2D vector print finish
 
 🎁 **All raw Figma templates & 8K high-res slides are pinned in this group!**

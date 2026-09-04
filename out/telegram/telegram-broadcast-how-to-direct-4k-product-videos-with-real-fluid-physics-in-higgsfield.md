@@ -1,7 +1,7 @@
 🏛️ **PROJECT\CIEL — VIP DAILY BREAKDOWN**
 
 🔥 **How to Direct 4K Product Videos with Real Fluid Physics in Higgsfield**
-🎨 **Visual Style Blueprint:** Streetwear Decal Banana Object
+🎨 **Visual Style Blueprint:** Community Graph Grid Collage
 
 ---
 📖 **Core 8-Slide Breakdown:**
@@ -35,8 +35,8 @@ PROMPT TAG: "Slow cinematic dolly in on hero object, 1/10,000s shutter liquid sp
 ---
 📌 **Saveable Production Blueprint:**
 • Ratio: 1080 x 1350 (4:5)
-• Canvas: Pure solid white studio backdrop with zero background clutter.
-• Style Spec: Streetwear Decal Banana Object
+• Canvas: Clean white graph grid notebook paper with subtle technical grey grid lines.
+• Style Spec: Community Graph Grid Collage
 • Zero plastic sheen, pure 2D vector print finish
 
 🎁 **All raw Figma templates & 8K high-res slides are pinned in this group!**

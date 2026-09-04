@@ -14,11 +14,11 @@ They lock the layout with a reference image first, then swap the assets.
 
 Here is the exact 3-minute production workflow for "How to Make $5,000 Luxury Brand Posters in Nano Banana (In 3 Minutes)":
 
-1. Pick a reference image (Brand Agency Graph Paper & Target Decals).
+1. Pick a reference image (Swiss Acid Stepped-Polygon Cutout Poster).
 2. Let the model lock the font weights and grid spacing.
 3. Apply the exact design rules:
-   • Light textured graph paper canvas with soft neon lime-green spray ambient glow in top-right and bottom-left corners.
-   • Modern geometric grotesque sans-serif ("We build brands that feel intentional. From identity to execution.") in dark charcoal.
+   • Flat, clean, neutral light warm-grey / off-white poster canvas (#E3E3E3) with zero 3D lighting, completely flat 2D graphic design.
+   • Hybrid dual-font layering: Clean modern geometric sans-serif in lowercase (Futura/Helvetica style, e.g. "things", "they seem") layered with dramatic, melted psychedelic ink-drip liquid cursive calligraphy in solid black (e.g. "aren't", "what").
 4. Layer signature color blocks and micro-accents.
 
 The exact prompt formula:
@@ -26,8 +26,8 @@ The exact prompt formula:
 
 📌 4 rules to bookmark for your next run:
 • 1080 x 1350 vertical ratio (4:5)
-• Layout style: Brand Agency Graph Paper & Target Decals
-• Typography: Modern geometric grotesque sans-serif ("We build brands that feel inte...
+• Layout style: Swiss Acid Stepped-Polygon Cutout Poster
+• Typography: Hybrid dual-font layering: Clean modern geometric sans-serif in lowerc...
 • 2D vector print finish, zero plastic AI sheen
 
 Swipe through the document carousel above for the full 8-slide breakdown.

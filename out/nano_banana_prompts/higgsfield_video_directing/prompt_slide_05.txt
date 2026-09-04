@@ -8,13 +8,13 @@ Use this image as the exact visual template (scene environment, camera angle, ph
 • Physical Props/Interactive Objects: Recreate featured objects/props from the reference image, adapted to spell "CIEL" or "STORY".
 
 2. ENVIRONMENT LAYER
-• Location Type: Streetwear Product Concept / Physical Hero Object
+• Location Type: Playful Y2K Editorial Grid Collage
 • Scene Setting: Recreate the EXACT core scene concept, background setting, and spatial layout of the reference image.
-• Background Details: Pure solid white studio backdrop with zero background clutter.
+• Background Details: Clean white graph grid notebook paper with subtle technical grey grid lines.
 
 3. LIGHTING LAYER
 • Primary Source: Studio cinematic photography lighting or natural environmental lighting matching the reference image.
-• Light Quality & Direction: Studio macro photography lighting, soft natural contact shadow, authentic physical skin texture, razor-sharp 50mm clean prime.
+• Light Quality & Direction: Clean flat even studio lighting, subtle soft drop shadows under stickers and text, razor-sharp vector typography, zero blur.
 • Caustics: Warm Golden Amber caustics and natural shadows catching surfaces.
 
 4. TECHNICAL / CAMERA LAYER
@@ -24,10 +24,10 @@ Use this image as the exact visual template (scene environment, camera angle, ph
 
 5. STYLE / AESTHETIC LAYER
 • Genre: Swiss Brutalist & Haute-Couture Campaign art direction.
-• Typography System: Heavy condensed grotesque sans-serif in solid black, layered behind and in front of the central physical object.
-• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #A3E635 neon lime recycling badge, #C084FC purple monster decal
-• Stickers & Decals: Central physical hero object completely covered in graphic streetwear decals, circular brand stamps, purple monster cartoon sticker, and green recycling icon.
-• Metadata & Framing: Integrate "// project\ciel · AUTEUR DIRECTING", "[CIEL · 2026]", and header/nav style: Stacked bold grotesque headline in background ("Hungry(O'Clock) Packaging Concept") with fine copyright stamps ("©2025 Blender (mdr)").
+• Typography System: Large stacked high-contrast editorial serif headline with tight leading and bold lowercase contrast.
+• Color Palette: Abyss Black (#0A0A0C) shadow wells, Crisp White (#FFFFFF) text, Muted Platinum (#E2E2E8) accents, Studio Slate (#141418), and colors: #FCE7F3 pastel pink highlighter bar, #DCFCE7 pastel lime green, #BAE6FD pastel blue
+• Stickers & Decals: Playful floating 3D micro-stickers and icons: glossy red cherries 🍒, disco ball 🪩, lightning bolt ⚡, flying cash 💸, retro pixel mouse cursors 🖱️, and speech bubble cards.
+• Metadata & Framing: Integrate "// project\ciel · AUTEUR DIRECTING", "[CIEL · 2026]", and header/nav style: Minimalist top app navigation: "< project\ciel." on top-left, "☰ 🔍 +" icons on top-right in black.
 
 === [SLIDE 5 VARIATION CONTENT] ===
 Slide Purpose: Slide 5 of 8 (STEP3)
@@ -48,5 +48,5 @@ Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
 Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.
 
 === [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===
-Mandatory Reference Visual Signatures: Ensure the output strictly incorporates: white background, skate stickers, grotesque typography.
+Mandatory Reference Visual Signatures: Ensure the output strictly incorporates: pill tag.
 Do not deviate from the reference image's visual composition and materials.

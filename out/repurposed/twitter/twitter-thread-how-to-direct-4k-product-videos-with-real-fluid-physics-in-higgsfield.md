@@ -19,7 +19,7 @@ Rule: Lock your layout with a reference image first.
 ---
 
 ### Tweet 3 / 9
-2/ Step 1: Pick a Visual Blueprint (Streetwear Decal Banana Object)
+2/ Step 1: Pick a Visual Blueprint (Community Graph Grid Collage)
 
 Never start from scratch. Upload a reference and let Nano Banana copy the container grid and typography.
 
@@ -45,8 +45,8 @@ Never start from scratch. Upload a reference and let Nano Banana copy the contai
 5/ 💾 The Saveable Cheat Sheet:
 
 • Ratio: 1080x1350 (4:5)
-• Background: #FFFFFF crisp white seamless
-• Style: Streetwear Decal Banana Object
+• Background: #F8F8F5 off-white cream graph paper
+• Style: Community Graph Grid Collage
 • Zero plastic sheen
 
 ---

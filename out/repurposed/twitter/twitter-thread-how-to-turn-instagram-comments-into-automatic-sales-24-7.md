@@ -19,7 +19,7 @@ Rule: Lock your layout with a reference image first.
 ---
 
 ### Tweet 3 / 9
-2/ Step 1: Pick a Visual Blueprint (Swiss Acid Stepped-Polygon Cutout Poster)
+2/ Step 1: Pick a Visual Blueprint (Green Amoeba Starburst Museum Poster)
 
 Never start from scratch. Upload a reference and let Nano Banana copy the container grid and typography.
 
@@ -45,8 +45,8 @@ Never start from scratch. Upload a reference and let Nano Banana copy the contai
 5/ 💾 The Saveable Cheat Sheet:
 
 • Ratio: 1080x1350 (4:5)
-• Background: #E3E3E3 neutral light warm-grey canvas
-• Style: Swiss Acid Stepped-Polygon Cutout Poster
+• Background: #F5F5F0 off-white gallery paper
+• Style: Green Amoeba Starburst Museum Poster
 • Zero plastic sheen
 
 ---

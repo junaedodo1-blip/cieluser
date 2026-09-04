@@ -1,7 +1,7 @@
 🏛️ **PROJECT\CIEL — VIP DAILY BREAKDOWN**
 
 🔥 **When Everything Is Generated in 3 Seconds: Taste and Story Are The Only Moat**
-🎨 **Visual Style Blueprint:** Green Amoeba Starburst Museum Poster
+🎨 **Visual Style Blueprint:** Streetwear Decal Banana Object
 
 ---
 📖 **Core 8-Slide Breakdown:**
@@ -35,8 +35,8 @@ AUTEUR LAW: Luxury is not what you add; it is what you have the discipline to wi
 ---
 📌 **Saveable Production Blueprint:**
 • Ratio: 1080 x 1350 (4:5)
-• Canvas: Clean off-white gallery paper canvas with flat 2D graphic layout.
-• Style Spec: Green Amoeba Starburst Museum Poster
+• Canvas: Pure solid white studio backdrop with zero background clutter.
+• Style Spec: Streetwear Decal Banana Object
 • Zero plastic sheen, pure 2D vector print finish
 
 🎁 **All raw Figma templates & 8K high-res slides are pinned in this group!**

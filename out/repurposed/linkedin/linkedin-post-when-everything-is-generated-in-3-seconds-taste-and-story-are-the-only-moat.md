@@ -14,11 +14,11 @@ They lock the layout with a reference image first, then swap the assets.
 
 Here is the exact 3-minute production workflow for "When Everything Is Generated in 3 Seconds: Taste and Story Are The Only Moat":
 
-1. Pick a reference image (Green Amoeba Starburst Museum Poster).
+1. Pick a reference image (Streetwear Decal Banana Object).
 2. Let the model lock the font weights and grid spacing.
 3. Apply the exact design rules:
-   • Clean off-white gallery paper canvas with flat 2D graphic layout.
-   • Brutalist heavy condensed sans-serif in solid black, paired with beaded/dotted chain-link numbers ("20-21") and Swiss typewriter body metadata.
+   • Pure solid white studio backdrop with zero background clutter.
+   • Heavy condensed grotesque sans-serif in solid black, layered behind and in front of the central physical object.
 4. Layer signature color blocks and micro-accents.
 
 The exact prompt formula:
@@ -26,8 +26,8 @@ The exact prompt formula:
 
 📌 4 rules to bookmark for your next run:
 • 1080 x 1350 vertical ratio (4:5)
-• Layout style: Green Amoeba Starburst Museum Poster
-• Typography: Brutalist heavy condensed sans-serif in solid black, paired with beade...
+• Layout style: Streetwear Decal Banana Object
+• Typography: Heavy condensed grotesque sans-serif in solid black, layered behind an...
 • 2D vector print finish, zero plastic AI sheen
 
 Swipe through the document carousel above for the full 8-slide breakdown.
