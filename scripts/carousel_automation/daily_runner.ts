@@ -142,8 +142,9 @@ export async function runDailyCarouselAutomation(options: {
 } = {}): Promise<PipelineExecutionReport> {
   const targetDate = options.date || new Date();
   const schedule = getScheduleForDate(targetDate);
-  const selectedTopic = options.dynamic ? undefined : (options.topicKey || schedule.topicKey);
-  const selectedStyle = options.dynamic ? undefined : (options.referenceStyleKey || schedule.referenceStyleKey);
+  const isDynamic = options.dynamic !== false; // Hard Rule: Default to dynamic round-robin cookbook style rotation
+  const selectedTopic = !isDynamic ? (options.topicKey || schedule.topicKey) : undefined;
+  const selectedStyle = !isDynamic ? (options.referenceStyleKey || schedule.referenceStyleKey) : undefined;
 
   console.log(`\n================================================================`);
   console.log(`📅 AUTOMATION SCHEDULER: [${schedule.dayName.toUpperCase()}]`);
