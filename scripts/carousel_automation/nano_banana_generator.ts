@@ -37,6 +37,7 @@ export function generateSlideVariationPrompt(params: {
   const { slide, referenceStyle, outputFileName, totalSlides = 8, aspectRatio = '4:5', cookbookStyle } = params;
   const isFinalSlide = slide.slideIndex === totalSlides;
 
+  let prompt = '';
   if (cookbookStyle && cookbookStyle.rawJson) {
     const json = cookbookStyle.rawJson;
     const deconstruct = json.visual_deconstruction || {};

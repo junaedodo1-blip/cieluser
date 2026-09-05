@@ -1,3 +1,6 @@
+import fs from 'node:fs';
+import path from 'node:path';
+
 export type SingleTopicKey =
   | 'nano_banana_posters'
   | 'viral_hook_secrets'
@@ -1858,6 +1861,160 @@ export function generateCarouselCopy(params: {
     slides,
     instagramCaption,
     hashtags,
+  };
+}
+
+export function generateCarouselCopyFromCalendar(dayNumber: number = 1): CarouselCopyPackage {
+  const calendarPath = path.resolve(process.cwd(), 'out/30_DAY_CAROUSEL_CONTENT_CALENDAR.json');
+  let calendar: any[] = [];
+  if (fs.existsSync(calendarPath)) {
+    try {
+      calendar = JSON.parse(fs.readFileSync(calendarPath, 'utf8'));
+    } catch {}
+  }
+
+  const normDay = ((dayNumber - 1) % (calendar.length || 30)) + 1;
+  const dayEntry = calendar.find((d: any) => d.day === normDay) || calendar[0] || {
+    day: 1,
+    pillar: 'Worldbuilding & Cultural Gravity',
+    topic: 'Your Brand is a Destination, Your Product is the Souvenir',
+    hook: 'most founders build a business. the ones who win build a world.',
+    script: 'Act I: Show why posting random promo graphics leaves your brand unremembered.\nAct II: Contrast flat product feature lists with full immersive worldbuilding.\nAct III: The product lands as the physical souvenir of your brand world.',
+    slides: 8,
+    trigger: 'WORLD',
+    offer: 'Brand Worldbuilding Blueprint PDF & Figma Template'
+  };
+
+  const totalSlides = dayEntry.slides || 8;
+  const triggerWord = dayEntry.trigger || 'WORLD';
+  const hookHeadline = dayEntry.hook;
+
+  const acts = (dayEntry.script || '').split('\n');
+  const act1 = acts[0] || 'Act I: Show why posting random promo graphics leaves your brand unremembered.';
+  const act2 = acts[1] || 'Act II: Contrast flat product feature lists with full immersive worldbuilding.';
+  const act3 = acts[2] || 'Act III: The product lands as the physical souvenir of your brand world.';
+
+  const slides: CarouselSlideCopy[] = [
+    {
+      slideIndex: 1,
+      slideType: 'hook',
+      header: hookHeadline,
+      subhead: dayEntry.topic,
+      badgeText: `DAY ${normDay} // ${dayEntry.pillar.toUpperCase()}`,
+      cardIndexText: `01 // 0${totalSlides}`,
+      highlightWords: ['world', 'founders', 'destination'],
+      stickerTags: [{ text: `DAY ${normDay}`, color: 'pink' }, { text: dayEntry.pillar, color: 'yellow' }],
+    },
+    {
+      slideIndex: 2,
+      slideType: 'problem',
+      header: 'the unspoken truth about flat marketing.',
+      subhead: act1,
+      bodyBullets: [
+        'Posting generic promo graphics creates zero emotional attachment.',
+        'Features describe what it is; worldbuilding shows who they become.',
+        'No world = zero organic retention or brand advocacy.'
+      ],
+      keyCallout: 'TRUTH: People do not buy features. They buy entry tickets into a world.',
+      cardIndexText: `02 // 0${totalSlides}`,
+      badgeText: 'ACT I // TENSION',
+    },
+    {
+      slideIndex: 3,
+      slideType: 'friction',
+      header: 'feature list vs. immersive worldbuilding.',
+      subhead: act2,
+      bodyBullets: [
+        'Commodity: Lists specs, pricing, and discount codes.',
+        'Auteur World: Curates lighting, philosophy, aesthetic rules, & subculture.',
+        'When your world has gravity, pricing resistance vanishes.'
+      ],
+      keyCallout: 'CONTRAST: Commodity brands compete on price. Worlds compete on identity.',
+      cardIndexText: `03 // 0${totalSlides}`,
+      badgeText: 'ACT II // CONTRAST',
+    },
+    {
+      slideIndex: 4,
+      slideType: 'solution',
+      header: 'your product is the physical souvenir.',
+      subhead: act3,
+      bodyBullets: [
+        'The brand is the atmosphere, culture, and aesthetic destination.',
+        'The product is the tangible relic customers buy to prove they belong.',
+        'Every touchpoint reinforces the central visual & verbal narrative.'
+      ],
+      keyCallout: 'FRAMEWORK: Atmosphere attracts. Philosophy aligns. Souvenir monetizes.',
+      cardIndexText: `04 // 0${totalSlides}`,
+      badgeText: 'ACT III // RESOLVE',
+    },
+    {
+      slideIndex: 5,
+      slideType: 'framework',
+      header: 'the 3-step worldbuilding system.',
+      subhead: 'How to transition from a generic business to an untouchable auteur world.',
+      bodyBullets: [
+        '1. Visual Atmosphere: Lock 1 disciplined lighting & color palette.',
+        '2. Verbal Philosophy: Define the enemy you fight and the truth you defend.',
+        '3. Physical Relic: Package your offer as the ultimate souvenir.'
+      ],
+      keyCallout: 'SYSTEM: Atmosphere + Philosophy + Relic = Cultural Gravity.',
+      cardIndexText: `05 // 0${totalSlides}`,
+      badgeText: 'EXECUTION SYSTEM',
+    },
+    {
+      slideIndex: 6,
+      slideType: 'blueprint',
+      header: '3-minute prompt production workflow.',
+      subhead: 'Generate high-converting carousels matching this exact specification.',
+      bodyBullets: [
+        `Step 1: Select Cookbook Visual Style #${String(normDay).padStart(3, '0')}.`,
+        'Step 2: Enforce project\\ciel brand logo as the fixed anchor.',
+        'Step 3: Feed 3-Act script into Nano Banana variation engine.'
+      ],
+      keyCallout: `PROMPT FORMULA: "NARRATIVE: ${hookHeadline} // STYLE: Cookbook #${normDay}"`,
+      cardIndexText: `06 // 0${totalSlides}`,
+      badgeText: 'PRODUCTION BLUEPRINT',
+    },
+    {
+      slideIndex: 7,
+      slideType: 'summary',
+      header: `the day ${normDay} cheat sheet.`,
+      subhead: 'Bookmark this formula for your next launch or rebrand.',
+      bodyBullets: [
+        `• Pillar: ${dayEntry.pillar}`,
+        `• Core Thesis: ${dayEntry.topic}`,
+        `• DM Keyword: "${triggerWord}" for full raw prompt files.`
+      ],
+      keyCallout: `SAVE: Bookmark this post for Day ${normDay} execution.`,
+      cardIndexText: `07 // 0${totalSlides}`,
+      badgeText: 'SUMMARY CHEAT SHEET',
+    },
+    {
+      slideIndex: 8,
+      slideType: 'cta',
+      header: `comment "${triggerWord}" to get the complete playbook.`,
+      subhead: `Drop "${triggerWord}" below to instantly receive the ${dayEntry.offer}.`,
+      bodyBullets: [
+        `📩 Comment "${triggerWord}" below for instant DM delivery.`,
+        `📲 Or join directly on Telegram: https://t.me/projectciel`,
+        `💾 Save this post for your next prompt run.`
+      ],
+      keyCallout: `VIP ACCESS: Comment "${triggerWord}" to unlock ${dayEntry.offer} in https://t.me/projectciel.`,
+      cardIndexText: `08 // 0${totalSlides}`,
+      badgeText: 'VIP DM ACCESS',
+    }
+  ];
+
+  const instagramCaption = `${dayEntry.topic}\n\n${hookHeadline}\n\nHere is the step-by-step 3-act breakdown:\n\n${slides.map(s => `0${s.slideIndex} // ${s.header}`).join('\n')}\n\n---\n💾 SAVE this post so you have the cheat sheet for your next run.\n✈️ SHARE with a founder or creator building a brand.\n👇 Drop "${triggerWord}" in the comments (or join https://t.me/projectciel) to get the complete ${dayEntry.offer} sent directly to your DM!\n\nproject\\ciel // BEYOND THE FRAME, INTO FEELING.`;
+
+  return {
+    topicKey: `day_${normDay}` as any,
+    topicTitle: dayEntry.topic,
+    triggerWord,
+    hookHeadline,
+    slides,
+    instagramCaption,
+    hashtags: ['#projectciel', '#brandstrategy', '#visualdirecting', '#luxurymarketing', '#nanobanana', '#creativeagency', '#artdirection']
   };
 }
 
