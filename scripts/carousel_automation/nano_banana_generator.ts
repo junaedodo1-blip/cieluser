@@ -72,16 +72,16 @@ ${slide.subhead ? `• SUBHEAD (SECONDARY_TEXT): "${slide.subhead}"\n` : ''}${sl
   if (isFinalSlide) {
     prompt += `=== [FINAL SLIDE: HIGH-CONVERTING CALL-TO-ACTION (CTA) DIRECTIVE] ===\n`;
     prompt += `• PURPOSE: Final slide of the carousel (${slide.slideIndex} of ${totalSlides}). Must drive high-converting DM keyword leads, saves, and Telegram community joins.\n`;
-    prompt += `• PROMINENT DM TRIGGER WORD: Display massive high-contrast headline: "COMMENT KEYWORD TO GET THE RAW PACK"\n`;
+    prompt += `• PROMINENT DM TRIGGER WORD: Display massive high-contrast headline: "COMMENT ${slide.badgeText || 'KEYWORD'} TO GET THE RAW PACK"\n`;
     prompt += `• VALUE OFFER: "Get all raw prompt files, editable Figma templates, and asset breakdowns sent directly to your DM."\n`;
     prompt += `• COMMUNITY & SAVE CALLOUT: Include community tag "join @projectciel on Telegram" and bookmark prompt "💾 Save this post for your next prompt run | ↗️ Share with a founder".\n`;
-    prompt += `• VISUAL STRUCTURE: Ultra-clean, high-contrast, zero clutter, generous negative space, 9-year-old readability.\n\n`;
+    prompt += `• VISUAL STRUCTURE: Full-bleed campaign finish matching Cookbook style "${cookbookStyle?.name || 'Cookbook Style'}". Integrated logo "project\\ciel" and CTA text directly in the AI image.\n\n`;
   } else if (slide.slideIndex > 1) {
-    prompt += `=== [SLIDES 2-${totalSlides - 1}: VALUE UNDERSTANDING & VISUAL CLARITY DIRECTIVE] ===\n`;
-    prompt += `• MAXIMUM READABILITY & DIAGRAMMATIC CLARITY: Slide ${slide.slideIndex} MUST clearly communicate step-by-step educational value and technical frameworks with 9-year-old clarity.\n`;
-    prompt += `• HIGH-CONTRAST DATA CARDS: Use clean, high-contrast container cards, 0.5px architectural grid lines, bulleted checklists, and structured callout boxes.\n`;
-    prompt += `• NO CLUTTER: Zero visual clutter, zero messy overlaps. Keep generous negative space around headline text and key takeaways.\n`;
-    prompt += `• VISUAL DIAGRAMS: Transform complex concepts into clean step-by-step visual flows, before-and-after split cards, or 3-step action blueprints.\n\n`;
+    prompt += `=== [MIDDLE SLIDES 2-${totalSlides - 1}: NEGATIVE SPACE DIRECTIVE FOR TEXT OVERLAY] ===\n`;
+    prompt += `• AESTHETIC VISUAL BACKGROUND: Generate an evocative visual background matching Cookbook style "${cookbookStyle?.name || 'Cookbook Style'}".\n`;
+    prompt += `• CRITICAL NEGATIVE SPACE REQUIREMENT: Leave 70% generous uncluttered central negative space / clean background area in the center and lower frame for programmatic text overlay.\n`;
+    prompt += `• MARGIN FRAMING: Push all graphic textures, subject framing, lighting caustics, and decorative elements to the outer edges so central text is 100% legible.\n`;
+    prompt += `• NO CENTRAL TEXT: Do NOT render small messy text inside the middle 70% area; leave clean open space.\n\n`;
   }
 
   if (referenceStyle.id === 'stepped_pixel_acid_poster') {

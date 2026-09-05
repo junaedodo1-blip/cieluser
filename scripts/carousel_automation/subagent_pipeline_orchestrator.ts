@@ -100,41 +100,50 @@ export async function executeSubagentPipeline(options: PipelineExecutionOptions 
   });
 
   const state = loadState();
+  const calendarDay = state.currentCalendarDay || 1;
 
-  // --- SUBAGENT 1: Trend & Viral Content Scout ---
+  // --- SUBAGENT 1: Trend & 30-Day Content Calendar Scout ---
   console.log(`\n🕵️ [SUBAGENT 1: trend_scout_subagent] Initialized.`);
-  const { insight: trendInsight, copyPackage } = await globalTrendScout.scoutTopPerformingTopic({
-    ...(options.topicKey ? { explicitTopicKey: options.topicKey } : {}),
-    excludeTopics: options.topicKey ? [] : state.usedTopics,
-    cowBranchId: cowBranch.branchId,
-  });
-
+  const { generateCarouselCopyFromCalendar } = await import('./copy_extractor.js');
+  const copyPackage = generateCarouselCopyFromCalendar(calendarDay);
   const selectedTopicKey = copyPackage.topicKey as SingleTopicKey;
+
+  const trendInsight = {
+    nichePillar: `Day ${calendarDay} Calendar Pillar`,
+    topicTitle: copyPackage.topicTitle,
+    viralHookArchetype: '3-Act Brand Narrative / Cultural Gravity',
+    bulletProofThesis: copyPackage.hookHeadline,
+    predictedSaveRate: 0.95,
+    topicKey: selectedTopicKey,
+    triggerWord: copyPackage.triggerWord,
+  };
+
+  console.log(`   - Calendar Day: ${calendarDay} of 30`);
   console.log(`   - Selected Topic: "${copyPackage.topicTitle}"`);
-  console.log(`   - Viral Archetype: "${trendInsight.viralHookArchetype}"`);
   console.log(`   - Trigger Word: "${copyPackage.triggerWord}"`);
   console.log(`   - Slide 1 Hook: "${copyPackage.slides[0]?.header}"`);
 
   // --- CHEAT-ON-CONTENT INTEGRATION ---
   await integrateCheatOnContent(copyPackage, executionId);
 
-  // --- SUBAGENT 2: Visual Director (Reference Picture Selection & Deconstruction) ---
+  // --- SUBAGENT 2: Visual Director (Round-Robin AI Visual Prompt Cookbook Style Selection) ---
   console.log(`\n👑 [SUBAGENT 2: visual_director_subagent] Initialized.`);
+  const { selectNextCookbookStyle } = await import('./style_manager.js');
+  let cookbookStyle = undefined;
+  try {
+    cookbookStyle = selectNextCookbookStyle();
+    console.log(`   - Active Cookbook Style: "${cookbookStyle.name}" (${cookbookStyle.slug})`);
+  } catch (e) {
+    console.warn(`   ⚠️ Could not load cookbook style:`, e);
+  }
+
   const referenceStyle: DeconstructedReferenceStyle = options.referenceStyleKey
     ? getDeconstructedReference(options.referenceStyleKey)
     : getNextRotatingReferenceStyle(state.usedStyles);
 
-  console.log(`   - Selected Reference Picture: "${referenceStyle.referenceName}" [${referenceStyle.id}]`);
-  console.log(`   - File Path: "${referenceStyle.referencePath}"`);
-  console.log(`   - Deconstructed Style Blueprint:`);
-  console.log(`     • Background: ${referenceStyle.backgroundDescription}`);
-  console.log(`     • Nav Header: ${referenceStyle.headerNavigationStyle}`);
-  console.log(`     • Typography: ${referenceStyle.typographySystem}`);
-  console.log(`     • Decals & Stickers: ${referenceStyle.stickerAndDecalStyle}`);
-
   globalCowHarness.ingest(cowBranch.branchId, {
     key: 'visual_style_blueprint',
-    value: referenceStyle,
+    value: cookbookStyle || referenceStyle,
   });
   globalCowHarness.checkpoint(cowBranch.branchId, 'visual_style_locked');
 

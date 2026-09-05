@@ -1,9 +1,12 @@
 {
-  "usedStyles": [],
+  "usedStyles": [
+    "editorial_photo_storytelling"
+  ],
   "usedTopics": [
     "automated_dm_sales",
     "nano_banana_posters",
-    "ciel_invisible_craft_story"
+    "ciel_invisible_craft_story",
+    "viral_hook_secrets"
   ],
   "winningStyles": [
     "editorial_photo_storytelling",
@@ -1234,5 +1237,10 @@
       "engagementScore": 2,
       "isWinner": true
     }
-  ]
+  ],
+  "usedCookbookStyles": [
+    "acid-lime-3d-streetwear-type-poster-style.json"
+  ],
+  "currentCookbookCycle": 1,
+  "lastUsedCookbookStyle": "acid-lime-3d-streetwear-type-poster-style"
 }
