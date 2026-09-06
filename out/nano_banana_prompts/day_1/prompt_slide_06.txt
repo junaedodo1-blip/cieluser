@@ -1,0 +1,69 @@
+Create a high-fidelity visual poster for this carousel slide based on the official AI Visual Prompt Cookbook specification: "backseat transit doodle letter poster style".
+
+=== [1. BRAND ANCHOR] ===
+• BRAND LOGO / MARK: "project\ciel" (lowercase with signature forward slash). Always keep the brand logo consistent.
+
+=== [2. DAY'S COOKBOOK VISUAL STYLE SPECIFICATION: BACKSEAT TRANSIT DOODLE LETTER POSTER STYLE] ===
+• STYLE SUMMARY: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.
+• VISUAL GENRE: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.
+• COMPOSITION LOGIC: A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.
+• SUBJECT PLACEMENT: Central hero placement
+• CAMERA & PERSPECTIVE: Professional focal length
+• TYPOGRAPHY SYSTEM: Bold graphic typography
+• COLOR PALETTE: Disciplined color palette
+• GRAPHIC ELEMENTS: Sticker badges, labels and stamps
+• TEXTURE & FINISH: High-fidelity finish
+• LIGHTING: Studio lighting
+
+=== [3. MANDATORY STYLE FIDELITY ANCHORS] ===
+• Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.
+• Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.
+• Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.
+• Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.
+• Use MAIN_TEXT as the large illustrated word integrated into the composition.
+• Keep the same visual genre, density level, and rendering mode across new subjects.
+• Preserve the original balance between main subject, typography, decorative marks, and background texture.
+• Use the variables to change content while keeping the style system stable.
+
+=== [4. TOPIC & SLIDE COPY] ===
+• HEADLINE (MAIN_TEXT): "3-MINUTE PROMPT PRODUCTION WORKFLOW."
+• SUBHEAD (SECONDARY_TEXT): "Generate high-converting carousels matching this exact specification."
+• BODY COPY:
+  - Step 1: Select Cookbook Visual Style #001.
+  - Step 2: Enforce project\ciel brand logo as the fixed anchor.
+  - Step 3: Feed 3-Act script into Nano Banana variation engine.
+• BADGE STAMP: "PRODUCTION BLUEPRINT"
+• FORMAT: 1080 x 1350 vertical ratio (4:5)
+
+=== [MIDDLE SLIDES 2-7: NEGATIVE SPACE DIRECTIVE FOR TEXT OVERLAY] ===
+• AESTHETIC VISUAL BACKGROUND: Generate an evocative visual background matching Cookbook style "backseat transit doodle letter poster style".
+• CRITICAL NEGATIVE SPACE REQUIREMENT: Leave 70% generous uncluttered central negative space / clean background area in the center and lower frame for programmatic text overlay.
+• MARGIN FRAMING: Push all graphic textures, subject framing, lighting caustics, and decorative elements to the outer edges so central text is 100% legible.
+• NO CENTRAL TEXT: Do NOT render small messy text inside the middle 70% area; leave clean open space.
+
+=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===
+• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, /cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.
+• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).
+
+• Slide 6 (The Climax / Sculptural Authority): Monumental architectural material texture or high-fashion sculptural landscape: Rich polished black Portoro marble with golden veins catching raking side-light, or a monolithic sculpted brushed aluminum surface with micro-reflections. Massive stacked Playfair Display serif headline in pure crisp white (#FFFFFF) with tight leading centered directly over the high-status texture.
+
+=== [SLIDE 6 VARIATION CONTENT] ===
+Slide Purpose: Slide 6 of 8 (BLUEPRINT)
+Card Counter Tag: "06 // 08"
+Top Pill Badge: "PRODUCTION BLUEPRINT"
+Main Headline: "3-minute prompt production workflow."
+Subtitle / Description: "Generate high-converting carousels matching this exact specification."
+Body Points:
+  1. "Step 1: Select Cookbook Visual Style #001."
+  2. "Step 2: Enforce project\ciel brand logo as the fixed anchor."
+  3. "Step 3: Feed 3-Act script into Nano Banana variation engine."
+Callout Box: "PROMPT FORMULA: "NARRATIVE: most founders build a business. the ones who win build a world. // STYLE: Cookbook #1""
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.
+
+=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===
+Mandatory Reference Visual Signatures: Ensure the output strictly incorporates: vogue campaign standard, 35mm film, lato, full-bleed photo, white typography, chiaroscuro.
+Do not deviate from the reference image's visual composition and materials.
+• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays.

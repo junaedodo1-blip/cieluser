@@ -1,0 +1,536 @@
+{
+  "executionTimestamp": "2026-09-06T11:36:19.184Z",
+  "referenceStyleId": "ciel_cinematic_storytelling",
+  "referenceStyleName": "Ciel Auteur High-Fashion Storytelling",
+  "overallStatus": "auto_repaired",
+  "averageFidelityScore": 100,
+  "slides": [
+    {
+      "slideIndex": 1,
+      "originalScore": 0,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"vogue campaign standard\"",
+          "keyword": "vogue campaign standard",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"35mm film\"",
+          "keyword": "35mm film",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"playfair display\"",
+          "keyword": "playfair display",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"lato\"",
+          "keyword": "lato",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"full-bleed photo\"",
+          "keyword": "full-bleed photo",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white typography\"",
+          "keyword": "white typography",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"chiaroscuro\"",
+          "keyword": "chiaroscuro",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"cluttered desk\"",
+          "keyword": "cluttered desk",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"reused fur\"",
+          "keyword": "reused fur",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"stickers\"",
+          "keyword": "stickers",
+          "severity": "high"
+        },
+        {
+          "type": "style_mismatch",
+          "description": "Missing layout safety instruction for the bottom 20% overlay zone (TikTok/Instagram control collision zone)",
+          "severity": "medium"
+        }
+      ],
+      "repairedPrompt": "Create a high-fidelity visual poster for this carousel slide based on the official AI Visual Prompt Cookbook specification: \"backseat transit doodle letter poster style\".\n\n=== [1. BRAND ANCHOR] ===\n• BRAND LOGO / MARK: \"project\\ciel\" (lowercase with signature forward slash). Always keep the brand logo consistent.\n\n=== [2. DAY'S COOKBOOK VISUAL STYLE SPECIFICATION: BACKSEAT TRANSIT DOODLE LETTER POSTER STYLE] ===\n• STYLE SUMMARY: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• VISUAL GENRE: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• COMPOSITION LOGIC: A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.\n• SUBJECT PLACEMENT: Central hero placement\n• CAMERA & PERSPECTIVE: Professional focal length\n• TYPOGRAPHY SYSTEM: Bold graphic typography\n• COLOR PALETTE: Disciplined color palette\n• GRAPHIC ELEMENTS: Sticker badges, labels and stamps\n• TEXTURE & FINISH: High-fidelity finish\n• LIGHTING: Studio lighting\n\n=== [3. MANDATORY STYLE FIDELITY ANCHORS] ===\n• Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.\n• Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.\n• Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.\n• Use MAIN_TEXT as the large illustrated word integrated into the composition.\n• Keep the same visual genre, density level, and rendering mode across new subjects.\n• Preserve the original balance between main subject, typography, decorative marks, and background texture.\n• Use the variables to change content while keeping the style system stable.\n\n=== [4. TOPIC & SLIDE COPY] ===\n• HEADLINE (MAIN_TEXT): \"MOST FOUNDERS BUILD A BUSINESS. THE ONES WHO WIN BUILD A WORLD.\"\n• SUBHEAD (SECONDARY_TEXT): \"Your Brand is a Destination, Your Product is the Souvenir\"\n• BADGE STAMP: \"DAY 1 // WORLDBUILDING & CULTURAL GRAVITY\"\n• FORMAT: 1080 x 1350 vertical ratio (4:5)\n\n=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===\n• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, /cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.\n• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).\n\n• Slide 1 (The High-Status Editorial Hook): Visually arresting haute-couture campaign shoot. An avant-garde figure in an oversized structured Abyss Black cocoon coat and sculptural sunglasses standing on a cantilevered brutalist travertine ledge over a misty sunrise fjord, or a monolithic chrome mirror monolith rising from a dramatic pink Mediterranean salt flat with low golden sun flare. Extreme low-angle worm's-eye view with Dutch tilt.\n• Slide 1 Typography: High-contrast mixed typography with varied weights, italics, and discrete architectural annotations: top-left small discrete caption '// 01 · CIEL NARRATIVE CORE', main headline in heavy bold serif 'Your brand' paired with delicate elegant italic serif 'needs to tell' and massive bold punch 'a STORY.', bottom-right small metadata '[DISCOVERY · 2026]'. Pure crisp white (#FFFFFF) text floating over negative space. Zero boxes, zero badges, zero .\n\n=== [SLIDE 1 VARIATION CONTENT] ===\nSlide Purpose: Slide 1 of 8 (HOOK)\nCard Counter Tag: \"01 // 08\"\nTop Pill Badge: \"DAY 1 // WORLDBUILDING & CULTURAL GRAVITY\"\nMain Headline: \"most founders build a business. the ones who win build a world.\"\nHighlight Focus: Emphasize keywords \"world, founders, destination\" in the reference style container\nSubtitle / Description: \"Your Brand is a Destination, Your Product is the Souvenir\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: vogue campaign standard, 35mm film, playfair display, lato, full-bleed photo, white typography, chiaroscuro.\nDo not deviate from the reference image's visual composition and materials.\n• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays."
+    },
+    {
+      "slideIndex": 2,
+      "originalScore": 0,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"vogue campaign standard\"",
+          "keyword": "vogue campaign standard",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"35mm film\"",
+          "keyword": "35mm film",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"playfair display\"",
+          "keyword": "playfair display",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"lato\"",
+          "keyword": "lato",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"full-bleed photo\"",
+          "keyword": "full-bleed photo",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white typography\"",
+          "keyword": "white typography",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"chiaroscuro\"",
+          "keyword": "chiaroscuro",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"cluttered desk\"",
+          "keyword": "cluttered desk",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"reused fur\"",
+          "keyword": "reused fur",
+          "severity": "high"
+        },
+        {
+          "type": "style_mismatch",
+          "description": "Missing layout safety instruction for the bottom 20% overlay zone (TikTok/Instagram control collision zone)",
+          "severity": "medium"
+        }
+      ],
+      "repairedPrompt": "Create a high-fidelity visual poster for this carousel slide based on the official AI Visual Prompt Cookbook specification: \"backseat transit doodle letter poster style\".\n\n=== [1. BRAND ANCHOR] ===\n• BRAND LOGO / MARK: \"project\\ciel\" (lowercase with signature forward slash). Always keep the brand logo consistent.\n\n=== [2. DAY'S COOKBOOK VISUAL STYLE SPECIFICATION: BACKSEAT TRANSIT DOODLE LETTER POSTER STYLE] ===\n• STYLE SUMMARY: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• VISUAL GENRE: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• COMPOSITION LOGIC: A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.\n• SUBJECT PLACEMENT: Central hero placement\n• CAMERA & PERSPECTIVE: Professional focal length\n• TYPOGRAPHY SYSTEM: Bold graphic typography\n• COLOR PALETTE: Disciplined color palette\n• GRAPHIC ELEMENTS: Sticker badges, labels and stamps\n• TEXTURE & FINISH: High-fidelity finish\n• LIGHTING: Studio lighting\n\n=== [3. MANDATORY STYLE FIDELITY ANCHORS] ===\n• Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.\n• Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.\n• Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.\n• Use MAIN_TEXT as the large illustrated word integrated into the composition.\n• Keep the same visual genre, density level, and rendering mode across new subjects.\n• Preserve the original balance between main subject, typography, decorative marks, and background texture.\n• Use the variables to change content while keeping the style system stable.\n\n=== [4. TOPIC & SLIDE COPY] ===\n• HEADLINE (MAIN_TEXT): \"THE UNSPOKEN TRUTH ABOUT FLAT MARKETING.\"\n• SUBHEAD (SECONDARY_TEXT): \"Act I: Show why posting random promo graphics leaves your brand unremembered.\"\n• BODY COPY:\n  - Posting generic promo graphics creates zero emotional attachment.\n  - Features describe what it is; worldbuilding shows who they become.\n  - No world = zero organic retention or brand advocacy.\n• BADGE STAMP: \"ACT I // TENSION\"\n• FORMAT: 1080 x 1350 vertical ratio (4:5)\n\n=== [MIDDLE SLIDES 2-7: NEGATIVE SPACE DIRECTIVE FOR TEXT OVERLAY] ===\n• AESTHETIC VISUAL BACKGROUND: Generate an evocative visual background matching Cookbook style \"backseat transit doodle letter poster style\".\n• CRITICAL NEGATIVE SPACE REQUIREMENT: Leave 70% generous uncluttered central negative space / clean background area in the center and lower frame for programmatic text overlay.\n• MARGIN FRAMING: Push all graphic textures, subject framing, lighting caustics, and decorative elements to the outer edges so central text is 100% legible.\n• NO CENTRAL TEXT: Do NOT render small messy text inside the middle 70% area; leave clean open space.\n\n=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===\n• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, /cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.\n• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).\n\n• Slide 2 (The Anti-Pattern & High-Fashion Contrast): Auteur surrealist high-fashion campaign (Jacquemus / Balenciaga aesthetic): An elegant model in a razor-sharp tailored charcoal coat sitting inside a minimalist brutalist glass pavilion or vintage retro chrome diner with a sculptural chrome art piece beside them. Asymmetrical dynamic typography: top-left small label '[THE COMMON MISTAKE]' with bold sans and delicate italic subheaders, bottom-right offset bold punchline.\n\n=== [SLIDE 2 VARIATION CONTENT] ===\nSlide Purpose: Slide 2 of 8 (PROBLEM)\nCard Counter Tag: \"02 // 08\"\nTop Pill Badge: \"ACT I // TENSION\"\nMain Headline: \"the unspoken truth about flat marketing.\"\nSubtitle / Description: \"Act I: Show why posting random promo graphics leaves your brand unremembered.\"\nBody Points:\n  1. \"Posting generic promo graphics creates zero emotional attachment.\"\n  2. \"Features describe what it is; worldbuilding shows who they become.\"\n  3. \"No world = zero organic retention or brand advocacy.\"\nCallout Box: \"TRUTH: People do not buy features. They buy entry tickets into a world.\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: vogue campaign standard, 35mm film, playfair display, lato, full-bleed photo, white typography, chiaroscuro.\nDo not deviate from the reference image's visual composition and materials.\n• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays."
+    },
+    {
+      "slideIndex": 3,
+      "originalScore": 0,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"vogue campaign standard\"",
+          "keyword": "vogue campaign standard",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"35mm film\"",
+          "keyword": "35mm film",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"playfair display\"",
+          "keyword": "playfair display",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"lato\"",
+          "keyword": "lato",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"full-bleed photo\"",
+          "keyword": "full-bleed photo",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"chiaroscuro\"",
+          "keyword": "chiaroscuro",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"cluttered desk\"",
+          "keyword": "cluttered desk",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"reused fur\"",
+          "keyword": "reused fur",
+          "severity": "high"
+        },
+        {
+          "type": "style_mismatch",
+          "description": "Missing layout safety instruction for the bottom 20% overlay zone (TikTok/Instagram control collision zone)",
+          "severity": "medium"
+        }
+      ],
+      "repairedPrompt": "Create a high-fidelity visual poster for this carousel slide based on the official AI Visual Prompt Cookbook specification: \"backseat transit doodle letter poster style\".\n\n=== [1. BRAND ANCHOR] ===\n• BRAND LOGO / MARK: \"project\\ciel\" (lowercase with signature forward slash). Always keep the brand logo consistent.\n\n=== [2. DAY'S COOKBOOK VISUAL STYLE SPECIFICATION: BACKSEAT TRANSIT DOODLE LETTER POSTER STYLE] ===\n• STYLE SUMMARY: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• VISUAL GENRE: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• COMPOSITION LOGIC: A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.\n• SUBJECT PLACEMENT: Central hero placement\n• CAMERA & PERSPECTIVE: Professional focal length\n• TYPOGRAPHY SYSTEM: Bold graphic typography\n• COLOR PALETTE: Disciplined color palette\n• GRAPHIC ELEMENTS: Sticker badges, labels and stamps\n• TEXTURE & FINISH: High-fidelity finish\n• LIGHTING: Studio lighting\n\n=== [3. MANDATORY STYLE FIDELITY ANCHORS] ===\n• Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.\n• Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.\n• Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.\n• Use MAIN_TEXT as the large illustrated word integrated into the composition.\n• Keep the same visual genre, density level, and rendering mode across new subjects.\n• Preserve the original balance between main subject, typography, decorative marks, and background texture.\n• Use the variables to change content while keeping the style system stable.\n\n=== [4. TOPIC & SLIDE COPY] ===\n• HEADLINE (MAIN_TEXT): \"FEATURE LIST VS. IMMERSIVE WORLDBUILDING.\"\n• SUBHEAD (SECONDARY_TEXT): \"Act II: Contrast flat product feature lists with full immersive worldbuilding.\"\n• BODY COPY:\n  - Commodity: Lists specs, pricing, and discount codes.\n  - Auteur World: Curates lighting, philosophy, aesthetic rules, & subculture.\n  - When your world has gravity, pricing resistance vanishes.\n• BADGE STAMP: \"ACT II // CONTRAST\"\n• FORMAT: 1080 x 1350 vertical ratio (4:5)\n\n=== [MIDDLE SLIDES 2-7: NEGATIVE SPACE DIRECTIVE FOR TEXT OVERLAY] ===\n• AESTHETIC VISUAL BACKGROUND: Generate an evocative visual background matching Cookbook style \"backseat transit doodle letter poster style\".\n• CRITICAL NEGATIVE SPACE REQUIREMENT: Leave 70% generous uncluttered central negative space / clean background area in the center and lower frame for programmatic text overlay.\n• MARGIN FRAMING: Push all graphic textures, subject framing, lighting caustics, and decorative elements to the outer edges so central text is 100% legible.\n• NO CENTRAL TEXT: Do NOT render small messy text inside the middle 70% area; leave clean open space.\n\n=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===\n• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, /cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.\n• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).\n\n• Slide 3 (The Parable & Intellectual Luxury): Prada-level intellectual luxury portrait: A stylish model in tailored monochrome outerwear draped across a sculpted stainless steel chaise lounge inside a modernist gallery, or reading a vintage financial newspaper on a sun-drenched architectural limestone terrace in Southern France. Clean, left-aligned white typography with natural editorial rhythm.\n\n=== [SLIDE 3 VARIATION CONTENT] ===\nSlide Purpose: Slide 3 of 8 (FRICTION)\nCard Counter Tag: \"03 // 08\"\nTop Pill Badge: \"ACT II // CONTRAST\"\nMain Headline: \"feature list vs. immersive worldbuilding.\"\nSubtitle / Description: \"Act II: Contrast flat product feature lists with full immersive worldbuilding.\"\nBody Points:\n  1. \"Commodity: Lists specs, pricing, and discount codes.\"\n  2. \"Auteur World: Curates lighting, philosophy, aesthetic rules, & subculture.\"\n  3. \"When your world has gravity, pricing resistance vanishes.\"\nCallout Box: \"CONTRAST: Commodity brands compete on price. Worlds compete on identity.\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: vogue campaign standard, 35mm film, playfair display, lato, full-bleed photo, chiaroscuro.\nDo not deviate from the reference image's visual composition and materials.\n• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays."
+    },
+    {
+      "slideIndex": 4,
+      "originalScore": 0,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"vogue campaign standard\"",
+          "keyword": "vogue campaign standard",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"playfair display\"",
+          "keyword": "playfair display",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"lato\"",
+          "keyword": "lato",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"full-bleed photo\"",
+          "keyword": "full-bleed photo",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white typography\"",
+          "keyword": "white typography",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"chiaroscuro\"",
+          "keyword": "chiaroscuro",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"cluttered desk\"",
+          "keyword": "cluttered desk",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"reused fur\"",
+          "keyword": "reused fur",
+          "severity": "high"
+        },
+        {
+          "type": "style_mismatch",
+          "description": "Missing layout safety instruction for the bottom 20% overlay zone (TikTok/Instagram control collision zone)",
+          "severity": "medium"
+        }
+      ],
+      "repairedPrompt": "Create a high-fidelity visual poster for this carousel slide based on the official AI Visual Prompt Cookbook specification: \"backseat transit doodle letter poster style\".\n\n=== [1. BRAND ANCHOR] ===\n• BRAND LOGO / MARK: \"project\\ciel\" (lowercase with signature forward slash). Always keep the brand logo consistent.\n\n=== [2. DAY'S COOKBOOK VISUAL STYLE SPECIFICATION: BACKSEAT TRANSIT DOODLE LETTER POSTER STYLE] ===\n• STYLE SUMMARY: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• VISUAL GENRE: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• COMPOSITION LOGIC: A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.\n• SUBJECT PLACEMENT: Central hero placement\n• CAMERA & PERSPECTIVE: Professional focal length\n• TYPOGRAPHY SYSTEM: Bold graphic typography\n• COLOR PALETTE: Disciplined color palette\n• GRAPHIC ELEMENTS: Sticker badges, labels and stamps\n• TEXTURE & FINISH: High-fidelity finish\n• LIGHTING: Studio lighting\n\n=== [3. MANDATORY STYLE FIDELITY ANCHORS] ===\n• Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.\n• Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.\n• Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.\n• Use MAIN_TEXT as the large illustrated word integrated into the composition.\n• Keep the same visual genre, density level, and rendering mode across new subjects.\n• Preserve the original balance between main subject, typography, decorative marks, and background texture.\n• Use the variables to change content while keeping the style system stable.\n\n=== [4. TOPIC & SLIDE COPY] ===\n• HEADLINE (MAIN_TEXT): \"YOUR PRODUCT IS THE PHYSICAL SOUVENIR.\"\n• SUBHEAD (SECONDARY_TEXT): \"Act III: The product lands as the physical souvenir of your brand world.\"\n• BODY COPY:\n  - The brand is the atmosphere, culture, and aesthetic destination.\n  - The product is the tangible relic customers buy to prove they belong.\n  - Every touchpoint reinforces the central visual & verbal narrative.\n• BADGE STAMP: \"ACT III // RESOLVE\"\n• FORMAT: 1080 x 1350 vertical ratio (4:5)\n\n=== [MIDDLE SLIDES 2-7: NEGATIVE SPACE DIRECTIVE FOR TEXT OVERLAY] ===\n• AESTHETIC VISUAL BACKGROUND: Generate an evocative visual background matching Cookbook style \"backseat transit doodle letter poster style\".\n• CRITICAL NEGATIVE SPACE REQUIREMENT: Leave 70% generous uncluttered central negative space / clean background area in the center and lower frame for programmatic text overlay.\n• MARGIN FRAMING: Push all graphic textures, subject framing, lighting caustics, and decorative elements to the outer edges so central text is 100% legible.\n• NO CENTRAL TEXT: Do NOT render small messy text inside the middle 70% area; leave clean open space.\n\n=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===\n• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, /cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.\n• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).\n\n• Slide 4 (Tactile Physical Luxury Macro): Extreme macro photograph of authentic luxury physical craftsmanship (Prada / Cartier campaign standard): Molten sculpted fluted crystal glass with brushed titanium hardware catching sharp morning caustics, or fingers feeling the fine weave of raw cashmere against a polished black obsidian block, or a knurled titanium dial reflecting golden amber caustics. Rich physical resistance, micro-texture, authentic 35mm film grain.\n\n=== [SLIDE 4 VARIATION CONTENT] ===\nSlide Purpose: Slide 4 of 8 (SOLUTION)\nCard Counter Tag: \"04 // 08\"\nTop Pill Badge: \"ACT III // RESOLVE\"\nMain Headline: \"your product is the physical souvenir.\"\nSubtitle / Description: \"Act III: The product lands as the physical souvenir of your brand world.\"\nBody Points:\n  1. \"The brand is the atmosphere, culture, and aesthetic destination.\"\n  2. \"The product is the tangible relic customers buy to prove they belong.\"\n  3. \"Every touchpoint reinforces the central visual & verbal narrative.\"\nCallout Box: \"FRAMEWORK: Atmosphere attracts. Philosophy aligns. Souvenir monetizes.\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: vogue campaign standard, playfair display, lato, full-bleed photo, white typography, chiaroscuro.\nDo not deviate from the reference image's visual composition and materials.\n• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays."
+    },
+    {
+      "slideIndex": 5,
+      "originalScore": 0,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"vogue campaign standard\"",
+          "keyword": "vogue campaign standard",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"35mm film\"",
+          "keyword": "35mm film",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"lato\"",
+          "keyword": "lato",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"full-bleed photo\"",
+          "keyword": "full-bleed photo",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white typography\"",
+          "keyword": "white typography",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"chiaroscuro\"",
+          "keyword": "chiaroscuro",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"cluttered desk\"",
+          "keyword": "cluttered desk",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"reused fur\"",
+          "keyword": "reused fur",
+          "severity": "high"
+        },
+        {
+          "type": "style_mismatch",
+          "description": "Missing layout safety instruction for the bottom 20% overlay zone (TikTok/Instagram control collision zone)",
+          "severity": "medium"
+        }
+      ],
+      "repairedPrompt": "Create a high-fidelity visual poster for this carousel slide based on the official AI Visual Prompt Cookbook specification: \"backseat transit doodle letter poster style\".\n\n=== [1. BRAND ANCHOR] ===\n• BRAND LOGO / MARK: \"project\\ciel\" (lowercase with signature forward slash). Always keep the brand logo consistent.\n\n=== [2. DAY'S COOKBOOK VISUAL STYLE SPECIFICATION: BACKSEAT TRANSIT DOODLE LETTER POSTER STYLE] ===\n• STYLE SUMMARY: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• VISUAL GENRE: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• COMPOSITION LOGIC: A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.\n• SUBJECT PLACEMENT: Central hero placement\n• CAMERA & PERSPECTIVE: Professional focal length\n• TYPOGRAPHY SYSTEM: Bold graphic typography\n• COLOR PALETTE: Disciplined color palette\n• GRAPHIC ELEMENTS: Sticker badges, labels and stamps\n• TEXTURE & FINISH: High-fidelity finish\n• LIGHTING: Studio lighting\n\n=== [3. MANDATORY STYLE FIDELITY ANCHORS] ===\n• Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.\n• Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.\n• Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.\n• Use MAIN_TEXT as the large illustrated word integrated into the composition.\n• Keep the same visual genre, density level, and rendering mode across new subjects.\n• Preserve the original balance between main subject, typography, decorative marks, and background texture.\n• Use the variables to change content while keeping the style system stable.\n\n=== [4. TOPIC & SLIDE COPY] ===\n• HEADLINE (MAIN_TEXT): \"THE 3-STEP WORLDBUILDING SYSTEM.\"\n• SUBHEAD (SECONDARY_TEXT): \"How to transition from a generic business to an untouchable auteur world.\"\n• BODY COPY:\n  - 1. Visual Atmosphere: Lock 1 disciplined lighting & color palette.\n  - 2. Verbal Philosophy: Define the enemy you fight and the truth you defend.\n  - 3. Physical Relic: Package your offer as the ultimate souvenir.\n• BADGE STAMP: \"EXECUTION SYSTEM\"\n• FORMAT: 1080 x 1350 vertical ratio (4:5)\n\n=== [MIDDLE SLIDES 2-7: NEGATIVE SPACE DIRECTIVE FOR TEXT OVERLAY] ===\n• AESTHETIC VISUAL BACKGROUND: Generate an evocative visual background matching Cookbook style \"backseat transit doodle letter poster style\".\n• CRITICAL NEGATIVE SPACE REQUIREMENT: Leave 70% generous uncluttered central negative space / clean background area in the center and lower frame for programmatic text overlay.\n• MARGIN FRAMING: Push all graphic textures, subject framing, lighting caustics, and decorative elements to the outer edges so central text is 100% legible.\n• NO CENTRAL TEXT: Do NOT render small messy text inside the middle 70% area; leave clean open space.\n\n=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===\n• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, /cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.\n• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).\n\n• Slide 5 (Creative Tension & Auteur Minimalism): A high-fashion tension shoot: A lone creative director standing in a vast empty concrete hangar with dramatic cinematic spotlight cutting through atmospheric haze, or an avant-garde figure adjusting a giant architectural prototype scale model in a midnight glass studio with city lights below. High-contrast typography: clean body copy resolving into a massive Playfair Display serif punchline.\n\n=== [SLIDE 5 VARIATION CONTENT] ===\nSlide Purpose: Slide 5 of 8 (FRAMEWORK)\nCard Counter Tag: \"05 // 08\"\nTop Pill Badge: \"EXECUTION SYSTEM\"\nMain Headline: \"the 3-step worldbuilding system.\"\nSubtitle / Description: \"How to transition from a generic business to an untouchable auteur world.\"\nBody Points:\n  1. \"1. Visual Atmosphere: Lock 1 disciplined lighting & color palette.\"\n  2. \"2. Verbal Philosophy: Define the enemy you fight and the truth you defend.\"\n  3. \"3. Physical Relic: Package your offer as the ultimate souvenir.\"\nCallout Box: \"SYSTEM: Atmosphere + Philosophy + Relic = Cultural Gravity.\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: vogue campaign standard, 35mm film, lato, full-bleed photo, white typography, chiaroscuro.\nDo not deviate from the reference image's visual composition and materials.\n• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays."
+    },
+    {
+      "slideIndex": 6,
+      "originalScore": 0,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"vogue campaign standard\"",
+          "keyword": "vogue campaign standard",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"35mm film\"",
+          "keyword": "35mm film",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"lato\"",
+          "keyword": "lato",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"full-bleed photo\"",
+          "keyword": "full-bleed photo",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white typography\"",
+          "keyword": "white typography",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"chiaroscuro\"",
+          "keyword": "chiaroscuro",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"cluttered desk\"",
+          "keyword": "cluttered desk",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"reused fur\"",
+          "keyword": "reused fur",
+          "severity": "high"
+        },
+        {
+          "type": "style_mismatch",
+          "description": "Missing layout safety instruction for the bottom 20% overlay zone (TikTok/Instagram control collision zone)",
+          "severity": "medium"
+        }
+      ],
+      "repairedPrompt": "Create a high-fidelity visual poster for this carousel slide based on the official AI Visual Prompt Cookbook specification: \"backseat transit doodle letter poster style\".\n\n=== [1. BRAND ANCHOR] ===\n• BRAND LOGO / MARK: \"project\\ciel\" (lowercase with signature forward slash). Always keep the brand logo consistent.\n\n=== [2. DAY'S COOKBOOK VISUAL STYLE SPECIFICATION: BACKSEAT TRANSIT DOODLE LETTER POSTER STYLE] ===\n• STYLE SUMMARY: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• VISUAL GENRE: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• COMPOSITION LOGIC: A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.\n• SUBJECT PLACEMENT: Central hero placement\n• CAMERA & PERSPECTIVE: Professional focal length\n• TYPOGRAPHY SYSTEM: Bold graphic typography\n• COLOR PALETTE: Disciplined color palette\n• GRAPHIC ELEMENTS: Sticker badges, labels and stamps\n• TEXTURE & FINISH: High-fidelity finish\n• LIGHTING: Studio lighting\n\n=== [3. MANDATORY STYLE FIDELITY ANCHORS] ===\n• Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.\n• Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.\n• Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.\n• Use MAIN_TEXT as the large illustrated word integrated into the composition.\n• Keep the same visual genre, density level, and rendering mode across new subjects.\n• Preserve the original balance between main subject, typography, decorative marks, and background texture.\n• Use the variables to change content while keeping the style system stable.\n\n=== [4. TOPIC & SLIDE COPY] ===\n• HEADLINE (MAIN_TEXT): \"3-MINUTE PROMPT PRODUCTION WORKFLOW.\"\n• SUBHEAD (SECONDARY_TEXT): \"Generate high-converting carousels matching this exact specification.\"\n• BODY COPY:\n  - Step 1: Select Cookbook Visual Style #001.\n  - Step 2: Enforce project\\ciel brand logo as the fixed anchor.\n  - Step 3: Feed 3-Act script into Nano Banana variation engine.\n• BADGE STAMP: \"PRODUCTION BLUEPRINT\"\n• FORMAT: 1080 x 1350 vertical ratio (4:5)\n\n=== [MIDDLE SLIDES 2-7: NEGATIVE SPACE DIRECTIVE FOR TEXT OVERLAY] ===\n• AESTHETIC VISUAL BACKGROUND: Generate an evocative visual background matching Cookbook style \"backseat transit doodle letter poster style\".\n• CRITICAL NEGATIVE SPACE REQUIREMENT: Leave 70% generous uncluttered central negative space / clean background area in the center and lower frame for programmatic text overlay.\n• MARGIN FRAMING: Push all graphic textures, subject framing, lighting caustics, and decorative elements to the outer edges so central text is 100% legible.\n• NO CENTRAL TEXT: Do NOT render small messy text inside the middle 70% area; leave clean open space.\n\n=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===\n• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, /cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.\n• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).\n\n• Slide 6 (The Climax / Sculptural Authority): Monumental architectural material texture or high-fashion sculptural landscape: Rich polished black Portoro marble with golden veins catching raking side-light, or a monolithic sculpted brushed aluminum surface with micro-reflections. Massive stacked Playfair Display serif headline in pure crisp white (#FFFFFF) with tight leading centered directly over the high-status texture.\n\n=== [SLIDE 6 VARIATION CONTENT] ===\nSlide Purpose: Slide 6 of 8 (BLUEPRINT)\nCard Counter Tag: \"06 // 08\"\nTop Pill Badge: \"PRODUCTION BLUEPRINT\"\nMain Headline: \"3-minute prompt production workflow.\"\nSubtitle / Description: \"Generate high-converting carousels matching this exact specification.\"\nBody Points:\n  1. \"Step 1: Select Cookbook Visual Style #001.\"\n  2. \"Step 2: Enforce project\\ciel brand logo as the fixed anchor.\"\n  3. \"Step 3: Feed 3-Act script into Nano Banana variation engine.\"\nCallout Box: \"PROMPT FORMULA: \"NARRATIVE: most founders build a business. the ones who win build a world. // STYLE: Cookbook #1\"\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: vogue campaign standard, 35mm film, lato, full-bleed photo, white typography, chiaroscuro.\nDo not deviate from the reference image's visual composition and materials.\n• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays."
+    },
+    {
+      "slideIndex": 7,
+      "originalScore": 0,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"vogue campaign standard\"",
+          "keyword": "vogue campaign standard",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"35mm film\"",
+          "keyword": "35mm film",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"playfair display\"",
+          "keyword": "playfair display",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"lato\"",
+          "keyword": "lato",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"full-bleed photo\"",
+          "keyword": "full-bleed photo",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white typography\"",
+          "keyword": "white typography",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"chiaroscuro\"",
+          "keyword": "chiaroscuro",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"cluttered desk\"",
+          "keyword": "cluttered desk",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"reused fur\"",
+          "keyword": "reused fur",
+          "severity": "high"
+        },
+        {
+          "type": "style_mismatch",
+          "description": "Missing layout safety instruction for the bottom 20% overlay zone (TikTok/Instagram control collision zone)",
+          "severity": "medium"
+        }
+      ],
+      "repairedPrompt": "Create a high-fidelity visual poster for this carousel slide based on the official AI Visual Prompt Cookbook specification: \"backseat transit doodle letter poster style\".\n\n=== [1. BRAND ANCHOR] ===\n• BRAND LOGO / MARK: \"project\\ciel\" (lowercase with signature forward slash). Always keep the brand logo consistent.\n\n=== [2. DAY'S COOKBOOK VISUAL STYLE SPECIFICATION: BACKSEAT TRANSIT DOODLE LETTER POSTER STYLE] ===\n• STYLE SUMMARY: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• VISUAL GENRE: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• COMPOSITION LOGIC: A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.\n• SUBJECT PLACEMENT: Central hero placement\n• CAMERA & PERSPECTIVE: Professional focal length\n• TYPOGRAPHY SYSTEM: Bold graphic typography\n• COLOR PALETTE: Disciplined color palette\n• GRAPHIC ELEMENTS: Sticker badges, labels and stamps\n• TEXTURE & FINISH: High-fidelity finish\n• LIGHTING: Studio lighting\n\n=== [3. MANDATORY STYLE FIDELITY ANCHORS] ===\n• Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.\n• Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.\n• Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.\n• Use MAIN_TEXT as the large illustrated word integrated into the composition.\n• Keep the same visual genre, density level, and rendering mode across new subjects.\n• Preserve the original balance between main subject, typography, decorative marks, and background texture.\n• Use the variables to change content while keeping the style system stable.\n\n=== [4. TOPIC & SLIDE COPY] ===\n• HEADLINE (MAIN_TEXT): \"THE DAY 1 CHEAT SHEET.\"\n• SUBHEAD (SECONDARY_TEXT): \"Bookmark this formula for your next launch or rebrand.\"\n• BODY COPY:\n  - • Pillar: Worldbuilding & Cultural Gravity\n  - • Core Thesis: Your Brand is a Destination, Your Product is the Souvenir\n  - • DM Keyword: \"WORLD\" for full raw prompt files.\n• BADGE STAMP: \"SUMMARY CHEAT SHEET\"\n• FORMAT: 1080 x 1350 vertical ratio (4:5)\n\n=== [MIDDLE SLIDES 2-7: NEGATIVE SPACE DIRECTIVE FOR TEXT OVERLAY] ===\n• AESTHETIC VISUAL BACKGROUND: Generate an evocative visual background matching Cookbook style \"backseat transit doodle letter poster style\".\n• CRITICAL NEGATIVE SPACE REQUIREMENT: Leave 70% generous uncluttered central negative space / clean background area in the center and lower frame for programmatic text overlay.\n• MARGIN FRAMING: Push all graphic textures, subject framing, lighting caustics, and decorative elements to the outer edges so central text is 100% legible.\n• NO CENTRAL TEXT: Do NOT render small messy text inside the middle 70% area; leave clean open space.\n\n=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===\n• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, /cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.\n• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).\n\n• Slide 7 (The Organic CTA & High-Status Runway): High-fashion campaign conclusion: Creative directors in sharp minimalist tailoring on an architectural rooftop pavilion overlooking a misty metropolitan skyline at dusk, with warm golden rim light and atmospheric wind movement. Minimalist 2-line white call-to-action placed cleanly at the bottom-left over negative space.\n\n=== [SLIDE 7 VARIATION CONTENT] ===\nSlide Purpose: Slide 7 of 8 (SUMMARY)\nCard Counter Tag: \"07 // 08\"\nTop Pill Badge: \"SUMMARY CHEAT SHEET\"\nMain Headline: \"the day 1 cheat sheet.\"\nSubtitle / Description: \"Bookmark this formula for your next launch or rebrand.\"\nBody Points:\n  1. \"• Pillar: Worldbuilding & Cultural Gravity\"\n  2. \"• Core Thesis: Your Brand is a Destination, Your Product is the Souvenir\"\n  3. \"• DM Keyword: \"WORLD\" for full raw prompt files.\"\nCallout Box: \"SAVE: Bookmark this post for Day 1 execution.\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: vogue campaign standard, 35mm film, playfair display, lato, full-bleed photo, white typography, chiaroscuro.\nDo not deviate from the reference image's visual composition and materials.\n• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays."
+    },
+    {
+      "slideIndex": 8,
+      "originalScore": 0,
+      "finalScore": 100,
+      "status": "auto_repaired",
+      "issues": [
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"vogue campaign standard\"",
+          "keyword": "vogue campaign standard",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"35mm film\"",
+          "keyword": "35mm film",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"playfair display\"",
+          "keyword": "playfair display",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"lato\"",
+          "keyword": "lato",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"full-bleed photo\"",
+          "keyword": "full-bleed photo",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"white typography\"",
+          "keyword": "white typography",
+          "severity": "high"
+        },
+        {
+          "type": "missing_required_keyword",
+          "description": "Missing required reference style signature: \"chiaroscuro\"",
+          "keyword": "chiaroscuro",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"cluttered desk\"",
+          "keyword": "cluttered desk",
+          "severity": "high"
+        },
+        {
+          "type": "contains_forbidden_element",
+          "description": "Contains hallucinated element that does not exist in reference: \"reused fur\"",
+          "keyword": "reused fur",
+          "severity": "high"
+        },
+        {
+          "type": "style_mismatch",
+          "description": "Missing layout safety instruction for the bottom 20% overlay zone (TikTok/Instagram control collision zone)",
+          "severity": "medium"
+        }
+      ],
+      "repairedPrompt": "Create a high-fidelity visual poster for this carousel slide based on the official AI Visual Prompt Cookbook specification: \"backseat transit doodle letter poster style\".\n\n=== [1. BRAND ANCHOR] ===\n• BRAND LOGO / MARK: \"project\\ciel\" (lowercase with signature forward slash). Always keep the brand logo consistent.\n\n=== [2. DAY'S COOKBOOK VISUAL STYLE SPECIFICATION: BACKSEAT TRANSIT DOODLE LETTER POSTER STYLE] ===\n• STYLE SUMMARY: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• VISUAL GENRE: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• COMPOSITION LOGIC: A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.\n• SUBJECT PLACEMENT: Central hero placement\n• CAMERA & PERSPECTIVE: Professional focal length\n• TYPOGRAPHY SYSTEM: Bold graphic typography\n• COLOR PALETTE: Disciplined color palette\n• GRAPHIC ELEMENTS: Sticker badges, labels and stamps\n• TEXTURE & FINISH: High-fidelity finish\n• LIGHTING: Studio lighting\n\n=== [3. MANDATORY STYLE FIDELITY ANCHORS] ===\n• Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.\n• Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.\n• Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.\n• Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.\n• Use MAIN_TEXT as the large illustrated word integrated into the composition.\n• Keep the same visual genre, density level, and rendering mode across new subjects.\n• Preserve the original balance between main subject, typography, decorative marks, and background texture.\n• Use the variables to change content while keeping the style system stable.\n\n=== [4. TOPIC & SLIDE COPY] ===\n• HEADLINE (MAIN_TEXT): \"COMMENT \"WORLD\" TO GET THE COMPLETE PLAYBOOK.\"\n• SUBHEAD (SECONDARY_TEXT): \"Drop \"WORLD\" below to instantly receive the Brand Worldbuilding Blueprint PDF & Figma Template.\"\n• BODY COPY:\n  - 📩 Comment \"WORLD\" below for instant DM delivery.\n  - 📲 Or join directly on Telegram: https://t.me/projectciel\n  - 💾 Save this post for your next prompt run.\n• BADGE STAMP: \"VIP DM ACCESS\"\n• FORMAT: 1080 x 1350 vertical ratio (4:5)\n\n=== [FINAL SLIDE: HIGH-CONVERTING CALL-TO-ACTION (CTA) DIRECTIVE] ===\n• PURPOSE: Final slide of the carousel (8 of 8). Must drive high-converting DM keyword leads, saves, and Telegram community joins.\n• PROMINENT DM TRIGGER WORD: Display massive high-contrast headline: \"COMMENT VIP DM ACCESS TO GET THE RAW PACK\"\n• VALUE OFFER: \"Get all raw prompt files, editable Figma templates, and asset breakdowns sent directly to your DM.\"\n• COMMUNITY & SAVE CALLOUT: Include community tag \"join @projectciel on Telegram\" and bookmark prompt \"💾 Save this post for your next prompt run | ↗️ Share with a founder\".\n• VISUAL STRUCTURE: Full-bleed campaign finish matching Cookbook style \"backseat transit doodle letter poster style\". Integrated logo \"project\\ciel\" and CTA text directly in the AI image.\n\n=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===\n• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, /cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.\n• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).\n\n• Slide 8 (The Organic CTA & High-Status Runway): High-fashion campaign conclusion: Creative directors in sharp minimalist tailoring on an architectural rooftop pavilion overlooking a misty metropolitan skyline at dusk, with warm golden rim light and atmospheric wind movement. Minimalist 2-line white call-to-action placed cleanly at the bottom-left over negative space.\n\n=== [SLIDE 8 VARIATION CONTENT] ===\nSlide Purpose: Slide 8 of 8 (CTA)\nCard Counter Tag: \"08 // 08\"\nTop Pill Badge: \"VIP DM ACCESS\"\nMain Headline: \"comment \"WORLD\" to get the complete playbook.\"\nSubtitle / Description: \"Drop \"WORLD\" below to instantly receive the Brand Worldbuilding Blueprint PDF & Figma Template.\"\nBody Points:\n  1. \"📩 Comment \"WORLD\" below for instant DM delivery.\"\n  2. \"📲 Or join directly on Telegram: https://t.me/projectciel\"\n  3. \"💾 Save this post for your next prompt run.\"\nCallout Box: \"VIP ACCESS: Comment \"WORLD\" to unlock Brand Worldbuilding Blueprint PDF & Figma Template in https://t.me/projectciel.\"\n\n=== [OUTPUT SPECIFICATIONS] ===\nAspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.\nQuality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.\n\n=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===\nMandatory Reference Visual Signatures: Ensure the output strictly incorporates: vogue campaign standard, 35mm film, playfair display, lato, full-bleed photo, white typography, chiaroscuro.\nDo not deviate from the reference image's visual composition and materials.\n• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays."
+    }
+  ],
+  "reportFilePath": "/home/runner/work/cieluser/cieluser/out/fidelity_reports/fidelity_audit_1788694579184.json"
+}

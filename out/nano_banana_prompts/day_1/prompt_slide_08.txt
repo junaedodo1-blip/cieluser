@@ -1,0 +1,70 @@
+Create a high-fidelity visual poster for this carousel slide based on the official AI Visual Prompt Cookbook specification: "backseat transit doodle letter poster style".
+
+=== [1. BRAND ANCHOR] ===
+• BRAND LOGO / MARK: "project\ciel" (lowercase with signature forward slash). Always keep the brand logo consistent.
+
+=== [2. DAY'S COOKBOOK VISUAL STYLE SPECIFICATION: BACKSEAT TRANSIT DOODLE LETTER POSTER STYLE] ===
+• STYLE SUMMARY: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.
+• VISUAL GENRE: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.
+• COMPOSITION LOGIC: A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.
+• SUBJECT PLACEMENT: Central hero placement
+• CAMERA & PERSPECTIVE: Professional focal length
+• TYPOGRAPHY SYSTEM: Bold graphic typography
+• COLOR PALETTE: Disciplined color palette
+• GRAPHIC ELEMENTS: Sticker badges, labels and stamps
+• TEXTURE & FINISH: High-fidelity finish
+• LIGHTING: Studio lighting
+
+=== [3. MANDATORY STYLE FIDELITY ANCHORS] ===
+• Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.
+• Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.
+• Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.
+• Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.
+• Use MAIN_TEXT as the large illustrated word integrated into the composition.
+• Keep the same visual genre, density level, and rendering mode across new subjects.
+• Preserve the original balance between main subject, typography, decorative marks, and background texture.
+• Use the variables to change content while keeping the style system stable.
+
+=== [4. TOPIC & SLIDE COPY] ===
+• HEADLINE (MAIN_TEXT): "COMMENT "WORLD" TO GET THE COMPLETE PLAYBOOK."
+• SUBHEAD (SECONDARY_TEXT): "Drop "WORLD" below to instantly receive the Brand Worldbuilding Blueprint PDF & Figma Template."
+• BODY COPY:
+  - 📩 Comment "WORLD" below for instant DM delivery.
+  - 📲 Or join directly on Telegram: https://t.me/projectciel
+  - 💾 Save this post for your next prompt run.
+• BADGE STAMP: "VIP DM ACCESS"
+• FORMAT: 1080 x 1350 vertical ratio (4:5)
+
+=== [FINAL SLIDE: HIGH-CONVERTING CALL-TO-ACTION (CTA) DIRECTIVE] ===
+• PURPOSE: Final slide of the carousel (8 of 8). Must drive high-converting DM keyword leads, saves, and Telegram community joins.
+• PROMINENT DM TRIGGER WORD: Display massive high-contrast headline: "COMMENT VIP DM ACCESS TO GET THE RAW PACK"
+• VALUE OFFER: "Get all raw prompt files, editable Figma templates, and asset breakdowns sent directly to your DM."
+• COMMUNITY & SAVE CALLOUT: Include community tag "join @projectciel on Telegram" and bookmark prompt "💾 Save this post for your next prompt run | ↗️ Share with a founder".
+• VISUAL STRUCTURE: Full-bleed campaign finish matching Cookbook style "backseat transit doodle letter poster style". Integrated logo "project\ciel" and CTA text directly in the AI image.
+
+=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===
+• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, /cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.
+• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).
+
+• Slide 8 (The Organic CTA & High-Status Runway): High-fashion campaign conclusion: Creative directors in sharp minimalist tailoring on an architectural rooftop pavilion overlooking a misty metropolitan skyline at dusk, with warm golden rim light and atmospheric wind movement. Minimalist 2-line white call-to-action placed cleanly at the bottom-left over negative space.
+
+=== [SLIDE 8 VARIATION CONTENT] ===
+Slide Purpose: Slide 8 of 8 (CTA)
+Card Counter Tag: "08 // 08"
+Top Pill Badge: "VIP DM ACCESS"
+Main Headline: "comment "WORLD" to get the complete playbook."
+Subtitle / Description: "Drop "WORLD" below to instantly receive the Brand Worldbuilding Blueprint PDF & Figma Template."
+Body Points:
+  1. "📩 Comment "WORLD" below for instant DM delivery."
+  2. "📲 Or join directly on Telegram: https://t.me/projectciel"
+  3. "💾 Save this post for your next prompt run."
+Callout Box: "VIP ACCESS: Comment "WORLD" to unlock Brand Worldbuilding Blueprint PDF & Figma Template in https://t.me/projectciel."
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.
+
+=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===
+Mandatory Reference Visual Signatures: Ensure the output strictly incorporates: vogue campaign standard, 35mm film, playfair display, lato, full-bleed photo, white typography, chiaroscuro.
+Do not deviate from the reference image's visual composition and materials.
+• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays.

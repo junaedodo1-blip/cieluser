@@ -1,0 +1,56 @@
+Create a high-fidelity visual poster for this carousel slide based on the official AI Visual Prompt Cookbook specification: "backseat transit doodle letter poster style".
+
+=== [1. BRAND ANCHOR] ===
+• BRAND LOGO / MARK: "project\ciel" (lowercase with signature forward slash). Always keep the brand logo consistent.
+
+=== [2. DAY'S COOKBOOK VISUAL STYLE SPECIFICATION: BACKSEAT TRANSIT DOODLE LETTER POSTER STYLE] ===
+• STYLE SUMMARY: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.
+• VISUAL GENRE: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.
+• COMPOSITION LOGIC: A reusable poster/image system where the subject, prop, location, text, and accent variables change while the layout grammar remains fixed.
+• SUBJECT PLACEMENT: Central hero placement
+• CAMERA & PERSPECTIVE: Professional focal length
+• TYPOGRAPHY SYSTEM: Bold graphic typography
+• COLOR PALETTE: Disciplined color palette
+• GRAPHIC ELEMENTS: Sticker badges, labels and stamps
+• TEXTURE & FINISH: High-fidelity finish
+• LIGHTING: Studio lighting
+
+=== [3. MANDATORY STYLE FIDELITY ANCHORS] ===
+• Preserve the core visual identity: A realistic passenger-seat transport photo transformed into a high-energy travel poster with a central rear-view subject, electric yellow silhouette halo, oversized yellow-orange hand-drawn letters, comic rays, purple music marks, sticker icons, and cyan-white cloud swooshes.
+• Use BACKGROUND_ELEMENTS as the documentary background details and secondary context.
+• Use a realistic passenger-seat travel photo as the base layer: wide-angle backseat perspective, real vehicle interior, natural daylight through the windows, visible material texture, dashboard and window framing, and a believable road-trip or local transit moment.
+• Use golden yellow fills, orange shadow shapes, burnt brown outlines, and sticker-like flat 2D finish.
+• Use MAIN_TEXT as the large illustrated word integrated into the composition.
+• Keep the same visual genre, density level, and rendering mode across new subjects.
+• Preserve the original balance between main subject, typography, decorative marks, and background texture.
+• Use the variables to change content while keeping the style system stable.
+
+=== [4. TOPIC & SLIDE COPY] ===
+• HEADLINE (MAIN_TEXT): "MOST FOUNDERS BUILD A BUSINESS. THE ONES WHO WIN BUILD A WORLD."
+• SUBHEAD (SECONDARY_TEXT): "Your Brand is a Destination, Your Product is the Souvenir"
+• BADGE STAMP: "DAY 1 // WORLDBUILDING & CULTURAL GRAVITY"
+• FORMAT: 1080 x 1350 vertical ratio (4:5)
+
+=== [HIGH-FASHION EDITORIAL DIRECTING DIRECTIVE (VOGUE / PRADA / JACQUEMUS / BALENCIAGA STANDARD)] ===
+• STRICT ZERO-REPETITION RULE: Every slide MUST feature a completely unique, bespoke setting, camera angle, and physical fashion/architectural prop. BANNED: Cluttered desks, /cowhide macros, generic sofas, everyday subway cars, or simple domestic scenes.
+• Auteur High-Fashion Art Direction: Treat every single image as a cover shoot for Vogue Italia, Prada, Jacquemus, or Balenciaga campaign. Integrate extreme dramatic angles (18mm ultra-wide low-angle worm's-eye, steep Dutch tilts, high-angle bird's-eye geometry, cinematic silhouette lighting) and avant-garde physical materiality (knurled brushed sterling silver, sculpted travertine marble, translucent molten glass, oversized structured tailoring, monolithic chrome mirrors, volcanic black sand, Mediterranean salt flats).
+
+• Slide 1 (The High-Status Editorial Hook): Visually arresting haute-couture campaign shoot. An avant-garde figure in an oversized structured Abyss Black cocoon coat and sculptural sunglasses standing on a cantilevered brutalist travertine ledge over a misty sunrise fjord, or a monolithic chrome mirror monolith rising from a dramatic pink Mediterranean salt flat with low golden sun flare. Extreme low-angle worm's-eye view with Dutch tilt.
+• Slide 1 Typography: High-contrast mixed typography with varied weights, italics, and discrete architectural annotations: top-left small discrete caption '// 01 · CIEL NARRATIVE CORE', main headline in heavy bold serif 'Your brand' paired with delicate elegant italic serif 'needs to tell' and massive bold punch 'a STORY.', bottom-right small metadata '[DISCOVERY · 2026]'. Pure crisp white (#FFFFFF) text floating over negative space. Zero boxes, zero badges, zero .
+
+=== [SLIDE 1 VARIATION CONTENT] ===
+Slide Purpose: Slide 1 of 8 (HOOK)
+Card Counter Tag: "01 // 08"
+Top Pill Badge: "DAY 1 // WORLDBUILDING & CULTURAL GRAVITY"
+Main Headline: "most founders build a business. the ones who win build a world."
+Highlight Focus: Emphasize keywords "world, founders, destination" in the reference style container
+Subtitle / Description: "Your Brand is a Destination, Your Product is the Souvenir"
+
+=== [OUTPUT SPECIFICATIONS] ===
+Aspect Ratio: 4:5 vertical portrait (1080x1350) for Instagram Carousel.
+Quality: Ultra-sharp typography, perfect spelling, crisp vector edges, flat 2D graphic poster aesthetic, zero AI blur, zero CGI sheen.
+
+=== [SELF-CHECKER STRICT FIDELITY ENFORCEMENT] ===
+Mandatory Reference Visual Signatures: Ensure the output strictly incorporates: vogue campaign standard, 35mm film, playfair display, lato, full-bleed photo, white typography, chiaroscuro.
+Do not deviate from the reference image's visual composition and materials.
+• Layout Safety Rule: Place all primary text inside the upper 80% safety frame. Keep the bottom 20% of the canvas completely free of text or logos to avoid control overlays.
